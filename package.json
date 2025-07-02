@@ -2,7 +2,7 @@
   "name": "dochak-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://msminseo.github.io/dochakWebsite",
+  "homepage": "http://dochak.com/",
   "dependencies": {
     "@react-three/drei": "^10.3.0",
     "@react-three/fiber": "^9.0.0-alpha.8",
