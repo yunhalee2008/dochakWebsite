@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { Link } from "react-router-dom";
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
