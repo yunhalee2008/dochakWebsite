@@ -1,0 +1,101 @@
+/* TimelineDemo.css */
+
+/* Container */
+.timeline-demo-container {
+    position: relative;
+    width: 100%;
+    overflow: clip;
+    font-family: 'Inter', 'Segoe UI', 'Roboto', Arial, sans-serif;
+  }
+
+  .timeline-demo-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  /* Paragraph styling */
+  .timeline-demo-paragraph {
+    margin-bottom: 2rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--text-primary); /* neutral-800 */
+    text-align: left;
+  }
+
+  .timeline-demo-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--navy-heading);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .timeline-demo-paragraph {
+      font-size: 0.875rem;
+    }
+    .timeline-demo-title {
+        font-size: 2rem;
+    }
+  }
+  
+  .dark .timeline-demo-paragraph {
+    color: #e5e7eb; /* neutral-200 */
+  }
+  
+  /* Image Grid */
+  .timeline-demo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  /* Image Styling */
+  .timeline-demo-image {
+    height: 5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    box-shadow:
+      0 0 24px rgba(34, 42, 53, 0.06),
+      0 1px 1px rgba(0, 0, 0, 0.05),
+      0 0 0 1px rgba(34, 42, 53, 0.04),
+      0 0 4px rgba(34, 42, 53, 0.08),
+      0 16px 68px rgba(47, 48, 55, 0.05),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  
+  @media (min-width: 768px) {
+    .timeline-demo-image {
+      height: 11rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .timeline-demo-image {
+      height: 15rem;
+    }
+  }
+  
+  /* Checklist Items */
+  .timeline-demo-checklist {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: #404040; /* neutral-700 */
+  }
+  
+  @media (min-width: 768px) {
+    .timeline-demo-checklist {
+      font-size: 0.875rem;
+    }
+  }
+  
+  .dark .timeline-demo-checklist {
+    color: #d4d4d8; /* neutral-300 */
+  }
+  
