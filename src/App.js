@@ -14,7 +14,7 @@ import Projects from './Projects';
 import Team from './Team';
 import GetInTouch from './GetInTouch';
 import { BentoDemo } from './components/ui/bentoDemo';
-
+import { Link } from "react-router-dom";
 
 function App() {
   useEffect(() => {
