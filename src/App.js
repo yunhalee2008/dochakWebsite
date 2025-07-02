@@ -56,7 +56,11 @@ function App() {
         }
       ]
     }
-  ]);
+  ],
+  {
+    basename: "/dochakWebsite",
+  }
+        );
 
   return <RouterProvider router={router} />;
 }
