@@ -1,9 +1,9 @@
 import React from 'react';
 import './Solutions.css';
 import dash from './assets/dash.png';
-import simulator from './assets/호주_drivingSimulator.png';
+import simulator from './assets/simulator.png';
 import vr from './assets/VR.png';
-import visual from './assets/호주 C-ITS.png';
+import visual from './assets/visual.png';
 import multi from './assets/multi.png';
 import tele from './assets/tele.png';
 
