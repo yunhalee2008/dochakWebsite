@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dochakWebsite/static/css/main.426a493e.css",
-    "main.js": "/dochakWebsite/static/js/main.c5ab24b8.js",
+    "main.js": "/dochakWebsite/static/js/main.4d3ffae7.js",
     "static/js/453.8a433053.chunk.js": "/dochakWebsite/static/js/453.8a433053.chunk.js",
     "static/media/truck_hori.png": "/dochakWebsite/static/media/truck_hori.57ef646c12de1d3d2cd3.png",
     "static/media/laugh.png": "/dochakWebsite/static/media/laugh.c7dd49cb0c3831a0f737.png",
@@ -27,11 +27,11 @@
     "static/media/dochak_Symbol.png": "/dochakWebsite/static/media/dochak_Symbol.874e7647207788804886.png",
     "index.html": "/dochakWebsite/index.html",
     "main.426a493e.css.map": "/dochakWebsite/static/css/main.426a493e.css.map",
-    "main.c5ab24b8.js.map": "/dochakWebsite/static/js/main.c5ab24b8.js.map",
+    "main.4d3ffae7.js.map": "/dochakWebsite/static/js/main.4d3ffae7.js.map",
     "453.8a433053.chunk.js.map": "/dochakWebsite/static/js/453.8a433053.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.426a493e.css",
-    "static/js/main.c5ab24b8.js"
+    "static/js/main.4d3ffae7.js"
   ]
 }
