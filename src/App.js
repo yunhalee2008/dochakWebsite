@@ -15,6 +15,7 @@ import Team from './Team';
 import GetInTouch from './GetInTouch';
 import { BentoDemo } from './components/ui/bentoDemo';
 import { Link } from "react-router-dom";
+import TawkToWidget from './TawkToWidget';
 
 function App() {
   useEffect(() => {
@@ -71,6 +72,7 @@ function Layout() {
       <Navbar />
       <Outlet />
       <Footer />
+      <TawkToWidget />
     </div>
   );
 }
