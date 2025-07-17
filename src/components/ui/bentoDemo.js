@@ -7,7 +7,7 @@ import {
   IconBriefcase
 } from "@tabler/icons-react";
 import { useNavigate } from "react-router-dom";
-import micro from '../../assets/micro.png'; // ✅ correct relative path
+import meso from '../../assets/meso.png'; //
 import truck from '../../assets/truck_hori.png';
 import multi from '../../assets/multi.png';
 import working from '../../assets/working.png';
