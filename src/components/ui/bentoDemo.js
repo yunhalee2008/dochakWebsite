@@ -59,7 +59,7 @@ const items = [
     title: "Core Technologies",
     description:
       "Explore our cutting-edge mesoscopic, microscopic, and 3D mesh model simulation technologies and digital twin technologies powering smart mobility.",
-    header: <Skeleton img={meso}/>,
+    header: <Skeleton img={traffic}/>,
     icon: <IconSettingsAutomation className="h-5 w-5 text-neutral-500" />,
     link: "/technologies",
   },
