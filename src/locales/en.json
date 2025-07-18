@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "about": "About",
+    "technologies": "Technologies",
+    "solutions": "Solutions",
+    "projects": "Projects",
+    "team": "Team",
+    "getInTouch": "Get In Touch"
+  },
+  "hero": {
+    "title": "Driving The Future Mobility",
+    "subtitle": "Innovating the future of mobility — one solution at a time.",
+    "flipWords": ["SMARTER", "SAFER", "SEAMLESS"]
+  },
+  "about": {
+    "heroTitle": "About Us",
+    "heroSubtitle": "Learn more about our mission, values, and journey in shaping the future of mobility.",
+    "missionTitle": "Our Mission",
+    "missionText": "Revolutionizing urban mobility for safer, smarter, and more efficient cities, through cutting-edge AI-driven autonomous driving, intelligent traffic operations, and innovative management solutions.",
+    "valuesTitle": "Core Values",
+    "values": {
+      "automation": {
+        "title": "Automation",
+        "desc": "Build independent systems reducing human intervention and maximizing efficiency."
+      },
+      "integration": {
+        "title": "Integration",
+        "desc": "Seamlessly connect diverse technologies and platforms to create a unified mobility solutions."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "desc": "Pursue the highest quality in every detail, ensuring reliable and precise products and services."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Continuously develop new technologies to stay ahead in shaping the future of urban mobility."
+      }
+    },
+    "marketTitle": "Target Market",
+    "marketText": "Across the Middle East, Southeast Asia, and Australia to deploy advanced AI-driven mobility solutions.",
+    "storyTitle": "Our Story"
+  },
+  "technologies": {
+    "heroTitle": "Technologies",
+    "heroSubtitle": "Discover the innovative technologies powering the future of mobility",
+    "items": {
+      "visum": {
+        "title": "Visum Mesoscopic Model​",
+        "subtitle": "A mesoscopic traffic demand prediction and operation evaluation model",
+        "howItWorks": "How it works",
+        "whatItCanDo": "What it can do",
+        "whereItCanBeUsed": "Where it can be used",
+        "features": {
+          "howItWorks": [
+            "Uses SBA (Simulation Based Assignment) with dynamic traffic assignment.",
+            "Considers time-varying traffic volume and road capacity for precise forecasting.",
+            "Connects with Vissim micro-simulation for detailed scenario evaluations."
+          ],
+          "whatItCanDo": [
+            "Predicts traffic demand and congestion for large developments and major events (e.g., Olympics, Expos).",
+            "Supports optimal traffic signal plans under different development conditions.",
+            "Enables efficient, scalable traffic operation analysis for new projects."
+          ],
+          "whereItCanBeUsed": [
+            "Large-scale development projects.",
+            "Major event traffic management.",
+            "Traffic operation centers and government agencies.",
+            "Consulting projects in Korea, Saudi Arabia, UAE, Southeast Asia."
+          ]
+        }
+      },
+      "vissim": {
+        "title": "Vissim Microscopic Model​",
+        "subtitle": "A detailed micro-simulation tool for replicating vehicle interactions",
+        "features": {
+          "howItWorks": [
+            "Connects with Visum meso-model outputs for micro-level traffic operation analysis.",
+            "Uses vehicle trajectory data for scenario evaluations.",
+            "Supports high-resolution simulation and validation of traffic control strategies."
+          ],
+          "whatItCanDo": [
+            "Analyze intersection performance and optimize traffic signals.",
+            "Evaluate traffic impacts from new transport policies and infrastructure.",
+            "Generate VR/AR and driving simulator inputs for immersive scenario testing."
+          ],
+          "whereItCanBeUsed": [
+            "Traffic signal optimization.",
+            "Intersection analysis and refinement.",
+            "Traffic impact assessments for new developments.",
+            "VR/AR visualizations for public agencies and transport strategy."
+          ]
+        }
+      },
+      "mesh": {
+        "title": "3D Mesh Model and Visualisation",
+        "subtitle": "High-quality 3D mesh models of roads and urban infrastructure for advanced visualization.",
+        "features": {
+          "howItWorks": [
+            "Uses LX data, OSM, LiDAR, and photogrammetry for 3D mesh creation.",
+            "Integrates with Visum and Vissim simulation data in Unity for seamless visual outputs.",
+            "Allows manual mesh refinement for accurate elevation and asset placement."
+          ],
+          "whatItCanDo": [
+            "Create high-quality visual materials for transport policy and project communication.",
+            "Support driving simulators and VR environments for safety and operational evaluation.",
+            "Enable clear scenario comparison and visualization for non-expert stakeholders."
+          ],
+          "whereItCanBeUsed": [
+            "Urban planning and policy presentations.",
+            "Government agency and stakeholder briefings.",
+            "VR-based public engagement and training.",
+            "Projects in Saudi, UAE, and Southeast Asia markets."
+          ]
+        }
+      },
+      "digitalTwin": {
+        "title": "Digital Twin Model",
+        "subtitle": "A real-time digital replica of traffic networks integrated with 3D visual environments.",
+        "features": {
+          "howItWorks": [
+            "Combines Visum meso, Vissim micro-simulations, and 3D models.",
+            "Updates dynamically with scenario changes and planned infrastructure.",
+            "Connects to ITS systems for real-time traffic visualization and scenario playback."
+          ],
+          "whatItCanDo": [
+            "Visualize future traffic impacts of developments and events.",
+            "Optimize signal timing and traffic management strategies.",
+            "Enhance stakeholder understanding through immersive scenario demonstrations."
+          ],
+          "whereItCanBeUsed": [
+            "Smart city traffic management centers.",
+            "Large-scale event traffic control (Olympics, Expos).",
+            "Government policy testing and scenario analysis.",
+            "Public communication and VR scenario demonstrations."
+          ]
+        }
+      }
+    }
+  },
+  "solutions": {
+    "heroTitle": "Our Solutions",
+    "heroSubtitle": "Discover our suite of innovative solutions designed to transform urban mobility and smart city operations.",
+    "items": {
+      "trafficAnalysis": {
+        "title": "Traffic Analysis Tool",
+        "desc": [
+          "Analyze traffic conditions and scenario-based response strategies.",
+          "Analyze policies and traffic response strategies; optimize traffic flow.",
+          "Dashboard-type interface enhances user accessibility and analytical comprehension."
+        ]
+      },
+      "drivingSimulator": {
+        "title": "Driving Simulator",
+        "desc": [
+          "Test drive actual or planned roads in virtual environments to identify issues.",
+          "Verify and refine road design functionalities.",
+          "Can be used as part of educational programs for safe driving and design validation."
+        ]
+      },
+      "vrRoadDesign": {
+        "title": "VR Road Design & Verification",
+        "desc": [
+          "Move beyond traditional 2D road design with immersive virtual environments.",
+          "Simulate installations of facilities and environmental changes within VR.",
+          "Verify safety aspects like visibility and sight distance under various conditions."
+        ]
+      },
+      "visualisation": {
+        "title": "Visualisation",
+        "desc": [
+          "Create high-definition videos based on digital twin environments.",
+          "Reflect realistic traffic behaviors for lifelike presentations.",
+          "Use in public hearings, policy promotions, and presentations.",
+          "Considered a required deliverable for major city projects globally."
+        ]
+      },
+      "multimodal": {
+        "title": "Multimodal Simulation",
+        "desc": [
+          "Integrated multimodal simulation tool reflecting interaction between various transportation modes.",
+          "Connect with simulator hardware to test diverse scenarios in virtual environments.",
+          "Build foundational datasets for autonomous vehicle development."
+        ]
+      },
+      "teleDriving": {
+        "title": "Tele-driving",
+        "desc": [
+          "Remote driving support for autonomous vehicles during exceptional circumstances.",
+          "Allows human intervention when autonomous driving faces limitations (heavy snow, construction zones).",
+          "Applicable in mobility services, logistics, and military operations."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heroTitle": "Our Projects",
+    "heroSubtitle": "Explore our portfolio of innovative mobility and smart city projects.",
+    "status": {
+      "ongoing": "Ongoing"
+    },
+    "items": {
+      "naepo": {
+        "title": "Digital Twin Model for Naepo New City",
+        "date": "2025-Present",
+        "explanation": "Dochak will position itself as a regional mobility innovation leader in Chungnam by using digital twins and simulation for traffic solutions. It will develop Korea's first traffic-focused digital twin for Naepo New City, supporting advanced mobility planning and operations. Dochak will build demonstration and simulation facilities, collaborating with local companies for ongoing education and promotion. It will create local employment opportunities, supporting the local ecosystem while expanding Dochak's advanced ITS and mobility business."
+      },
+      "teleDriving": {
+        "title": "Tele-driving between Daejeon and Jeju",
+        "date": "2025-Present",
+        "explanation": "Provides remote driver intervention when autonomous vehicles encounter issues, addressing limitations of autonomous systems. Enables safe operation in challenging environments such as heavy snow or construction zones. Applicable across mobility services, logistics, and defense sectors."
+      }
+    },
+    "carousel": {
+      "prevImage": "Previous image",
+      "nextImage": "Next image"
+    }
+  },
+  "team": {
+    "heroTitle": "Meet Our Team",
+    "heroSubtitle": "The experts driving Dochak's innovation and projects in smart mobility and simulation.",
+    "sectionTitle": "Our Team",
+    "ceo": {
+      "name": "Inhee Kim",
+      "title": "CEO",
+      "bio": "Oversees the entire business, driving Dochak's mission for smart mobility innovation."
+    },
+    "members": {
+      "taeho": {
+        "name": "Taeho Oh",
+        "title": "Senior Researcher",
+        "bio": "Manages overall operations, ensuring project and research execution align with goals."
+      },
+      "donghyun": {
+        "name": "Donghyun Kwon",
+        "title": "Principal Researcher",
+        "bio": "Leads service deployment and certification, ensuring high-quality standards."
+      },
+      "hyuncheol": {
+        "name": "Hyuncheol Park",
+        "title": "Researcher",
+        "bio": "Focuses on simulation functionality and modularization for scalable deployments."
+      },
+      "jaehyuk": {
+        "name": "Jaehyuk Lim",
+        "title": "Researcher",
+        "bio": "Designs experimental scenarios for practical simulation-based validation."
+      }
+    }
+  },
+  "getInTouch": {
+    "heroTitle": "Get In Touch",
+    "heroSubtitle": "We'd love to hear from you! Reach out with questions, partnership ideas, or just to say hello.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thank you for reaching out! We'll get back to you soon."
+    }
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "copyright": "All rights reserved."
+  },
+  "timeline": {
+    "startup": {
+      "title": "Startup Stage",
+      "content1": "Completed foundational R&D for simulator digital twin and automated systems with core element technology acquisition.",
+      "content2": "Built cooperation system with ITS companies and 3D model environment companies to enhance product accuracy and quality.",
+      "content3": "Developing a metropolitan city-centered micro mobility model for June 2025 completion."
+    },
+    "growth": {
+      "title": "Growth Stage",
+      "content1": "Improved the Dochak website to showcase partner and client models based on real-time models.",
+      "content2": "Promoted the company via LinkedIn and targeted SNS channels.",
+      "content3": "Participated in domestic academic mobility exhibitions for company promotion.",
+      "content4": "Built early customer pipeline using existing networks and expanded partnership channels."
+    },
+    "expansion": {
+      "title": "Expansion Stage",
+      "content1": "Focused on maturing projects and product advancements to a scalable, stable pipeline.",
+      "revenueTarget": "Revenue target by June 2026:",
+      "revenueAmount": "3 Billion KRW"
+    },
+    "stabilization": {
+      "title": "Stabilization and Growth Stage",
+      "content1": "Operated stably while expanding B2B and public agency partnerships, and started continuous technology development.",
+      "revenueTarget2026": "Revenue target by June 2027:",
+      "revenueAmount2026": "6 Billion KRW",
+      "revenueTarget2027": "Revenue target by June 2028:",
+      "revenueAmount2027": "10 Billion KRW"
+    }
+  },
+  "sections": {
+    "overview": "Overview"
+  },
+  "bento": {
+    "about": {
+      "title": "About Dochak",
+      "description": "Learn about our mission to drive safer, smarter, and seamless urban mobility."
+    },
+    "technologies": {
+      "title": "Core Technologies",
+      "description": "Explore our cutting-edge mesoscopic, microscopic, and 3D mesh model simulation technologies and digital twin technologies powering smart mobility."
+    },
+    "solutions": {
+      "title": "Our Solutions",
+      "description": "Discover our comprehensive suite of solutions including driving simulators, traffic analysis tools, multimodal simulation, traffic visualization, VR driving, and tele-driving."
+    },
+    "projects": {
+      "title": "Projects & Impact",
+      "description": "See how Dochak transforms cities with impactful smart mobility projects."
+    }
+  }
+}
