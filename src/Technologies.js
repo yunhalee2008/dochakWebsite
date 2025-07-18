@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './Technologies.css';
 import meso from './assets/meso.png';
 import micro from './assets/micro.png';
-import nepo from './assets/nepo.png';
+import nepo from './assets/내포 3D 모델.png';
 import twin from './assets/twin.png';
 import { EnhancedStickyScroll } from './components/ui/enhanced-sticky-scroll';
 import { transformTechnologiesData } from './utils/dataTransform';
