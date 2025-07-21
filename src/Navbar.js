@@ -91,11 +91,7 @@ function Navbar() {
             <Link to="/solutions" onClick={() => setIsMenuOpen(false)}>{t('nav.solutions')}</Link>
             <Link to="/projects" onClick={() => setIsMenuOpen(false)}>{t('nav.projects')}</Link>
             <Link to="/team" onClick={() => setIsMenuOpen(false)}>{t('nav.team')}</Link>
-            <div className="mobile-menu-controls">
-              <Link to="/get-in-touch" onClick={() => setIsMenuOpen(false)}>
-                <button className="getintouch-btn">{t('nav.getInTouch')}</button>
-              </Link>
-            </div>
+            <Link to="/get-in-touch" onClick={() => setIsMenuOpen(false)}>{t('nav.getInTouch')}</Link>
           </div>
         </div>
       )}
