@@ -10,9 +10,10 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Technologies from './Technologies';
 import About from './About';
 import Solutions from './Solutions';
-import Projects from './Projects';
+import ProjectsPage from './components/ProjectsPage';
 import Team from './Team';
 import GetInTouch from './GetInTouch';
+import Disclosure from './Disclosure';
 import { BentoDemo } from './components/ui/bentoDemo';
 import { Link } from "react-router-dom";
 import TawkToWidget from './TawkToWidget';
@@ -47,11 +48,19 @@ function App() {
         },
         {
           path: "projects",
-          element: <Projects />
+          element: <ProjectsPage />
         },
         {
           path: "team",
           element: <Team />
+        },
+        {
+          path: "disclosure",
+          element: <Disclosure />
+        },
+        {
+          path: "disclosure/:section",
+          element: <Disclosure />
         },
         {
           path: "get-in-touch",
