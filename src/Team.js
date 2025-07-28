@@ -42,6 +42,13 @@ export default function Team() {
       photo: Img,
       bio: t('team.members.jaehyuk.bio'),
       email: 'limjh107@kaist.ac.kr'
+    },
+    {
+      name: t('team.members.heeyeon.name'),
+      title: t('team.members.heeyeon.title'),
+      photo: Img,
+      bio: t('team.members.heeyeon.bio'),
+      email: 'account@dochak.co.kr'
     }
   ];
 
