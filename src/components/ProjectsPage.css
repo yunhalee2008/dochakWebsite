@@ -139,7 +139,7 @@
 }
 
 .project-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #1f2937;
   margin: 0;
@@ -153,24 +153,30 @@
 }
 
 .project-timeline {
-  background: #eff6ff;
-  color: #1d4ed8;
+  background: #fff3e0;
+  color: #f57c00;
+  border: 1px solid #ffcc02;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .project-status {
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .project-status-ongoing {
-  background: #fef3c7;
-  color: #92400e;
+  background: #e0f7fa;
+  color: #0097a7;
+  border: 1px solid #b2ebf2;
 }
 
 /* Overview and Video Section */
@@ -199,6 +205,7 @@
   font-weight: 700;
   color: #2563eb;
   margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .project-overview-content .project-description {
@@ -246,76 +253,97 @@
   font-size: 0.95rem;
 }
 
-/* Features and Impact Section */
-.project-features-impact-section {
-  padding: 4rem 2rem;
-  background: #f8fafc;
-  border-top: 1px solid #e5e7eb;
+/* Features Section */
+.project-features-section {
+  padding: 5rem 2rem;
+  background: #f9fafd;
+  border-bottom: 1px solid var(--border-light);
 }
 
-.features-impact-container {
+.project-features-container {
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
 }
 
-.project-impact-technologies {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+/* Impact Section */
+.project-impact-section {
+  padding: 5rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.project-impact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Technologies Section */
+.project-technologies-section {
+  padding: 5rem 2rem;
+  background: #f9fafd;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.project-technologies-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Features Section */
 .project-features .section-title {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #2563eb;
-  margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid #10b981;
-  display: inline-block;
+  color: var(--navy-heading);
+  margin-bottom: 3.5rem;
+  text-align: center;
+  position: relative;
 }
+
 
 .features-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .feature-card {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 1rem;
-  padding: 1.5rem;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e5e7eb;
+  padding: 2rem 1.5rem;
+  background: #f8fafc;
+  border-radius: 16px;
+  border: 2px solid #e5e7eb;
   transition: all 0.3s ease;
+  min-height: 150px;
 }
 
 .feature-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  border-color: #10b981;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px var(--picton-blue-transparent);
+  border-color: var(--picton-blue);
+  background: #f0f9ff;
 }
 
 .feature-icon {
   flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(135deg, #10b981, #059669);
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--picton-blue), var(--curious-blue));
   color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 12px var(--picton-blue-transparent);
 }
 
 .feature-text {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: #374151;
   margin: 0;
@@ -324,91 +352,110 @@
 
 /* Impact Section */
 .project-impact .section-title {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #2563eb;
-  margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid #f59e0b;
-  display: inline-block;
+  color: var(--navy-heading);
+  margin-bottom: 3.5rem;
+  text-align: center;
+  position: relative;
 }
+
 
 .impact-content {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e5e7eb;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.impact-description {
-  font-size: 1.125rem;
-  line-height: 1.8;
+.impact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 750px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.impact-item {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.impact-number {
+  color: var(--emerald);
+  font-weight: 700;
+  font-size: 2.5rem;
+  min-width: 4rem;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.impact-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
   color: #374151;
   margin: 0;
-  padding: 1.5rem;
-  background: #fef3c7;
-  border-left: 4px solid #f59e0b;
-  border-radius: 8px;
+  flex: 1;
+  text-align: left;
 }
 
 /* Technologies Section */
 .project-technologies .section-title {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #2563eb;
-  margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid #6366f1;
-  display: inline-block;
+  color: var(--navy-heading);
+  margin-bottom: 3.5rem;
+  text-align: center;
+  position: relative;
 }
+
 
 .technologies-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.technology-card {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
-  padding: 1.5rem;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e5e7eb;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.technology-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  border: 2px solid #3b82f6;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1f2937;
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
+  cursor: default;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
 }
 
-
-.technology-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  border-color: #6366f1;
+.technology-tag:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
 }
-
 
 .technology-icon {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  background: linear-gradient(135deg, #6366f1, #4f46e5);
-  color: white;
-  border-radius: 12px;
+  width: 20px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
-.technology-name {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #1f2937;
-  flex: 1;
+.technology-tag:hover .technology-icon {
+  color: white;
 }
 
 /* Get in Touch Section */
@@ -432,7 +479,7 @@
 .get-in-touch-content .section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #2563eb;
+  color: var(--navy-heading);
   margin-bottom: 1.5rem;
 }
 
@@ -454,14 +501,14 @@
 }
 
 .contact-button {
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
   border: 2px solid transparent;
-  min-height: 48px;
+  min-height: 36px;
   min-width: 140px;
   display: flex;
   align-items: center;
@@ -471,29 +518,29 @@
 }
 
 .contact-button.primary {
-  background: #2563eb;
+  background: var(--science-blue);
   color: #fff;
-  border-color: #2563eb;
+  border-color: var(--science-blue);
 }
 
 .contact-button.primary:hover {
-  background: #1d4ed8;
-  border-color: #1d4ed8;
+  background: var(--curious-blue);
+  border-color: var(--curious-blue);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 4px 12px var(--curious-blue-transparent);
 }
 
 .contact-button.secondary {
   background: transparent;
-  color: #2563eb;
-  border-color: #2563eb;
+  color: var(--science-blue);
+  border-color: var(--science-blue);
 }
 
 .contact-button.secondary:hover {
-  background: #2563eb;
+  background: var(--science-blue);
   color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 4px 12px var(--science-blue-transparent);
 }
 
 /* Tablet Design (768px - 1023px) */
@@ -558,7 +605,7 @@
   }
   
   .project-title {
-    font-size: 2.25rem;
+    font-size: 1.875rem;
   }
   
   .project-badges {
@@ -569,7 +616,8 @@
   .project-timeline,
   .project-status {
     padding: 10px 18px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    font-weight: 700;
     white-space: nowrap;
   }
   
@@ -595,35 +643,35 @@
     height: 350px;
   }
   
-  .project-features-impact-section {
-    padding: 3rem 2rem;
+  .project-features-section,
+  .project-impact-section,
+  .project-technologies-section {
+    padding: 4rem 2rem;
   }
   
-  .features-impact-container {
-    grid-template-columns: 1fr;
-    gap: 3rem;
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 600px;
   }
   
-  .project-impact-technologies {
-    gap: 2rem;
+  .feature-card {
+    padding: 1.75rem 1.25rem;
+    min-height: 140px;
   }
   
-  .technologies-grid {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.25rem;
-  }
-  
-  .technology-card {
-    padding: 1.25rem;
-  }
-  
-  .technology-icon {
+  .feature-icon {
     width: 44px;
     height: 44px;
   }
   
-  .technology-name {
-    font-size: 1.05rem;
+  .technologies-grid {
+    gap: 0.875rem;
+  }
+  
+  .technology-tag {
+    padding: 0.625rem 1rem;
+    font-size: 0.9rem;
   }
   
   .section-title {
@@ -643,7 +691,7 @@
   }
   
   .contact-button {
-    padding: 0.875rem 1.75rem;
+    padding: 0.5rem 1.75rem;
     font-size: 0.95rem;
   }
   
@@ -765,7 +813,7 @@
   }
   
   .project-title {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     margin-bottom: 0;
   }
@@ -781,11 +829,12 @@
   .project-status {
     min-height: 44px;
     padding: 12px 18px;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
+    border-radius: 12px;
   }
   
   .project-overview-video-section {
@@ -831,13 +880,52 @@
     font-size: 0.9rem;
   }
   
-  .project-features-impact-section {
-    padding: 2rem 1rem;
+  .project-features-section,
+  .project-impact-section,
+  .project-technologies-section {
+    padding: 3rem 1rem;
   }
   
-  .features-impact-container {
+  .features-grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 350px;
+  }
+  
+  .feature-card {
+    padding: 1.5rem 1rem;
+    min-height: 120px;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .feature-text {
+    font-size: 1rem;
+  }
+  
+  .impact-text {
+    font-size: 1.1rem;
+  }
+  
+  .impact-number {
+    font-size: 2.2rem;
+    min-width: 3.5rem;
+  }
+  
+  .impact-item {
     gap: 2.5rem;
+  }
+  
+  .technologies-grid {
+    gap: 0.75rem;
+  }
+  
+  .technology-tag {
+    padding: 0.5rem 0.875rem;
+    font-size: 0.85rem;
   }
   
   .project-get-in-touch-section {
@@ -862,18 +950,15 @@
   .contact-button {
     width: 100%;
     max-width: 280px;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     font-size: 1rem;
-  }
-  
-  .project-impact-technologies {
-    gap: 1.5rem;
   }
   
   .project-features .section-title,
   .project-impact .section-title,
   .project-technologies .section-title {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
   
   .feature-card {
@@ -889,40 +974,18 @@
     font-size: 0.95rem;
   }
   
-  .impact-content {
-    padding: 1.5rem;
-  }
-  
   .impact-description {
     font-size: 1rem;
     padding: 1.25rem;
   }
   
-  .technologies-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  .technology-card {
-    padding: 1rem;
-  }
-  
-  .technology-icon {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .technology-name {
-    font-size: 1rem;
-  }
   
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
   }
   
-  .project-description,
-  .impact-description {
+  .project-description {
     font-size: 1.05rem;
     line-height: 1.7;
   }
@@ -983,7 +1046,7 @@
   }
   
   .project-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
   .project-media-section,
@@ -1004,13 +1067,32 @@
     height: 160px;
   }
   
-  .section-title {
+  .project-features .section-title,
+  .project-impact .section-title,
+  .project-technologies .section-title {
     font-size: 1.25rem;
+    margin-bottom: 1.5rem;
   }
   
-  .project-description,
-  .impact-description {
+  .project-description {
     font-size: 1rem;
+  }
+  
+  .impact-text {
+    font-size: 1rem;
+  }
+  
+  .impact-number {
+    font-size: 2rem;
+    min-width: 3rem;
+  }
+  
+  .impact-item {
+    gap: 2rem;
+  }
+  
+  .impact-list {
+    gap: 1.2rem;
   }
   
   .feature-item {
@@ -1107,7 +1189,7 @@
   }
   
   .project-title {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
     letter-spacing: -0.02em;
     line-height: 1.1;
   }
@@ -1119,7 +1201,8 @@
   .project-timeline,
   .project-status {
     padding: 12px 24px;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
   }
   
   .project-media-section {
