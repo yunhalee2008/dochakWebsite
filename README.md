@@ -61,3 +61,7 @@ To edit the text content of the website:
 ---
 
 Feel free to open an issue or pull request if you have questions or suggestions.
+
+## Next step
+
+Purchase the domain of the website. Let me know once purchased, then I will update the domain here.
