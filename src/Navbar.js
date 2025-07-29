@@ -1,16 +1,21 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect, useContext, useRef } from 'react';
 import './Navbar.css';
 import logo from './assets/blue_logo.png';
 import { Link, useLocation } from 'react-router-dom';
 import LanguageSelector from './components/LanguageSelector';
 import LanguageContext from './contexts/LanguageContext';
+import { SOLUTION_METADATA } from './Solutions/routes';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [solutionsDropdownOpen, setSolutionsDropdownOpen] = useState(false);
+  const [mobileSolutionsOpen, setMobileSolutionsOpen] = useState(false);
 
   const { t } = useContext(LanguageContext);
   const location = useLocation();
+  const solutionsDropdownRef = useRef(null);
+  const solutionsButtonRef = useRef(null);
 
   useEffect(() => {
     let resizeTimeout;
@@ -33,6 +38,12 @@ function Navbar() {
         setIsMenuOpen(false);
       }
 
+      // Close solutions dropdown when clicking outside
+      if (solutionsDropdownOpen && 
+          !event.target.closest('.solutions-dropdown') && 
+          !event.target.closest('.solutions-dropdown-button')) {
+        setSolutionsDropdownOpen(false);
+      }
     };
 
     // Check initial screen size
@@ -48,7 +59,48 @@ function Navbar() {
       document.removeEventListener('click', handleClickOutside);
       clearTimeout(resizeTimeout);
     };
-  }, [isMenuOpen]);
+  }, [isMenuOpen, solutionsDropdownOpen]);
+
+  // Handle solutions dropdown hover
+  const handleSolutionsMouseEnter = () => {
+    setSolutionsDropdownOpen(true);
+  };
+
+  const handleSolutionsMouseLeave = () => {
+    setSolutionsDropdownOpen(false);
+  };
+
+  // Handle solutions button click (navigate to overview)
+  const handleSolutionsClick = () => {
+    setSolutionsDropdownOpen(false);
+    // Navigation will be handled by the Link component
+  };
+
+  // Handle solution selection
+  const handleSolutionSelect = () => {
+    setSolutionsDropdownOpen(false);
+    setIsMenuOpen(false);
+  };
+
+  // Handle keyboard navigation for dropdown
+  const handleDropdownKeyDown = (event) => {
+    if (event.key === 'Escape') {
+      setSolutionsDropdownOpen(false);
+    } else if (event.key === 'ArrowDown' && !solutionsDropdownOpen) {
+      event.preventDefault();
+      setSolutionsDropdownOpen(true);
+    }
+  };
+
+  // Check if current path is a solution page
+  const isActiveSolution = (solutionPath) => {
+    return location.pathname === solutionPath;
+  };
+
+  // Check if any solution is active
+  const isSolutionsActive = () => {
+    return location.pathname.startsWith('/solutions');
+  };
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -59,7 +111,49 @@ function Navbar() {
       <div className="navbar-center">
         <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>{t('nav.about')}</Link>
         <Link to="/technologies" className={location.pathname === '/technologies' ? 'active' : ''}>{t('nav.technologies')}</Link>
-        <Link to="/solutions" className={location.pathname === '/solutions' ? 'active' : ''}>{t('nav.solutions')}</Link>
+        
+        {/* Solutions Dropdown */}
+        <div 
+          className="solutions-dropdown" 
+          ref={solutionsDropdownRef}
+          onMouseEnter={handleSolutionsMouseEnter}
+          onMouseLeave={handleSolutionsMouseLeave}
+        >
+          <div 
+            className={`solutions-nav-container ${isSolutionsActive() ? 'active' : ''}`}
+            onKeyDown={handleDropdownKeyDown}
+          >
+            <Link
+              to="/solutions"
+              className="solutions-main-link"
+              onClick={handleSolutionsClick}
+              aria-label={t('nav.solutionsAriaLabel') || 'Solutions overview page'}
+            >
+              {t('nav.solutions')}
+            </Link>
+            <div className="solutions-dropdown-toggle">
+              <span className={`dropdown-arrow ${solutionsDropdownOpen ? 'open' : ''}`} aria-hidden="true">▼</span>
+            </div>
+          </div>
+          
+          {solutionsDropdownOpen && (
+            <div className="solutions-dropdown-menu" role="menu">
+              {SOLUTION_METADATA.map((solution) => (
+                <Link
+                  key={solution.id}
+                  to={solution.path}
+                  className={`solution-item ${isActiveSolution(solution.path) ? 'active' : ''}`}
+                  onClick={handleSolutionSelect}
+                  role="menuitem"
+                  aria-label={`${t(solution.titleKey)} solution page`}
+                >
+                  {t(solution.titleKey)}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
+
         <Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}>{t('nav.projects')}</Link>
         <Link to="/team" className={location.pathname === '/team' ? 'active' : ''}>{t('nav.team')}</Link>
         <Link 
@@ -142,15 +236,48 @@ function Navbar() {
             >
               {t('nav.technologies')}
             </Link>
-            <Link 
-              to="/solutions" 
-              className={location.pathname === '/solutions' ? 'active' : ''} 
-              onClick={() => setIsMenuOpen(false)}
-              role="menuitem"
-              aria-label={t('nav.solutionsAriaLabel') || 'Solutions page'}
-            >
-              {t('nav.solutions')}
-            </Link>
+            {/* Mobile Solutions Menu */}
+            <div className="mobile-solutions-section">
+              <div className="mobile-solutions-container">
+                <Link
+                  to="/solutions"
+                  className={`mobile-solutions-link ${isSolutionsActive() ? 'active' : ''}`}
+                  onClick={() => setIsMenuOpen(false)}
+                  role="menuitem"
+                  aria-label={t('nav.solutionsAriaLabel') || 'Solutions overview page'}
+                >
+                  {t('nav.solutions')}
+                </Link>
+                <button
+                  className="mobile-solutions-dropdown-toggle"
+                  onClick={() => setMobileSolutionsOpen(!mobileSolutionsOpen)}
+                  aria-expanded={mobileSolutionsOpen}
+                  aria-label={`Show solutions menu ${mobileSolutionsOpen ? t('nav.dropdownExpanded') || '(expanded)' : t('nav.dropdownCollapsed') || '(collapsed)'}`}
+                >
+                  <span className={`mobile-dropdown-arrow ${mobileSolutionsOpen ? 'open' : ''}`} aria-hidden="true">▼</span>
+                </button>
+              </div>
+              
+              {mobileSolutionsOpen && (
+                <div className="mobile-submenu" role="menu">
+                  {SOLUTION_METADATA.map((solution) => (
+                    <Link
+                      key={solution.id}
+                      to={solution.path}
+                      className={`submenu-item ${isActiveSolution(solution.path) ? 'active' : ''}`}
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        setMobileSolutionsOpen(false);
+                      }}
+                      role="menuitem"
+                      aria-label={`${t(solution.titleKey)} solution page`}
+                    >
+                      {t(solution.titleKey)}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
             <Link 
               to="/projects" 
               className={location.pathname === '/projects' ? 'active' : ''} 
