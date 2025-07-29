@@ -300,63 +300,6 @@
 /* =====================================
    CALL TO ACTION SECTION
    ===================================== */
-.solutions-cta {
-  background: linear-gradient(135deg, var(--navy-heading) 0%, var(--science-blue) 100%);
-  padding: 5rem 0;
-  color: white;
-  text-align: center;
-}
-
-.solutions-cta-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.solutions-cta-title {
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  letter-spacing: 0.5px;
-}
-
-.solutions-cta-text {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 2.5rem;
-  opacity: 0.9;
-}
-
-.solutions-cta-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: white;
-  color: var(--navy-heading);
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.3);
-}
-
-.solutions-cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.4);
-  color: var(--curious-blue);
-}
-
-.solutions-cta-arrow {
-  width: 16px;
-  height: 16px;
-  transition: transform 0.2s ease;
-}
-
-.solutions-cta-button:hover .solutions-cta-arrow {
-  transform: translateX(4px);
-}
 
 /* =====================================
    RESPONSIVE DESIGN
@@ -382,9 +325,6 @@
     font-size: 1.5rem;
   }
   
-  .solutions-cta-title {
-    font-size: 2.5rem;
-  }
 }
 
 /* Tablets - Match About page exactly */
@@ -428,7 +368,7 @@
   }
   
   .solutions-hero {
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 6rem 2rem 5rem 2rem;
   }
   
   .solutions-hero-title {
@@ -456,13 +396,6 @@
     font-size: 1.8rem;
   }
   
-  .solutions-cta-title {
-    font-size: 1.8rem;
-  }
-  
-  .solutions-cta-container {
-    padding: 0 1rem;
-  }
 }
 
 /* =====================================
@@ -564,17 +497,6 @@
   animation: fadeInUp 0.6s ease forwards;
 }
 
-.section-title::before {
-  content: '';
-  position: absolute;
-  top: -1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(90deg, var(--curious-blue), var(--science-blue));
-  border-radius: 2px;
-}
 
 .section-content {
   font-size: 1.1rem;
@@ -1327,5 +1249,111 @@
     width: 100%;
     max-width: 280px;
     justify-content: center;
+  }
+}
+
+/* Project CTA Section Styles */
+.solutions-page .project-get-in-touch-section,
+.project-get-in-touch-section {
+  padding: 4rem 2rem !important;
+  background: #fff !important;
+  border-top: 1px solid #e5e7eb !important;
+}
+
+.solutions-page .get-in-touch-container,
+.get-in-touch-container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.solutions-page .get-in-touch-content,
+.get-in-touch-content {
+  text-align: center !important;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+.solutions-page .get-in-touch-content .section-title,
+.get-in-touch-content .section-title {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  color: var(--navy-heading) !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.solutions-page .get-in-touch-description,
+.get-in-touch-description {
+  font-size: 1.125rem !important;
+  line-height: 1.7 !important;
+  color: #4b5563 !important;
+  margin-bottom: 2.5rem !important;
+  max-width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.solutions-page .get-in-touch-buttons,
+.get-in-touch-buttons {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 1.5rem !important;
+  flex-wrap: wrap !important;
+}
+
+.solutions-page .contact-button,
+.contact-button {
+  padding: 0.5rem 2rem !important;
+  border-radius: 8px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid transparent !important;
+  min-height: 36px !important;
+  min-width: 140px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  touch-action: manipulation !important;
+}
+
+.solutions-page .contact-button.primary,
+.contact-button.primary {
+  background: var(--science-blue) !important;
+  color: #fff !important;
+  border-color: var(--science-blue) !important;
+}
+
+.solutions-page .contact-button.primary:hover,
+.contact-button.primary:hover {
+  background: var(--curious-blue) !important;
+  border-color: var(--curious-blue) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px var(--curious-blue-transparent) !important;
+}
+
+@media (max-width: 768px) {
+  .solutions-page .project-get-in-touch-section,
+  .project-get-in-touch-section {
+    padding: 3rem 1rem !important;
+  }
+  
+  .solutions-page .get-in-touch-content .section-title,
+  .get-in-touch-content .section-title {
+    font-size: 1.75rem !important;
+  }
+  
+  .solutions-page .get-in-touch-description,
+  .get-in-touch-description {
+    font-size: 1rem !important;
+    margin-bottom: 2rem !important;
+  }
+  
+  .solutions-page .contact-button,
+  .contact-button {
+    padding: 0.75rem 1.5rem !important;
+    font-size: 0.95rem !important;
+    min-width: 120px !important;
   }
 }
