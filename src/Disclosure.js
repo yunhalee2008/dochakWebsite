@@ -130,8 +130,10 @@ const Disclosure = () => {
     return (
       <div className="disclosure-page">
         <section className="disclosure-hero">
-          <h1 className="disclosure-hero-title">{t('disclosure.title') || 'Research Achievements'}</h1>
-          <p className="disclosure-hero-subtitle">{t('disclosure.subtitle') || 'Explore our academic publications and patent portfolio'}</p>
+          <div className="disclosure-container">
+            <h1 className="disclosure-hero-title">{t('disclosure.title') || 'Research Achievements'}</h1>
+            <p className="disclosure-hero-subtitle">{t('disclosure.subtitle') || 'Explore our academic publications and patent portfolio'}</p>
+          </div>
         </section>
         <main className="disclosure-content">
           <div className="container">
@@ -158,8 +160,10 @@ const Disclosure = () => {
     return (
       <div className="disclosure-page">
         <section className="disclosure-hero">
-          <h1 className="disclosure-hero-title">{t('disclosure.title') || 'Research Achievements'}</h1>
-          <p className="disclosure-hero-subtitle">{t('disclosure.subtitle') || 'Explore our academic publications and patent portfolio'}</p>
+          <div className="disclosure-container">
+            <h1 className="disclosure-hero-title">{t('disclosure.title') || 'Research Achievements'}</h1>
+            <p className="disclosure-hero-subtitle">{t('disclosure.subtitle') || 'Explore our academic publications and patent portfolio'}</p>
+          </div>
         </section>
         <main className="disclosure-content">
           <div className="container">
@@ -211,7 +215,7 @@ const Disclosure = () => {
     <div className="disclosure-page">
       {/* Hero Section */}
       <section className="disclosure-hero">
-        <div className="disclosure-hero-content">
+        <div className="disclosure-container">
           <h1 className="disclosure-hero-title">{t('disclosure.title') || 'Research Achievements'}</h1>
           <p className="disclosure-hero-subtitle">{t('disclosure.subtitle') || 'Explore our academic publications and patent portfolio'}</p>
         </div>
