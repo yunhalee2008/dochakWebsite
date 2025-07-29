@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dochakWebsite/static/css/main.d38b8a4d.css",
+    "main.css": "/dochakWebsite/static/css/main.f75d095e.css",
     "main.js": "/dochakWebsite/static/js/main.f7743f60.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
     "static/media/내포3D모델.png": "/dochakWebsite/static/media/내포3D모델.64cd1130ab4817480017.png",
@@ -33,12 +33,12 @@
     "static/media/blue_logo.png": "/dochakWebsite/static/media/blue_logo.dd1df13575eea3b52876.png",
     "static/media/dochak_Symbol.png": "/dochakWebsite/static/media/dochak_Symbol.874e7647207788804886.png",
     "index.html": "/dochakWebsite/index.html",
-    "main.d38b8a4d.css.map": "/dochakWebsite/static/css/main.d38b8a4d.css.map",
+    "main.f75d095e.css.map": "/dochakWebsite/static/css/main.f75d095e.css.map",
     "main.f7743f60.js.map": "/dochakWebsite/static/js/main.f7743f60.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d38b8a4d.css",
+    "static/css/main.f75d095e.css",
     "static/js/main.f7743f60.js"
   ]
 }
