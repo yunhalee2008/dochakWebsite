@@ -9,13 +9,13 @@ import { ContainerTextFlip } from "./components/ui/container-text-flip";
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Technologies from './Technologies';
 import About from './About';
-import Solutions from './Solutions';
+import SolutionsOverview from './Solutions';
 import ProjectsPage from './components/ProjectsPage';
 import Team from './Team';
 import GetInTouch from './GetInTouch';
 import Disclosure from './Disclosure';
 import { BentoDemo } from './components/ui/bentoDemo';
-import { Link } from "react-router-dom";
+
 import TawkToWidget from './TawkToWidget';
 import { LanguageProvider } from './contexts/LanguageContext';
 import LanguageContext from './contexts/LanguageContext';
@@ -44,7 +44,7 @@ function App() {
         },
         {
           path: "solutions",
-          element: <Solutions />
+          element: <SolutionsOverview />
         },
         {
           path: "projects",
