@@ -180,7 +180,7 @@
 
 .solutions-dropdown-menu {
   position: absolute;
-  top: calc(140%);
+  top: calc(130%);
   left: -0.75rem;
   min-width: 220px;
   background: #fff;
