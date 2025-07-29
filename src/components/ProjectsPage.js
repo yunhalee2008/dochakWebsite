@@ -1,4 +1,5 @@
 import React, { useState, useContext, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './ProjectsPage.css';
 import VideoPlayer from './VideoPlayer';
 import LanguageContext from '../contexts/LanguageContext';
@@ -46,6 +47,7 @@ const ProjectsPage = () => {
       detailedDescription: t('projects.items.naepo.detailedDescription'),
       keyFeatures: t('projects.items.naepo.keyFeatures'),
       impact: t('projects.items.naepo.impact'),
+      impactStats: t('projects.items.naepo.impactStats'),
       video: {
         src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
         title: t('projects.items.naepo.videoTitle'),
@@ -63,6 +65,7 @@ const ProjectsPage = () => {
       detailedDescription: t('projects.items.teleDriving.detailedDescription'),
       keyFeatures: t('projects.items.teleDriving.keyFeatures'),
       impact: t('projects.items.teleDriving.impact'),
+      impactStats: t('projects.items.teleDriving.impactStats'),
       video: {
         src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
         title: t('projects.items.teleDriving.videoTitle'),
@@ -80,6 +83,7 @@ const ProjectsPage = () => {
       detailedDescription: t('projects.items.publicTransport.detailedDescription'),
       keyFeatures: t('projects.items.publicTransport.keyFeatures'),
       impact: t('projects.items.publicTransport.impact'),
+      impactStats: t('projects.items.publicTransport.impactStats'),
       video: {
         src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
         title: t('projects.items.publicTransport.videoTitle'),
@@ -97,6 +101,7 @@ const ProjectsPage = () => {
       detailedDescription: t('projects.items.airportParking.detailedDescription'),
       keyFeatures: t('projects.items.airportParking.keyFeatures'),
       impact: t('projects.items.airportParking.impact'),
+      impactStats: t('projects.items.airportParking.impactStats'),
       video: {
         src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
         title: t('projects.items.airportParking.videoTitle'),
@@ -310,9 +315,9 @@ const ProjectsPage = () => {
                 </div>
               </div>
 
-              {/* Features, Impact and Technologies Section */}
-              <div className="project-features-impact-section">
-                <div className="features-impact-container">
+              {/* Features Section */}
+              <div className="project-features-section">
+                <div className="project-features-container">
                   <div className="project-features">
                     <h3 className="section-title">{t('projects.content.featuresTitle')}</h3>
                     <div className="features-grid">
@@ -326,29 +331,44 @@ const ProjectsPage = () => {
                       ))}
                     </div>
                   </div>
+                </div>
+              </div>
 
-                  <div className="project-impact-technologies">
-                    <div className="project-impact">
-                      <h3 className="section-title">{t('projects.content.impactTitle')}</h3>
-                      <div className="impact-content">
-                        <p className="impact-description">{project.impact}</p>
-                      </div>
-                    </div>
-
-                    <div className="project-technologies">
-                      <h3 className="section-title">{t('projects.content.technologiesTitle')}</h3>
-                      <div className="technologies-grid">
-                        {project.technologies.map((tech, techIndex) => (
-                          <div key={techIndex} className="technology-card">
-                            <div className="technology-icon">
-                              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                              </svg>
-                            </div>
-                            <span className="technology-name">{tech}</span>
+              {/* Impact Section */}
+              <div className="project-impact-section">
+                <div className="project-impact-container">
+                  <div className="project-impact">
+                    <h3 className="section-title">{t('projects.content.impactTitle')}</h3>
+                    <div className="impact-content">
+                      <div className="impact-list">
+                        {project.impactStats.map((stat, index) => (
+                          <div key={index} className="impact-item">
+                            <span className="impact-number">{stat.number}</span>
+                            <p className="impact-text">{stat.text}</p>
                           </div>
                         ))}
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technologies Section */}
+              <div className="project-technologies-section">
+                <div className="project-technologies-container">
+                  <div className="project-technologies">
+                    <h3 className="section-title">{t('projects.content.technologiesTitle')}</h3>
+                    <div className="technologies-grid">
+                      {project.technologies.map((tech, techIndex) => (
+                        <div key={techIndex} className="technology-tag">
+                          <div className="technology-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
+                          </div>
+                          <span className="technology-name">{tech}</span>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -363,9 +383,9 @@ const ProjectsPage = () => {
                       {t('projects.content.getInTouchDescription')}
                     </p>
                     <div className="get-in-touch-buttons">
-                      <button className="contact-button primary">
+                      <Link to="/get-in-touch" className="contact-button primary">
                         {t('projects.content.contactUs')}
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
