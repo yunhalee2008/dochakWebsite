@@ -163,7 +163,10 @@
   },
   "solutions": {
     "heroTitle": "Our Solutions",
-    "heroSubtitle": "Discover our suite of innovative solutions designed to transform urban mobility and smart city operations.",
+    "heroSubtitle": "Innovative solutions transforming urban mobility and smart cities.",
+    "learnMore": "Learn More",
+    "overviewTitle": "Transforming Urban Mobility",
+    "overviewDescription": "Explore our comprehensive suite of mobility solutions designed to transform urban transportation and smart city operations. Each solution represents cutting-edge technology and innovative approaches to modern mobility challenges.",
     "items": {
       "trafficAnalysis": {
         "title": "Traffic Analysis Tool",
@@ -229,7 +232,7 @@
         "explanation": "Dochak will position itself as a regional mobility innovation leader in Chungnam by using digital twins and simulation for traffic solutions.",
         "detailedDescription": "Developing Korea's first traffic-focused digital twin for Naepo New City to support advanced mobility planning and operations. The system integrates real-time data collection, AI-based predictive modeling, and 3D visualization to help city planners and operators make better decisions. This project plays a key role in sustainable urban development and building a smart mobility ecosystem.",
         "keyFeatures": [
-          "Real-time traffic data collection and analysis",
+          "Real-time traffic data analysis",
           "AI-based traffic flow prediction",
           "3D digital twin visualization",
           "Integrated traffic management system",
@@ -237,6 +240,20 @@
           "Public transit route optimization"
         ],
         "impact": "This project is expected to improve traffic efficiency by 30%, reduce carbon emissions by 25%, and reduce citizens' travel time by an average of 20%. It will also contribute to local economic revitalization and job creation.",
+        "impactStats": [
+          {
+            "number": "30%",
+            "text": "Traffic efficiency improvement through smart signal optimization"
+          },
+          {
+            "number": "25%",
+            "text": "Reduction in vehicle emissions and environmental impact"
+          },
+          {
+            "number": "20%",
+            "text": "Decrease in average commute time for residents"
+          }
+        ],
         "videoTitle": "Naepo New City Digital Twin Demo",
         "videoDescription": "Demonstration video of real-time traffic monitoring and prediction system using digital twin technology."
       },
@@ -254,6 +271,20 @@
           "Cross-platform compatibility"
         ],
         "impact": "Tele-driving technology will significantly improve autonomous vehicle safety, solve driver shortage issues, and create new mobility service models. It will bring innovation especially to long-distance transportation and driving in special environments.",
+        "impactStats": [
+          {
+            "number": "30%",
+            "text": "Enhanced safety protocols and risk management systems"
+          },
+          {
+            "number": "25%",
+            "text": "Reduced operational costs through remote vehicle control"
+          },
+          {
+            "number": "20%",
+            "text": "Improved response times in emergency situations"
+          }
+        ],
         "videoTitle": "Tele-driving Technology Demo",
         "videoDescription": "Actual operation demonstration video of the Daejeon-Jeju tele-driving system."
       },
@@ -271,6 +302,20 @@
           "Mobile app integration service"
         ],
         "impact": "The 3-car public transportation system is expected to improve public transportation usage by 40%, reduce waiting time by 50%, and decrease traffic congestion by 30%. It also contributes to environmental protection through reduced carbon emissions.",
+        "impactStats": [
+          {
+            "number": "40%",
+            "text": "Better route optimization and scheduling efficiency"
+          },
+          {
+            "number": "50%",
+            "text": "Increased passenger satisfaction and service reliability"
+          },
+          {
+            "number": "30%",
+            "text": "Reduction in fuel consumption and operational costs"
+          }
+        ],
         "videoTitle": "3-Car Public Transportation Demo",
         "videoDescription": "Actual operation video of Daejeon's 3-car connected electric train system."
       },
@@ -288,6 +333,20 @@
           "Mobile app integration service"
         ],
         "impact": "The smart parking system will improve parking lot utilization by 60%, reduce parking time by an average of 70%, and greatly improve user satisfaction. It is also expected to reduce parking lot operational costs by 40%.",
+        "impactStats": [
+          {
+            "number": "60%",
+            "text": "Faster parking spot location and allocation through smart sensor technology"
+          },
+          {
+            "number": "70%",
+            "text": "Improved user experience and convenience with real-time availability updates"
+          },
+          {
+            "number": "40%",
+            "text": "Reduction in traffic congestion around airport facilities and terminals"
+          }
+        ],
         "videoTitle": "Smart Parking System Demo",
         "videoDescription": "Actual operation demonstration video of Incheon Airport's smart parking system."
       }
@@ -316,7 +375,7 @@
   },
   "team": {
     "heroTitle": "Meet Our Team",
-    "heroSubtitle": "The experts driving Dochak's innovation and projects in smart mobility and simulation.",
+    "heroSubtitle": "Meet the experts driving innovation in smart mobility and simulation.",
     "sectionTitle": "Our Team",
     "ceo": {
       "name": "Inhee Kim",
