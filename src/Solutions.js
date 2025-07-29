@@ -59,18 +59,6 @@ export default function Solutions() {
         </div>
       </section>
 
-      {/* Overview Section */}
-      <section className="solutions-overview">
-        <div className="solutions-overview-container">
-          <div className="solutions-overview-content">
-            <h2 className="solutions-overview-title">Transforming Urban Mobility</h2>
-            <p className="solutions-overview-text">
-              {t('solutions.overviewDescription', 'Explore our comprehensive suite of mobility solutions designed to transform urban transportation and smart city operations. Each solution represents cutting-edge technology and innovative approaches to modern mobility challenges.')}
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Solutions Grid */}
       <section className="solutions-main">
         <div className="solutions-container">
@@ -107,19 +95,18 @@ export default function Solutions() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="solutions-cta">
-        <div className="solutions-cta-container">
-          <div className="solutions-cta-content">
-            <h2 className="solutions-cta-title">Ready to Transform Your Operations?</h2>
-            <p className="solutions-cta-text">
-              Contact our team to discuss how our solutions can be tailored to your specific needs and help you achieve your mobility goals.
+      <section className="project-get-in-touch-section">
+        <div className="get-in-touch-container">
+          <div className="get-in-touch-content">
+            <h3 className="section-title">{t('projects.content.getInTouchTitle')}</h3>
+            <p className="get-in-touch-description">
+              {t('projects.content.getInTouchDescription')}
             </p>
-            <Link to="/get-in-touch" className="solutions-cta-button">
-              Get In Touch
-              <svg className="solutions-cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
+            <div className="get-in-touch-buttons">
+              <Link to="/get-in-touch" className="contact-button primary">
+                {t('projects.content.contactUs')}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
