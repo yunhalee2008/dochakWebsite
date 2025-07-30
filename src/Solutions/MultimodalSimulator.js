@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import './MultimodalSimulator.css';
 import LanguageContext from '../contexts/LanguageContext';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import meso from '../assets/meso.png';
+import micro from '../assets/micro.png';
+import nepo from '../assets/내포3D모델.png';
+import { EnhancedStickyScroll } from '../components/ui/enhanced-sticky-scroll';
+import { transformTechnologiesData } from '../utils/dataTransform';
+
 
 export default function MultimodalSimulator() {
   const { t } = useContext(LanguageContext);
@@ -24,6 +30,72 @@ export default function MultimodalSimulator() {
       </div>
     );
   };
+
+  
+  // Create technologies data using translations
+  const technologies = [
+    {
+      title: t('technologies.items.visum.title'),
+      subtitle: t('technologies.items.visum.subtitle'),
+      image: meso,
+      features: [
+        {
+          title: t('technologies.items.visum.howItWorks'),
+          desc: t('technologies.items.visum.features.howItWorks')
+        },
+        {
+          title: t('technologies.items.visum.whatItCanDo'),
+          desc: t('technologies.items.visum.features.whatItCanDo')
+        },
+        {
+          title: t('technologies.items.visum.whereItCanBeUsed'),
+          desc: t('technologies.items.visum.features.whereItCanBeUsed')
+        }
+      ]
+    },
+    {
+      title: t('technologies.items.vissim.title'),
+      subtitle: t('technologies.items.vissim.subtitle'),
+      image: micro,
+      features: [
+        {
+          title: t('technologies.items.visum.howItWorks'),
+          desc: t('technologies.items.vissim.features.howItWorks')
+        },
+        {
+          title: t('technologies.items.visum.whatItCanDo'),
+          desc: t('technologies.items.vissim.features.whatItCanDo')
+        },
+        {
+          title: t('technologies.items.visum.whereItCanBeUsed'),
+          desc: t('technologies.items.vissim.features.whereItCanBeUsed')
+        }
+      ]
+    },
+    {
+      title: t('technologies.items.mesh.title'),
+      subtitle: t('technologies.items.mesh.subtitle'),
+      image: nepo,
+      features: [
+        {
+          title: t('technologies.items.visum.howItWorks'),
+          desc: t('technologies.items.mesh.features.howItWorks')
+        },
+        {
+          title: t('technologies.items.visum.whatItCanDo'),
+          desc: t('technologies.items.mesh.features.whatItCanDo')
+        },
+        {
+          title: t('technologies.items.visum.whereItCanBeUsed'),
+          desc: t('technologies.items.mesh.features.whereItCanBeUsed')
+        }
+      ]
+    }
+  ];
+
+  // Transform technologies data for enhanced sticky scroll
+  const enhancedContent = transformTechnologiesData(technologies);
+  
 
   return (
     <div className="multimodal-simulator-page">
@@ -72,6 +144,12 @@ export default function MultimodalSimulator() {
           </div>
         </div>
       </section>
+
+      {/* Enhanced Sticky Scroll Section - Full Page Height */}
+      <EnhancedStickyScroll
+        content={enhancedContent}
+        className="w-full"
+      />
 
       {/* Technical Details Section */}
       <section className="technical-section">
