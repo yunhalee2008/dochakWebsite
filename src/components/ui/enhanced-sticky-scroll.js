@@ -298,9 +298,9 @@ export const EnhancedStickyScroll = ({
 
     // Background colors that match the existing design system
     const backgroundColors = [
-        "#f4f6f8", // Match technologies page background
-        "#e2e8f0", // Slightly darker variant
-        "#f1f5f9", // Light slate variant
+        "#f9fafd", // Match technologies page background
+        "#f9fafd", // Slightly darker variant
+        "#f9fafd", // Light slate variant
     ];
 
     const [currentBackground, setCurrentBackground] = useState(backgroundColors[0]);
