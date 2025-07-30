@@ -110,7 +110,7 @@ function Navbar() {
       </div>
       <div className="navbar-center">
         <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>{t('nav.about')}</Link>
-        <Link to="/technologies" className={location.pathname === '/technologies' ? 'active' : ''}>{t('nav.technologies')}</Link>
+        {/* <Link to="/technologies" className={location.pathname === '/technologies' ? 'active' : ''}>{t('nav.technologies')}</Link> */}
         
         {/* Solutions Dropdown */}
         <div 
@@ -227,7 +227,7 @@ function Navbar() {
             >
               {t('nav.about')}
             </Link>
-            <Link 
+            {/* <Link 
               to="/technologies" 
               className={location.pathname === '/technologies' ? 'active' : ''} 
               onClick={() => setIsMenuOpen(false)}
@@ -235,7 +235,7 @@ function Navbar() {
               aria-label={t('nav.technologiesAriaLabel') || 'Technologies page'}
             >
               {t('nav.technologies')}
-            </Link>
+            </Link> */}
             {/* Mobile Solutions Menu */}
             <div className="mobile-solutions-section">
               <div className="mobile-solutions-container">
