@@ -1,0 +1,150 @@
+✅ 1. 원격주행 (Tele-driving)
+
+📸 Media & Content Section 
+
+Videos: Short one and long one demo of remote control during autonomous system failure (not in PDF, recommended to produce).
+
+
+⚙️ Technical Details
+Specs & Tech:
+
+Remote control handoff system during AV malfunction.
+
+Works in adverse weather and restricted zones.
+
+Integrated with AV stack via tele-driving module.
+
+Research & Patents:
+
+관련 특허: "원격주행 제어 시스템" (출원일 2024.12.13. P2024-1108-KR01).
+try 
+Academic Links: TRB 2024/25 conference papers on disengagements and human fallback. 
+
+(CTA button to disclosure page)
+
+🧩 Use Cases
+Industries: 자율주행 기업, 군사, 물류 (tag)
+
+Outcome: 원격 개입으로 AV 안전 확보, 도심 교통의 신뢰성 강화
+
+Scenario: 자율주행 차량이 터널 진입 전 장애물 감지 → 원격 주행자가 즉시 개입 → 안전 지점까지 회피 주행 (Diagram)
+
+📩 Call-to-Action
+
+[문의하기]
+
+✅ 2. 디지털 트윈 (Digital Twin)
+📸 Media & Content Section
+
+Videos: Unity 기반 real-time rendering 영상 (70% 제작시간 단축)
+
+
+⚙️ Technical Details
+Specs & Tech:
+
+실시간 데이터 통합 (ITS, CCTV)
+
+자동화된 환경 요소 업데이트
+
+Driving Simulator와 연동
+
+Patents:
+
+Vissim 기반 모델-실측 비교 자동화 툴
+
+Papers:
+
+관련 학회 다수 (VR/AR 기반 교통 시뮬레이션 활용 논문)
+
+(CTA button to disclosure page)
+
+🧩 Use Cases
+Industries: 도시계획, 도로공사, 자율주행 테스트베드 b(tag)
+
+Outcome: 실시간 도시 운영/사고 대응/정책 분석 가능
+
+Scenario: 내포신도시 내 교통체증 예측 시뮬레이션 → 사고 시 우회 전략 자동 제안 (diagram)
+
+📩 Call-to-Action
+
+[문의하기]
+
+✅ 3. 다중 교통 수단 시뮬레이터 (Multimodal Simulator)
+📸 Media & Content Section
+
+Videos: OBD & GPS 기반 시뮬레이션 장면, NPC 상호작용
+
+
+⚙️ Technical Details
+Specs & Tech:
+
+GUI 기반 시나리오 생성
+
+실시간 애니메이션 (전조등, 엔진음 포함)
+
+Co-simulation with SUMO/VISSIM
+
+Patents:
+
+자율주행차–보행자 충돌 예측 시스템
+
+Academic Support:
+
+Micro-mobility safety 연구 논문 (TRB, ICTCT)
+
+(CTA button to disclosure page)
+
+🧩 Use Cases
+Industries: 자율주행 개발사, 경찰청, 스마트시티 프로젝트 (tag)
+
+Outcome: 다중수단 사고 예측 및 시나리오 훈련 가능
+
+Scenario: 자율차와 킥보드 교차 충돌 시나리오 → GUI에서 실험조건 설정 → 충돌 위험 분석 및 개선 전략 제시 (diagram)
+
+📩 Call-to-Action
+
+[문의하기]
+
+✅ 4. 교통분석도구 (Traffic Analysis Tools)
+📸 Media & Content Section=
+
+Videos:
+
+Bo Wang의 one-click 교통 분석 데모 (논문 기반 구현 예상)
+
+DRT, Micro, Macro 등 각 시뮬레이션 비교 영상
+
+=
+
+⚙️ Technical Details
+Specs & Tech:
+
+Macro: 정책 평가용
+
+Meso: 대규모 이벤트/재난 대응
+
+Micro: 신호 최적화/VR용
+
+Visum-Vissim 연계 자동화
+
+Patents:
+
+Visum/Vissim 검증 자동화 툴 다수
+
+Research:
+
+Bo Wang et al. 논문 기반 short-term traffic prediction (2023.11)
+
+(CTA button to disclosure page)
+
+🧩 Use Cases
+Industries: 도로공사, 국토부, 학술기관 (tag)
+
+Outcome: 정확한 교통 흐름 분석 및 정책 효과 예측
+
+Scenario: 서울 시내 재난 발생 가정 → Micro+Meso 연계 모델링 → 신속한 재배치 및 대피경로 분석 (diAGRAM)
+
+📩 Call-to-Action
+
+[문의하기]
+
