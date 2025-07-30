@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import Hyperspeed from './Hyperspeed';
 import { ContainerTextFlip } from "./components/ui/container-text-flip";
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import Technologies from './Technologies';
+// import Technologies from './Technologies';
 import About from './About';
 import SolutionsOverview from './Solutions';
 import ProjectsPage from './components/ProjectsPage';
@@ -45,10 +45,10 @@ function App() {
           path: "about",
           element: <About />
         },
-        {
-          path: "technologies",
-          element: <Technologies />
-        },
+        // {
+        //   path: "technologies",
+        //   element: <Technologies />
+        // },
         {
           path: "solutions",
           element: <SolutionsOverview />
