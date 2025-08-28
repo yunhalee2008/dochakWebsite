@@ -73,6 +73,30 @@ export default function DigitalTwin() {
               </div>
             </AnimatedElement>
           </div>
+          {/* Second Row: Video Left, Explanation Right */}
+          <div className="overview-row">
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq"
+                    title={t('solutions.remoteDriving.overview.longDemo')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+            
+            <AnimatedElement animation="slide-right" delay={200}>
+              <div className="explanation-content">
+                <h3>{t('solutions.remoteDriving.overview.longDemo')}</h3>
+                <p>{t('solutions.remoteDriving.overview.longDemoDesc')}</p>
+              </div>
+            </AnimatedElement>
+          </div>
         </div>
       </section>
 
