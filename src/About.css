@@ -146,7 +146,7 @@
 .about-value-card {
   background: #fff;
   border-radius: 1.2rem;
-  box-shadow: 0 4px 24px #57bceb22;
+  box-shadow: 0 4px 24px #9bd5ef22;
   border: 1.5px solid var(--border-light);
   padding: 2.5rem 2rem 2rem 2rem;
   width: 250px;
@@ -222,7 +222,7 @@
 
 /* Our Story Timeline */
 .about-story {
-  background: #f9fafd;
+  background: #dce1ef;
   padding: 5rem 1rem;
   border-bottom: 1px solid var(--border-light);
   text-align: center;

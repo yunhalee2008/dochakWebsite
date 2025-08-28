@@ -61,7 +61,7 @@ export default function MultimodalSimulator() {
               <div className="video-wrapper">
                 <div className="video-container">
                   <iframe
-                    src="https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq"
+                    src="https://www.youtube.com/embed/qoxocqXiaSQ?si=VX6zAm8uKa_opORk"
                     title={t('solutions.multimodalSimulatorSolution.overview.demo')}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,8 +70,36 @@ export default function MultimodalSimulator() {
                   ></iframe>
                 </div>
               </div>
+            </AnimatedElement>            
+          </div>          
+
+          <div className="overview-row">            
+
+          {/* Second Row: Video Left, Explanation Right */}
+          
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/3WK4zq-79bo?si=Us2J6nuZ71KzfovF"
+                    title={t('solutions.multimodalSimulatorSolution.dt-1')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
             </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.multimodalSimulatorSolution.overview.MO-1')}</h3>
+                <p>{t('solutions.multimodalSimulatorSolution.overview.MO-1Desc')}</p>
+              </div>
+            </AnimatedElement>
+
           </div>
+
         </div>
       </section>
 

@@ -170,7 +170,7 @@
     "solutionsTitle": "Our Solution Portfolio",
     "items": {
       "trafficAnalysis": {
-        "title": "Traffic Analysis Tool",
+        "title": "Traffic Impact Analysis",
         "desc": [
           "Analyze traffic conditions and scenario-based response strategies.",
           "Analyze policies and traffic response strategies; optimize traffic flow.",
@@ -203,7 +203,7 @@
         ]
       },
       "multimodal": {
-        "title": "Multimodal Simulation",
+        "title": "Multimodal Simulator",
         "desc": [
           "Integrated multimodal simulation tool reflecting interaction between various transportation modes.",
           "Connect with simulator hardware to test diverse scenarios in virtual environments.",
@@ -285,6 +285,10 @@
         "title": "Overview",
         "demo": "Unity-based Real-time Rendering Demo",
         "demoDesc": "Experience our Unity-based real-time rendering system that reduces production time by 70% while delivering high-fidelity traffic simulations and urban environment visualization.",
+        "dt-1" : "Daejeon Articulated Bus DT",
+        "dt-1Desc" : "Daejeon is planning to introduce a three-car bus system. Before implementing this new form of transportation, it's crucial to conduct a traffic impact analysis to develop a more efficient transportation system. The simulation results have been made more visually understandable through data",
+        "dt-2": "KAIST Campus DT",
+        "dt-2Desc": "KAIST researchers have developed the KAIST Munji DT for the first time. It renders images and cloud points to create videos that are very similar to real life",
         "playVideo": "Play Video"
       },
       "technical": {
@@ -332,6 +336,8 @@
         "title": "Overview",
         "demo": "OBD & GPS-based Simulation Demo",
         "demoDesc": "Experience our advanced simulation system featuring OBD & GPS integration with realistic NPC interactions for comprehensive multimodal transportation testing.",
+        "MO-1":"e-scoote.......",
+        "MO-1Desc": "dfklajflkdjlfkjdlfj;aldkjflakjdl;kjfdadfa",
         "playVideo": "Play Video"
       },
       "technical": {
@@ -737,16 +743,16 @@
     "expansion": {
       "title": "Expansion Stage",
       "content1": "Focused on maturing projects and product advancements to a scalable, stable pipeline.",
-      "revenueTarget": "2026년 6월까지 매출 목표:",
-      "revenueAmount": "."
+      "revenueTarget": " ",
+      "revenueAmount": " "
     },
     "stabilization": {
       "title": "Stabilization and Growth Stage",
       "content1": "Operated stably while expanding B2B and public agency partnerships, and started continuous technology development.",
-      "revenueTarget2026": "2027년 6월까지 매출 목표:",
-      "revenueAmount2026": "원",
-      "revenueTarget2027": "2028년 6월까지 매출 목표:",
-      "revenueAmount2027": "원"
+      "revenueTarget2026": " ",
+      "revenueAmount2026": " ",
+      "revenueTarget2027": " ",
+      "revenueAmount2027": " "
     }
   },
   "sections": {

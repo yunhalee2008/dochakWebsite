@@ -73,15 +73,17 @@ export default function DigitalTwin() {
               </div>
             </AnimatedElement>
           </div>
-          
+
+          <div className="overview-row">            
+
           {/* Second Row: Video Left, Explanation Right */}
-          <div className="overview-row">
+          
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="video-wrapper">
                 <div className="video-container">
                   <iframe
-                    src="https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq"
-                    title={t('solutions.remoteDriving.overview.longDemo')}
+                    src="https://www.youtube.com/embed/cMDfKVbRoYU?si=yp6MvAqZKlM_2NvE"
+                    title={t('solutions.DigitalTwin.overview.dt-1')}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -90,11 +92,35 @@ export default function DigitalTwin() {
                 </div>
               </div>
             </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.digitalTwinSolution.overview.dt-1')}</h3>
+                <p>{t('solutions.digitalTwinSolution.overview.dt-1Desc')}</p>
+              </div>
+            </AnimatedElement>
+
+          </div>
+
+          <div className="overview-content">
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.digitalTwinSolution.overview.dt-2')}</h3>
+                <p>{t('solutions.digitalTwinSolution.overview.dt-2Desc')}</p>
+              </div>
+            </AnimatedElement>
             
             <AnimatedElement animation="slide-right" delay={200}>
-              <div className="explanation-content">
-                <h3>{t('solutions.remoteDriving.overview.longDemo')}</h3>
-                <p>{t('solutions.remoteDriving.overview.longDemoDesc')}</p>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/esRz9DWfGes?si=JsTVwx-Lvp5zz0LP"
+                    title={t('solutions.digitalTwinSolution.overview.dt-2')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
               </div>
             </AnimatedElement>
           </div>

@@ -737,16 +737,16 @@
     "expansion": {
       "title": "확장 단계",
       "content1": "확장 가능하고 안정적인 파이프라인으로 프로젝트 성숙화와 제품 발전에 집중했습니다.",
-      "revenueTarget": "2026년 6월까지 매출 목표:",
-      "revenueAmount": "30억 원"
+      "revenueTarget": " ",
+      "revenueAmount": " "
     },
     "stabilization": {
       "title": "안정화 및 성장 단계",
       "content1": "B2B 및 공공기관 파트너십을 확장하면서 안정적으로 운영하고 지속적인 기술 개발을 시작했습니다.",
-      "revenueTarget2026": "2027년 6월까지 매출 목표:",
-      "revenueAmount2026": "60억 원",
-      "revenueTarget2027": "2028년 6월까지 매출 목표:",
-      "revenueAmount2027": "100억 원"
+      "revenueTarget2026": " ",
+      "revenueAmount2026": " ",
+      "revenueTarget2027": " "
+      
     }
   },
   "sections": {
