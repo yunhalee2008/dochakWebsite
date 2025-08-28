@@ -82,7 +82,7 @@ export default function RemoteDriving() {
               <div className="video-wrapper">
                 <div className="video-container">
                   <iframe
-                    src="https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq"
+                    src="https://www.youtube.com/embed/HHdDThRBQLw?si=jH4K4TEXP_sTr1kC"
                     title={t('solutions.remoteDriving.overview.longDemo')}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
