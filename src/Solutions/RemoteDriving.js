@@ -100,7 +100,6 @@ export default function RemoteDriving() {
               </div>
             </AnimatedElement>
           </div>
-        </div>
       </section>
 
       {/* Technical Details Section */}
