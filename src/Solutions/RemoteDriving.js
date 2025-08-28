@@ -92,7 +92,7 @@ export default function RemoteDriving() {
                 </div>
               </div>
             </AnimatedElement>
-           </div> 
+
             <AnimatedElement animation="slide-right" delay={200}>
               <div className="explanation-content">
                 <h3>{t('solutions.remoteDriving.overview.longDemo')}</h3>
@@ -100,6 +100,7 @@ export default function RemoteDriving() {
               </div>
             </AnimatedElement>
           </div>
+        </div>  
       </section>
 
       {/* Technical Details Section */}
