@@ -234,7 +234,7 @@
       },
       "overview": {
         "title": "Overview",
-        "shortDemo": "Quick Response Demo",
+        "shortDemo": "Prototype Tele-Driving between Deajeon and Jeju",
         "shortDemoDesc": "Demonstration of rapid remote control handoff during autonomous system failures, showcasing response times and safety protocols.",
         "longDemo": "Comprehensive System Demo",
         "longDemoDesc": "In-depth showcase of remote driving capabilities, including adverse weather operations, restricted zone navigation, and seamless integration with autonomous vehicle systems.",
