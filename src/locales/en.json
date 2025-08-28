@@ -69,7 +69,7 @@
     "heroSubtitle": "Discover the innovative technologies powering the future of mobility",
     "items": {
       "visum": {
-        "title": "Visum Mesoscopic Model​",
+        "title": "Mesoscopic Model​",
         "subtitle": "A mesoscopic traffic demand prediction and operation evaluation model",
         "howItWorks": "How it works",
         "whatItCanDo": "What it can do",
@@ -94,7 +94,7 @@
         }
       },
       "vissim": {
-        "title": "Vissim Microscopic Model​",
+        "title": "Microscopic Model​",
         "subtitle": "A detailed micro-simulation tool for replicating vehicle interactions",
         "features": {
           "howItWorks": [
@@ -121,7 +121,7 @@
         "features": {
           "howItWorks": [
             "Uses LX data, OSM, LiDAR, and photogrammetry for 3D mesh creation.",
-            "Integrates with Visum and Vissim simulation data in Unity for seamless visual outputs.",
+            "Integrates with macro and micro simulation data in Unity for seamless visual outputs.",
             "Allows manual mesh refinement for accurate elevation and asset placement."
           ],
           "whatItCanDo": [
@@ -142,7 +142,7 @@
         "subtitle": "A real-time digital replica of traffic networks integrated with 3D visual environments.",
         "features": {
           "howItWorks": [
-            "Combines Visum meso, Vissim micro-simulations, and 3D models.",
+            "Combines macro, meso, micro-simulations, and 3D models.",
             "Updates dynamically with scenario changes and planned infrastructure.",
             "Connects to ITS systems for real-time traffic visualization and scenario playback."
           ],
