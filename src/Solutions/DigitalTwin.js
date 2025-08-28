@@ -73,6 +73,7 @@ export default function DigitalTwin() {
               </div>
             </AnimatedElement>
           </div>
+          
           {/* Second Row: Video Left, Explanation Right */}
           <div className="overview-row">
             <AnimatedElement animation="slide-left" delay={100}>
