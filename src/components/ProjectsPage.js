@@ -122,7 +122,7 @@ const ProjectsPage = () => {
       impact: t('projects.items.airportParking.impact'),
       impactStats: t('projects.items.airportParking.impactStats'),
       video: {
-        src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
+        src: 'https://www.youtube.com/embed/EY8w6_oO-Vw?si=hlzISaUJFveOiXOO', // Placeholder - replace with actual video
         title: t('projects.items.airportParking.videoTitle'),
         description: t('projects.items.airportParking.videoDescription')
       },
