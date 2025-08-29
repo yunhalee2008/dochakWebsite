@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dochakWebsite/static/css/main.38217046.css",
-    "main.js": "/dochakWebsite/static/js/main.b7bceb98.js",
+    "main.js": "/dochakWebsite/static/js/main.846c21a3.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
     "static/media/내포3D모델.png": "/dochakWebsite/static/media/내포3D모델.64cd1130ab4817480017.png",
     "static/media/truck_hori.png": "/dochakWebsite/static/media/truck_hori.57ef646c12de1d3d2cd3.png",
@@ -35,11 +35,11 @@
     "static/media/dochak_Symbol.png": "/dochakWebsite/static/media/dochak_Symbol.874e7647207788804886.png",
     "index.html": "/dochakWebsite/index.html",
     "main.38217046.css.map": "/dochakWebsite/static/css/main.38217046.css.map",
-    "main.b7bceb98.js.map": "/dochakWebsite/static/js/main.b7bceb98.js.map",
+    "main.846c21a3.js.map": "/dochakWebsite/static/js/main.846c21a3.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38217046.css",
-    "static/js/main.b7bceb98.js"
+    "static/js/main.846c21a3.js"
   ]
 }
