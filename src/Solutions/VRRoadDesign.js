@@ -59,7 +59,7 @@ export default function VRRoadDesign() {
               <div className="video-wrapper">
                 <div className="video-container">
                   <iframe
-                    src="https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq"
+                    src="https://www.youtube.com/embed/w5PZGGoV2l4?si=lOD56aI8XaXYw0Wa"
                     title={t('solutions.vrRoadDesignSolution.overview.demo')}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -69,6 +69,32 @@ export default function VRRoadDesign() {
                 </div>
               </div>
             </AnimatedElement>
+          </div>
+          <div className="overview-row">            
+
+          {/* Second Row: Video Left, Explanation Right */}
+          
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/YJT_K-G124s?si=la3ZWWVwcroHxQDW"
+                    title={t('solutions.vrRoadDesignSolution.overview.LSR-1')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.vrRoadDesignSolution.overview.LSR-1')}</h3>
+                <p>{t('solutions.vrRoadDesignSolution.overview.LSR-1Desc')}</p>
+              </div>
+            </AnimatedElement>
+
           </div>
         </div>
       </section>

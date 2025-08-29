@@ -99,6 +99,31 @@ export default function RemoteDriving() {
               </div>
             </AnimatedElement>
           </div>
+
+          <div className="overview-content">
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.remoteDriving.overview.RD-1')}</h3>
+                <p>{t('solutions.remoteDriving.overview.RD-1Desc')}</p>
+              </div>
+            </AnimatedElement>
+            
+            <AnimatedElement animation="slide-right" delay={200}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/jf2CWvakPNE?si=lffeQL-qNeEx0yuZ"
+                    title={t('solutions.remoteDriving.overview.RD-1')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+          </div>
+
         </div>  
       </section>
 

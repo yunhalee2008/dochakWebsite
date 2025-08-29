@@ -48,6 +48,30 @@ export default function MultimodalSimulator() {
             <h2 className="section-title">{t('solutions.multimodalSimulatorSolution.overview.title')}</h2>
           </AnimatedElement>
           
+        <div className="overview-row"> 
+          <AnimatedElement animation="slide-left" delay={100}>
+            <div className="video-wrapper">
+              <div className="video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/Yp4YbAKNoew?si=mArFYpEW5w7Gn7Qq"
+                  title={t('solutions.multimodalSimulatorSolution.MO-2')}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="youtube-video"
+                ></iframe>
+              </div>
+            </div>
+          </AnimatedElement>
+          <AnimatedElement animation="slide-right" delay={200}>
+            <div className="explanation-content">
+              <h3>{t('solutions.multimodalSimulatorSolution.overview.MO-2')}</h3>
+              <p>{t('solutions.multimodalSimulatorSolution.overview.MO-2Desc')}</p>
+            </div>
+          </AnimatedElement>
+        </div>
+        
+          
           {/* Single Video Demo */}
           <div className="overview-content">
             <AnimatedElement animation="slide-left" delay={100}>

@@ -186,9 +186,9 @@
         ]
       },
       "vrRoadDesign": {
-        "title": "VR Road Design & Verification",
+        "title": "Life Saving Robot",
         "desc": [
-          "Move beyond traditional 2D road design with immersive virtual environments.",
+          "The Life-Saving Robot is designed to assist in emergency and disaster situations by guiding and protecting people in danger. Equipped with sensors, AI, and real-time communication capabilities, it can navigate complex environments, identify hazards, and support evacuation efforts. Whether by directing crowd flow, delivering essential supplies, or providing situational awareness to first responders, this robot plays a crucial role in reducing risk and saving lives during critical moments.",
           "Simulate installations of facilities and environmental changes within VR.",
           "Verify safety aspects like visibility and sight distance under various conditions."
         ]
@@ -238,6 +238,8 @@
         "shortDemoDesc": "Demonstration of rapid remote control handoff during autonomous system failures, showcasing response times and safety protocols.",
         "longDemo": "Comprehensive System Demo",
         "longDemoDesc": "In-depth showcase of remote driving capabilities, including adverse weather operations, restricted zone navigation, and seamless integration with autonomous vehicle systems.",
+        "RD-1": "Remote Driving in KAIST Campus",
+        "RD-1Desc": "Showcasing remote driving technology in a controlled campus environment for the first time between indoor and outdoor.",
         "playVideo": "Play Video"
       },
       "technical": {
@@ -338,6 +340,8 @@
         "demoDesc": "Experience our advanced simulation system featuring OBD & GPS integration with realistic NPC interactions for comprehensive multimodal transportation testing.",
         "MO-1": "E-scooter & Autonomous Vehicle Interaction Simulation",
         "MO-1Desc": "Comprehensive multimodal testing environment that models and simulates complex interactions between e-scooters and autonomous vehicles in urban traffic scenarios to enhance transportation safety.",
+        "MO-2": "Mobility Operating System",
+        "MO-2Desc": "An infrastructure with many sensors ensures safe driving for autonomous vehicles by orchestrating them when they are in blind spots. Virtual agents are injected to influence real vehicles, enabling them to learn and drive safely in complex urban environments.",
         "playVideo": "Play Video"
       },
       "technical": {
@@ -472,13 +476,15 @@
     },
     "vrRoadDesignSolution": {
       "hero": {
-        "title": "VR Road Design & Verification",
-        "subtitle": "Move beyond traditional 2D road design with immersive virtual reality environments for comprehensive design validation and safety verification."
+        "title": "Life Saving Robot ",
+        "subtitle": "The Life-Saving Robot is designed to assist in emergency and disaster situations by guiding and protecting people in danger. Equipped with sensors, AI, and real-time communication capabilities, it can navigate complex environments, identify hazards, and support evacuation efforts. Whether by directing crowd flow, delivering essential supplies, or providing situational awareness to first responders, this robot plays a crucial role in reducing risk and saving lives during critical moments."
       },
       "overview": {
         "title": "Overview",
-        "demo": "Immersive VR Road Design Experience",
-        "demoDesc": "Experience our cutting-edge VR road design system that allows designers and engineers to walk through and validate road designs in immersive virtual environments before construction.",
+        "demo": "Life Saving Robot",
+        "demoDesc": "This robot assists with crowd movement during disasters. By dispersing or gathering crowds, it helps create a more efficient evacuation strategy.",
+        "LSR-1": "Robot simulation",
+        "LSR-1Desc": "The robot can navigate complex environments, identify hazards, and support evacuation efforts. Whether by directing crowd flow, delivering essential supplies, or providing situational awareness to first responders, this robot plays a crucial role in reducing risk and saving lives during critical moments.",
         "playVideo": "Play Video"
       },
       "technical": {
