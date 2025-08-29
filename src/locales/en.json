@@ -336,8 +336,8 @@
         "title": "Overview",
         "demo": "OBD & GPS-based Simulation Demo",
         "demoDesc": "Experience our advanced simulation system featuring OBD & GPS integration with realistic NPC interactions for comprehensive multimodal transportation testing.",
-        "MO-1":"e-scoote.......",
-        "MO-1Desc": "dfklajflkdjlfkjdlfj;aldkjflakjdl;kjfdadfa",
+        "MO-1": "E-scooter & Autonomous Vehicle Interaction Simulation",
+        "MO-1Desc": "Comprehensive multimodal testing environment that models and simulates complex interactions between e-scooters and autonomous vehicles in urban traffic scenarios to enhance transportation safety.",
         "playVideo": "Play Video"
       },
       "technical": {
@@ -378,7 +378,7 @@
     },
     "trafficAnalysisToolsSolution": {
       "hero": {
-        "title": "Traffic Analysis Tools",
+        "title": "Traffic Impact Analysis",
         "subtitle": "Comprehensive traffic analysis platform with one-click automation and multi-scale simulation capabilities for policy evaluation and traffic optimization."
       },
       "overview": {
@@ -418,8 +418,8 @@
         "scenarioStep3": "Rapid reallocation and evacuation route analysis"
       },
       "cta": {
-        "title": "Ready to Optimize Your Traffic Systems.",
-        "description": "Contact us to learn more about how our Traffic Analysis Tools can enhance your traffic management and policy evaluation capabilities.",
+        "title": "Ready to Optimize Your Traffic Systems?",
+        "description": "Contact us to learn more about how our Traffic Impact Analysis tools can enhance your traffic management and policy evaluation capabilities.",
         "button": "Get In Touch"
       }
     },

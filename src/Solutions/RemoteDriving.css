@@ -85,6 +85,18 @@
   margin-bottom: 0;
 }
 
+.overview-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.overview-content:last-child {
+  margin-bottom: 0;
+}
+
 /* Responsive grid adjustments */
 @media (max-width: 1200px) {
   .overview-row {
@@ -99,12 +111,17 @@
   .overview-row:not(.first-row) {
     grid-template-columns: 1.8fr 1fr;
   }
+  
+  .overview-content {
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
 }
 
 /* Removed reverse styling since both videos are on left */
 
 .explanation-content {
-  padding: 2rem 2rem 3rem 2rem;
+  padding: 2rem;
 }
 
 .explanation-content h3 {
@@ -654,7 +671,7 @@
   
   .overview-row {
     gap: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
   }
   
   .overview-row.first-row {
@@ -663,6 +680,11 @@
   
   .overview-row:not(.first-row) {
     grid-template-columns: 1.5fr 1fr;
+  }
+  
+  .overview-content {
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
   }
   
   .explanation-content {
@@ -780,7 +802,12 @@
   
   .overview-row {
     gap: 2rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .overview-content {
+    gap: 2rem;
+    margin-bottom: 2rem;
   }
   
   .technical-grid {
@@ -841,17 +868,16 @@
   
   /* Stack all grid layouts vertically on mobile */
   .overview-row,
+  .overview-content,
   .technical-grid {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 2rem;
   }
   
-  .overview-row {
-    margin-bottom: 2.5rem;
-  }
-  
-  .overview-row:last-child {
+  .overview-row:last-child,
+  .overview-content:last-child {
     margin-bottom: 0;
   }
   
