@@ -68,7 +68,7 @@ const ProjectsPage = () => {
       impact: t('projects.items.naepo.impact'),
       impactStats: t('projects.items.naepo.impactStats'),
       video: {
-        src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
+        src: 'https://www.youtube.com/embed/bJC4Aimd-24?si=DDCrVDXr3TrZ6PYQ', // Placeholder - replace with actual video
         title: t('projects.items.naepo.videoTitle'),
         description: t('projects.items.naepo.videoDescription')
       },
@@ -86,7 +86,7 @@ const ProjectsPage = () => {
       impact: t('projects.items.teleDriving.impact'),
       impactStats: t('projects.items.teleDriving.impactStats'),
       video: {
-        src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
+        src: 'https://www.youtube.com/embed/-2GbzReGPWY?si=S2ZuX768rv8qbChL', // Placeholder - replace with actual video
         title: t('projects.items.teleDriving.videoTitle'),
         description: t('projects.items.teleDriving.videoDescription')
       },
@@ -104,7 +104,7 @@ const ProjectsPage = () => {
       impact: t('projects.items.publicTransport.impact'),
       impactStats: t('projects.items.publicTransport.impactStats'),
       video: {
-        src: 'https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq', // Placeholder - replace with actual video
+        src: 'https://www.youtube.com/embed/GJDTUbWurb4?si=3aMM-O6geQKgAIdc', // Placeholder - replace with actual video
         title: t('projects.items.publicTransport.videoTitle'),
         description: t('projects.items.publicTransport.videoDescription')
       },
