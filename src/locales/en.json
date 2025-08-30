@@ -779,11 +779,19 @@
     "copyright": "All rights reserved."
   },
   "timeline": {
-    "startup": {
-      "title": "Startup Stage",
-      "content1": "Completed foundational R&D for simulator digital twin and automated systems with core element technology acquisition.",
-      "content2": "Built cooperation system with ITS companies and 3D model environment companies to enhance product accuracy and quality.",
-      "content3": "Developing a metropolitan city-centered micro mobility model for June 2025 completion."
+    "stabilization": {
+      "title": "Stabilization and Growth Stage",
+      "content1": "Operated stably while expanding B2B and public agency partnerships, and started continuous technology development.",
+      "revenueTarget2026": " ",
+      "revenueAmount2026": " ",
+      "revenueTarget2027": " ",
+      "revenueAmount2027": " "
+    },
+    "expansion": {
+      "title": "Expansion Stage",
+      "content1": "Focused on maturing projects and product advancements to a scalable, stable pipeline.",
+      "revenueTarget": " ",
+      "revenueAmount": " "
     },
     "growth": {
       "title": "Growth Stage",
@@ -792,19 +800,11 @@
       "content3": "Participated in domestic academic mobility exhibitions for company promotion.",
       "content4": "Built early customer pipeline using existing networks and expanded partnership channels."
     },
-    "expansion": {
-      "title": "Expansion Stage",
-      "content1": "Focused on maturing projects and product advancements to a scalable, stable pipeline.",
-      "revenueTarget": " ",
-      "revenueAmount": " "
-    },
-    "stabilization": {
-      "title": "Stabilization and Growth Stage",
-      "content1": "Operated stably while expanding B2B and public agency partnerships, and started continuous technology development.",
-      "revenueTarget2026": " ",
-      "revenueAmount2026": " ",
-      "revenueTarget2027": " ",
-      "revenueAmount2027": " "
+    "startup": {
+      "title": "Startup Stage",
+      "content1": "Completed foundational R&D for simulator digital twin and automated systems with core element technology acquisition.",
+      "content2": "Built cooperation system with ITS companies and 3D model environment companies to enhance product accuracy and quality.",
+      "content3": "Developing a metropolitan city-centered micro mobility model for June 2025 completion."
     }
   },
   "sections": {

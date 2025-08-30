@@ -91,6 +91,7 @@
   
   .about-mission-image {
     max-width: 100%;
+    max-width: 500px;
     height: auto;
     border-radius: 1rem;
     object-fit: contain;

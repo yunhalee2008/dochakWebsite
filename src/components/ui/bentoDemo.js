@@ -30,7 +30,7 @@ export function BentoDemo() {
       description: t('bento.technologies.description'),
       header: <Skeleton img={traffic}/>,
       icon: <IconSettingsAutomation className="h-5 w-5 text-neutral-500" />,
-      link: "/technologies",
+      link: "/disclosure",
     },
     {
       title: t('bento.solutions.title'),
