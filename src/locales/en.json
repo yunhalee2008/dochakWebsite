@@ -690,24 +690,64 @@
     "sectionTitle": "Our Team",
     "ceo": {
       "name": "Inhi Kim",
-      "title": "CEO",
+      "title": "CEO, Associate Professor",
       "bio": "Oversees the entire business, driving Dochak's mission for smart mobility innovation."
     },
     "members": {
-      "taeho": {
-        "name": "Taeho Oh",
-        "title": "Senior Researcher",
+      "reuben": {
+        "name": "Dr. Reuben Tamakloe",
+        "title": "Principal Researcher",
         "bio": "Manages overall operations, ensuring project and research execution align with goals."
+      },
+      "gyounghoon": {
+        "name": "Dr. Gyounghoon Chun",
+        "title": "Principal Researcher",
+        "bio": "Manages microsimulation and mos projects and research execution align with goals."
+      },
+      "taeho": {
+        "name": "Dr.Taeho Oh",
+        "title": "Principal Researcher",
+        "bio": "Manages digital twin projects and virtual environment simulations."
+      },
+      "tengfeng": {
+        "name": "Tengfeng Lin",
+        "title": "Researcher",
+        "bio": "Leads image processing tasks."
       },
       "donghyun": {
         "name": "Donghyun Kwon",
-        "title": "Principal Researcher",
-        "bio": "Leads service deployment and certification, ensuring high-quality standards."
+        "title": "Researcher",
+        "bio": "Leads activity based model development."
+      },
+      "younghi": {
+        "name": "Younghi Liu",
+        "title": "Researcher",
+        "bio": "Leads data science initiatives."
+      },
+      "kaihan": {
+        "name": "Kaihan Zhang",
+        "title": "Researcher",
+        "bio": "Leads urban mobility research."
+      },
+      "mahdi": {
+        "name": "Mahdi Khosravi",
+        "title": "Researcher",
+        "bio": "Leads 3D virtual environment development."
+      },
+      "hui": {
+        "name": "Ng Hui Zhi",
+        "title": "Researcher",
+        "bio": "Leads EV operation in the large scale network."
+      },
+      "kervin": {
+        "name": "Kervin Lucas",
+        "title": "Researcher",
+        "bio": "Leads macro scopic simulation including Visum, Emme, and Cube."
       },
       "hyuncheol": {
         "name": "Hyuncheol Park",
         "title": "Researcher",
-        "bio": "Focuses on simulation functionality and modularization for scalable deployments."
+        "bio": "multimodal driving simulators."
       },
       "jaehyuk": {
         "name": "Jaehyuk Lim",

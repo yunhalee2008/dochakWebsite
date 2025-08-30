@@ -1,6 +1,19 @@
 import React, { useContext } from 'react';
 import './Team.css';
 import Img from './assets/dochak_Symbol.png';
+import R1 from './assets/reuben.jpg';
+import R2 from './assets/gyounghoon.jpg';
+import R3 from './assets/taeho.jpg';
+import R4 from './assets/tengfeng.jpg';
+import R5 from './assets/donghyun.jpg';
+import R6 from './assets/yonghi.jpg';
+import R7 from './assets/kaihan.jpg';
+import R8 from './assets/kervin.png';
+import R9 from './assets/hyunchul.jpg';
+import R10 from './assets/Jaehyuck.jpg';
+import R11 from './assets/heeyun.png';
+
+
 import ceo from './assets/inhiKim.jpg';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
@@ -36,37 +49,86 @@ export default function Team() {
 
   const membersData = [
     {
+      name: t('team.members.reuben.name'),
+      title: t('team.members.reuben.title'),
+      photo: R1,
+      bio: t('team.members.reuben.bio'),
+      email: 'reuben.tamakloe@kaist.ac.kr'
+    },
+    {
+      name: t('team.members.gyounghoon.name'),
+      title: t('team.members.gyounghoon.title'),
+      photo: R2,
+      bio: t('team.members.gyounghoon.bio'),
+      email: 'gyounghoon.chun@kaist.ac.kr'
+    },
+    {
       name: t('team.members.taeho.name'),
       title: t('team.members.taeho.title'),
-      photo: Img,
+      photo: R3,
       bio: t('team.members.taeho.bio'),
       email: 'taeho.oh@kaist.ac.kr'
     },
     {
-      name: t('team.members.donghyun.name'),
-      title: t('team.members.donghyun.title'),
+      name: t('team.members.tengfeng.name'),
+      title: t('team.members.tengfeng.title'),
+      photo: R4,
+      bio: t('team.members.tengfeng.bio'),
+      email: 'tengfeng.lin@kaist.ac.kr'
+    },
+    {
+      name: t('team.members.younghi.name'),
+      title: t('team.members.younghi.title'),
+      photo: R6,
+      bio: t('team.members.younghi.bio'),
+      email: 'younghi.liu@kaist.ac.kr'
+    },
+    {
+      name: t('team.members.kaihan.name'),
+      title: t('team.members.kaihan.title'),
+      photo: R7,
+      bio: t('team.members.kaihan.bio'),
+      email: 'kaihan.zhang@kaist.ac.kr'
+    },
+    {
+      name: t('team.members.mahdi.name'),
+      title: t('team.members.mahdi.title'),
       photo: Img,
-      bio: t('team.members.donghyun.bio'),
-      email: 'dh.kwon@kaist.ac.kr'
+      bio: t('team.members.mahdi.bio'),
+      email: 'mahdi.khorasani@kaist.ac.kr'
+    },
+    {
+      name: t('team.members.hui.name'),
+      title: t('team.members.hui.title'),
+      photo: Img,
+      bio: t('team.members.hui.bio'),
+      email: 'hui.zhi@kaist.ac.kr'
+    },
+    {
+      name: t('team.members.kervin.name'),
+      title: t('team.members.kervin.title'),
+      photo: R8,
+      bio: t('team.members.kervin.bio'),
+      email: 'kervin.lucas@kaist.ac.kr'
     },
     {
       name: t('team.members.hyuncheol.name'),
       title: t('team.members.hyuncheol.title'),
-      photo: Img,
+      photo: R9,
       bio: t('team.members.hyuncheol.bio'),
-      email: 'hyunchul.park@kaist.ac.kr'
+      email: 'hyuncheol.park@kaist.ac.kr'
     },
     {
       name: t('team.members.jaehyuk.name'),
       title: t('team.members.jaehyuk.title'),
-      photo: Img,
+      photo: R10,
       bio: t('team.members.jaehyuk.bio'),
       email: 'limjh107@kaist.ac.kr'
     },
     {
       name: t('team.members.heeyeon.name'),
       title: t('team.members.heeyeon.title'),
-      photo: Img,
+      photo: R11,
       bio: t('team.members.heeyeon.bio'),
       email: 'account@dochak.co.kr'
     }
