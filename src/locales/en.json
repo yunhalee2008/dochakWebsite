@@ -285,8 +285,8 @@
       },
       "overview": {
         "title": "Overview",
-        "demo": "Unity-based Real-time Rendering Demo",
-        "demoDesc": "Experience our Unity-based real-time rendering system that reduces production time by 70% while delivering high-fidelity traffic simulations and urban environment visualization.",
+        "demo": "Naepo Mobility Digital Twin",
+        "demoDesc": "Experience our Unity-based real-time rendering system that integrates high-fidelity traffic simulations and urban environment visualization.",
         "dt-1" : "Daejeon Articulated Bus DT",
         "dt-1Desc" : "Daejeon is planning to introduce a three-car bus system. Before implementing this new form of transportation, it's crucial to conduct a traffic impact analysis to develop a more efficient transportation system. The simulation results have been made more visually understandable through data",
         "dt-2": "KAIST Campus DT",
@@ -383,12 +383,18 @@
     "trafficAnalysisToolsSolution": {
       "hero": {
         "title": "Traffic Impact Analysis",
-        "subtitle": "Comprehensive traffic analysis platform with one-click automation and multi-scale simulation capabilities for policy evaluation and traffic optimization."
+        "subtitle": "Comprehensive traffic analysis platform with one-click automation and multi-scale simulation capabilities for policy evaluation and traffic optimization--- A new distruptive development coming soon!!!---"
       },
       "overview": {
         "title": "Overview",
-        "demo": "One-Click Traffic Analysis Demo",
-        "demoDesc": "Experience Bo Wang's one-click traffic analysis system with automated DRT, Micro, and Macro simulation comparisons for comprehensive traffic evaluation.",
+        "demo": "Macro scopic simulation - Shared bikes",
+        "demoDesc": "A large scale network analysis for comprehensive traffic evaluation. This is particulaly how the shared bike system is operated in Daejeon",
+        "TA-1":"Co-simulation",
+        "TA-1Desc":"Co-simulation between VISSIM and Unity is a powerful technique for creating highly realistic and interactive virtual environments for traffic and transportation research. It combines the strengths of both platforms: VISSIM for its robust, validated, and detailed microscopic traffic simulation, and Unity for its advanced 3D rendering, physics, and a wide range of virtual reality (VR) and human-in-the-loop capabilities",
+        "TA-2":"Co-simulation with Dynanometer" ,
+        "TA-2Desc":"Ca specialized and powerful form of Hardware-in-the-Loop (HIL) simulation. It combines a real, physical piece of hardware—the dynamometer—with one or more virtual simulation models. This approach is widely used in the automotive and aerospace industries for testing and developing powertrains and control systems" ,
+        "TA-3":"Micro simulation - EV autonomous charging station",
+        "TA-3Desc":"An autonomous EV charging station is a system that can charge an electric vehicle without any human intervention. Using microsimulation, this technology is being developed to address some of the key challenges of the growing EV market",
         "playVideo": "Play Video"
       },
       "technical": {
@@ -482,7 +488,7 @@
       "overview": {
         "title": "Overview",
         "demo": "Life Saving Robot",
-        "demoDesc": "This robot assists with crowd movement during disasters. By dispersing or gathering crowds, it helps create a more efficient evacuation strategy.",
+        "demoDesc": "Life-saving robot is designed to assist in dangerous situations where human intervention would be too risky or difficult. They are a critical tool for first responders, helping to save lives and protect rescuers during disasters, accidents, and other emergencies.",
         "LSR-1": "Robot simulation",
         "LSR-1Desc": "The robot can navigate complex environments, identify hazards, and support evacuation efforts. Whether by directing crowd flow, delivering essential supplies, or providing situational awareness to first responders, this robot plays a crucial role in reducing risk and saving lives during critical moments.",
         "playVideo": "Play Video"
@@ -490,36 +496,36 @@
       "technical": {
         "title": "Technical Details",
         "specsTitle": "Specifications & Technology",
-        "spec1": "Immersive virtual reality design environments",
-        "spec2": "Real-time facility installation simulation",
-        "spec3": "Environmental change modeling within VR",
-        "spec4": "Safety verification for visibility and sight distance",
-        "spec5": "Integration with traditional CAD design workflows",
+        "spec1": "Sensing and Environmental Awareness",
+        "spec2": "Navigation and Control",
+        "spec3": "Propulsion and Chassis",
+        "spec4": "Artificial Intelligence (AI) and Robotics",
+        "spec5": "Communication",
         "researchTitle": "Research & Development",
         "patentTitle": "Related Patents",
-        "patentName": "VR-based Road Design Validation System",
+        "patentName": "Evacuation robot guidance",
         "applicationDate": "Application Date",
         "patentNumber": "Patent Number",
         "academicTitle": "Educational Applications",
-        "academicInfo": "Used in educational programs for safe driving and design validation training",
+        "academicInfo": "Used in educational programs for safe design validation",
         "disclosureButton": "View Research Publications"
       },
       "useCases": {
         "title": "Use Cases",
         "industriesTitle": "Target Industries",
-        "industry1": "Road Design Companies",
+        "industry1": "Building Design Companies",
         "industry2": "Transportation Engineering",
         "industry3": "Educational Institutions",
         "outcomeTitle": "Expected Outcomes",
         "outcomeDesc": "Improved design accuracy and safety validation before construction, reducing costly revisions",
         "scenarioTitle": "Application Scenario",
-        "scenarioStep1": "Complex highway interchange design project",
-        "scenarioStep2": "Import 2D designs into immersive VR environment",
-        "scenarioStep3": "Validate sight lines, safety aspects, and user experience through VR walkthrough"
+        "scenarioStep1": "Complex building design project",
+        "scenarioStep2": "Import BIM into 3D environment",
+        "scenarioStep3": "Validate safety aspects, and user experience through VR walkthrough"
       },
       "cta": {
-        "title": "Ready to Revolutionize Your Road Design Process?",
-        "description": "Contact us to learn more about how our VR Road Design solutions can enhance your design validation and safety verification processes.",
+        "title": "Ready to Revolutionize Your Building Design Process?",
+        "description": "Contact us to learn more about how our life saving robot solutions can enhance your design validation and safety verification processes.",
         "button": "Get In Touch"
       }
     }

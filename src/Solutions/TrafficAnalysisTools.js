@@ -142,6 +142,75 @@ export default function TrafficAnalysisTools() {
               </div>
             </AnimatedElement>
           </div>
+          <div className="overview-row">          
+          {/* Second Row: Video Left, Explanation Right */}              
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/SIvNsejU8wA?si=BOCS-1AnToQd58t5"
+                    title={t('solutions.trafficAnalysisToolsSolution.overview.TA-1')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-1')}</h3>
+                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-1Desc')}</p>
+              </div>
+            </AnimatedElement>
+          </div>
+          <div className="overview-content">
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-2')}</h3>
+                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-2Desc')}</p>
+              </div>
+            </AnimatedElement>
+            
+            <AnimatedElement animation="slide-right" delay={200}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/P6qtlPoWqBs?si=98PZbDMEP5FPJRd2"
+                    title={t('solutions.trafficAnalysisToolsSolution.overview.TA-2')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+          </div>
+          <div className="overview-row">          
+          {/* Second Row: Video Left, Explanation Right */}              
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/200mMlmkDVA?si=g85lm4fD7F97rncg"
+                    title={t('solutions.trafficAnalysisToolsSolution.overview.TA-3')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-3')}</h3>
+                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-3Desc')}</p>
+              </div>
+            </AnimatedElement>
+          </div>
         </div>
       </section>
 
