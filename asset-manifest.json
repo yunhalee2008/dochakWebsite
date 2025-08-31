@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/dochakWebsite/static/css/main.46e77fa9.css",
-    "main.js": "/dochakWebsite/static/js/main.c151de8b.js",
+    "main.js": "/dochakWebsite/static/js/main.41d8b86f.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
+    "static/media/teledriving.png": "/dochakWebsite/static/media/teledriving.8bc10f8cb15680acea73.png",
     "static/media/내포3D모델.png": "/dochakWebsite/static/media/내포3D모델.64cd1130ab4817480017.png",
     "static/media/truck_hori.png": "/dochakWebsite/static/media/truck_hori.57ef646c12de1d3d2cd3.png",
     "static/media/laugh.png": "/dochakWebsite/static/media/laugh.c7dd49cb0c3831a0f737.png",
+    "static/media/로봇.png": "/dochakWebsite/static/media/로봇.5d0b1efdc7c224916ce0.png",
     "static/media/long.png": "/dochakWebsite/static/media/long.eda41b37816d2b30298b.png",
     "static/media/tele.png": "/dochakWebsite/static/media/tele.5e018fff0e68d36639bd.png",
     "static/media/booth.png": "/dochakWebsite/static/media/booth.75fe74eabc6de32a9ea6.png",
@@ -27,7 +29,9 @@
     "static/media/meso.png": "/dochakWebsite/static/media/meso.cfe9b8d3ab5df96368b4.png",
     "static/media/truck.png": "/dochakWebsite/static/media/truck.b0733db830e005a61c87.png",
     "static/media/dash.png": "/dochakWebsite/static/media/dash.512a2c80616baf5f1f06.png",
+    "static/media/Huizi.png": "/dochakWebsite/static/media/Huizi.9c3e8406e46fa43c325b.png",
     "static/media/simulFake.png": "/dochakWebsite/static/media/simulFake.a2be7f089d8d554a11f3.png",
+    "static/media/Mahdi.png": "/dochakWebsite/static/media/Mahdi.3113b12c2ee791879859.png",
     "static/media/heeyun.png": "/dochakWebsite/static/media/heeyun.5f1db4dbb9682fa3621f.png",
     "static/media/nepo.png": "/dochakWebsite/static/media/nepo.82fc847576e6a340c3e4.png",
     "static/media/yonghi.jpg": "/dochakWebsite/static/media/yonghi.0ca467bd493f80c632e6.jpg",
@@ -46,11 +50,11 @@
     "static/media/reuben.jpg": "/dochakWebsite/static/media/reuben.1b2c79142ccc5c225435.jpg",
     "index.html": "/dochakWebsite/index.html",
     "main.46e77fa9.css.map": "/dochakWebsite/static/css/main.46e77fa9.css.map",
-    "main.c151de8b.js.map": "/dochakWebsite/static/js/main.c151de8b.js.map",
+    "main.41d8b86f.js.map": "/dochakWebsite/static/js/main.41d8b86f.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46e77fa9.css",
-    "static/js/main.c151de8b.js"
+    "static/js/main.41d8b86f.js"
   ]
 }
