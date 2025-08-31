@@ -117,7 +117,29 @@ export default function TrafficAnalysisTools() {
           <AnimatedElement animation="slide-up" delay={0}>
             <h2 className="section-title">{t('solutions.trafficAnalysisToolsSolution.overview.title')}</h2>
           </AnimatedElement>
-          
+          <div className="overview-row">          
+          {/* Second Row: Video Left, Explanation Right */}              
+            <AnimatedElement animation="slide-left" delay={100}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/GPcCS-LHPOY?si=UKYBYGYcwKc-K3mi"
+                    title={t('solutions.trafficAnalysisToolsSolution.overview.TA-4')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-4')}</h3>
+                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-4Desc')}</p>
+              </div>
+            </AnimatedElement>
+          </div>
           {/* Single Video Demo */}
           <div className="overview-content">
             <AnimatedElement animation="slide-left" delay={100}>

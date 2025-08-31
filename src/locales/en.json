@@ -395,6 +395,8 @@
         "TA-2Desc":"Ca specialized and powerful form of Hardware-in-the-Loop (HIL) simulation. It combines a real, physical piece of hardware—the dynamometer—with one or more virtual simulation models. This approach is widely used in the automotive and aerospace industries for testing and developing powertrains and control systems" ,
         "TA-3":"Micro simulation - EV autonomous charging station",
         "TA-3Desc":"An autonomous EV charging station is a system that can charge an electric vehicle without any human intervention. Using microsimulation, this technology is being developed to address some of the key challenges of the growing EV market",
+        "TA-4":"Activity Based Model for Hwaseung City in Korea",
+        "TA-4Desc":"This model focuses on understanding and simulating the autonomous vehicle level 4+ that will occur within Hwaseung City in 2027, providing insights into traffic patterns and urban mobility.",
         "playVideo": "Play Video"
       },
       "technical": {
