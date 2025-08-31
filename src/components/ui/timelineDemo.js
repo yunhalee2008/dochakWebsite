@@ -228,8 +228,63 @@ export function TimelineDemo() {
           </div>
         </div>
       ),
-    }   
-    
+    },
+    {
+      title: "2026.07 -",
+      content: (
+        <div>
+          <AnimatedElement animation="slide-up" delay={0}>
+            <p className="timeline-demo-title">{t('timeline.stabilization.title')}</p>
+          </AnimatedElement>
+          <AnimatedElement animation="slide-up" delay={100}>
+            <p className="timeline-demo-paragraph">
+              {t('timeline.stabilization.content1')}
+            </p>
+          </AnimatedElement>
+          <div className="grid grid-cols-2 gap-4">
+            <AnimatedElement animation="slide-left" delay={200}>
+              <img
+                src={highway}
+                alt="startup template"
+                width={500}
+                height={500}
+                className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+              />
+            </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={300}>
+              <img
+                src={watch}
+                alt="startup template"
+                width={500}
+                height={500}
+                className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+              />
+            </AnimatedElement>
+          </div>
+          <AnimatedElement animation="slide-up" delay={400}>
+            <p className="timeline-demo-revenue-text">
+              <br />{t('timeline.stabilization.revenueTarget2026')}
+            </p>
+          </AnimatedElement>
+          <AnimatedElement animation="scale-in" delay={500}>
+            <p className="timeline-demo-number">
+              {t('timeline.stabilization.revenueAmount2026')}
+            </p>
+          </AnimatedElement>
+          <AnimatedElement animation="slide-up" delay={600}>
+            <p className="timeline-demo-revenue-text">
+              <br />{t('timeline.stabilization.revenueTarget2027')}
+            </p>
+          </AnimatedElement>
+          <AnimatedElement animation="scale-in" delay={700}>
+            <p className="timeline-demo-number">
+              {t('timeline.stabilization.revenueAmount2027')}
+            </p>
+          </AnimatedElement>
+        </div>
+      ),
+    },
+
   ];
 
   return (
