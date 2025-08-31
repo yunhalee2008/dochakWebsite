@@ -39,8 +39,8 @@
   "about": {
     "heroTitle": "About Us",
     "heroSubtitle": "Learn more about our mission, values, and journey in shaping the future of mobility.",
-    "missionTitle": "dochak is",
-    "missionText": "A KAIST-based startup, a key innovator in developing virtual environments for the mobility industry, was established in December 2024. Our expertise lies in creating precise, high-fidelity virtual simulations that maximize the safety and efficiency of autonomous systems. Our core technology allows us to accurately replicate complex real-world scenarios, including roads, traffic conditions, and various environmental variables. This capability helps overcome the significant time and cost constraints typically associated with physical testing. As a result, we can quickly and safely validate and improve the performance of next-generation mobility systems, such as autonomous vehicles, drones, and UAM (Urban Air Mobility) solutions. Developed by KAIST researchers, our proprietary technology is accelerating the progress of future mobility solutions.",
+    "missionTitle": "[dochak] is",
+    "missionText": "A KAIST based startup, a key innovator in developing virtual environments for the mobility industry, was established in December 2024. Our expertise lies in creating precise, high-fidelity virtual simulations that maximize the safety and efficiency of autonomous systems. Our core technology allows us to accurately replicate complex real-world scenarios, including roads, traffic conditions, and various environmental variables. This capability helps overcome the significant time and cost constraints typically associated with physical testing. As a result, we can quickly and safely validate and improve the performance of next-generation mobility systems, such as autonomous vehicles, drones, and UAM solutions. Developed by KAIST researchers, our proprietary technology is accelerating the progress of future mobility solutions.",
     "valuesTitle": "Core Values",
     "values": {
       "automation": {

@@ -11,6 +11,9 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-left">
           <img src={logo} alt="dochak logo" className="footer-logo" />
+          <div className="footer-designer">
+            proudly designed by Yoonha Lee
+          </div>
         </div>
         <div className="footer-links">
           <a href="#privacy">{t('footer.privacyPolicy')}</a>
@@ -25,4 +28,4 @@ function Footer() {
   );
 }
 
-export default Footer; 
+export default Footer;

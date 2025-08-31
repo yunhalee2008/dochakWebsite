@@ -15,6 +15,7 @@
   margin: 0 auto;
   padding: 0 2rem;
   flex-wrap: wrap;
+  position: relative;  /* Add this to contain absolute positioning */
 }
 
 .footer-left {
@@ -60,6 +61,18 @@
   letter-spacing: 0.2px;
 }
 
+.footer-designer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  color: var(--science-blue);  /* Changed to match other blue links */
+  font-style: italic;
+  font-weight: 600;  /* Added font weight for bold text */
+  white-space: nowrap;  /* Prevents text wrapping */
+}
+
+/* Add mobile responsiveness */
 @media (max-width: 700px) {
   .footer-content {
     flex-direction: column;
@@ -70,4 +83,12 @@
   .footer-links {
     gap: 1rem;
   }
-} 
+  .footer-designer {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--science-blue);  /* Maintain color in mobile */
+    font-weight: 600;  /* Maintain bold in mobile */
+  }
+}
