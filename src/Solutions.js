@@ -6,11 +6,11 @@ import { useScrollAnimation } from './hooks/useScrollAnimation';
 
 // Import solution images
 import dash from './assets/dash.png';
-import simulator from './assets/simulator.png';
-import vr from './assets/VR.png';
+import simulator from './assets/내포3D모델.png';
+import vr from './assets/로봇.png';
 import visual from './assets/visual.png';
 import multi from './assets/multi.png';
-import tele from './assets/tele.png';
+import tele from './assets/원격주행.png';
 
 const solutionImages = [tele, simulator, multi, dash, vr, visual];
 

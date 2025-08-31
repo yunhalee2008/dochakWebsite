@@ -12,6 +12,8 @@ import R8 from './assets/kervin.png';
 import R9 from './assets/hyunchul.jpg';
 import R10 from './assets/Jaehyuck.jpg';
 import R11 from './assets/heeyun.png';
+import R12 from './assets/Mahdi.png';
+import R13 from './assets/Huizi.png';
 
 
 import ceo from './assets/inhiKim.jpg';
@@ -93,14 +95,14 @@ export default function Team() {
     {
       name: t('team.members.mahdi.name'),
       title: t('team.members.mahdi.title'),
-      photo: Img,
+      photo: R12,
       bio: t('team.members.mahdi.bio'),
       email: 'mahdi.khorasani@kaist.ac.kr'
     },
     {
       name: t('team.members.hui.name'),
       title: t('team.members.hui.title'),
-      photo: Img,
+      photo: R13,
       bio: t('team.members.hui.bio'),
       email: 'hui.zhi@kaist.ac.kr'
     },

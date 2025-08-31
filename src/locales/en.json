@@ -5,7 +5,7 @@
     "solutions": "Solutions",
     "projects": "Projects",
     "team": "Team",
-    "disclosure": "Disclosure",
+    "disclosure": "Research",
     "publications": "Publications",
     "patents": "Patents",
     "getInTouch": "Get In Touch",
@@ -39,7 +39,7 @@
   "about": {
     "heroTitle": "About Us",
     "heroSubtitle": "Learn more about our mission, values, and journey in shaping the future of mobility.",
-    "missionTitle": "We are",
+    "missionTitle": "dochak is",
     "missionText": "A KAIST-based startup, a key innovator in developing virtual environments for the mobility industry, was established in December 2024. Our expertise lies in creating precise, high-fidelity virtual simulations that maximize the safety and efficiency of autonomous systems. Our core technology allows us to accurately replicate complex real-world scenarios, including roads, traffic conditions, and various environmental variables. This capability helps overcome the significant time and cost constraints typically associated with physical testing. As a result, we can quickly and safely validate and improve the performance of next-generation mobility systems, such as autonomous vehicles, drones, and UAM (Urban Air Mobility) solutions. Developed by KAIST researchers, our proprietary technology is accelerating the progress of future mobility solutions.",
     "valuesTitle": "Core Values",
     "values": {
@@ -188,7 +188,7 @@
       "vrRoadDesign": {
         "title": "Life Saving Robot",
         "desc": [
-          "The Life-Saving Robot is designed to assist in emergency and disaster situations by guiding and protecting people in danger. Equipped with sensors, AI, and real-time communication capabilities, it can navigate complex environments, identify hazards, and support evacuation efforts. Whether by directing crowd flow, delivering essential supplies, or providing situational awareness to first responders, this robot plays a crucial role in reducing risk and saving lives during critical moments.",
+          "The Life-Saving Robot is designed to assist in emergency and disaster situations by guiding and protecting people in danger.",
           "Simulate installations of facilities and environmental changes within VR.",
           "Verify safety aspects like visibility and sight distance under various conditions."
         ]
@@ -483,7 +483,7 @@
     "vrRoadDesignSolution": {
       "hero": {
         "title": "Life Saving Robot ",
-        "subtitle": "The Life-Saving Robot is designed to assist in emergency and disaster situations by guiding and protecting people in danger. Equipped with sensors, AI, and real-time communication capabilities, it can navigate complex environments, identify hazards, and support evacuation efforts. Whether by directing crowd flow, delivering essential supplies, or providing situational awareness to first responders, this robot plays a crucial role in reducing risk and saving lives during critical moments."
+        "subtitle": "Equipped with sensors, AI, and real-time communication capabilities, it can navigate complex environments, identify hazards, and support evacuation efforts."
       },
       "overview": {
         "title": "Overview",
@@ -780,7 +780,7 @@
   },
   "timeline": {
     "stabilization": {
-      "title": "Stabilization and Growth Stage",
+      "title": "Expension the business",
       "content1": "Operated stably while expanding B2B and public agency partnerships, and started continuous technology development.",
       "revenueTarget2026": " ",
       "revenueAmount2026": " ",
@@ -788,20 +788,20 @@
       "revenueAmount2027": " "
     },
     "expansion": {
-      "title": "Expansion Stage",
+      "title": "The 1st DT integrated simulation development",
       "content1": "Focused on maturing projects and product advancements to a scalable, stable pipeline.",
       "revenueTarget": " ",
       "revenueAmount": " "
     },
     "growth": {
-      "title": "Growth Stage",
+      "title": "Promoting dochak",
       "content1": "Improved the Dochak website to showcase partner and client models based on real-time models.",
       "content2": "Promoted the company via LinkedIn and targeted SNS channels.",
       "content3": "Participated in domestic academic mobility exhibitions for company promotion.",
       "content4": "Built early customer pipeline using existing networks and expanded partnership channels."
     },
     "startup": {
-      "title": "Startup Stage",
+      "title": "dochak born",
       "content1": "Completed foundational R&D for simulator digital twin and automated systems with core element technology acquisition.",
       "content2": "Built cooperation system with ITS companies and 3D model environment companies to enhance product accuracy and quality.",
       "content3": "Developing a metropolitan city-centered micro mobility model for June 2025 completion."
@@ -829,7 +829,7 @@
     }
   },
   "disclosure": {
-    "title": "Disclosure",
+    "title": "Research/Patent",
     "subtitle": "Explore our academic publications and patent portfolio",
     "loading": "Loading...",
     "tabs": {
