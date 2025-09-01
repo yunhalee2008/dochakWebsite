@@ -555,16 +555,12 @@
         "impact": "This project is expected to improve traffic efficiency by 30%, reduce carbon emissions by 25%, and reduce citizens' travel time by an average of 20%. It will also contribute to local economic revitalization and job creation.",
         "impactStats": [
           {
-            "number": "30%",
-            "text": "Traffic efficiency improvement through smart signal optimization"
+            "number": "6.7%",
+            "text": "Improvement of driving speed for overlapping routes (114 and 115)"
           },
           {
-            "number": "25%",
-            "text": "Reduction in vehicle emissions and environmental impact"
-          },
-          {
-            "number": "20%",
-            "text": "Decrease in average commute time for residents"
+            "number": "4.5%",
+            "text": "Reduction of average travel time after the introduction of articulated buses"
           }
         ],
         "videoTitle": "Naepo New City Digital Twin Demo",
