@@ -59,7 +59,7 @@ export default function Visualisation() {
               <div className="video-wrapper">
                 <div className="video-container">
                   <iframe
-                    src="https://www.youtube.com/embed/uTBSurLXXqk?si=rOd5nQ5FnZ7SmEuq"
+                    src="https://www.youtube.com/embed/bE57_-qdaq0?si=64ShTTK665vgF-wM"
                     title={t('solutions.visualisationSolution.overview.demo')}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

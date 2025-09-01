@@ -442,8 +442,8 @@
       },
       "overview": {
         "title": "Overview",
-        "demo": "Digital Twin-based HD Video Production",
-        "demoDesc": "Experience our advanced visualization system that creates high-definition videos from digital twin environments, reflecting realistic traffic behaviors for lifelike presentations in public hearings and policy promotions.",
+        "demo": "Enhanced traffic monitoring visualization",
+        "demoDesc": "Data visualization has been important in democratizing data and analytics and making data-driven insights available to workers throughout an organization. Data visualization also plays an important role in big data and advanced analytics projects.",
         "playVideo": "Play Video"
       },
       "technical": {
@@ -613,16 +613,12 @@
         "impact": "The 3-car public transportation system is expected to improve public transportation usage by 40%, reduce waiting time by 50%, and decrease traffic congestion by 30%. It also contributes to environmental protection through reduced carbon emissions.",
         "impactStats": [
           {
-            "number": "40%",
-            "text": "Better route optimization and scheduling efficiency"
+            "number": "6.7%",
+            "text": "Improvement in travel speed for overlapping routes (No. 114, 115)"
           },
           {
-            "number": "50%",
-            "text": "Increased passenger satisfaction and service reliability"
-          },
-          {
-            "number": "30%",
-            "text": "Reduction in fuel consumption and operational costs"
+            "number": "4.5%",
+            "text": "Reduction in travel time after the introduction of articulated buses."
           }
         ],
         "videoTitle": "3-Car Public Transportation Demo",
