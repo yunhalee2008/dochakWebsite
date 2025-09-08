@@ -63,62 +63,237 @@
 
 /* Mission Section */
 
+/* Mission Section - Hybrid Layout */
 .about-mission {
     background: #fff;
     padding: 6rem 0;
     border-bottom: 1px solid var(--border-light);
-  }
-  
-  .about-mission-inner {
+}
+
+/* First Row: Original Left-Right Layout */
+.about-mission-intro-row {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 1100px;
-    margin: 0 auto;
-    gap: 3rem;
+    margin: 0 auto 4rem auto;
+    gap: 3.5rem;
     padding: 0 1rem;
-  }
-  
-  .about-mission-left {
+}
+
+.about-mission-intro-left {
     flex: 1 1 50%;
-  }
-  
-  .about-mission-right {
+}
+
+.about-mission-intro-right {
     flex: 1 1 50%;
     display: flex;
     justify-content: center;
-  }
-  
-  .about-mission-image {
-    max-width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 1rem;
-    object-fit: contain;
-  }
-  
-  @media (max-width: 900px) {
-    .about-mission-inner {
-      flex-direction: column;
-      text-align: center;
-      padding: 0 2.5rem 0 2.5rem;
-    }
-    .about-mission-right {
-      width: 100%;
-      justify-content: center;
-    }
-    .about-mission-image {
-      max-width: 80%;
-      margin-top: 1rem;
-    }
-  }
-  
-.about-mission-text {
+}
+
+.about-mission-intro-text {
     font-size: 1.2rem;
     color: var(--text-secondary);
     margin-top: 1.2rem;
     line-height: 1.7;
     font-weight: 500;
+}
+
+.about-mission-image {
+    max-width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 1rem;
+    object-fit: contain;
+}
+
+/* Three Column Grid */
+.about-mission-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.about-mission-column {
+    background: #fff;
+    border-radius: 1.2rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.about-mission-column-icon {
+    margin: 0 auto 1.5rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 1rem;
+    width: fit-content;
+}
+
+.about-mission-column-text {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.about-mission-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.875rem 1.5rem;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    min-height: 48px;
+    margin-top: auto;
+    border: 2px solid;
+    background: transparent;
+}
+
+/* Sky Blue CTA for Solutions (Key Features color from projects) */
+.about-mission-cta-emerald {
+    border-color: var(--picton-blue);
+    color: var(--picton-blue);
+}
+
+.about-mission-cta-emerald:hover {
+    background: linear-gradient(135deg, var(--picton-blue) 0%, var(--curious-blue) 100%);
+    color: white;
+}
+
+/* Emerald CTA for Projects (Expected Impact color from projects) */
+.about-mission-cta-blue {
+    border-color: var(--emerald);
+    color: var(--emerald);
+}
+
+.about-mission-cta-blue:hover {
+    background: linear-gradient(135deg, var(--emerald) 0%, #059669 100%);
+    color: white;
+}
+
+/* Dark Blue CTA for Team (Technologies Used color from projects) */
+.about-mission-cta-purple {
+    border-color: #3b82f6;
+    color: #3b82f6;
+}
+
+.about-mission-cta-purple:hover {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    color: white;
+}
+
+/* Shimmer effect for all CTAs */
+.about-mission-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.6s;
+}
+
+.about-mission-cta:hover::before {
+    left: 100%;
+}
+
+.about-mission-cta-arrow {
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.about-mission-cta:hover .about-mission-cta-arrow {
+    transform: translateX(4px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .about-mission-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: 600px;
+    }
+    
+    .about-mission-column {
+        padding: 1.5rem;
+    }
+    
+    .about-mission-intro-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-mission-intro-row {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 2.5rem;
+        gap: 2rem;
+    }
+    
+    .about-mission-intro-right {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .about-mission-image {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-mission {
+        padding: 4rem 0;
+    }
+    
+    .about-mission-intro-row {
+        margin-bottom: 3rem;
+        padding: 0 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .about-mission-intro-text {
+        font-size: 1rem;
+    }
+    
+    .about-mission-grid {
+        padding: 0 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .about-mission-column {
+        padding: 1.5rem 1rem;
+    }
+    
+    .about-mission-column-text {
+        font-size: 1rem;
+    }
+    
+    .about-mission-cta {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.95rem;
+    }
+    
+    .about-mission-image {
+        max-width: 90%;
+    }
 }
 
 /* Section Titles */
@@ -223,7 +398,7 @@
 
 /* Our Story Timeline */
 .about-story {
-  background: #dce1ef;
+  background: #f9fafd;
   padding: 5rem 1rem;
   border-bottom: 1px solid var(--border-light);
   text-align: center;

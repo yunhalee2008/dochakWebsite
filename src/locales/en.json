@@ -40,7 +40,14 @@
     "heroTitle": "About Us",
     "heroSubtitle": "Learn more about our mission, values, and journey in shaping the future of mobility.",
     "missionTitle": "[dochak] is",
+    "missionIntro": "A KAIST based startup, a key innovator in developing virtual environments for the mobility industry, was established in December 2024. Our expertise lies in creating precise, high-fidelity virtual simulations that maximize the safety and efficiency of autonomous systems.",
     "missionText": "A KAIST based startup, a key innovator in developing virtual environments for the mobility industry, was established in December 2024. Our expertise lies in creating precise, high-fidelity virtual simulations that maximize the safety and efficiency of autonomous systems. Our core technology allows us to accurately replicate complex real-world scenarios, including roads, traffic conditions, and various environmental variables. This capability helps overcome the significant time and cost constraints typically associated with physical testing. As a result, we can quickly and safely validate and improve the performance of next-generation mobility systems, such as autonomous vehicles, drones, and UAM solutions. Developed by KAIST researchers, our proprietary technology is accelerating the progress of future mobility solutions.",
+    "solutionsText": "Explore our innovative solutions designed to transform urban mobility through cutting-edge simulation and digital twin.",
+    "projectsText": "Discover our impactful projects shaping the future of smart cities with advanced AI and simulation technologies.",
+    "teamText": "Meet the talented researchers, engineers, and experts driving mobility innovation with decades of combined experience.",
+    "missionCTA1": "Explore Solutions",
+    "missionCTA2": "View Projects", 
+    "missionCTA3": "Meet the Team",
     "valuesTitle": "Core Values",
     "values": {
       "automation": {
