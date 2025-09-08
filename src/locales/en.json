@@ -112,13 +112,13 @@
           "whatItCanDo": [
             "Analyze intersection performance and optimize traffic signals.",
             "Evaluate traffic impacts from new transport policies and infrastructure.",
-            "Generate VR/AR and driving simulator inputs for immersive scenario testing."
+            "Generate life-saving robot simulations and driving simulator inputs for immersive scenario testing."
           ],
           "whereItCanBeUsed": [
             "Traffic signal optimization.",
             "Intersection analysis and refinement.",
             "Traffic impact assessments for new developments.",
-            "VR/AR visualizations for public agencies and transport strategy."
+            "Life-saving robot visualizations for public agencies and emergency response strategy."
           ]
         }
       },
@@ -133,13 +133,13 @@
           ],
           "whatItCanDo": [
             "Create high-quality visual materials for transport policy and project communication.",
-            "Support driving simulators and VR environments for safety and operational evaluation.",
+            "Support driving simulators and life-saving robot environments for safety and operational evaluation.",
             "Enable clear scenario comparison and visualization for non-expert stakeholders."
           ],
           "whereItCanBeUsed": [
             "Urban planning and policy presentations.",
             "Government agency and stakeholder briefings.",
-            "VR-based public engagement and training.",
+            "Life-saving robot-based public engagement and training.",
             "Projects in Saudi, UAE, and Southeast Asia markets."
           ]
         }
@@ -162,7 +162,7 @@
             "Smart city traffic management centers.",
             "Large-scale event traffic control (Olympics, Expos).",
             "Government policy testing and scenario analysis.",
-            "Public communication and VR scenario demonstrations."
+            "Public communication and life-saving robot scenario demonstrations."
           ]
         }
       }
@@ -192,11 +192,11 @@
           "Can be used as part of educational programs for safe driving and design validation."
         ]
       },
-      "vrRoadDesign": {
+      "lifeSavingRobot": {
         "title": "Life Saving Robot",
         "desc": [
           "The Life-Saving Robot is designed to assist in emergency and disaster situations by guiding and protecting people in danger.",
-          "Simulate installations of facilities and environmental changes within VR.",
+          "Simulate emergency response scenarios and environmental hazard navigation.",
           "Verify safety aspects like visibility and sight distance under various conditions."
         ]
       },
@@ -314,7 +314,7 @@
         "applicationDate": "Application Date",
         "patentNumber": "Patent Number",
         "academicTitle": "Academic Links",
-        "academicInfo": "Multiple conference papers on VR/AR-based traffic simulation applications",
+        "academicInfo": "Multiple conference papers on life-saving robot and emergency response applications",
         "disclosureButton": "View Research Publications"
       },
       "useCases": {
@@ -397,7 +397,7 @@
         "demo": "Macro scopic simulation - Shared bikes",
         "demoDesc": "A large scale network analysis for comprehensive traffic evaluation. This is particulaly how the shared bike system is operated in Daejeon",
         "TA-1":"Co-simulation",
-        "TA-1Desc":"Co-simulation between VISSIM and Unity is a powerful technique for creating highly realistic and interactive virtual environments for traffic and transportation research. It combines the strengths of both platforms: VISSIM for its robust, validated, and detailed microscopic traffic simulation, and Unity for its advanced 3D rendering, physics, and a wide range of virtual reality (VR) and human-in-the-loop capabilities",
+        "TA-1Desc":"Co-simulation between VISSIM and Unity is a powerful technique for creating highly realistic and interactive virtual environments for traffic and transportation research. It combines the strengths of both platforms: VISSIM for its robust, validated, and detailed microscopic traffic simulation, and Unity for its advanced 3D rendering, physics, and a wide range of life-saving robot simulation and human-in-the-loop capabilities",
         "TA-2":"Co-simulation with Dynanometer" ,
         "TA-2Desc":"Ca specialized and powerful form of Hardware-in-the-Loop (HIL) simulation. It combines a real, physical piece of hardware—the dynamometer—with one or more virtual simulation models. This approach is widely used in the automotive and aerospace industries for testing and developing powertrains and control systems" ,
         "TA-3":"Micro simulation - EV autonomous charging station",
@@ -411,7 +411,7 @@
         "specsTitle": "Specifications & Technology",
         "spec1": "Macro: Policy evaluation capabilities",
         "spec2": "Meso: Large-scale event and disaster response",
-        "spec3": "Micro: Signal optimization and VR integration",
+        "spec3": "Micro: Signal optimization and emergency response integration",
         "spec4": "Visum-Vissim automated integration",
         "spec5": "Short-term traffic prediction algorithms",
         "researchTitle": "Research & Patents",
@@ -489,7 +489,7 @@
         "button": "Get In Touch"
       }
     },
-    "vrRoadDesignSolution": {
+    "lifeSavingRobotSolution": {
       "hero": {
         "title": "Life Saving Robot ",
         "subtitle": "Equipped with sensors, AI, and real-time communication capabilities, it can navigate complex environments, identify hazards, and support evacuation efforts."
@@ -530,7 +530,7 @@
         "scenarioTitle": "Application Scenario",
         "scenarioStep1": "Complex building design project",
         "scenarioStep2": "Import BIM into 3D environment",
-        "scenarioStep3": "Validate safety aspects, and user experience through VR walkthrough"
+        "scenarioStep3": "Validate safety aspects and emergency response effectiveness through robot simulation"
       },
       "cta": {
         "title": "Ready to Revolutionize Your Building Design Process?",
@@ -822,7 +822,7 @@
     },
     "solutions": {
       "title": "Our Solutions",
-      "description": "Discover our comprehensive suite of solutions including driving simulators, traffic analysis tools, multimodal simulation, traffic visualization, VR driving, and tele-driving."
+      "description": "Discover our comprehensive suite of solutions including driving simulators, traffic analysis tools, multimodal simulation, traffic visualization, life-saving robots, and tele-driving."
     },
     "projects": {
       "title": "Projects & Impact",
@@ -830,7 +830,7 @@
     }
   },
   "disclosure": {
-    "title": "Research/Patent",
+    "title": "Research and Patent",
     "subtitle": "Explore our academic publications and patent portfolio",
     "loading": "Loading...",
     "tabs": {

@@ -231,26 +231,11 @@
   height: 100% !important;
 }
 
-.solution-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--curious-blue), var(--science-blue));
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-.solution-card:hover::before {
-  transform: scaleX(1);
-}
 
 .solution-card:hover {
-  transform: translateY(-12px) scale(1.02);
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.15);
-  border-color: var(--curious-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 24px rgba(75, 177, 224, 0.15);
+  border: 1px solid rgba(87, 188, 235, 0.2);
 }
 
 .solution-card-link {
@@ -284,7 +269,7 @@
 }
 
 .solution-card:hover .solution-image {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .solution-image-overlay {
@@ -296,10 +281,6 @@
   background: linear-gradient(135deg, rgba(87, 188, 235, 0.1) 0%, rgba(40, 154, 215, 0.2) 100%);
   opacity: 0;
   transition: opacity 0.3s ease;
-}
-
-.solution-card:hover .solution-image-overlay {
-  opacity: 1;
 }
 
 /* Solution title with maximum specificity */
@@ -365,11 +346,10 @@
 .solution-card:hover .solution-learn-more {
   color: var(--science-blue);
   background: rgba(87, 188, 235, 0.2);
-  transform: translateY(-2px);
 }
 
 .solution-card:hover .solution-arrow {
-  transform: translateX(6px);
+  transform: translateX(4px);
 }
 
 /* =====================================

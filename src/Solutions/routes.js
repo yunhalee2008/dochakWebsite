@@ -53,8 +53,8 @@ export const SOLUTION_METADATA = [
     id: 'vr-road-design',
     slug: SOLUTION_SLUGS.VR_ROAD_DESIGN,
     path: SOLUTION_ROUTES.VR_ROAD_DESIGN,
-    titleKey: 'solutions.items.vrRoadDesign.title',
-    descKey: 'solutions.items.vrRoadDesign.desc'
+    titleKey: 'solutions.items.lifeSavingRobot.title',
+    descKey: 'solutions.items.lifeSavingRobot.desc'
   },
   {
     id: 'visualization',

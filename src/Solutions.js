@@ -65,8 +65,8 @@ export default function Solutions() {
       category: 'Analytics'
     },
     {
-      title: t('solutions.items.vrRoadDesign.title'),
-      desc: t('solutions.items.vrRoadDesign.desc'),
+      title: t('solutions.items.lifeSavingRobot.title'),
+      desc: t('solutions.items.lifeSavingRobot.desc'),
       path: '/solutions/vr-road-design',
       icon: '🥽',
       category: 'Design'
