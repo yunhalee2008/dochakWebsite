@@ -28,8 +28,8 @@ export const LanguageProvider = ({ children }) => {
     }
   }, []);
 
-  // Translation function
-  const t = (key) => {
+  // Translation function with interpolation support
+  const t = (key, params = {}) => {
     const keys = key.split('.');
     let translation = translations[currentLanguage];
     
@@ -48,11 +48,22 @@ export const LanguageProvider = ({ children }) => {
             return key;
           }
         }
-        return fallback;
+        translation = fallback;
+        break;
       }
     }
     
-    return translation || key;
+    let result = translation || key;
+    
+    // Handle interpolation of variables like {{count}}, {{term}}
+    if (typeof result === 'string' && params && Object.keys(params).length > 0) {
+      Object.keys(params).forEach(paramKey => {
+        const placeholder = `{{${paramKey}}}`;
+        result = result.replace(new RegExp(placeholder, 'g'), params[paramKey]);
+      });
+    }
+    
+    return result;
   };
 
   // Set language function with persistence

@@ -54,7 +54,7 @@ export default function DigitalTwin() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.digitalTwinSolution.overview.demo')}</h3>
-                <p>{t('solutions.digitalTwinSolution.overview.demoDesc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.overview.demoDesc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -96,7 +96,7 @@ export default function DigitalTwin() {
             <AnimatedElement animation="slide-right" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.digitalTwinSolution.overview.dt-1')}</h3>
-                <p>{t('solutions.digitalTwinSolution.overview.dt-1Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.overview.dt-1Desc') }}></p>
               </div>
             </AnimatedElement>
 
@@ -106,7 +106,7 @@ export default function DigitalTwin() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.digitalTwinSolution.overview.dt-2')}</h3>
-                <p>{t('solutions.digitalTwinSolution.overview.dt-2Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.overview.dt-2Desc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -140,11 +140,11 @@ export default function DigitalTwin() {
               <div className="specs-card">
                 <h3>{t('solutions.digitalTwinSolution.technical.specsTitle')}</h3>
                 <ul className="specs-list">
-                  <li>{t('solutions.digitalTwinSolution.technical.spec1')}</li>
-                  <li>{t('solutions.digitalTwinSolution.technical.spec2')}</li>
-                  <li>{t('solutions.digitalTwinSolution.technical.spec3')}</li>
-                  <li>{t('solutions.digitalTwinSolution.technical.spec4')}</li>
-                  <li>{t('solutions.digitalTwinSolution.technical.spec5')}</li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.technical.spec1') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.technical.spec2') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.technical.spec3') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.technical.spec4') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.technical.spec5') }}></li>
                 </ul>
               </div>
             </AnimatedElement>
@@ -170,7 +170,7 @@ export default function DigitalTwin() {
                 </div>
                 <div className="research-item">
                   <h4>{t('solutions.digitalTwinSolution.technical.academicTitle')}</h4>
-                  <p>{t('solutions.digitalTwinSolution.technical.academicInfo')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.technical.academicInfo') }}></p>
                 </div>
                 <div className="cta-button-container">
                   <Link to="/disclosure" className="cta-button">
@@ -201,7 +201,7 @@ export default function DigitalTwin() {
                 </div>
                 <div className="outcome">
                   <h4>{t('solutions.digitalTwinSolution.useCases.outcomeTitle')}</h4>
-                  <p>{t('solutions.digitalTwinSolution.useCases.outcomeDesc')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.useCases.outcomeDesc') }}></p>
                 </div>
               </div>
             </AnimatedElement>
@@ -212,17 +212,17 @@ export default function DigitalTwin() {
                 <div className="scenario-flow">
                   <div className="flow-step">
                     <div className="step-number">1</div>
-                    <p>{t('solutions.digitalTwinSolution.useCases.scenarioStep1')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.useCases.scenarioStep1') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">2</div>
-                    <p>{t('solutions.digitalTwinSolution.useCases.scenarioStep2')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.useCases.scenarioStep2') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">3</div>
-                    <p>{t('solutions.digitalTwinSolution.useCases.scenarioStep3')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.useCases.scenarioStep3') }}></p>
                   </div>
                 </div>
               </div>
@@ -237,9 +237,7 @@ export default function DigitalTwin() {
           <AnimatedElement animation="slide-up" delay={0}>
             <div className="get-in-touch-content">
               <h3 className="section-title">{t('solutions.digitalTwinSolution.cta.title')}</h3>
-              <p className="get-in-touch-description">
-                {t('solutions.digitalTwinSolution.cta.description')}
-              </p>
+              <p className="get-in-touch-description" dangerouslySetInnerHTML={{ __html: t('solutions.digitalTwinSolution.cta.description') }}></p>
               <div className="get-in-touch-buttons">
                 <Link to="/get-in-touch" className="contact-button primary">
                   {t('solutions.digitalTwinSolution.cta.button')}

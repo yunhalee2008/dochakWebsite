@@ -21,6 +21,8 @@ import MultimodalSimulator from './Solutions/MultimodalSimulator';
 import TrafficAnalysisTools from './Solutions/TrafficAnalysisTools';
 import Visualisation from './Solutions/Visualisation';
 import VRRoadDesign from './Solutions/VRRoadDesign';
+import News from './News';
+import NewsArticle from './NewsArticle';
 
 import TawkToWidget from './TawkToWidget';
 import { LanguageProvider } from './contexts/LanguageContext';
@@ -84,6 +86,14 @@ function App() {
         {
           path: "team",
           element: <Team />
+        },
+        {
+          path: "news",
+          element: <News />
+        },
+        {
+          path: "news/:slug",
+          element: <NewsArticle />
         },
         {
           path: "disclosure",

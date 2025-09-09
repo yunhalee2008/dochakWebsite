@@ -66,7 +66,7 @@ export default function MultimodalSimulator() {
           <AnimatedElement animation="slide-right" delay={200}>
             <div className="explanation-content">
               <h3>{t('solutions.multimodalSimulatorSolution.overview.MO-2')}</h3>
-              <p>{t('solutions.multimodalSimulatorSolution.overview.MO-2Desc')}</p>
+              <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.overview.MO-2Desc') }}></p>
             </div>
           </AnimatedElement>
         </div>
@@ -77,7 +77,7 @@ export default function MultimodalSimulator() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.multimodalSimulatorSolution.overview.demo')}</h3>
-                <p>{t('solutions.multimodalSimulatorSolution.overview.demoDesc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.overview.demoDesc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -118,7 +118,7 @@ export default function MultimodalSimulator() {
             <AnimatedElement animation="slide-right" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.multimodalSimulatorSolution.overview.MO-1')}</h3>
-                <p>{t('solutions.multimodalSimulatorSolution.overview.MO-1Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.overview.MO-1Desc') }}></p>
               </div>
             </AnimatedElement>
 
@@ -139,11 +139,11 @@ export default function MultimodalSimulator() {
               <div className="specs-card">
                 <h3>{t('solutions.multimodalSimulatorSolution.technical.specsTitle')}</h3>
                 <ul className="specs-list">
-                  <li>{t('solutions.multimodalSimulatorSolution.technical.spec1')}</li>
-                  <li>{t('solutions.multimodalSimulatorSolution.technical.spec2')}</li>
-                  <li>{t('solutions.multimodalSimulatorSolution.technical.spec3')}</li>
-                  <li>{t('solutions.multimodalSimulatorSolution.technical.spec4')}</li>
-                  <li>{t('solutions.multimodalSimulatorSolution.technical.spec5')}</li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.technical.spec1') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.technical.spec2') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.technical.spec3') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.technical.spec4') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.technical.spec5') }}></li>
                 </ul>
               </div>
             </AnimatedElement>
@@ -169,7 +169,7 @@ export default function MultimodalSimulator() {
                 </div>
                 <div className="research-item">
                   <h4>{t('solutions.multimodalSimulatorSolution.technical.academicTitle')}</h4>
-                  <p>{t('solutions.multimodalSimulatorSolution.technical.academicInfo')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.technical.academicInfo') }}></p>
                 </div>
                 <div className="cta-button-container">
                   <Link to="/disclosure" className="cta-button">
@@ -200,7 +200,7 @@ export default function MultimodalSimulator() {
                 </div>
                 <div className="outcome">
                   <h4>{t('solutions.multimodalSimulatorSolution.useCases.outcomeTitle')}</h4>
-                  <p>{t('solutions.multimodalSimulatorSolution.useCases.outcomeDesc')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.useCases.outcomeDesc') }}></p>
                 </div>
               </div>
             </AnimatedElement>
@@ -211,17 +211,17 @@ export default function MultimodalSimulator() {
                 <div className="scenario-flow">
                   <div className="flow-step">
                     <div className="step-number">1</div>
-                    <p>{t('solutions.multimodalSimulatorSolution.useCases.scenarioStep1')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.useCases.scenarioStep1') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">2</div>
-                    <p>{t('solutions.multimodalSimulatorSolution.useCases.scenarioStep2')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.useCases.scenarioStep2') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">3</div>
-                    <p>{t('solutions.multimodalSimulatorSolution.useCases.scenarioStep3')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.useCases.scenarioStep3') }}></p>
                   </div>
                 </div>
               </div>
@@ -236,9 +236,7 @@ export default function MultimodalSimulator() {
           <AnimatedElement animation="slide-up" delay={0}>
             <div className="get-in-touch-content">
               <h3 className="section-title">{t('solutions.multimodalSimulatorSolution.cta.title')}</h3>
-              <p className="get-in-touch-description">
-                {t('solutions.multimodalSimulatorSolution.cta.description')}
-              </p>
+              <p className="get-in-touch-description" dangerouslySetInnerHTML={{ __html: t('solutions.multimodalSimulatorSolution.cta.description') }}></p>
               <div className="get-in-touch-buttons">
                 <Link to="/get-in-touch" className="contact-button primary">
                   {t('solutions.multimodalSimulatorSolution.cta.button')}

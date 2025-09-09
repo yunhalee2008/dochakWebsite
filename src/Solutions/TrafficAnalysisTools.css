@@ -93,10 +93,36 @@
 }
 
 .explanation-content p {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: 1.1rem;
-  line-height: 1.7;
-  margin: 0;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.explanation-content p:last-child {
+  margin-bottom: 0;
+}
+
+.explanation-content strong {
+  color: var(--navy-heading);
+  font-weight: 700;
+}
+
+.explanation-content em {
+  color: var(--curious-blue);
+  font-style: italic;
+}
+
+.explanation-content ul,
+.explanation-content ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  color: var(--text-primary);
+  line-height: 1.8;
+}
+
+.explanation-content li {
+  margin-bottom: 0.5rem;
 }
 
 .video-wrapper {
@@ -248,9 +274,23 @@
 }
 
 .research-item p {
-  color: var(--text-secondary);
-  line-height: 1.6;
-  margin: 0;
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.research-item p:last-child {
+  margin-bottom: 0;
+}
+
+.research-item strong {
+  color: var(--navy-heading);
+  font-weight: 700;
+}
+
+.research-item em {
+  color: var(--curious-blue);
+  font-style: italic;
 }
 
 /* Patent Details Styling */
@@ -408,9 +448,23 @@
 }
 
 .outcome p {
-  color: var(--text-secondary);
-  line-height: 1.6;
-  margin: 0;
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.outcome p:last-child {
+  margin-bottom: 0;
+}
+
+.outcome strong {
+  color: var(--navy-heading);
+  font-weight: 700;
+}
+
+.outcome em {
+  color: var(--curious-blue);
+  font-style: italic;
 }
 
 .scenario-flow {
@@ -448,11 +502,21 @@
 }
 
 .flow-step p {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.8;
   margin: 0;
   flex: 1;
+}
+
+.flow-step strong {
+  color: var(--navy-heading);
+  font-weight: 700;
+}
+
+.flow-step em {
+  color: var(--curious-blue);
+  font-style: italic;
 }
 
 .flow-arrow {

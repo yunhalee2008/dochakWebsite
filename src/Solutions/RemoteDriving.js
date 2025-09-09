@@ -56,7 +56,7 @@ export default function RemoteDriving() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.remoteDriving.overview.shortDemo')}</h3>
-                <p>{t('solutions.remoteDriving.overview.shortDemoDesc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.overview.shortDemoDesc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -95,7 +95,7 @@ export default function RemoteDriving() {
             <AnimatedElement animation="slide-right" delay={200}>
               <div className="explanation-content">
                 <h3>{t('solutions.remoteDriving.overview.longDemo')}</h3>
-                <p>{t('solutions.remoteDriving.overview.longDemoDesc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.overview.longDemoDesc') }}></p>
               </div>
             </AnimatedElement>
           </div>
@@ -104,7 +104,7 @@ export default function RemoteDriving() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.remoteDriving.overview.RD-1')}</h3>
-                <p>{t('solutions.remoteDriving.overview.RD-1Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.overview.RD-1Desc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -139,11 +139,11 @@ export default function RemoteDriving() {
               <div className="specs-card">
                 <h3>{t('solutions.remoteDriving.technical.specsTitle')}</h3>
                 <ul className="specs-list">
-                  <li>{t('solutions.remoteDriving.technical.spec1')}</li>
-                  <li>{t('solutions.remoteDriving.technical.spec2')}</li>
-                  <li>{t('solutions.remoteDriving.technical.spec3')}</li>
-                  <li>{t('solutions.remoteDriving.technical.spec4')}</li>
-                  <li>{t('solutions.remoteDriving.technical.spec5')}</li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.technical.spec1') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.technical.spec2') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.technical.spec3') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.technical.spec4') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.technical.spec5') }}></li>
                 </ul>
               </div>
             </AnimatedElement>
@@ -169,7 +169,7 @@ export default function RemoteDriving() {
                 </div>
                 <div className="research-item">
                   <h4>{t('solutions.remoteDriving.technical.academicTitle')}</h4>
-                  <p>{t('solutions.remoteDriving.technical.academicInfo')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.technical.academicInfo') }}></p>
                 </div>
                 <div className="cta-button-container">
                   <Link to="/disclosure" className="cta-button">
@@ -200,7 +200,7 @@ export default function RemoteDriving() {
                 </div>
                 <div className="outcome">
                   <h4>{t('solutions.remoteDriving.useCases.outcomeTitle')}</h4>
-                  <p>{t('solutions.remoteDriving.useCases.outcomeDesc')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.useCases.outcomeDesc') }}></p>
                 </div>
               </div>
             </AnimatedElement>
@@ -211,17 +211,17 @@ export default function RemoteDriving() {
                 <div className="scenario-flow">
                   <div className="flow-step">
                     <div className="step-number">1</div>
-                    <p>{t('solutions.remoteDriving.useCases.scenarioStep1')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.useCases.scenarioStep1') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">2</div>
-                    <p>{t('solutions.remoteDriving.useCases.scenarioStep2')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.useCases.scenarioStep2') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">3</div>
-                    <p>{t('solutions.remoteDriving.useCases.scenarioStep3')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.useCases.scenarioStep3') }}></p>
                   </div>
                 </div>
               </div>
@@ -236,9 +236,7 @@ export default function RemoteDriving() {
           <AnimatedElement animation="slide-up" delay={0}>
             <div className="get-in-touch-content">
               <h3 className="section-title">{t('solutions.remoteDriving.cta.title')}</h3>
-              <p className="get-in-touch-description">
-                {t('solutions.remoteDriving.cta.description')}
-              </p>
+              <p className="get-in-touch-description" dangerouslySetInnerHTML={{ __html: t('solutions.remoteDriving.cta.description') }}></p>
               <div className="get-in-touch-buttons">
                 <Link to="/get-in-touch" className="contact-button primary">
                   {t('solutions.remoteDriving.cta.button')}

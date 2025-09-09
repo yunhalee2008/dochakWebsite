@@ -156,6 +156,7 @@ function Navbar() {
 
         <Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}>{t('nav.projects')}</Link>
         <Link to="/team" className={location.pathname === '/team' ? 'active' : ''}>{t('nav.team')}</Link>
+        <Link to="/news" className={location.pathname === '/news' ? 'active' : ''}>{t('nav.news')}</Link>
         <Link 
           to="/disclosure" 
           className={location.pathname.startsWith('/disclosure') ? 'active' : ''}
@@ -295,6 +296,15 @@ function Navbar() {
               aria-label={t('nav.teamAriaLabel') || 'Team page'}
             >
               {t('nav.team')}
+            </Link>
+            <Link 
+              to="/news" 
+              className={location.pathname === '/news' ? 'active' : ''} 
+              onClick={() => setIsMenuOpen(false)}
+              role="menuitem"
+              aria-label={t('nav.newsAriaLabel') || 'News page'}
+            >
+              {t('nav.news')}
             </Link>
             <Link 
               to="/disclosure" 

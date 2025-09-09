@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import './Team.css';
 import Img from './assets/dochak_Symbol.png';
 import R1 from './assets/reuben.jpg';
@@ -22,6 +22,7 @@ import { useScrollAnimation } from './hooks/useScrollAnimation';
 
 export default function Team() {
   const { t } = useContext(LanguageContext);
+  const [sortBy, setSortBy] = useState('name');
 
   // Animation component for individual elements
   const AnimatedElement = ({ children, animation = 'slide-up', delay = 0, className = '' }) => {
@@ -136,6 +137,36 @@ export default function Team() {
     }
   ];
 
+  // Sort members based on selected criteria
+  const sortedMembers = [...membersData].sort((a, b) => {
+    switch (sortBy) {
+      case 'name':
+        return a.name.localeCompare(b.name);
+      case 'title':
+        // Custom sorting for Korean titles - 책임연구원 comes first
+        const getTitlePriority = (title) => {
+          if (title.includes('책임연구원') || title.includes('Principal Researcher')) {
+            return 1;
+          } else if (title.includes('연구원') || title.includes('Researcher')) {
+            return 2;
+          }
+          return 3;
+        };
+        
+        const priorityA = getTitlePriority(a.title);
+        const priorityB = getTitlePriority(b.title);
+        
+        if (priorityA !== priorityB) {
+          return priorityA - priorityB;
+        }
+        
+        // If same priority, sort alphabetically
+        return a.title.localeCompare(b.title);
+      default:
+        return 0;
+    }
+  });
+
   return (
     <div className="team-page">
       {/* Hero Section */}
@@ -169,9 +200,26 @@ export default function Team() {
 
       {/* Team Members Section */}
       <section className="team-members-section">
-        <h2 className="team-section-title">{t('team.sectionTitle')}</h2>
+        <div className="team-section-header">
+          <h2 className="team-section-title">{t('team.sectionTitle')}</h2>
+          
+          {/* Sort Controls - Top Right */}
+          <AnimatedElement animation="slide-up" delay={0}>
+            <div className="team-sort">
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="team-sort-select"
+              >
+                <option value="title">{t('team.sort.byTitle') || '직책순'}</option>
+                <option value="name">{t('team.sort.byName') || '이름순'}</option>
+              </select>
+            </div>
+          </AnimatedElement>
+        </div>
+        
         <div className="team-members-grid">
-          {membersData.map((m, idx) => (
+          {sortedMembers.map((m, idx) => (
             <div className="team-member-card" key={idx}>
               <img src={m.photo} alt={m.name} className="team-member-photo" />
               <div className="team-member-name">{m.name}</div>

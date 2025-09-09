@@ -51,7 +51,7 @@ export default function Visualisation() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.visualisationSolution.overview.demo')}</h3>
-                <p>{t('solutions.visualisationSolution.overview.demoDesc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.overview.demoDesc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -85,11 +85,11 @@ export default function Visualisation() {
               <div className="specs-card">
                 <h3>{t('solutions.visualisationSolution.technical.specsTitle')}</h3>
                 <ul className="specs-list">
-                  <li>{t('solutions.visualisationSolution.technical.spec1')}</li>
-                  <li>{t('solutions.visualisationSolution.technical.spec2')}</li>
-                  <li>{t('solutions.visualisationSolution.technical.spec3')}</li>
-                  <li>{t('solutions.visualisationSolution.technical.spec4')}</li>
-                  <li>{t('solutions.visualisationSolution.technical.spec5')}</li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.technical.spec1') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.technical.spec2') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.technical.spec3') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.technical.spec4') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.technical.spec5') }}></li>
                 </ul>
               </div>
             </AnimatedElement>
@@ -115,7 +115,7 @@ export default function Visualisation() {
                 </div>
                 <div className="research-item">
                   <h4>{t('solutions.visualisationSolution.technical.academicTitle')}</h4>
-                  <p>{t('solutions.visualisationSolution.technical.academicInfo')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.technical.academicInfo') }}></p>
                 </div>
                 <div className="cta-button-container">
                   <Link to="/disclosure" className="cta-button">
@@ -146,7 +146,7 @@ export default function Visualisation() {
                 </div>
                 <div className="outcome">
                   <h4>{t('solutions.visualisationSolution.useCases.outcomeTitle')}</h4>
-                  <p>{t('solutions.visualisationSolution.useCases.outcomeDesc')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.useCases.outcomeDesc') }}></p>
                 </div>
               </div>
             </AnimatedElement>
@@ -157,17 +157,17 @@ export default function Visualisation() {
                 <div className="scenario-flow">
                   <div className="flow-step">
                     <div className="step-number">1</div>
-                    <p>{t('solutions.visualisationSolution.useCases.scenarioStep1')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.useCases.scenarioStep1') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">2</div>
-                    <p>{t('solutions.visualisationSolution.useCases.scenarioStep2')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.useCases.scenarioStep2') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">3</div>
-                    <p>{t('solutions.visualisationSolution.useCases.scenarioStep3')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.useCases.scenarioStep3') }}></p>
                   </div>
                 </div>
               </div>
@@ -182,9 +182,7 @@ export default function Visualisation() {
           <AnimatedElement animation="slide-up" delay={0}>
             <div className="get-in-touch-content">
               <h3 className="section-title">{t('solutions.visualisationSolution.cta.title')}</h3>
-              <p className="get-in-touch-description">
-                {t('solutions.visualisationSolution.cta.description')}
-              </p>
+              <p className="get-in-touch-description" dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.cta.description') }}></p>
               <div className="get-in-touch-buttons">
                 <Link to="/get-in-touch" className="contact-button primary">
                   {t('solutions.visualisationSolution.cta.button')}

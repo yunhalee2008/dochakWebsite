@@ -5,6 +5,7 @@
     "solutions": "Solutions",
     "projects": "Projects",
     "team": "Team",
+    "news": "News",
     "disclosure": "Research",
     "publications": "Publications",
     "patents": "Patents",
@@ -24,6 +25,7 @@
     "solutionsAriaLabel": "Solutions page",
     "projectsAriaLabel": "Projects page",
     "teamAriaLabel": "Team page",
+    "newsAriaLabel": "Company news page",
     "getInTouchAriaLabel": "Contact us page",
     "disclosureSubmenuLabel": "Disclosure submenu"
   },
@@ -179,58 +181,58 @@
       "trafficAnalysis": {
         "title": "Traffic Impact Analysis",
         "desc": [
-          "Analyze traffic conditions and scenario-based response strategies.",
-          "Analyze policies and traffic response strategies; optimize traffic flow.",
-          "Dashboard-type interface enhances user accessibility and analytical comprehension."
+          "Analyze <strong>traffic conditions</strong> and <em>scenario-based response strategies</em>.",
+          "Analyze <strong>policies and traffic response strategies</strong>; optimize <em>traffic flow</em>.",
+          "<em>Dashboard-type interface</em> enhances <strong>user accessibility</strong> and analytical comprehension."
         ]
       },
       "drivingSimulator": {
         "title": "Driving Simulator",
         "desc": [
-          "Test drive actual or planned roads in virtual environments to identify issues.",
-          "Verify and refine road design functionalities.",
-          "Can be used as part of educational programs for safe driving and design validation."
+          "Test drive <strong>actual or planned roads</strong> in <em>virtual environments</em> to identify issues.",
+          "Verify and refine <strong>road design functionalities</strong>.",
+          "Can be used as part of <em>educational programs</em> for <strong>safe driving and design validation</strong>."
         ]
       },
       "lifeSavingRobot": {
         "title": "Life Saving Robot",
         "desc": [
-          "The Life-Saving Robot is designed to assist in emergency and disaster situations by guiding and protecting people in danger.",
-          "Simulate emergency response scenarios and environmental hazard navigation.",
-          "Verify safety aspects like visibility and sight distance under various conditions."
+          "The <strong>Life-Saving Robot</strong> is designed to assist in <em>emergency and disaster situations</em> by <strong>guiding and protecting people</strong> in danger.",
+          "Simulate <strong>emergency response scenarios</strong> and <em>environmental hazard navigation</em>.",
+          "Verify <em>safety aspects</em> like <strong>visibility and sight distance</strong> under various conditions."
         ]
       },
       "visualisation": {
         "title": "Visualisation",
         "desc": [
-          "Create high-definition videos based on digital twin environments.",
-          "Reflect realistic traffic behaviors for lifelike presentations.",
-          "Use in public hearings, policy promotions, and presentations.",
-          "Considered a required deliverable for major city projects globally."
+          "Create <strong>high-definition videos</strong> based on <em>digital twin environments</em>.",
+          "Reflect <strong>realistic traffic behaviors</strong> for <em>lifelike presentations</em>.",
+          "Use in <em>public hearings</em>, <strong>policy promotions</strong>, and presentations.",
+          "Considered a <strong>required deliverable</strong> for <em>major city projects globally</em>."
         ]
       },
       "multimodal": {
         "title": "Multimodal Simulator",
         "desc": [
-          "Integrated multimodal simulation tool reflecting interaction between various transportation modes.",
-          "Connect with simulator hardware to test diverse scenarios in virtual environments.",
-          "Build foundational datasets for autonomous vehicle development."
+          "<strong>Integrated multimodal simulation tool</strong> reflecting <em>interaction between various transportation modes</em>.",
+          "Connect with <strong>simulator hardware</strong> to test <em>diverse scenarios</em> in virtual environments.",
+          "Build <em>foundational datasets</em> for <strong>autonomous vehicle development</strong>."
         ]
       },
       "teleDriving": {
         "title": "Tele-driving",
         "desc": [
-          "Remote driving support for autonomous vehicles during exceptional circumstances.",
-          "Allows human intervention when autonomous driving faces limitations (heavy snow, construction zones).",
-          "Applicable in mobility services, logistics, and military operations."
+          "<strong>Remote driving support</strong> for autonomous vehicles during <em>exceptional circumstances</em>.",
+          "Allows <strong>human intervention</strong> when autonomous driving faces <em>limitations</em> (heavy snow, construction zones).",
+          "Applicable in <em>mobility services</em>, <strong>logistics</strong>, and <em>military operations</em>."
         ]
       },
       "digitalTwin": {
         "title": "Digital Twin",
         "desc": [
-          "Real-time digital replica of traffic networks integrated with 3D visual environments.",
-          "Unity-based rendering system reduces production time by 70%.",
-          "Enables real-time urban operations, accident response, and policy analysis."
+          "<strong>Real-time digital replica</strong> of traffic networks integrated with <em>3D visual environments</em>.",
+          "<strong>Unity-based rendering system</strong> reduces <em>production time by 70%</em>.",
+          "Enables <strong>real-time urban operations</strong>, <em>accident response</em>, and <strong>policy analysis</strong>."
         ]
       }
     },
@@ -242,21 +244,21 @@
       "overview": {
         "title": "Overview",
         "shortDemo": "Prototype Tele-Driving between Deajeon and Jeju",
-        "shortDemoDesc": "Demonstration of rapid remote control handoff during autonomous system failures, showcasing response times and safety protocols.",
+        "shortDemoDesc": "Demonstration of <strong>rapid remote control handoff</strong> during autonomous system failures, showcasing <em>response times</em> and <strong>safety protocols</strong>.",
         "longDemo": "Comprehensive System Demo",
-        "longDemoDesc": "In-depth showcase of remote driving capabilities, including adverse weather operations, restricted zone navigation, and seamless integration with autonomous vehicle systems.",
+        "longDemoDesc": "In-depth showcase of <strong>remote driving capabilities</strong>, including <em>adverse weather operations</em>, <strong>restricted zone navigation</strong>, and <em>seamless integration</em> with autonomous vehicle systems.",
         "RD-1": "Remote Driving in KAIST Campus",
-        "RD-1Desc": "Showcasing remote driving technology in a controlled campus environment for the first time between indoor and outdoor.",
+        "RD-1Desc": "Showcasing <strong>remote driving technology</strong> in a <em>controlled campus environment</em> for the first time between <strong>indoor and outdoor</strong>.",
         "playVideo": "Play Video"
       },
       "technical": {
         "title": "Technical Details",
         "specsTitle": "Specifications & Technology",
-        "spec1": "Remote control handoff system during AV malfunction",
-        "spec2": "Works in adverse weather and restricted zones",
-        "spec3": "Integrated with AV stack via tele-driving module",
-        "spec4": "Real-time video streaming with low latency communication",
-        "spec5": "Advanced safety protocols with emergency stop capabilities",
+        "spec1": "<strong>Remote control handoff system</strong> during <em>AV malfunction</em>",
+        "spec2": "Works in <strong>adverse weather</strong> and <em>restricted zones</em>",
+        "spec3": "<em>Integrated with AV stack</em> via <strong>tele-driving module</strong>",
+        "spec4": "<strong>Real-time video streaming</strong> with <em>low latency communication</em>",
+        "spec5": "<em>Advanced safety protocols</em> with <strong>emergency stop capabilities</strong>",
         "researchTitle": "Research & Patents",
         "patentTitle": "Related Patents",
         "patentName": "Remote Driving Control System",
@@ -273,11 +275,11 @@
         "industry2": "Military & Defense",
         "industry3": "Logistics & Transportation",
         "outcomeTitle": "Expected Outcomes",
-        "outcomeDesc": "Remote intervention ensures AV safety and enhances urban traffic reliability",
+        "outcomeDesc": "<strong>Remote intervention</strong> ensures <em>AV safety</em> and enhances <strong>urban traffic reliability</strong>",
         "scenarioTitle": "Application Scenario",
-        "scenarioStep1": "Autonomous vehicle detects obstacle before tunnel entrance",
-        "scenarioStep2": "Remote driver immediately takes control",
-        "scenarioStep3": "Safe navigation to secure location through evasive driving"
+        "scenarioStep1": "<strong>Autonomous vehicle</strong> detects <em>obstacle</em> before tunnel entrance",
+        "scenarioStep2": "<strong>Remote driver</strong> immediately takes <em>control</em>",
+        "scenarioStep3": "<em>Safe navigation</em> to secure location through <strong>evasive driving</strong>"
       },
       "cta": {
         "title": "Ready to Transform Your Mobility Solutions?",
@@ -293,21 +295,21 @@
       "overview": {
         "title": "Overview",
         "demo": "Naepo Mobility Digital Twin",
-        "demoDesc": "Experience our Unity-based real-time rendering system that integrates high-fidelity traffic simulations and urban environment visualization.",
+        "demoDesc": "Experience our <strong>Unity-based real-time rendering system</strong> that integrates <em>high-fidelity traffic simulations</em> and <strong>urban environment visualization</strong>.",
         "dt-1" : "Daejeon Articulated Bus DT",
-        "dt-1Desc" : "Daejeon is planning to introduce a three-car bus system. Before implementing this new form of transportation, it's crucial to conduct a traffic impact analysis to develop a more efficient transportation system. The simulation results have been made more visually understandable through data",
+        "dt-1Desc" : "Daejeon is planning to introduce a <strong>three-car bus system</strong>. Before implementing this new form of transportation, it's crucial to conduct a <em>traffic impact analysis</em> to develop a <strong>more efficient transportation system</strong>. The simulation results have been made more <em>visually understandable</em> through data visualization.",
         "dt-2": "KAIST Campus DT",
-        "dt-2Desc": "KAIST researchers have developed the KAIST Munji DT for the first time. It renders images and cloud points to create videos that are very similar to real life",
+        "dt-2Desc": "KAIST researchers have developed the <strong>KAIST Munji DT</strong> for the first time. It renders <em>images and cloud points</em> to create videos that are <strong>very similar to real life</strong>",
         "playVideo": "Play Video"
       },
       "technical": {
         "title": "Technical Details",
         "specsTitle": "Specifications & Technology",
-        "spec1": "Real-time data integration (ITS, CCTV)",
-        "spec2": "Automated environmental element updates",
-        "spec3": "Integration with Driving Simulator",
-        "spec4": "Unity-based 3D rendering with 70% faster production",
-        "spec5": "Dynamic scenario updates and infrastructure planning",
+        "spec1": "<strong>Real-time data integration</strong> (ITS, CCTV)",
+        "spec2": "<strong>Automated environmental element updates</strong>",
+        "spec3": "<em>Integration with Driving Simulator</em>",
+        "spec4": "<strong>Unity-based 3D rendering</strong> with <em>70% faster production</em>",
+        "spec5": "<strong>Dynamic scenario updates</strong> and <em>infrastructure planning</em>",
         "researchTitle": "Research & Patents",
         "patentTitle": "Related Patents",
         "patentName": "Vissim-based Model-Reality Comparison Automation Tool",
@@ -324,11 +326,11 @@
         "industry2": "Road Construction",
         "industry3": "Autonomous Vehicle Testbeds",
         "outcomeTitle": "Expected Outcomes",
-        "outcomeDesc": "Real-time urban operations, accident response, and policy analysis capabilities",
+        "outcomeDesc": "<strong>Real-time urban operations</strong>, <em>accident response</em>, and <strong>policy analysis capabilities</strong>",
         "scenarioTitle": "Application Scenario",
-        "scenarioStep1": "Traffic congestion prediction simulation in Naepo New City",
-        "scenarioStep2": "System automatically analyzes traffic patterns and bottlenecks",
-        "scenarioStep3": "Automatic proposal of detour strategies during accidents"
+        "scenarioStep1": "<strong>Traffic congestion prediction simulation</strong> in <em>Naepo New City</em>",
+        "scenarioStep2": "System automatically analyzes <strong>traffic patterns</strong> and <em>bottlenecks</em>",
+        "scenarioStep3": "<strong>Automatic proposal</strong> of <em>detour strategies</em> during accidents"
       },
       "cta": {
         "title": "Ready to Transform Your Urban Planning?",
@@ -344,21 +346,21 @@
       "overview": {
         "title": "Overview",
         "demo": "OBD & GPS-based Simulation Demo",
-        "demoDesc": "Experience our advanced simulation system featuring OBD & GPS integration with realistic NPC interactions for comprehensive multimodal transportation testing.",
+        "demoDesc": "Experience our <strong>advanced simulation system</strong> featuring <em>OBD & GPS integration</em> with <strong>realistic NPC interactions</strong> for <em>comprehensive multimodal transportation testing</em>.",
         "MO-1": "E-scooter & Autonomous Vehicle Interaction Simulation",
-        "MO-1Desc": "Comprehensive multimodal testing environment that models and simulates complex interactions between e-scooters and autonomous vehicles in urban traffic scenarios to enhance transportation safety.",
+        "MO-1Desc": "<strong>Comprehensive multimodal testing environment</strong> that models and simulates <em>complex interactions</em> between <strong>e-scooters and autonomous vehicles</strong> in urban traffic scenarios to enhance <em>transportation safety</em>.",
         "MO-2": "Mobility Operating System",
-        "MO-2Desc": "An infrastructure with many sensors ensures safe driving for autonomous vehicles by orchestrating them when they are in blind spots. Virtual agents are injected to influence real vehicles, enabling them to learn and drive safely in complex urban environments.",
+        "MO-2Desc": "An <strong>infrastructure with many sensors</strong> ensures <em>safe driving</em> for autonomous vehicles by <strong>orchestrating them</strong> when they are in blind spots. <em>Virtual agents</em> are injected to influence real vehicles, enabling them to learn and drive safely in <strong>complex urban environments</strong>.",
         "playVideo": "Play Video"
       },
       "technical": {
         "title": "Technical Details",
         "specsTitle": "Specifications & Technology",
-        "spec1": "GUI-based scenario generation",
-        "spec2": "Real-time animation with headlights and engine sounds",
-        "spec3": "Co-simulation with SUMO/VISSIM",
-        "spec4": "OBD & GPS data integration",
-        "spec5": "Advanced NPC interaction modeling",
+        "spec1": "<strong>GUI-based scenario generation</strong>",
+        "spec2": "<em>Real-time animation</em> with <strong>headlights and engine sounds</strong>",
+        "spec3": "<strong>Co-simulation</strong> with <em>SUMO/VISSIM</em>",
+        "spec4": "<strong>OBD & GPS data integration</strong>",
+        "spec5": "<em>Advanced NPC interaction modeling</em>",
         "researchTitle": "Research & Patents",
         "patentTitle": "Related Patents",
         "patentName": "Autonomous Vehicle-Pedestrian Collision Prediction System",
@@ -375,11 +377,11 @@
         "industry2": "Police Departments",
         "industry3": "Smart City Projects",
         "outcomeTitle": "Expected Outcomes",
-        "outcomeDesc": "Multimodal accident prediction and scenario training capabilities",
+        "outcomeDesc": "<strong>Multimodal accident prediction</strong> and <em>scenario training capabilities</em>",
         "scenarioTitle": "Application Scenario",
-        "scenarioStep1": "Autonomous vehicle and e-scooter intersection collision scenario",
-        "scenarioStep2": "GUI-based experimental condition setup",
-        "scenarioStep3": "Collision risk analysis and improvement strategy presentation"
+        "scenarioStep1": "<strong>Autonomous vehicle and e-scooter</strong> <em>intersection collision scenario</em>",
+        "scenarioStep2": "<strong>GUI-based experimental condition</strong> setup",
+        "scenarioStep3": "<em>Collision risk analysis</em> and <strong>improvement strategy presentation</strong>"
       },
       "cta": {
         "title": "Ready to Enhance Your Transportation Safety?",
@@ -395,25 +397,25 @@
       "overview": {
         "title": "Overview",
         "demo": "Macro scopic simulation - Shared bikes",
-        "demoDesc": "A large scale network analysis for comprehensive traffic evaluation. This is particulaly how the shared bike system is operated in Daejeon",
+        "demoDesc": "A <strong>large scale network analysis</strong> for <em>comprehensive traffic evaluation</em>. This is particularly how the <strong>shared bike system</strong> is operated in <em>Daejeon</em>",
         "TA-1":"Co-simulation",
-        "TA-1Desc":"Co-simulation between VISSIM and Unity is a powerful technique for creating highly realistic and interactive virtual environments for traffic and transportation research. It combines the strengths of both platforms: VISSIM for its robust, validated, and detailed microscopic traffic simulation, and Unity for its advanced 3D rendering, physics, and a wide range of life-saving robot simulation and human-in-the-loop capabilities",
+        "TA-1Desc":"<strong>Co-simulation between VISSIM and Unity</strong> is a powerful technique for creating <em>highly realistic and interactive virtual environments</em> for traffic and transportation research. It combines the strengths of both platforms: <strong>VISSIM</strong> for its <em>robust, validated, and detailed microscopic traffic simulation</em>, and <strong>Unity</strong> for its <em>advanced 3D rendering</em>, physics, and a wide range of <strong>life-saving robot simulation</strong> and <em>human-in-the-loop capabilities</em>",
         "TA-2":"Co-simulation with Dynanometer" ,
-        "TA-2Desc":"Ca specialized and powerful form of Hardware-in-the-Loop (HIL) simulation. It combines a real, physical piece of hardware—the dynamometer—with one or more virtual simulation models. This approach is widely used in the automotive and aerospace industries for testing and developing powertrains and control systems" ,
+        "TA-2Desc":"A <strong>specialized and powerful form</strong> of <em>Hardware-in-the-Loop (HIL) simulation</em>. It combines a <strong>real, physical piece of hardware</strong>—the dynamometer—with one or more <em>virtual simulation models</em>. This approach is widely used in the <strong>automotive and aerospace industries</strong> for testing and developing <em>powertrains and control systems</em>" ,
         "TA-3":"Micro simulation - EV autonomous charging station",
-        "TA-3Desc":"An autonomous EV charging station is a system that can charge an electric vehicle without any human intervention. Using microsimulation, this technology is being developed to address some of the key challenges of the growing EV market",
+        "TA-3Desc":"An <strong>autonomous EV charging station</strong> is a system that can <em>charge an electric vehicle</em> without any human intervention. Using <strong>microsimulation</strong>, this technology is being developed to address some of the key challenges of the <em>growing EV market</em>",
         "TA-4":"Activity Based Model for Hwaseung City in Korea",
-        "TA-4Desc":"This model focuses on understanding and simulating the autonomous vehicle level 4+ that will occur within Hwaseung City in 2027, providing insights into traffic patterns and urban mobility.",
+        "TA-4Desc":"This model focuses on understanding and simulating the <strong>autonomous vehicle level 4+</strong> that will occur within <em>Hwaseung City in 2027</em>, providing insights into <strong>traffic patterns</strong> and <em>urban mobility</em>.",
         "playVideo": "Play Video"
       },
       "technical": {
         "title": "Technical Details",
         "specsTitle": "Specifications & Technology",
-        "spec1": "Macro: Policy evaluation capabilities",
-        "spec2": "Meso: Large-scale event and disaster response",
-        "spec3": "Micro: Signal optimization and emergency response integration",
-        "spec4": "Visum-Vissim automated integration",
-        "spec5": "Short-term traffic prediction algorithms",
+        "spec1": "<strong>Macro:</strong> <em>Policy evaluation capabilities</em>",
+        "spec2": "<strong>Meso:</strong> <em>Large-scale event and disaster response</em>",
+        "spec3": "<strong>Micro:</strong> <em>Signal optimization and emergency response integration</em>",
+        "spec4": "<strong>Visum-Vissim automated integration</strong>",
+        "spec5": "<em>Short-term traffic prediction algorithms</em>",
         "researchTitle": "Research & Patents",
         "patentTitle": "Related Patents",
         "patentName": "Multiple Visum/Vissim Validation Automation Tools",
@@ -430,11 +432,11 @@
         "industry2": "Ministry of Land",
         "industry3": "Academic Institutions",
         "outcomeTitle": "Expected Outcomes",
-        "outcomeDesc": "Accurate traffic flow analysis and policy impact prediction",
+        "outcomeDesc": "<strong>Accurate traffic flow analysis</strong> and <em>policy impact prediction</em>",
         "scenarioTitle": "Application Scenario",
-        "scenarioStep1": "Seoul disaster scenario assumption",
-        "scenarioStep2": "Micro+Meso integrated modeling",
-        "scenarioStep3": "Rapid reallocation and evacuation route analysis"
+        "scenarioStep1": "<strong>Seoul disaster scenario</strong> assumption",
+        "scenarioStep2": "<strong>Micro+Meso integrated modeling</strong>",
+        "scenarioStep3": "<em>Rapid reallocation</em> and <strong>evacuation route analysis</strong>"
       },
       "cta": {
         "title": "Ready to Optimize Your Traffic Systems?",
@@ -450,17 +452,17 @@
       "overview": {
         "title": "Overview",
         "demo": "Enhanced traffic monitoring visualization",
-        "demoDesc": "Data visualization has been important in democratizing data and analytics and making data-driven insights available to workers throughout an organization. Data visualization also plays an important role in big data and advanced analytics projects.",
+        "demoDesc": "<strong>Data visualization</strong> has been important in <em>democratizing data and analytics</em> and making <strong>data-driven insights</strong> available to workers throughout an organization. Data visualization also plays an important role in <em>big data</em> and <strong>advanced analytics projects</strong>.",
         "playVideo": "Play Video"
       },
       "technical": {
         "title": "Technical Details",
         "specsTitle": "Specifications & Technology",
-        "spec1": "High-definition video creation from digital twin environments",
-        "spec2": "Realistic traffic behavior modeling and animation",
-        "spec3": "Professional-grade rendering for presentations",
-        "spec4": "Integration with policy promotion materials",
-        "spec5": "Public hearing and stakeholder communication tools",
+        "spec1": "<strong>High-definition video creation</strong> from <em>digital twin environments</em>",
+        "spec2": "<strong>Realistic traffic behavior modeling</strong> and <em>animation</em>",
+        "spec3": "<em>Professional-grade rendering</em> for <strong>presentations</strong>",
+        "spec4": "<strong>Integration</strong> with <em>policy promotion materials</em>",
+        "spec5": "<em>Public hearing</em> and <strong>stakeholder communication tools</strong>",
         "researchTitle": "Research & Applications",
         "patentTitle": "Related Technologies",
         "patentName": "Digital Twin Visualization and Rendering System",
@@ -477,11 +479,11 @@
         "industry2": "Government Agencies",
         "industry3": "Public Communication",
         "outcomeTitle": "Expected Outcomes",
-        "outcomeDesc": "Enhanced stakeholder understanding and improved public engagement through immersive visualizations",
+        "outcomeDesc": "<strong>Enhanced stakeholder understanding</strong> and <em>improved public engagement</em> through <strong>immersive visualizations</strong>",
         "scenarioTitle": "Application Scenario",
-        "scenarioStep1": "Major urban development project planning phase",
-        "scenarioStep2": "Create high-definition visualization from digital twin data",
-        "scenarioStep3": "Present compelling visual evidence in public hearings and policy meetings"
+        "scenarioStep1": "<strong>Major urban development project</strong> <em>planning phase</em>",
+        "scenarioStep2": "Create <strong>high-definition visualization</strong> from <em>digital twin data</em>",
+        "scenarioStep3": "Present <em>compelling visual evidence</em> in <strong>public hearings</strong> and policy meetings"
       },
       "cta": {
         "title": "Ready to Enhance Your Visual Communications?",
@@ -497,19 +499,19 @@
       "overview": {
         "title": "Overview",
         "demo": "Life Saving Robot",
-        "demoDesc": "Life-saving robot is designed to assist in dangerous situations where human intervention would be too risky or difficult. They are a critical tool for first responders, helping to save lives and protect rescuers during disasters, accidents, and other emergencies.",
+        "demoDesc": "<strong>Life-saving robot</strong> is designed to assist in <em>dangerous situations</em> where human intervention would be too risky or difficult. They are a <strong>critical tool for first responders</strong>, helping to <em>save lives</em> and <strong>protect rescuers</strong> during disasters, accidents, and other emergencies.",
         "LSR-1": "Robot simulation",
-        "LSR-1Desc": "The robot can navigate complex environments, identify hazards, and support evacuation efforts. Whether by directing crowd flow, delivering essential supplies, or providing situational awareness to first responders, this robot plays a crucial role in reducing risk and saving lives during critical moments.",
+        "LSR-1Desc": "The robot can <strong>navigate complex environments</strong>, <em>identify hazards</em>, and <strong>support evacuation efforts</strong>. Whether by <em>directing crowd flow</em>, <strong>delivering essential supplies</strong>, or providing <em>situational awareness</em> to first responders, this robot plays a crucial role in <strong>reducing risk and saving lives</strong> during critical moments.",
         "playVideo": "Play Video"
       },
       "technical": {
         "title": "Technical Details",
         "specsTitle": "Specifications & Technology",
-        "spec1": "Sensing and Environmental Awareness",
-        "spec2": "Navigation and Control",
-        "spec3": "Propulsion and Chassis",
-        "spec4": "Artificial Intelligence (AI) and Robotics",
-        "spec5": "Communication",
+        "spec1": "<strong>Sensing and Environmental Awareness</strong>",
+        "spec2": "<em>Navigation and Control</em>",
+        "spec3": "<strong>Propulsion and Chassis</strong>",
+        "spec4": "<em>Artificial Intelligence (AI) and Robotics</em>",
+        "spec5": "<strong>Communication</strong>",
         "researchTitle": "Research & Development",
         "patentTitle": "Related Patents",
         "patentName": "Evacuation robot guidance",
@@ -526,11 +528,11 @@
         "industry2": "Transportation Engineering",
         "industry3": "Educational Institutions",
         "outcomeTitle": "Expected Outcomes",
-        "outcomeDesc": "Improved design accuracy and safety validation before construction, reducing costly revisions",
+        "outcomeDesc": "<strong>Improved design accuracy</strong> and <em>safety validation</em> before construction, reducing <strong>costly revisions</strong>",
         "scenarioTitle": "Application Scenario",
-        "scenarioStep1": "Complex building design project",
-        "scenarioStep2": "Import BIM into 3D environment",
-        "scenarioStep3": "Validate safety aspects and emergency response effectiveness through robot simulation"
+        "scenarioStep1": "<strong>Complex building design project</strong>",
+        "scenarioStep2": "Import <strong>BIM</strong> into <em>3D environment</em>",
+        "scenarioStep3": "Validate <em>safety aspects</em> and <strong>emergency response effectiveness</strong> through robot simulation"
       },
       "cta": {
         "title": "Ready to Revolutionize Your Building Design Process?",
@@ -940,6 +942,227 @@
     "publicationType": {
       "journal": "Journal",
       "conference": "Conference"
+    }
+  },
+  "news": {
+    "heroTitle": "Company News",
+    "heroSubtitle": "Stay updated with the latest developments, achievements, and milestones from our journey in transforming mobility.",
+    "readMore": "Read More",
+    "searchPlaceholder": "Search news...",
+    "searchResults": "Found {{count}} results for \"{{term}}\"",
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "category": "By Category"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "noResults": {
+      "title": "No News Found",
+      "message": "Try adjusting your search terms or browse all news by clearing the search."
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter to receive the latest news and updates directly in your inbox.",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe"
+    },
+    "items": {
+      "item1": {
+        "title": "KAIST Startup dochak Secures Initial Funding for Mobility Innovation",
+        "date": "December 15, 2024",
+        "category": "Company",
+        "excerpt": "We are excited to announce that dochak has successfully secured initial funding to accelerate our mission of revolutionizing urban mobility through advanced simulation and AI technologies."
+      },
+      "item2": {
+        "title": "Partnership Announcement: Collaborating with Leading Transportation Companies",
+        "date": "December 10, 2024",
+        "category": "Business",
+        "excerpt": "dochak forms strategic partnerships with industry leaders to bring cutting-edge mobility solutions to market faster and more efficiently."
+      },
+      "item3": {
+        "title": "Research Breakthrough: Advanced Traffic Simulation Technology",
+        "date": "December 5, 2024",
+        "category": "Technology",
+        "excerpt": "Our research team achieves significant breakthrough in multimodal traffic simulation, enabling more accurate predictions and safer autonomous vehicle testing."
+      },
+      "item4": {
+        "title": "Team Expansion: Welcoming New Talent to dochak",
+        "date": "December 1, 2024",
+        "category": "Company",
+        "excerpt": "As we grow, we're excited to welcome new team members who bring diverse expertise in AI, simulation, and transportation technology to strengthen our capabilities."
+      },
+      "item5": {
+        "title": "Conference Presentation: Showcasing Innovation at Mobility Tech Summit",
+        "date": "November 28, 2024",
+        "category": "Events",
+        "excerpt": "Our CEO presented our latest mobility solutions at the international Mobility Tech Summit, receiving positive feedback from industry experts and potential partners."
+      },
+      "item6": {
+        "title": "Product Development Milestone: Beta Testing Phase Complete",
+        "date": "November 25, 2024",
+        "category": "Technology",
+        "excerpt": "Successfully completed comprehensive beta testing of our multimodal simulation platform with industry partners, incorporating valuable feedback for the final release."
+      },
+      "item7": {
+        "title": "Award Recognition: Innovation Excellence in Transportation Technology",
+        "date": "November 20, 2024",
+        "category": "Company",
+        "excerpt": "dochak receives prestigious innovation award recognizing our contributions to advancing transportation technology and sustainable mobility solutions."
+      },
+      "item8": {
+        "title": "Client Success Story: Major Transportation Authority Adopts Our Platform",
+        "date": "November 15, 2024",
+        "category": "Business",
+        "excerpt": "Leading metropolitan transportation authority successfully implements our traffic analysis tools, resulting in 25% improvement in traffic flow efficiency."
+      },
+      "item9": {
+        "title": "Research Publication: Traffic Prediction Algorithm in IEEE Journal",
+        "date": "November 10, 2024",
+        "category": "Technology",
+        "excerpt": "Our groundbreaking research on AI-powered traffic prediction algorithms has been accepted and published in a prestigious IEEE journal."
+      },
+      "item10": {
+        "title": "Company Culture: New Office Space and Team Building Activities",
+        "date": "November 5, 2024",
+        "category": "Company",
+        "excerpt": "Moved to our new expanded office space designed to foster collaboration and innovation, complete with state-of-the-art development facilities."
+      },
+      "item11": {
+        "title": "Technology Showcase: Demo Day with Government Officials",
+        "date": "October 30, 2024",
+        "category": "Events",
+        "excerpt": "Successfully demonstrated our autonomous vehicle simulation capabilities to government officials and policy makers, discussing future transportation infrastructure."
+      },
+      "item12": {
+        "title": "Funding Milestone: Series A Preparation and Investor Interest",
+        "date": "October 25, 2024",
+        "category": "Business",
+        "excerpt": "Preparing for Series A funding round with strong investor interest from leading venture capital firms specializing in mobility and AI technologies."
+      }
+    },
+    "articles": {
+      "item1": {
+        "title": "Revolutionary AI-Powered Traffic Management System Launched",
+        "date": "December 15, 2024",
+        "author": "Dr. Sarah Kim, CTO",
+        "readTime": "5 min read",
+        "content": "<p>Today marks a significant milestone in our journey to transform urban mobility. Our revolutionary AI-powered traffic management system has officially launched, promising to reduce congestion by up to 35% in metropolitan areas.</p><h2>The Technology Behind the Innovation</h2><p>Our system leverages <strong>advanced machine learning algorithms</strong> combined with real-time data processing to predict and prevent traffic bottlenecks before they occur. The platform analyzes patterns from multiple data sources including traffic cameras, vehicle sensors, and historical traffic data.</p><p><em>\"This represents a paradigm shift in how we approach urban transportation management,\"</em> says Dr. Sarah Kim, our Chief Technology Officer.</p><h3>Key Features</h3><ul><li>Real-time traffic prediction with 94% accuracy</li><li>Automated signal optimization</li><li>Integration with existing city infrastructure</li><li>Mobile app for citizen engagement</li></ul><blockquote>The future of transportation is not just about moving vehicles, but about intelligently orchestrating the entire urban mobility ecosystem.</blockquote><p>Early pilot programs in three major cities have shown remarkable results, with average commute times reduced by 28% and fuel consumption decreased by 22%.</p><h2>Looking Forward</h2><p>This launch is just the beginning. We're already working on the next iteration, which will incorporate autonomous vehicle coordination and predictive maintenance scheduling.</p>",
+        "imageCaption1": "Traffic flow visualization showing real-time data processing and optimization algorithms",
+        "imageCaption2": "Control center dashboard displaying citywide traffic management interface"
+      },
+      "item2": {
+        "title": "Strategic Partnership with Samsung Electronics Announced",
+        "date": "December 10, 2024",
+        "author": "James Park, CEO",
+        "readTime": "4 min read",
+        "content": "<p>We are thrilled to announce our groundbreaking partnership with Samsung Electronics, combining our mobility intelligence expertise with Samsung's cutting-edge hardware capabilities to revolutionize smart city infrastructure.</p><h2>Collaboration Scope</h2><p>This strategic alliance will focus on developing <strong>next-generation IoT sensors</strong> specifically designed for transportation monitoring and management. Samsung's advanced semiconductor technology will power our AI algorithms, enabling faster processing and more accurate predictions.</p><p>The partnership encompasses three main areas:</p><ul><li>Hardware development for smart traffic sensors</li><li>Edge computing integration for real-time processing</li><li>5G connectivity solutions for seamless data transmission</li></ul><h3>Market Impact</h3><p><em>\"By combining dochak's AI expertise with Samsung's hardware innovation, we're creating solutions that will define the future of urban transportation,\"</em> stated James Park, CEO of dochak.</p><blockquote>This partnership represents more than just technological integration – it's about creating an ecosystem that makes cities smarter, cleaner, and more efficient.</blockquote><p>The first joint products are expected to enter beta testing by Q2 2025, with commercial availability planned for late 2025.</p><h2>Global Expansion</h2><p>This collaboration also opens doors for international expansion, with Samsung's global network providing pathways to markets across Asia, Europe, and North America.</p>",
+        "imageCaption1": "Samsung-dochak joint development facility showcasing collaborative innovation spaces",
+        "imageCaption2": "Prototype smart traffic sensors featuring Samsung's advanced chip technology"
+      },
+      "item3": {
+        "title": "Autonomous Vehicle Testing Reaches Major Safety Milestone",
+        "date": "December 5, 2024",
+        "author": "Dr. Michael Chen, Head of Autonomous Systems",
+        "readTime": "6 min read",
+        "content": "<p>Our autonomous vehicle testing program has achieved a significant safety milestone, completing over <strong>1 million kilometers</strong> of autonomous driving without a single safety incident – a testament to the reliability and sophistication of our self-driving technology.</p><h2>Testing Achievements</h2><p>Over the past 18 months, our fleet of autonomous test vehicles has navigated complex urban environments, highway conditions, and challenging weather scenarios. The extensive testing program has validated key capabilities:</p><ul><li>Object detection and classification with 99.7% accuracy</li><li>Predictive path planning in dynamic environments</li><li>Emergency response protocols</li><li>Human-vehicle interaction systems</li></ul><h3>Safety-First Approach</h3><p><em>\"Safety isn't just a priority – it's the foundation upon which all our autonomous systems are built,\"</em> explains Dr. Michael Chen, Head of Autonomous Systems.</p><p>Our comprehensive safety framework includes multiple redundant systems, continuous monitoring, and fail-safe mechanisms that ensure safe operation even in unexpected scenarios.</p><blockquote>The goal isn't to replace human drivers, but to augment human capabilities and eliminate the factors that contribute to traffic accidents.</blockquote><h2>Real-World Applications</h2><p>This milestone brings us closer to deploying autonomous vehicles in controlled environments such as:</p><ul><li>Airport shuttle services</li><li>Last-mile delivery operations</li><li>Public transportation routes</li><li>Industrial facility transportation</li></ul><p>Commercial applications are expected to begin pilot deployment in Q3 2025.</p>",
+        "imageCaption1": "Autonomous test vehicle equipped with advanced sensor array navigating urban intersection",
+        "imageCaption2": "Mission control center monitoring real-time autonomous vehicle fleet operations"
+      },
+      "item4": {
+        "title": "CES 2025: Showcasing the Future of Mobility Technology",
+        "date": "December 1, 2024",
+        "author": "Lisa Wong, VP of Marketing",
+        "readTime": "3 min read",
+        "content": "<p>Get ready for an exciting showcase at <strong>CES 2025</strong> where dochak will demonstrate our latest innovations in mobility technology, including live demonstrations of our autonomous vehicle coordination system and interactive smart city simulation.</p><h2>What to Expect</h2><p>Our CES booth will feature three main demonstration areas:</p><ul><li><strong>Interactive City Simulator</strong> - Experience how our AI manages traffic flow in real-time</li><li><strong>Autonomous Vehicle Coordination</strong> - Watch multiple self-driving vehicles navigate complex scenarios</li><li><strong>Future Mobility Concepts</strong> - Preview technologies in development for 2026 and beyond</li></ul><h3>Live Demonstrations</h3><p>Visitors can participate in hands-on demonstrations, controlling virtual traffic scenarios and observing how our AI responds to different challenges and optimization opportunities.</p><p><em>\"CES provides the perfect platform to showcase how our technology solves real-world transportation challenges,\"</em> says Lisa Wong, VP of Marketing.</p><blockquote>We're not just showing technology – we're demonstrating the future of how people and goods will move through cities.</blockquote><h2>Industry Recognition</h2><p>We're honored to be selected for CES Innovation Awards in the Smart Cities category, recognizing our contributions to urban mobility solutions.</p><h3>Visit Us at CES</h3><p>Find us at <strong>Booth #12345</strong> in the Smart Cities pavilion. Our team will be available for:</p><ul><li>Live product demonstrations</li><li>Technical discussions with our engineering team</li><li>Partnership opportunity discussions</li><li>Media interviews and briefings</li></ul><p>Schedule a meeting with our team at <strong>ces2025@dochak.com</strong></p>",
+        "imageCaption1": "CES 2025 booth design featuring immersive mobility technology demonstrations",
+        "imageCaption2": "Interactive smart city simulator allowing visitors to experience traffic management"
+      }
+    },
+    "article": {
+      "backToNews": "Back to News",
+      "notFound": {
+        "title": "Article Not Found",
+        "message": "The article you're looking for doesn't exist or may have been moved."
+      }
+    }
+  },
+  "team": {
+    "heroTitle": "Meet Our Team",
+    "heroSubtitle": "Talented researchers and engineers working together to revolutionize transportation technology",
+    "sectionTitle": "Our Team Members",
+    "sort": {
+      "byTitle": "By Title",
+      "byName": "By Name"
+    },
+    "ceo": {
+      "name": "Inhi Kim",
+      "title": "CEO & Founder",
+      "bio": "Leading research in transportation systems and urban mobility with over 15 years of experience in AI and autonomous systems."
+    },
+    "members": {
+      "reuben": {
+        "name": "Dr. Reuben Tamakloe",
+        "title": "Principal Researcher",
+        "bio": "Manages overall operations, ensuring project and research execution align with goals."
+      },
+      "gyounghoon": {
+        "name": "Dr. Gyounghoon Chun",
+        "title": "Principal Researcher",
+        "bio": "Manages microsimulation and mos projects and research execution align with goals."
+      },
+      "taeho": {
+        "name": "Dr.Taeho Oh",
+        "title": "Principal Researcher",
+        "bio": "Manages digital twin projects and virtual environment simulations."
+      },
+      "tengfeng": {
+        "name": "Tengfeng Lin",
+        "title": "Researcher",
+        "bio": "Leads image processing tasks."
+      },
+      "younghi": {
+        "name": "Younghi Liu",
+        "title": "Researcher",
+        "bio": "Leads data science initiatives."
+      },
+      "kaihan": {
+        "name": "Kaihan Zhang",
+        "title": "Researcher",
+        "bio": "Leads urban mobility research."
+      },
+      "mahdi": {
+        "name": "Mahdi Khosravi",
+        "title": "Researcher",
+        "bio": "Leads 3D virtual environment development."
+      },
+      "hui": {
+        "name": "Ng Hui Zhi",
+        "title": "Researcher",
+        "bio": "Leads EV operation in the large scale network."
+      },
+      "kervin": {
+        "name": "Kervin Lucas",
+        "title": "Researcher",
+        "bio": "Leads macro scopic simulation including Visum, Emme, and Cube."
+      },
+      "hyuncheol": {
+        "name": "Hyuncheol Park",
+        "title": "Researcher",
+        "bio": "multimodal driving simulators."
+      },
+      "jaehyuk": {
+        "name": "Jaehyuk Lim",
+        "title": "Researcher",
+        "bio": "Designs experimental scenarios for practical simulation-based validation."
+      },
+      "heeyeon": {
+        "name": "Heeyeon Kang",
+        "title": "Researcher",
+        "bio": "Supports project collaboration and research development through teamwork."
+      }
     }
   }
 }

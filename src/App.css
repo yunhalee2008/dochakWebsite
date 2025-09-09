@@ -47,13 +47,14 @@ main {
 }
 
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin: 1.5rem;
-  font-weight: 550;
-  margin-bottom: 0.5rem;
+  font-weight: 750;
+  margin-bottom: 1rem;
   color: var(--endeavour);
-  letter-spacing: 1px;
+  letter-spacing: -0.5px;
   text-shadow: none;
+  line-height: 1.1;
 }
 
 .hero-text p {
@@ -122,11 +123,12 @@ main {
 }
 
 .light-section h2 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: var(--navy-heading);
-  margin-bottom: 1.5rem;
-  font-weight: 900;
-  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
 }
 
 /* Stats Section */
@@ -438,6 +440,38 @@ h2,
   
   .slide-up {
     transform: translateY(20px);
+  }
+}
+
+/* Responsive Typography */
+@media (min-width: 1200px) {
+  .hero-text h1 {
+    font-size: 3.6rem;
+  }
+  
+  .light-section h2 {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-text h1 {
+    font-size: 2.4rem;
+  }
+  
+  .light-section h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  
+  .light-section h2 {
+    font-size: 1.8rem;
   }
 }
 

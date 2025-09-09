@@ -23,20 +23,21 @@
 }
 
 .projects-hero-title {
-  font-size: 3rem;
-  font-weight: 650;
+  font-size: 3.2rem;
+  font-weight: 750;
   color: var(--navy-heading);
-  margin-bottom: 1.2rem;
-  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
 }
 
 .projects-hero-subtitle {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--text-secondary);
   font-weight: 500;
   max-width: 700px;
   margin: 0 auto;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* Tab Navigation */
@@ -141,11 +142,12 @@
 }
 
 .project-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.2rem;
+  font-weight: 750;
   color: #1f2937;
   margin: 0;
   line-height: 1.2;
+  letter-spacing: -0.5px;
 }
 
 .project-badges {
@@ -203,11 +205,13 @@
 }
 
 .project-overview-content .section-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.1rem;
+  font-weight: 750;
   color: #2563eb;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
   text-align: left;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
 }
 
 .project-overview-content .project-description {
@@ -293,11 +297,13 @@
 
 /* Features Section */
 .project-features .section-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.1rem;
+  font-weight: 750;
   color: var(--navy-heading);
   margin-bottom: 3.5rem;
   text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
   position: relative;
 }
 
@@ -354,11 +360,13 @@
 
 /* Impact Section */
 .project-impact .section-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.1rem;
+  font-weight: 750;
   color: var(--navy-heading);
   margin-bottom: 3.5rem;
   text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
   position: relative;
 }
 
@@ -407,11 +415,13 @@
 
 /* Technologies Section */
 .project-technologies .section-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.1rem;
+  font-weight: 750;
   color: var(--navy-heading);
   margin-bottom: 3.5rem;
   text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
   position: relative;
 }
 
@@ -479,10 +489,12 @@
 }
 
 .get-in-touch-content .section-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.1rem;
+  font-weight: 750;
   color: var(--navy-heading);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
 }
 
 .get-in-touch-description {

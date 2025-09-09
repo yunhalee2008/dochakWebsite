@@ -136,7 +136,7 @@ export default function TrafficAnalysisTools() {
             <AnimatedElement animation="slide-right" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-4')}</h3>
-                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-4Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.overview.TA-4Desc') }}></p>
               </div>
             </AnimatedElement>
           </div>
@@ -145,7 +145,7 @@ export default function TrafficAnalysisTools() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.trafficAnalysisToolsSolution.overview.demo')}</h3>
-                <p>{t('solutions.trafficAnalysisToolsSolution.overview.demoDesc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.overview.demoDesc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -183,7 +183,7 @@ export default function TrafficAnalysisTools() {
             <AnimatedElement animation="slide-right" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-1')}</h3>
-                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-1Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.overview.TA-1Desc') }}></p>
               </div>
             </AnimatedElement>
           </div>
@@ -191,7 +191,7 @@ export default function TrafficAnalysisTools() {
             <AnimatedElement animation="slide-left" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-2')}</h3>
-                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-2Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.overview.TA-2Desc') }}></p>
               </div>
             </AnimatedElement>
             
@@ -229,7 +229,7 @@ export default function TrafficAnalysisTools() {
             <AnimatedElement animation="slide-right" delay={100}>
               <div className="explanation-content">
                 <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-3')}</h3>
-                <p>{t('solutions.trafficAnalysisToolsSolution.overview.TA-3Desc')}</p>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.overview.TA-3Desc') }}></p>
               </div>
             </AnimatedElement>
           </div>
@@ -256,11 +256,11 @@ export default function TrafficAnalysisTools() {
               <div className="specs-card">
                 <h3>{t('solutions.trafficAnalysisToolsSolution.technical.specsTitle')}</h3>
                 <ul className="specs-list">
-                  <li>{t('solutions.trafficAnalysisToolsSolution.technical.spec1')}</li>
-                  <li>{t('solutions.trafficAnalysisToolsSolution.technical.spec2')}</li>
-                  <li>{t('solutions.trafficAnalysisToolsSolution.technical.spec3')}</li>
-                  <li>{t('solutions.trafficAnalysisToolsSolution.technical.spec4')}</li>
-                  <li>{t('solutions.trafficAnalysisToolsSolution.technical.spec5')}</li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.technical.spec1') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.technical.spec2') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.technical.spec3') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.technical.spec4') }}></li>
+                  <li dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.technical.spec5') }}></li>
                 </ul>
               </div>
             </AnimatedElement>
@@ -286,7 +286,7 @@ export default function TrafficAnalysisTools() {
                 </div>
                 <div className="research-item">
                   <h4>{t('solutions.trafficAnalysisToolsSolution.technical.academicTitle')}</h4>
-                  <p>{t('solutions.trafficAnalysisToolsSolution.technical.academicInfo')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.technical.academicInfo') }}></p>
                 </div>
                 <div className="cta-button-container">
                   <Link to="/disclosure" className="cta-button">
@@ -317,7 +317,7 @@ export default function TrafficAnalysisTools() {
                 </div>
                 <div className="outcome">
                   <h4>{t('solutions.trafficAnalysisToolsSolution.useCases.outcomeTitle')}</h4>
-                  <p>{t('solutions.trafficAnalysisToolsSolution.useCases.outcomeDesc')}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.useCases.outcomeDesc') }}></p>
                 </div>
               </div>
             </AnimatedElement>
@@ -328,17 +328,17 @@ export default function TrafficAnalysisTools() {
                 <div className="scenario-flow">
                   <div className="flow-step">
                     <div className="step-number">1</div>
-                    <p>{t('solutions.trafficAnalysisToolsSolution.useCases.scenarioStep1')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.useCases.scenarioStep1') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">2</div>
-                    <p>{t('solutions.trafficAnalysisToolsSolution.useCases.scenarioStep2')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.useCases.scenarioStep2') }}></p>
                   </div>
                   <div className="flow-arrow">→</div>
                   <div className="flow-step">
                     <div className="step-number">3</div>
-                    <p>{t('solutions.trafficAnalysisToolsSolution.useCases.scenarioStep3')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.useCases.scenarioStep3') }}></p>
                   </div>
                 </div>
               </div>
@@ -353,9 +353,7 @@ export default function TrafficAnalysisTools() {
           <AnimatedElement animation="slide-up" delay={0}>
             <div className="get-in-touch-content">
               <h3 className="section-title">{t('solutions.trafficAnalysisToolsSolution.cta.title')}</h3>
-              <p className="get-in-touch-description">
-                {t('solutions.trafficAnalysisToolsSolution.cta.description')}
-              </p>
+              <p className="get-in-touch-description" dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.cta.description') }}></p>
               <div className="get-in-touch-buttons">
                 <Link to="/get-in-touch" className="contact-button primary">
                   {t('solutions.trafficAnalysisToolsSolution.cta.button')}

@@ -53,20 +53,20 @@
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.5px;
-  transition: color 0.2s, text-shadow 0.2s, background-color 0.2s;
+  transition: all 0.2s ease;
   text-shadow: none;
-  border-radius: 0.25rem;
-  padding: 0.5rem 0.75rem;
-  margin: -0.5rem -0.75rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  margin: -0.5rem -0.8rem;
   min-height: 44px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .navbar-center a:hover {
   color: var(--science-blue);
   font-weight: 600;
-  background-color: rgba(87, 188, 235, 0.05);
 }
 
 .navbar-center a:focus {
@@ -76,18 +76,6 @@
 .navbar-center a.active {
   color: var(--science-blue);
   font-weight: 600;
-  position: relative;
-}
-
-.navbar-center a.active::after {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 0.75rem;
-  right: 0.75rem;
-  height: 2px;
-  background: var(--science-blue);
-  border-radius: 1px;
 }
 
 /* Solutions Dropdown Styles */
@@ -99,18 +87,16 @@
 .solutions-nav-container {
   display: flex;
   align-items: center;
-  border-radius: 0.25rem;
-  padding: 0.5rem 0.75rem;
-  margin: -0.5rem -0.75rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  margin: -0.5rem -0.8rem;
   min-height: 44px;
-  transition: color 0.2s, background-color 0.2s;
+  transition: all 0.2s ease;
   position: relative;
 }
 
 .solutions-nav-container:hover {
-  background-color: rgba(87, 188, 235, 0.05);
   color: var(--science-blue);
-  font-weight: 600;
 }
 
 .solutions-nav-container:hover .solutions-main-link,
@@ -122,17 +108,6 @@
 .solutions-nav-container.active {
   color: var(--science-blue);
   font-weight: 600;
-}
-
-.solutions-nav-container.active::after {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 0.75rem;
-  right: 0.75rem;
-  height: 2px;
-  background: var(--science-blue);
-  border-radius: 1px;
 }
 
 .solutions-nav-container.active .solutions-main-link,
@@ -203,7 +178,7 @@
   color: var(--text-primary);
   font-size: 0.95rem;
   font-weight: 500;
-  transition: background-color 0.2s ease;
+  transition: all 0.3s ease;
   min-height: 44px;
   position: relative;
   margin: 0;
@@ -220,9 +195,9 @@
 }
 
 .solutions-dropdown-menu .solution-item:hover {
-  background-color: rgba(87, 188, 235, 0.08);
   color: var(--science-blue);
   font-weight: 600;
+  transform: translateX(2px);
 }
 
 .solutions-dropdown-menu .solution-item:hover::after {
@@ -231,9 +206,9 @@
 
 .solutions-dropdown-menu .solution-item:focus {
   outline: none;
-  background-color: rgba(87, 188, 235, 0.08);
   color: var(--science-blue);
   font-weight: 600;
+  transform: translateX(2px);
 }
 
 .solutions-dropdown-menu .solution-item:focus::after {
@@ -241,7 +216,6 @@
 }
 
 .solutions-dropdown-menu .solution-item.active {
-  background-color: rgba(87, 188, 235, 0.12);
   color: var(--science-blue);
   font-weight: 600;
   position: relative;
