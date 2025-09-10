@@ -106,7 +106,7 @@ export default function TrafficAnalysisTools() {
             <h1 className="hero-title">{t('solutions.trafficAnalysisToolsSolution.hero.title')}</h1>
           </AnimatedElement>
           <AnimatedElement animation="slide-up" delay={200}>
-            <p className="hero-subtitle">{t('solutions.trafficAnalysisToolsSolution.hero.subtitle')}</p>
+            <p className="hero-subtitle" dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.hero.subtitle') }}></p>
           </AnimatedElement>
         </div>
       </section>
@@ -271,7 +271,7 @@ export default function TrafficAnalysisTools() {
                 <div className="research-item">
                   <h4>{t('solutions.trafficAnalysisToolsSolution.technical.patentTitle')}</h4>
                   <div className="patent-details">
-                    <div className="patent-title">"{t('solutions.trafficAnalysisToolsSolution.technical.patentName')}"</div>
+                    <div className="patent-title" dangerouslySetInnerHTML={{ __html: `"${t('solutions.trafficAnalysisToolsSolution.technical.patentName')}"` }}></div>
                     <div className="patent-info-row">
                       <div className="patent-date">
                         <span className="patent-date-label">{t('solutions.trafficAnalysisToolsSolution.technical.applicationDate')}:</span>

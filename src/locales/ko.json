@@ -42,11 +42,11 @@
     "heroTitle": "회사 소개",
     "heroSubtitle": "미래 모빌리티를 만들어가는 우리에 대해 알아보세요.",
     "missionTitle": "[dochak]",
-    "missionIntro": "2024년 12월에 설립된 KAIST 기반 스타트업으로, 모빌리티 산업을 위한 가상 환경 개발의 핵심 혁신 기업입니다. 자율 시스템의 안전성과 효율성을 극대화하는 정밀하고 고신뢰도 가상 시뮬레이션 창조에 전문성을 갖추고 있습니다.",
-    "missionText": "최첨단 AI 기반 자율주행, 지능형 교통 운영, 혁신적인 관리 솔루션을 통해 더 안전하고 스마트하며 효율적인 도시를 위한 도시 모빌리티 혁신을 이끌어갑니다.",
-    "solutionsText": "최첨단 시뮬레이션과 디지털 트윈 기술로 도시 모빌리티를 혁신하는 솔루션을 살펴보세요.",
-    "projectsText": "고급 AI와 시뮬레이션 기술로 스마트 시티의 미래를 만들어가는 영향력 있는 프로젝트를 만나보세요.",
-    "teamText": "수십 년간의 경험을 바탕으로 모빌리티 혁신을 이끄는 재능 있는 연구진과 전문가들을 만나보세요.",
+    "missionIntro": "<strong>2024년 12월</strong>에 설립된 <strong>KAIST 기반 스타트업</strong>으로, 모빌리티 산업을 위한 <em>가상 환경 개발</em>의 핵심 혁신 기업입니다. 자율 시스템의 <strong>안전성과 효율성</strong>을 극대화하는 정밀하고 <em>고신뢰도 가상 시뮬레이션</em> 창조에 전문성을 갖추고 있습니다.",
+    "missionText": "<strong>최첨단 AI 기반</strong> 자율주행, <em>지능형 교통 운영</em>, 혁신적인 관리 솔루션을 통해 더 안전하고 스마트하며 효율적인 도시를 위한 <strong>도시 모빌리티 혁신</strong>을 이끌어갑니다.",
+    "solutionsText": "<strong>최첨단 시뮬레이션</strong>과 <em>디지털 트윈 기술</em>로 <strong>도시 모빌리티</strong>를 혁신하는 솔루션을 살펴보세요.",
+    "projectsText": "<strong>고급 AI</strong>와 시뮬레이션 기술로 <em>스마트 시티</em>의 미래를 만들어가는 <strong>영향력 있는 프로젝트</strong>를 만나보세요.",
+    "teamText": "<strong>수십 년간의 경험</strong>을 바탕으로 <em>모빌리티 혁신</em>을 이끄는 <strong>재능 있는 연구진</strong>과 전문가들을 만나보세요.",
     "missionCTA1": "솔루션 살펴보기",
     "missionCTA2": "프로젝트 보기", 
     "missionCTA3": "팀 만나보기",
@@ -54,23 +54,23 @@
     "values": {
       "automation": {
         "title": "자동화",
-        "desc": "인간의 개입을 줄이고 효율성을 극대화하는 지능형 독립적인 시스템을 안정적으로 구축합니다."
+        "desc": "<em>인간의 개입</em>을 줄이고 효율성을 극대화하는 <strong>지능형 독립적인 시스템</strong>을 안정적으로 구축합니다."
       },
       "integration": {
         "title": "통합",
-        "desc": "다양한 기술과 플랫폼을 원활하게 연결하여 통합된 모빌리티 솔루션을 만듭니다."
+        "desc": "<strong>다양한 기술과 플랫폼</strong>을 원활하게 연결하여 <em>통합된 모빌리티 솔루션</em>을 만듭니다."
       },
       "excellence": {
         "title": "우수성",
-        "desc": "모든 세부사항에서 최고의 품질을 추구하여 신뢰할 수 있고 정확한 제품과 서비스를 보장합니다."
+        "desc": "모든 세부사항에서 <strong>최고의 품질</strong>을 추구하여 <em>신뢰할 수 있고 정확한</em> 제품과 서비스를 보장합니다."
       },
       "innovation": {
         "title": "혁신",
-        "desc": "도시 모빌리티의 미래를 선도하기 위해 지속적으로 새로운 기술을 창조적으로 개발합니다."
+        "desc": "<em>도시 모빌리티의 미래</em>를 선도하기 위해 지속적으로 <strong>새로운 기술</strong>을 창조적으로 개발합니다."
       }
     },
     "marketTitle": "목표 시장",
-    "marketText": "중동, 동남아시아, 호주 전역에 첨단 AI 기반 모빌리티 솔루션을 배포합니다.",
+    "marketText": "<strong>중동</strong>, <strong>동남아시아</strong>, <strong>호주</strong> 전역에 <em>첨단 AI 기반</em> 모빌리티 솔루션을 배포합니다.",
     "storyTitle": "우리의 이야기"
   },
   "technologies": {
@@ -181,58 +181,58 @@
       "trafficAnalysis": {
         "title": "교통영향분석",
         "desc": [
-          "교통 상황과 시나리오 기반 대응 전략을 분석합니다.",
-          "정책과 교통 대응 전략을 분석하고 교통 흐름을 최적화합니다.",
-          "대시보드형 인터페이스로 사용자 접근성과 분석적 이해를 향상시킵니다."
+          "<strong>교통 상황</strong>과 시나리오 기반 대응 전략을 분석합니다.",
+          "<strong>정책과 교통 대응 전략</strong>을 분석하고 교통 흐름을 최적화합니다.",
+          "대시보드형 인터페이스로 <strong>사용자 접근성</strong>과 분석적 이해를 향상시킵니다."
         ]
       },
       "drivingSimulator": {
         "title": "운전 시뮬레이터",
         "desc": [
-          "가상 환경에서 실제 또는 계획된 도로를 시험 운전하여 문제를 식별합니다.",
+          "가상 환경에서 <strong>실제 또는 계획된 도로</strong>를 시험 운전하여 문제를 식별합니다.",
           "도로 설계 기능을 검증하고 개선합니다.",
-          "안전 운전 및 설계 검증을 위한 교육 프로그램의 일부로 사용할 수 있습니다."
+          "<strong>안전 운전 및 설계 검증</strong>을 위한 교육 프로그램의 일부로 사용할 수 있습니다."
         ]
       },
       "lifeSavingRobot": {
         "title": "생명 구조 로봇",
         "desc": [
-          "몰입형 가상 환경으로 기존의 2D 도로 설계를 넘어섭니다.",
-          "응급 상황에서 안전한 대피와 구조 작업을 지원합니다.",
-          "다양한 조건에서 가시성 및 시거와 같은 안전 측면을 검증합니다."
+          "<strong>몰입형 가상 환경</strong>으로 기존의 2D 도로 설계를 넘어섭니다.",
+          "<strong>응급 상황</strong>에서 안전한 대피와 구조 작업을 지원합니다.",
+          "다양한 조건에서 <strong>가시성 및 시거</strong>와 같은 안전 측면을 검증합니다."
         ]
       },
       "visualisation": {
         "title": "시각화",
         "desc": [
-          "디지털 트윈 환경을 기반으로 고화질 비디오를 제작합니다.",
-          "생생한 프레젠테이션을 위해 현실적인 교통 행동을 반영합니다.",
-          "공청회, 정책 홍보 및 프레젠테이션에 사용합니다.",
-          "전 세계 주요 도시 프로젝트의 필수 결과물로 간주됩니다."
+          "디지털 트윈 환경을 기반으로 <strong>고화질 비디오</strong>를 제작합니다.",
+          "생생한 프레젠테이션을 위해 <strong>현실적인 교통 행동</strong>을 반영합니다.",
+          "공청회, <strong>정책 홍보</strong> 및 프레젠테이션에 사용합니다.",
+          "전 세계 주요 도시 프로젝트의 <strong>필수 결과물</strong>로 간주됩니다."
         ]
       },
       "multimodal": {
         "title": "다중 교통수단 시뮬레이션",
         "desc": [
-          "다양한 교통수단 간의 상호작용을 반영하는 통합 다중 교통수단 시뮬레이션 도구입니다.",
-          "시뮬레이터 하드웨어와 연결하여 가상 환경에서 다양한 시나리오를 테스트합니다.",
-          "자율주행차 개발을 위한 기초 데이터셋을 구축합니다."
+          "다양한 교통수단 간의 상호작용을 반영하는 <strong>통합 다중 교통수단 시뮬레이션 도구</strong>입니다.",
+          "<strong>시뮬레이터 하드웨어</strong>와 연결하여 가상 환경에서 다양한 시나리오를 테스트합니다.",
+          "<strong>자율주행차 개발</strong>을 위한 기초 데이터셋을 구축합니다."
         ]
       },
       "teleDriving": {
         "title": "원격 운전",
         "desc": [
-          "예외적인 상황에서 자율주행차에 대한 원격 운전 지원을 제공합니다.",
-          "자율주행이 한계에 직면했을 때(폭설, 공사 구역) 인간의 개입을 허용합니다.",
-          "모빌리티 서비스, 물류 및 군사 작전에 적용 가능합니다."
+          "예외적인 상황에서 자율주행차에 대한 <strong>원격 운전 지원</strong>을 제공합니다.",
+          "자율주행이 한계에 직면했을 때(폭설, 공사 구역) <strong>인간의 개입</strong>을 허용합니다.",
+          "모빌리티 서비스, <strong>물류</strong> 및 군사 작전에 적용 가능합니다."
         ]
       },
       "digitalTwin": {
         "title": "디지털 트윈",
         "desc": [
-          "3D 시각적 환경과 통합된 교통 네트워크의 실시간 디지털 복제본입니다.",
-          "Unity 기반 렌더링 시스템으로 제작 시간을 70% 단축합니다.",
-          "실시간 도시 운영, 사고 대응, 정책 분석을 가능하게 합니다."
+          "3D 시각적 환경과 통합된 교통 네트워크의 <strong>실시간 디지털 복제본</strong>입니다.",
+          "<strong>Unity 기반 렌더링 시스템</strong>으로 제작 시간을 <em>70% 단축</em>합니다.",
+          "<strong>실시간 도시 운영</strong>, 사고 대응, <strong>정책 분석</strong>을 가능하게 합니다."
         ]
       }
     },
@@ -244,19 +244,21 @@
       "overview": {
         "title": "개요",
         "shortDemo": "신속 대응 데모",
-        "shortDemoDesc": "자율주행 시스템 장애 발생 시 신속한 원격 제어 핸드오프를 시연하며, 응답 시간과 안전 프로토콜을 보여줍니다.",
+        "shortDemoDesc": "자율주행 시스템 장애 발생 시 <strong>신속한 원격 제어 핸드오프</strong>를 시연하며, 응답 시간과 <em>안전 프로토콜</em>을 보여줍니다.",
         "longDemo": "종합 시스템 데모",
-        "longDemoDesc": "악천후 운행, 제한 구역 내비게이션, 자율주행차 시스템과의 원활한 통합을 포함한 원격 주행 기능의 심층적인 쇼케이스입니다.",
+        "longDemoDesc": "<strong>악천후 운행</strong>, 제한 구역 내비게이션, 자율주행차 시스템과의 원활한 통합을 포함한 <em>원격 주행 기능</em>의 심층적인 쇼케이스입니다.",
+        "RD-1": "KAIST 캠퍼스 내 원격 주행",
+        "RD-1Desc": "실내외 환경에서 통제된 캠퍼스 환경에서 <strong>원격 주행 기술</strong>을 최초로 시연합니다.",
         "playVideo": "동영상 재생"
       },
       "technical": {
         "title": "기술적 세부사항",
         "specsTitle": "사양 및 기술",
-        "spec1": "자율주행차 오작동 시 원격 제어 핸드오프 시스템",
-        "spec2": "악천후 및 제한 구역에서도 작동",
-        "spec3": "원격주행 모듈을 통해 자율주행 스택과 통합",
-        "spec4": "저지연 통신을 통한 실시간 비디오 스트리밍",
-        "spec5": "비상 정지 기능을 갖춘 고급 안전 프로토콜",
+        "spec1": "<strong>자율주행차 오작동</strong> 시 원격 제어 핸드오프 시스템",
+        "spec2": "악천후 및 <em>제한 구역</em>에서도 작동",
+        "spec3": "<strong>원격주행 모듈</strong>을 통해 자율주행 스택과 통합",
+        "spec4": "저지연 통신을 통한 <strong>실시간 비디오 스트리밍</strong>",
+        "spec5": "<strong>비상 정지 기능</strong>을 갖춘 고급 안전 프로토콜",
         "researchTitle": "연구 및 특허",
         "patentTitle": "관련 특허",
         "patentName": "원격주행 제어 시스템",
@@ -273,11 +275,11 @@
         "industry2": "군사",
         "industry3": "물류",
         "outcomeTitle": "기대 효과",
-        "outcomeDesc": "원격 개입으로 자율주행차 안전 확보, 도심 교통의 신뢰성 강화",
+        "outcomeDesc": "<strong>원격 개입</strong>으로 자율주행차 안전 확보, <strong>도심 교통의 신뢰성</strong> 강화",
         "scenarioTitle": "적용 시나리오",
-        "scenarioStep1": "자율주행 차량이 터널 진입 전 예상치 못한 장애물을 감지하여 시스템 한계 발생",
-        "scenarioStep2": "원격 주행자가 즉시 차량 제어권을 인수하여 안전한 원격 조작 시작",
-        "scenarioStep3": "숙련된 원격 주행을 통해 장애물을 회피하고 안전한 지점까지 차량 이동 완료"
+        "scenarioStep1": "<strong>자율주행 차량</strong>이 터널 진입 전 예상치 못한 장애물을 감지하여 시스템 한계 발생",
+        "scenarioStep2": "<strong>원격 주행자</strong>가 즉시 차량 제어권을 인수하여 안전한 원격 조작 시작",
+        "scenarioStep3": "숙련된 원격 주행을 통해 장애물을 회피하고 <strong>안전한 지점까지 차량 이동</strong> 완료"
       },
       "cta": {
         "title": "모빌리티 솔루션을 혁신할 준비가 되셨나요?",
@@ -293,21 +295,21 @@
       "overview": {
         "title": "개요",
         "demo": "Unity 기반 실시간 렌더링 데모",
-        "demoDesc": "제작 시간을 70% 단축하면서 고품질 교통 시뮬레이션과 도시 환경 시각화를 제공하는 Unity 기반 실시간 렌더링 시스템을 경험해보세요.",
+        "demoDesc": "제작 시간을 <em>70% 단축</em>하면서 고품질 교통 시뮬레이션과 <strong>도시 환경 시각화</strong>를 제공하는 <strong>Unity 기반 실시간 렌더링 시스템</strong>을 경험해보세요.",
         "dt-1": "대전 굴절버스 디지털 트윈",
-        "dt-1Desc": "대전시는 3량 연결 버스 시스템 도입을 계획하고 있습니다. 이 새로운 형태의 교통수단 구현 전, 보다 효율적인 교통 시스템 구축을 위해 교통 영향 분석이 필수입니다. 시뮬레이션 결과를 데이터를 통해 시각적으로 이해하기 쉽게 제작했습니다.",
+        "dt-1Desc": "대전시는 <strong>3량 연결 버스 시스템</strong> 도입을 계획하고 있습니다. 이 새로운 형태의 교통수단 구현 전, 보다 <strong>효율적인 교통 시스템</strong> 구축을 위해 교통 영향 분석이 필수입니다. 시뮬레이션 결과를 데이터를 통해 시각적으로 이해하기 쉽게 제작했습니다.",
         "dt-2": "KAIST 캠퍼스 디지털 트윈", 
-        "dt-2Desc": "KAIST 연구진이 최초로 KAIST 문지 디지털 트윈을 개발했습니다. 이미지와 클라우드 포인트를 렌더링하여 실제와 매우 유사한 영상을 제작합니다.",
+        "dt-2Desc": "KAIST 연구진이 최초로 <strong>KAIST 문지 디지털 트윈</strong>을 개발했습니다. 이미지와 클라우드 포인트를 렌더링하여 실제와 매우 유사한 영상을 제작합니다.",
         "playVideo": "비디오 재생"
       },
       "technical": {
         "title": "기술 세부사항",
         "specsTitle": "사양 및 기술",
-        "spec1": "실시간 데이터 통합 (ITS, CCTV)",
+        "spec1": "<strong>실시간 데이터 통합</strong> (ITS, CCTV)",
         "spec2": "자동화된 환경 요소 업데이트",
         "spec3": "운전 시뮬레이터와 연동",
-        "spec4": "70% 빠른 제작이 가능한 Unity 기반 3D 렌더링",
-        "spec5": "동적 시나리오 업데이트 및 인프라 계획",
+        "spec4": "<em>70% 빠른 제작</em>이 가능한 <strong>Unity 기반 3D 렌더링</strong>",
+        "spec5": "동적 시나리오 업데이트 및 <em>인프라 계획</em>",
         "researchTitle": "연구 및 특허",
         "patentTitle": "관련 특허",
         "patentName": "Vissim 기반 모델-실측 비교 자동화 툴",
@@ -324,11 +326,11 @@
         "industry2": "도로공사",
         "industry3": "자율주행 테스트베드",
         "outcomeTitle": "기대 효과",
-        "outcomeDesc": "실시간 도시 운영, 사고 대응, 정책 분석 가능",
+        "outcomeDesc": "<strong>실시간 도시 운영</strong>, 사고 대응, <strong>정책 분석</strong> 가능",
         "scenarioTitle": "적용 시나리오",
-        "scenarioStep1": "내포신도시 내 교통체증 예측 시뮬레이션",
-        "scenarioStep2": "시스템이 자동으로 교통 패턴과 병목 지점 분석",
-        "scenarioStep3": "사고 시 우회 전략 자동 제안"
+        "scenarioStep1": "내포신도시 내 <strong>교통체증 예측 시뮬레이션</strong>",
+        "scenarioStep2": "시스템이 자동으로 <strong>교통 패턴</strong>과 병목 지점 분석",
+        "scenarioStep3": "사고 시 <strong>우회 전략</strong> 자동 제안"
       },
       "cta": {
         "title": "도시 계획을 혁신할 준비가 되셨나요?",
@@ -344,20 +346,20 @@
       "overview": {
         "title": "개요",
         "demo": "OBD & GPS 기반 시뮬레이션 데모",
-        "demoDesc": "포괄적인 다중 교통수단 테스트를 위한 현실적인 NPC 상호작용과 OBD & GPS 통합을 특징으로 하는 고급 시뮬레이션 시스템을 경험해보세요.",
+        "demoDesc": "포괄적인 다중 교통수단 테스트를 위한 <strong>현실적인 NPC 상호작용</strong>과 <em>OBD & GPS 통합</em>을 특징으로 하는 <strong>고급 시뮬레이션 시스템</strong>을 경험해보세요.",
         "MO-1": "전동 스쿠터 및 자율차 상호작용 시뮬레이션",
-        "MO-1Desc": "도심 교통 환경에서 전동 스쿠터와 자율주행차 간의 복잡한 상호작용을 모델링하고 시뮬레이션하여 교통 안전성을 향상시키는 종합적인 다중 교통수단 테스트 환경을 제공합니다.",
+        "MO-1Desc": "도심 교통 환경에서 <strong>전동 스쿠터와 자율주행차</strong> 간의 복잡한 상호작용을 모델링하고 시뮬레이션하여 교통 안전성을 향상시키는 <strong>종합적인 다중 교통수단 테스트 환경</strong>을 제공합니다.",
         "MO-2": "모빌리티 운영 시스템",
-        "MO-2Desc": "다수의 센서를 갖춘 인프라가 자율주행차가 사각지대에 있을 때 이를 조율하여 안전한 주행을 보장합니다. 가상 에이전트를 주입하여 실제 차량에 영향을 미치고, 복잡한 도심 환경에서 학습하고 안전하게 주행할 수 있도록 합니다.",
+        "MO-2Desc": "<strong>다수의 센서를 갖춘 인프라</strong>가 자율주행차가 사각지대에 있을 때 이를 <strong>조율</strong>하여 안전한 주행을 보장합니다. 가상 에이전트를 주입하여 실제 차량에 영향을 미치고, 복잡한 도심 환경에서 학습하고 안전하게 주행할 수 있도록 합니다.",
         "playVideo": "비디오 재생"
       },
       "technical": {
         "title": "기술 세부사항",
         "specsTitle": "사양 및 기술",
-        "spec1": "GUI 기반 시나리오 생성",
-        "spec2": "전조등과 엔진음을 포함한 실시간 애니메이션",
-        "spec3": "SUMO/VISSIM과의 공동 시뮬레이션",
-        "spec4": "OBD & GPS 데이터 통합",
+        "spec1": "<strong>GUI 기반 시나리오 생성</strong>",
+        "spec2": "전조등과 엔진음을 포함한 <strong>실시간 애니메이션</strong>",
+        "spec3": "<strong>SUMO/VISSIM과의 공동 시뮬레이션</strong>",
+        "spec4": "<strong>OBD & GPS 데이터 통합</strong>",
         "spec5": "고급 NPC 상호작용 모델링",
         "researchTitle": "연구 및 특허",
         "patentTitle": "관련 특허",
@@ -375,11 +377,11 @@
         "industry2": "경찰청",
         "industry3": "스마트시티 프로젝트",
         "outcomeTitle": "기대 효과",
-        "outcomeDesc": "다중수단 사고 예측 및 시나리오 훈련 가능",
+        "outcomeDesc": "<strong>다중수단 사고 예측</strong> 및 시나리오 훈련 가능",
         "scenarioTitle": "적용 시나리오",
-        "scenarioStep1": "자율차와 킥보드 교차 충돌 시나리오",
-        "scenarioStep2": "GUI에서 실험조건 설정",
-        "scenarioStep3": "충돌 위험 분석 및 개선 전략 제시"
+        "scenarioStep1": "<strong>자율차와 킥보드</strong> 교차 충돌 시나리오",
+        "scenarioStep2": "<strong>GUI에서 실험조건</strong> 설정",
+        "scenarioStep3": "충돌 위험 분석 및 <strong>개선 전략 제시</strong>"
       },
       "cta": {
         "title": "교통 안전을 향상시킬 준비가 되셨나요?",
@@ -390,29 +392,37 @@
     "trafficAnalysisToolsSolution": {
       "hero": {
         "title": "교통영향분석",
-        "subtitle": "정책 평가와 교통 최적화를 위한 원클릭 자동화 및 다중 규모 시뮬레이션 기능을 갖춘 종합 교통 분석 플랫폼"
+        "subtitle": "정책 평가와 교통 최적화를 위한 <strong>원클릭 자동화</strong> 및 <em>다중 규모 시뮬레이션</em> 기능을 갖춘 <strong>종합 교통 분석 플랫폼</strong>"
       },
       "overview": {
         "title": "개요",
         "demo": "원클릭 교통 분석 데모",
-        "demoDesc": "종합적인 교통 평가를 위한 자동화된 DRT, 마이크로, 매크로 시뮬레이션 비교가 포함된 Bo Wang의 원클릭 교통 분석 시스템을 경험해보세요.",
+        "demoDesc": "<em>종합적인 교통 평가</em>를 위한 자동화된 DRT, <strong>마이크로, 매크로 시뮬레이션</strong> 비교가 포함된 Bo Wang의 <strong>원클릭 교통 분석 시스템</strong>을 경험해보세요.",
+        "TA-1": "코시뮬레이션",
+        "TA-1Desc": "<strong>VISSIM과 Unity 간의 코시뮬레이션</strong>은 교통 및 운송 연구를 위한 매우 현실적이고 상호작용적인 가상 환경을 만드는 강력한 기술입니다. 두 플랫폼의 장점을 결합합니다: <em>견고하고 검증된 상세한 미시적 교통 시뮬레이션</em>을 위한 <strong>VISSIM</strong>과 <em>고급 3D 렌더링</em>, 물리학, 그리고 다양한 <strong>생명 구조 로봇 시뮬레이션</strong> 및 인간-루프 기능을 위한 <strong>Unity</strong>",
+        "TA-2": "다이나모미터를 이용한 코시뮬레이션",
+        "TA-2Desc": "하드웨어-인-더-루프(HIL) 시뮬레이션의 <strong>전문적이고 강력한 형태</strong>입니다. <strong>실제 물리적 하드웨어</strong>인 다이나모미터와 하나 이상의 가상 시뮬레이션 모델을 결합합니다. 이 접근법은 <strong>자동차 및 항공우주 산업</strong>에서 파워트레인 및 제어 시스템 테스트와 개발에 널리 사용됩니다",
+        "TA-3": "마이크로 시뮬레이션 - EV 자율 충전소",
+        "TA-3Desc": "<strong>자율 EV 충전소</strong>는 인간의 개입 없이 전기 자동차를 충전할 수 있는 시스템입니다. <strong>마이크로시뮬레이션</strong>을 사용하여 이 기술은 성장하는 EV 시장의 주요 과제 중 일부를 해결하기 위해 개발되고 있습니다",
+        "TA-4": "한국 화성시 활동 기반 모델",
+        "TA-4Desc": "이 모델은 2027년 화성시 내에서 발생할 <strong>자율주행차 레벨 4+</strong>를 이해하고 시뮬레이션하는 데 중점을 두며, <strong>교통 패턴</strong>과 도시 모빌리티에 대한 통찰력을 제공합니다.",
         "playVideo": "비디오 재생"
       },
       "technical": {
         "title": "기술 세부사항",
         "specsTitle": "사양 및 기술",
-        "spec1": "매크로: 정책 평가용",
-        "spec2": "메조: 대규모 이벤트/재난 대응",
-        "spec3": "마이크로: 신호 최적화/응급 대응용",
-        "spec4": "Visum-Vissim 연계 자동화",
-        "spec5": "단기 교통 예측 알고리즘",
+        "spec1": "<strong>매크로:</strong> <em>정책 평가용</em>",
+        "spec2": "<strong>메조:</strong> <em>대규모 이벤트/재난 대응</em>",
+        "spec3": "<strong>마이크로:</strong> <em>신호 최적화/응급 대응용</em>",
+        "spec4": "<strong>Visum-Vissim 연계 자동화</strong>",
+        "spec5": "<strong>단기 교통 예측 알고리즘</strong>",
         "researchTitle": "연구 및 특허",
         "patentTitle": "관련 특허",
-        "patentName": "다수의 Visum/Vissim 검증 자동화 툴",
+        "patentName": "다수의 <strong>Visum/Vissim 검증 자동화 툴</strong>",
         "applicationDate": "출원일",
         "patentNumber": "특허번호",
         "academicTitle": "연구 기반",
-        "academicInfo": "Bo Wang 등의 단기 교통 예측 연구 (2023년 11월)",
+        "academicInfo": "Bo Wang 등의 <strong>단기 교통 예측 연구</strong> (2023년 11월)",
         "disclosureButton": "연구 발표 보기"
       },
       "useCases": {
@@ -422,44 +432,44 @@
         "industry2": "국토부",
         "industry3": "학술기관",
         "outcomeTitle": "기대 효과",
-        "outcomeDesc": "정확한 교통 흐름 분석 및 정책 효과 예측",
+        "outcomeDesc": "<strong>정확한 교통 흐름 분석</strong> 및 <em>정책 효과 예측</em>",
         "scenarioTitle": "적용 시나리오",
-        "scenarioStep1": "서울 시내 재난 발생 가정",
-        "scenarioStep2": "마이크로+메조 연계 모델링",
-        "scenarioStep3": "신속한 재배치 및 대피경로 분석"
+        "scenarioStep1": "<strong>서울 시내 재난 발생</strong> 가정",
+        "scenarioStep2": "<strong>마이크로+메조 연계 모델링</strong>",
+        "scenarioStep3": "<em>신속한 재배치</em> 및 <strong>대피경로 분석</strong>"
       },
       "cta": {
         "title": "교통 시스템을 최적화할 준비가 되셨나요?",
-        "description": "교통영향분석 도구가 어떻게 교통 관리와 정책 평가 역량을 향상시킬 수 있는지 자세히 알아보려면 문의하세요.",
+        "description": "<strong>교통영향분석 도구</strong>가 어떻게 <em>교통 관리와 정책 평가 역량</em>을 향상시킬 수 있는지 자세히 알아보려면 문의하세요.",
         "button": "문의하기"
       }
     },
     "visualisationSolution": {
       "hero": {
         "title": "시각화",
-        "subtitle": "설득력 있는 프레젠테이션과 공공 커뮤니케이션을 위한 현실적인 교통 행동이 반영된 디지털 트윈 환경 기반 고화질 비디오 제작"
+        "subtitle": "<em>설득력 있는 프레젠테이션</em>과 <strong>공공 커뮤니케이션</strong>을 위한 <em>현실적인 교통 행동</em>이 반영된 <strong>디지털 트윈 환경</strong> 기반 <strong>고화질 비디오 제작</strong>"
       },
       "overview": {
         "title": "개요",
         "demo": "디지털 트윈 기반 HD 비디오 제작",
-        "demoDesc": "공청회와 정책 홍보에서 생생한 프레젠테이션을 위해 현실적인 교통 행동을 반영하여 디지털 트윈 환경에서 고화질 비디오를 제작하는 고급 시각화 시스템을 경험해보세요.",
+        "demoDesc": "<strong>공청회와 정책 홍보</strong>에서 생생한 프레젠테이션을 위해 <em>현실적인 교통 행동</em>을 반영하여 <strong>디지털 트윈 환경</strong>에서 <strong>고화질 비디오를 제작</strong>하는 고급 시각화 시스템을 경험해보세요.",
         "playVideo": "비디오 재생"
       },
       "technical": {
         "title": "기술 세부사항",
         "specsTitle": "사양 및 기술",
-        "spec1": "디지털 트윈 환경에서 고화질 비디오 제작",
-        "spec2": "현실적인 교통 행동 모델링 및 애니메이션",
-        "spec3": "프레젠테이션용 전문급 렌더링",
-        "spec4": "정책 홍보 자료와의 통합",
-        "spec5": "공청회 및 이해관계자 커뮤니케이션 도구",
+        "spec1": "<strong>디지털 트윈 환경</strong>에서 <strong>고화질 비디오 제작</strong>",
+        "spec2": "<strong>현실적인 교통 행동 모델링</strong> 및 애니메이션",
+        "spec3": "프레젠테이션용 <strong>전문급 렌더링</strong>",
+        "spec4": "<strong>정책 홍보 자료</strong>와의 통합",
+        "spec5": "공청회 및 <strong>이해관계자 커뮤니케이션 도구</strong>",
         "researchTitle": "연구 및 응용",
         "patentTitle": "관련 기술",
-        "patentName": "디지털 트윈 시각화 및 렌더링 시스템",
+        "patentName": "<strong>디지털 트윈 시각화 및 렌더링 시스템</strong>",
         "applicationDate": "출원일",
         "patentNumber": "특허번호",
         "academicTitle": "글로벌 응용",
-        "academicInfo": "전 세계 주요 도시 프로젝트의 필수 결과물로 간주",
+        "academicInfo": "전 세계 <strong>주요 도시 프로젝트</strong>의 <em>필수 결과물</em>로 간주",
         "disclosureButton": "연구 발표 보기"
       },
       "useCases": {
@@ -469,46 +479,46 @@
         "industry2": "정부기관",
         "industry3": "공공 커뮤니케이션",
         "outcomeTitle": "기대 효과",
-        "outcomeDesc": "몰입형 시각화를 통한 이해관계자 이해도 향상 및 공공 참여 개선",
+        "outcomeDesc": "<strong>몰입형 시각화</strong>를 통한 <em>이해관계자 이해도 향상</em> 및 공공 참여 개선",
         "scenarioTitle": "적용 시나리오",
-        "scenarioStep1": "주요 도시 개발 프로젝트 계획 단계",
-        "scenarioStep2": "디지털 트윈 데이터에서 고화질 시각화 제작",
-        "scenarioStep3": "공청회 및 정책 회의에서 설득력 있는 시각적 증거 제시"
+        "scenarioStep1": "<strong>주요 도시 개발 프로젝트</strong> 계획 단계",
+        "scenarioStep2": "<strong>디지털 트윈 데이터</strong>에서 <strong>고화질 시각화 제작</strong>",
+        "scenarioStep3": "<strong>공청회 및 정책 회의</strong>에서 설득력 있는 시각적 증거 제시"
       },
       "cta": {
         "title": "시각적 커뮤니케이션을 향상시킬 준비가 되셨나요?",
-        "description": "시각화 솔루션이 어떻게 공공 프레젠테이션과 이해관계자 참여를 개선할 수 있는지 자세히 알아보려면 문의하세요.",
+        "description": "<strong>시각화 솔루션</strong>이 어떻게 <em>공공 프레젠테이션과 이해관계자 참여</em>를 개선할 수 있는지 자세히 알아보려면 문의하세요.",
         "button": "문의하기"
       }
     },
     "lifeSavingRobotSolution": {
       "hero": {
         "title": "생명 구조 로봇",
-        "subtitle": "센서, AI, 실시간 통신 기능을 갖춘 로봇으로 복잡한 환경을 탐색하고 위험을 식별하며 대피를 지원합니다."
+        "subtitle": "<em>센서, AI, 실시간 통신</em> 기능을 갖춘 로봇으로 <strong>복잡한 환경을 탐색</strong>하고 <em>위험을 식별</em>하며 <strong>대피를 지원</strong>합니다."
       },
       "overview": {
         "title": "개요",
         "demo": "생명 구조 로봇",
-        "demoDesc": "생명 구조 로봇은 인간의 개입이 너무 위험하거나 어려운 위험한 상황에서 도움을 주도록 설계되었습니다. 재난, 사고 및 기타 응급 상황에서 생명을 구하고 구조대를 보호하는 데 도움이 되는 응급 구조대의 중요한 도구입니다.",
+        "demoDesc": "<strong>생명 구조 로봇</strong>은 인간의 개입이 너무 위험하거나 어려운 <em>위험한 상황</em>에서 도움을 주도록 설계되었습니다. 재난, 사고 및 기타 응급 상황에서 생명을 구하고 구조대를 보호하는 데 도움이 되는 <strong>응급 구조대의 중요한 도구</strong>입니다.",
         "LSR-1": "로봇 시뮬레이션",
-        "LSR-1Desc": "로봇은 복잡한 환경을 탐색하고 위험을 식별하며 대피 활동을 지원할 수 있습니다. 군중 흐름을 유도하거나 필수 물품을 전달하거나 응급 구조대에게 상황 인식을 제공함으로써 이 로봇은 중요한 순간에 위험을 줄이고 생명을 구하는 데 중요한 역할을 합니다.",
+        "LSR-1Desc": "로봇은 <strong>복잡한 환경을 탐색</strong>하고 위험을 식별하며 <strong>대피 활동을 지원</strong>할 수 있습니다. 군중 흐름을 유도하거나 <strong>필수 물품을 전달</strong>하거나 응급 구조대에게 상황 인식을 제공함으로써 이 로봇은 중요한 순간에 <strong>위험을 줄이고 생명을 구하는</strong> 데 중요한 역할을 합니다.",
         "playVideo": "비디오 재생"
       },
       "technical": {
         "title": "기술 세부사항",
         "specsTitle": "사양 및 기술",
-        "spec1": "센서 및 환경 인식",
-        "spec2": "항법 및 제어",
-        "spec3": "추진력 및 섀시",
-        "spec4": "인공지능(AI) 및 로봇공학",
-        "spec5": "통신",
+        "spec1": "<strong>센서 및 환경 인식</strong>",
+        "spec2": "<strong>항법 및 제어</strong>",
+        "spec3": "<strong>추진력 및 섀시</strong>",
+        "spec4": "<em>인공지능(AI) 및 로봇공학</em>",
+        "spec5": "<strong>통신</strong>",
         "researchTitle": "연구 및 개발",
         "patentTitle": "관련 특허",
-        "patentName": "대피 로봇 안내 시스템",
+        "patentName": "<strong>대피 로봇 안내 시스템</strong>",
         "applicationDate": "출원일",
         "patentNumber": "특허번호",
         "academicTitle": "교육 응용",
-        "academicInfo": "안전한 설계 검증을 위한 교육 프로그램에 사용",
+        "academicInfo": "<em>안전한 설계 검증</em>을 위한 교육 프로그램에 사용",
         "disclosureButton": "연구 발표 보기"
       },
       "useCases": {
@@ -518,15 +528,15 @@
         "industry2": "교통 엔지니어링",
         "industry3": "교육 기관",
         "outcomeTitle": "기대 효과",
-        "outcomeDesc": "건설 전 설계 정확도 및 안전성 검증 향상으로 비용이 많이 드는 수정 작업 감소",
+        "outcomeDesc": "건설 전 <strong>설계 정확도 및 안전성 검증</strong> 향상으로 비용이 많이 드는 수정 작업 감소",
         "scenarioTitle": "적용 시나리오",
-        "scenarioStep1": "복잡한 건물 설계 프로젝트",
-        "scenarioStep2": "BIM을 3D 환경으로 가져오기",
-        "scenarioStep3": "로봇 시뮬레이션을 통한 안전 측면 및 사용자 경험 검증"
+        "scenarioStep1": "<strong>복잡한 건물 설계 프로젝트</strong>",
+        "scenarioStep2": "<strong>BIM</strong>을 <em>3D 환경</em>으로 가져오기",
+        "scenarioStep3": "로봇 시뮬레이션을 통한 <em>안전 측면</em> 및 사용자 경험 검증"
       },
       "cta": {
         "title": "건물 설계 프로세스를 혁신할 준비가 되셨나요?",
-        "description": "생명 구조 로봇 솔루션이 어떻게 설계 검증과 안전성 확인 프로세스를 향상시킬 수 있는지 자세히 알아보려면 문의하세요.",
+        "description": "<strong>생명 구조 로봇 솔루션</strong>이 어떻게 <em>설계 검증과 안전성 확인 프로세스</em>를 향상시킬 수 있는지 자세히 알아보려면 문의하세요.",
         "button": "문의하기"
       }
     }
@@ -723,14 +733,58 @@
     }
   },
   "getInTouch": {
+    "badge": "연락하기",
     "heroTitle": "연락하기",
-    "heroSubtitle": "여러분의 의견을 듣고 싶습니다! 질문, 파트너십 아이디어, 또는 단순한 인사말로 연락해 주세요.",
+    "heroSubtitle": "모빌리티 솔루션을 혁신할 준비가 되셨나요? 여러분의 의견을 듣고 싶습니다. 질문이 있으시거나, 파트너십 아이디어를 가지고 계시거나, 전문가 상담이 필요하시다면, 저희 팀이 도와드리겠습니다.",
+    "contactInfo": {
+      "title": "대화를 시작해보세요",
+      "location": {
+        "title": "사무실 방문",
+        "address": "대한민국 대전광역시 유성구 대학로 291, KAIST"
+      },
+      "email": {
+        "title": "이메일 보내기",
+        "address": "info@dochak.com"
+      },
+      "phone": {
+        "title": "전화 문의",
+        "number": "+82-42-350-1234"
+      }
+    },
+    "social": {
+      "title": "팔로우하기"
+    },
     "form": {
-      "name": "이름",
-      "email": "이메일",
+      "title": "메시지 보내기",
+      "subtitle": "아래 양식을 작성해 주시면 24시간 내에 답변드리겠습니다.",
+      "name": "성명",
+      "namePlaceholder": "성명을 입력해 주세요",
+      "email": "이메일 주소",
+      "emailPlaceholder": "이메일 주소를 입력해 주세요",
+      "company": "회사명 (선택사항)",
+      "companyPlaceholder": "회사명을 입력해 주세요",
       "message": "메시지",
+      "messagePlaceholder": "프로젝트에 대해 알려주시거나 궁금한 점을 문의해 주세요",
       "submit": "메시지 보내기",
-      "success": "연락해 주셔서 감사합니다! 곧 답변드리겠습니다."
+      "success": "메시지가 성공적으로 전송되었습니다!",
+      "successTitle": "감사합니다!",
+      "successMessage": "메시지를 받았으며 24시간 내에 답변드리겠습니다. 저희 팀이 여러분의 프로젝트에 대해 더 자세히 알아보기를 기대하고 있습니다."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "저희 솔루션과 서비스에 대한 일반적인 질문의 답변을 찾아보세요.",
+      "item1": {
+        "question": "어떤 종류의 모빌리티 솔루션을 제공하나요?",
+        "answer": "교통영향분석 도구, 디지털 트윈 기술, 자율주행차 시뮬레이션, 다중 교통수단 시스템, 스마트 시티 인프라 계획을 포함한 포괄적인 모빌리티 솔루션을 제공합니다."
+      },
+      "item2": {
+        "question": "솔루션 구현에는 얼마나 걸리나요?",
+        "answer": "구현 일정은 프로젝트 범위와 복잡성에 따라 다릅니다. 일반적으로 저희 솔루션은 3-6개월 내에 배포될 수 있으며, 지속적인 지원 및 최적화 서비스를 이용할 수 있습니다."
+      },
+      "item3": {
+        "question": "교육과 지원을 제공하나요?",
+        "answer": "네, 저희는 여러분 팀을 위한 포괄적인 교육 프로그램을 제공하고 지속적인 기술 지원을 제공합니다. 저희 전문가들이 원활한 통합과 모빌리티 솔루션의 최적 활용을 보장합니다."
+      }
     }
   },
   "footer": {

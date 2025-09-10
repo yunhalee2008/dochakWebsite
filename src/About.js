@@ -50,9 +50,9 @@ export default function About() {
           <AnimatedElement animation="slide-left" delay={100}>
             <div className="about-mission-intro-left">
               <h2 className="about-section-title">{t('about.missionTitle')}</h2>
-              <p className="about-mission-intro-text">
-                {t('about.missionIntro')}
-              </p>
+              <p className="about-mission-intro-text"
+                 dangerouslySetInnerHTML={{ __html: t('about.missionIntro') }}
+              />
             </div>
           </AnimatedElement>
           <AnimatedElement animation="slide-right" delay={200}>
@@ -74,9 +74,9 @@ export default function About() {
                   <circle cx="12" cy="16" r="1"/>
                 </svg>
               </div>
-              <p className="about-mission-column-text">
-                {t('about.solutionsText')}
-              </p>
+              <p className="about-mission-column-text"
+                 dangerouslySetInnerHTML={{ __html: t('about.solutionsText') }}
+              />
               <Link to="/solutions" className="about-mission-cta about-mission-cta-emerald">
                 {t('about.missionCTA1')}
                 <svg 
@@ -106,9 +106,9 @@ export default function About() {
                   <path d="M2 12l10 5 10-5"/>
                 </svg>
               </div>
-              <p className="about-mission-column-text">
-                {t('about.projectsText')}
-              </p>
+              <p className="about-mission-column-text"
+                 dangerouslySetInnerHTML={{ __html: t('about.projectsText') }}
+              />
               <Link to="/projects" className="about-mission-cta about-mission-cta-blue">
                 {t('about.missionCTA2')}
                 <svg 
@@ -139,9 +139,9 @@ export default function About() {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
               </div>
-              <p className="about-mission-column-text">
-                {t('about.teamText')}
-              </p>
+              <p className="about-mission-column-text"
+                 dangerouslySetInnerHTML={{ __html: t('about.teamText') }}
+              />
               <Link to="/team" className="about-mission-cta about-mission-cta-purple">
                 {t('about.missionCTA3')}
                 <svg 
@@ -173,25 +173,25 @@ export default function About() {
           <AnimatedElement animation="scale-in" delay={100}>
             <div className="about-value-card">
               <div className="about-value-title">{t('about.values.automation.title')}</div>
-              <div className="about-value-desc">{t('about.values.automation.desc')}</div>
+              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.automation.desc') }} />
             </div>
           </AnimatedElement>
           <AnimatedElement animation="scale-in" delay={200}>
             <div className="about-value-card">
               <div className="about-value-title">{t('about.values.integration.title')}</div>
-              <div className="about-value-desc">{t('about.values.integration.desc')}</div>
+              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.integration.desc') }} />
             </div>
           </AnimatedElement>
           <AnimatedElement animation="scale-in" delay={300}>
             <div className="about-value-card">
               <div className="about-value-title">{t('about.values.excellence.title')}</div>
-              <div className="about-value-desc">{t('about.values.excellence.desc')}</div>
+              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.excellence.desc') }} />
             </div>
           </AnimatedElement>
           <AnimatedElement animation="scale-in" delay={400}>
             <div className="about-value-card">
               <div className="about-value-title">{t('about.values.innovation.title')}</div>
-              <div className="about-value-desc">{t('about.values.innovation.desc')}</div>
+              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.innovation.desc') }} />
             </div>
           </AnimatedElement>
         </div>
@@ -203,9 +203,9 @@ export default function About() {
           <h2 className="about-section-title">{t('about.marketTitle')}</h2>
         </AnimatedElement>
         <AnimatedElement animation="slide-up" delay={200}>
-          <p className="about-mission-text">
-              {t('about.marketText')}
-          </p>
+          <p className="about-mission-text"
+             dangerouslySetInnerHTML={{ __html: t('about.marketText') }}
+          />
         </AnimatedElement>
         <div className="about-market-inner">
             <GlobeDemo />

@@ -1422,15 +1422,16 @@
 
 .solutions-page .contact-button.primary,
 .contact-button.primary {
-  background: var(--science-blue) !important;
-  color: #fff !important;
-  border-color: var(--science-blue) !important;
+  background: transparent !important;
+  color: var(--science-blue) !important;
+  border: 2px solid var(--science-blue) !important;
 }
 
 .solutions-page .contact-button.primary:hover,
 .contact-button.primary:hover {
   background: var(--curious-blue) !important;
   border-color: var(--curious-blue) !important;
+  color: #fff !important;
   transform: translateY(-2px) !important;
   box-shadow: 0 4px 12px var(--curious-blue-transparent) !important;
 }

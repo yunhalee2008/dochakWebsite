@@ -116,12 +116,13 @@ export default function Solutions() {
                     </div>
 
                     <div className="solution-content">
-                      <p className="solution-description">
-                        {Array.isArray(solution.desc) 
-                          ? `${solution.desc[0]} ${solution.desc[1] || ''}`.trim()
-                          : solution.desc
-                        }
-                      </p>
+                      <p className="solution-description"
+                         dangerouslySetInnerHTML={{
+                           __html: Array.isArray(solution.desc) 
+                             ? `${solution.desc[0]} ${solution.desc[1] || ''}`.trim()
+                             : solution.desc
+                         }}
+                      />
                     </div>
 
                     <div className="solution-footer">

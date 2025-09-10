@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-left">
           <img src={logo} alt="dochak logo" className="footer-logo" />
           <div className="footer-designer">
-            proudly designed by Yoonha Lee
+            proudly designed by Yunha Lee
           </div>
         </div>
         <div className="footer-links">

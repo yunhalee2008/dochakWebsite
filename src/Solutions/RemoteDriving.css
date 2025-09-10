@@ -395,8 +395,8 @@
   display: inline-flex;
   align-items: center;
   padding: 0.6rem 1.2rem;
-  background: var(--science-blue);
-  color: #fff;
+  background: transparent;
+  color: var(--science-blue);
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
@@ -413,6 +413,7 @@
 .cta-button:hover {
   background: var(--curious-blue);
   border-color: var(--curious-blue);
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(87, 188, 235, 0.3);
 }
@@ -629,16 +630,17 @@
 }
 
 .contact-button.primary {
-  background: var(--science-blue);
-  color: #fff;
-  border-color: var(--science-blue);
+  background: transparent;
+  color: var(--science-blue);
+  border: 2px solid var(--science-blue);
 }
 
 .contact-button.primary:hover {
   background: var(--curious-blue);
   border-color: var(--curious-blue);
+  color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--curious-blue-transparent);
+  box-shadow: 0 4px 12px rgba(87, 188, 235, 0.3);
 }
 
 /* Scroll-triggered animations */

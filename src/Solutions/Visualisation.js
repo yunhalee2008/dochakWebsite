@@ -34,7 +34,7 @@ export default function Visualisation() {
             <h1 className="hero-title">{t('solutions.visualisationSolution.hero.title')}</h1>
           </AnimatedElement>
           <AnimatedElement animation="slide-up" delay={200}>
-            <p className="hero-subtitle">{t('solutions.visualisationSolution.hero.subtitle')}</p>
+            <p className="hero-subtitle" dangerouslySetInnerHTML={{ __html: t('solutions.visualisationSolution.hero.subtitle') }}></p>
           </AnimatedElement>
         </div>
       </section>
@@ -100,7 +100,7 @@ export default function Visualisation() {
                 <div className="research-item">
                   <h4>{t('solutions.visualisationSolution.technical.patentTitle')}</h4>
                   <div className="patent-details">
-                    <div className="patent-title">"{t('solutions.visualisationSolution.technical.patentName')}"</div>
+                    <div className="patent-title" dangerouslySetInnerHTML={{ __html: `"${t('solutions.visualisationSolution.technical.patentName')}"` }}></div>
                     <div className="patent-info-row">
                       <div className="patent-date">
                         <span className="patent-date-label">{t('solutions.visualisationSolution.technical.applicationDate')}:</span>

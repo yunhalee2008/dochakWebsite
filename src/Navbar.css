@@ -367,9 +367,9 @@
 }
 
 .getintouch-btn {
-  background: var(--science-blue);
-  color: #fff;
-  border: none;
+  background: transparent;
+  color: var(--science-blue);
+  border: 2px solid var(--science-blue);
   border-radius: 0.6rem;
   padding: 0.35rem 1rem;
   font-size: 0.95rem;
@@ -383,6 +383,7 @@
 .getintouch-btn:hover {
   background: var(--curious-blue);
   color: #fff;
+  border-color: var(--curious-blue);
   box-shadow: 0 2px 8px #289ad799;
 }
 
@@ -793,14 +794,15 @@
   }
 
   .getintouch-btn {
-    background: #000;
-    color: #fff;
+    background: transparent;
+    color: #000;
     border: 2px solid #000;
   }
 
   .getintouch-btn:hover {
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #fff;
+    border-color: #000;
   }
 }
 

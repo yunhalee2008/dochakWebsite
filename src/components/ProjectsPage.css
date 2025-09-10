@@ -532,14 +532,15 @@
 }
 
 .contact-button.primary {
-  background: var(--science-blue);
-  color: #fff;
-  border-color: var(--science-blue);
+  background: transparent;
+  color: var(--science-blue);
+  border: 2px solid var(--science-blue);
 }
 
 .contact-button.primary:hover {
   background: var(--curious-blue);
   border-color: var(--curious-blue);
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px var(--curious-blue-transparent);
 }
