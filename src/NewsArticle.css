@@ -18,7 +18,6 @@
 .article-breadcrumb {
   background: #fff;
   padding: 1.5rem 0;
-  border-bottom: 1px solid var(--border-light);
 }
 
 .breadcrumb-nav {
@@ -256,10 +255,172 @@
   line-height: 1.5;
 }
 
+/* Training Programs Section with Inline Image */
+.training-programs-section {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  align-items: flex-start;
+}
+
+.training-content {
+  flex: 1;
+}
+
+.training-image {
+  flex: 0 0 300px;
+  text-align: center;
+}
+
+.inline-training-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.inline-training-image:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive design for training section */
+@media (max-width: 768px) {
+  .training-programs-section {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .training-image {
+    flex: none;
+    order: -1; /* Put image before content on mobile */
+  }
+  
+  .inline-training-image {
+    max-width: 100%;
+  }
+}
+
+/* Certificate Gallery */
+.certificate-gallery {
+  margin: 4rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border-light);
+}
+
+.certificate-gallery-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--navy-heading);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.certificate-figure {
+  text-align: center;
+}
+
+.certificate-image {
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.certificate-image:hover {
+  transform: scale(1.02);
+}
+
+.certificate-caption {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Team CTA Button */
+.team-cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.team-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  color: var(--curious-blue);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: none;
+  font-family: inherit;
+}
+
+.team-cta-button:hover {
+  color: var(--science-blue);
+  transform: translateX(4px);
+}
+
+.team-cta-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s ease;
+}
+
+.team-cta-button:hover .team-cta-arrow {
+  transform: translateX(2px);
+}
+
+/* Responsive Design for Certificates */
+@media (max-width: 900px) {
+  .certificate-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .certificate-image {
+    height: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .certificate-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .certificate-gallery-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .certificate-image {
+    height: 200px;
+  }
+}
+
 /* Article Footer */
 .article-footer {
   padding: 3rem 0 0 0;
-  border-top: 1px solid var(--border-light);
   text-align: center;
 }
 

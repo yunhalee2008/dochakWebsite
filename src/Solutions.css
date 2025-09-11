@@ -187,172 +187,254 @@
 }
 
 /* =====================================
-   SOLUTIONS GRID
+   SOLUTIONS GRID - CARD OVERLAY DESIGN
    ===================================== */
-.solutions-main {
-  padding: 6rem 0 !important;
-  background: #f4f6f8 !important;
-  position: relative;
+.solutions-grid-section {
+  padding: 5rem 0;
+  background: #f4f6f8;
 }
 
-.solutions-container {
-  max-width: 1400px !important;
-  margin: 0 auto !important;
-  padding: 0 2rem !important;
-}
-
-.solutions-section-title {
-  font-size: 2.4rem !important;
-  font-weight: 750 !important;
-  color: var(--navy-heading) !important;
-  text-align: center !important;
-  margin-bottom: 3rem !important;
-  letter-spacing: -0.5px !important;
-  line-height: 1.2 !important;
+.solutions-grid-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .solutions-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 2.5rem !important;
-  margin-top: 3rem !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-/* =====================================
-   SOLUTION CARDS - MODERN DESIGN
-   ===================================== */
 .solution-card {
-  background: #ffffff !important;
-  border-radius: 20px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08) !important;
-  border: 1px solid var(--border-light) !important;
-  overflow: hidden !important;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  position: relative !important;
-  display: block !important;
-  height: 100% !important;
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
-
 
 .solution-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 24px rgba(75, 177, 224, 0.15);
-  border: 1px solid rgba(87, 188, 235, 0.2);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
 }
 
-.solution-card-link {
-  text-decoration: none !important;
-  color: inherit !important;
-  display: flex !important;
-  flex-direction: column !important;
-  height: 100% !important;
+.solution-card-overlay {
+  background-blend-mode: overlay;
 }
 
-.solution-header {
-  padding: 2rem 2rem 1.5rem 2rem;
-  text-align: center;
-}
-
-.solution-image-container {
-  position: relative;
-  height: 180px;
-  overflow: hidden;
-  margin: 1rem 2rem;
-  border-radius: 16px;
-  background: var(--border-light);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-.solution-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-
-.solution-card:hover .solution-image {
-  transform: scale(1.05);
-}
-
-.solution-image-overlay {
+.solution-card-overlay-bg {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(87, 188, 235, 0.1) 0%, rgba(40, 154, 215, 0.2) 100%);
-  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
   transition: opacity 0.3s ease;
 }
 
-/* Solution title with maximum specificity */
-.solutions-page .solution-card .solution-header .solution-title,
-.solutions-page .solutions-grid .solution-card .solution-header .solution-title,
-.solution-card .solution-header .solution-title,
-.solution-title {
-  font-size: 1.25rem !important;
-  font-weight: 600 !important;
-  color: var(--navy-heading) !important;
-  margin: 0 !important;
-  line-height: 1.4 !important;
-  display: block !important;
-  text-align: center !important;
+.solution-card:hover .solution-card-overlay-bg {
+  opacity: 0.75;
 }
 
-.solution-content {
-  padding: 1.5rem 2rem 2rem 2rem;
-  flex-grow: 1;
+.solution-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.solution-card-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  height: 100%;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+}
+
+.solution-card-text {
+  margin-bottom: 1rem;
+}
+
+.solution-category-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  align-self: flex-start;
+}
+
+.solution-card-title,
+.solutions-page .solution-card-title,
+.solution-card-content .solution-card-title,
+.solution-card-content h2.solution-card-title,
+.solutions-page .solution-card-content h2.solution-card-title,
+.solutions-page h2.solution-card-title {
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+  color: white !important;
+  margin-bottom: 0.5rem !important;
+  letter-spacing: -0.5px !important;
+  line-height: 1.2 !important;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', Arial, sans-serif !important;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .solution-description {
-  font-size: 1rem !important;
-  color: var(--text-secondary) !important;
-  line-height: 1.6 !important;
-  margin: 0 !important;
-  flex-grow: 1 !important;
-  text-align: left !important;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-.solution-footer {
-  padding: 1rem 2rem 1.5rem 2rem;
-  border-top: 1px solid rgba(226, 232, 240, 0.6);
-  margin-top: auto;
-  text-align: center;
+.solution-tags {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0;
 }
 
-.solution-learn-more {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  color: var(--curious-blue);
+.solution-tag {
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border-radius: 1rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
   transition: all 0.3s ease;
-  justify-content: center;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  background: rgba(87, 188, 235, 0.1);
 }
 
-.solution-arrow {
-  width: 16px;
-  height: 16px;
+.solution-tag:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+
+.solution-image-wrapper {
+  max-width: 100%;
+  width: 500px;
+}
+
+.solution-section-image {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
-.solution-card:hover .solution-learn-more {
-  color: var(--science-blue);
-  background: rgba(87, 188, 235, 0.2);
+.solution-section-image:hover {
+  transform: scale(1.02);
 }
 
-.solution-card:hover .solution-arrow {
-  transform: translateX(4px);
+/* Responsive Design for Cards */
+@media (max-width: 1200px) {
+  .solutions-grid-container {
+    max-width: 1000px;
+    padding: 0 1.5rem;
+  }
+  
+  .solution-card {
+    height: 380px;
+  }
+  
+  .solution-card-title {
+    font-size: 1.6rem !important;
+  }
 }
+
+@media (max-width: 900px) {
+  .solutions-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .solution-card {
+    height: 350px;
+  }
+  
+  .solution-card-content {
+    padding: 1.5rem;
+  }
+  
+  .solution-card-title {
+    font-size: 1.5rem !important;
+  }
+  
+  .solution-description {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .solution-tags {
+    gap: 0.4rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .solution-tag {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.65rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .solutions-grid-section {
+    padding: 3rem 0;
+  }
+  
+  .solutions-grid-container {
+    padding: 0 1rem;
+  }
+  
+  .solution-card {
+    height: 320px;
+  }
+  
+  .solution-card-content {
+    padding: 1.2rem;
+  }
+  
+  .solution-card-title {
+    font-size: 1.3rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .solution-description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  
+  
+}
+
+
 
 /* =====================================
    CALL TO ACTION SECTION

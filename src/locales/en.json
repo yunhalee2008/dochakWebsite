@@ -551,118 +551,118 @@
       "naepo": {
         "title": "Naepo New City Digital Twin",
         "date": "2025-Present",
-        "explanation": "Dochak will position itself as a regional mobility innovation leader in Chungnam by using digital twins and simulation for traffic solutions.",
-        "detailedDescription": "Developing Korea's first traffic-focused digital twin for Naepo New City to support advanced mobility planning and operations. The system integrates real-time data collection, AI-based predictive modeling, and 3D visualization to help city planners and operators make better decisions. This project plays a key role in sustainable urban development and building a smart mobility ecosystem.",
+        "explanation": "Dochak will position itself as a <strong>regional mobility innovation leader</strong> in Chungnam by using <em>digital twins and simulation</em> for traffic solutions.",
+        "detailedDescription": "Developing <strong>Korea's first traffic-focused digital twin</strong> for Naepo New City to support <em>advanced mobility planning and operations</em>. The system integrates <strong>real-time data collection</strong>, <em>AI-based predictive modeling</em>, and <strong>3D visualization</strong> to help city planners and operators make better decisions. This project plays a key role in <em>sustainable urban development</em> and building a <strong>smart mobility ecosystem</strong>.",
         "keyFeatures": [
-          "Real-time traffic data analysis",
-          "AI-based traffic flow prediction",
-          "3D digital twin visualization",
-          "Integrated traffic management system",
-          "Smart traffic signal optimization",
-          "Public transit route optimization"
+          "<strong>Real-time</strong> traffic data analysis",
+          "<em>AI-based</em> traffic flow prediction",
+          "<strong>3D digital twin</strong> visualization",
+          "Integrated <em>traffic management system</em>",
+          "<strong>Smart traffic signal</strong> optimization",
+          "Public transit <em>route optimization</em>"
         ],
-        "impact": "This project is expected to improve traffic efficiency by 30%, reduce carbon emissions by 25%, and reduce citizens' travel time by an average of 20%. It will also contribute to local economic revitalization and job creation.",
+        "impact": "This project is expected to improve <strong>traffic efficiency by 30%</strong>, reduce <em>carbon emissions by 25%</em>, and reduce <strong>citizens' travel time by an average of 20%</strong>. It will also contribute to <em>local economic revitalization</em> and <strong>job creation</strong>.",
         "impactStats": [
           {
             "number": "6.7%",
-            "text": "Improvement of driving speed for overlapping routes (114 and 115)"
+            "text": "Improvement of <strong>driving speed</strong> for overlapping routes <em>(114 and 115)</em>"
           },
           {
             "number": "4.5%",
-            "text": "Reduction of average travel time after the introduction of articulated buses"
+            "text": "Reduction of <strong>average travel time</strong> after the introduction of <em>articulated buses</em>"
           }
         ],
         "videoTitle": "Naepo New City Digital Twin Demo",
-        "videoDescription": "Demonstration video of real-time traffic monitoring and prediction system using digital twin technology."
+        "videoDescription": "Demonstration video of <strong>real-time traffic monitoring</strong> and <em>prediction system</em> using <strong>digital twin technology</strong>."
       },
       "teleDriving": {
         "title": "Daejeon-Jeju Tele-driving",
         "date": "2025-Present",
-        "explanation": "Provides remote driver intervention when autonomous vehicles encounter issues, addressing limitations of autonomous systems.",
-        "detailedDescription": "Developing tele-driving technology for autonomous vehicles over a 500km distance between Daejeon and Jeju. Using ultra-low-latency communication via 5G networks, remote drivers can control vehicles in real-time, providing safe intervention when autonomous systems cannot handle situations. This technology can be widely applied in mobility services, logistics, and defense sectors.",
+        "explanation": "Provides <strong>remote driver intervention</strong> when autonomous vehicles encounter issues, addressing <em>limitations of autonomous systems</em>.",
+        "detailedDescription": "Developing <strong>tele-driving technology</strong> for autonomous vehicles over a <em>500km distance</em> between Daejeon and Jeju. Using <strong>ultra-low-latency communication</strong> via <em>5G networks</em>, remote drivers can control vehicles in <strong>real-time</strong>, providing <em>safe intervention</em> when autonomous systems cannot handle situations. This technology can be widely applied in <strong>mobility services</strong>, <em>logistics</em>, and <strong>defense sectors</strong>.",
         "keyFeatures": [
-          "5G-based ultra-low-latency remote control",
-          "Real-time video streaming",
-          "Safe remote intervention system",
-          "Multi-sensor data integration",
-          "Emergency response algorithms",
-          "Cross-platform compatibility"
+          "<strong>5G-based</strong> ultra-low-latency remote control",
+          "<em>Real-time</em> video streaming",
+          "Safe <strong>remote intervention system</strong>",
+          "Multi-sensor <em>data integration</em>",
+          "<strong>Emergency response</strong> algorithms",
+          "Cross-platform <em>compatibility</em>"
         ],
-        "impact": "Tele-driving technology will significantly improve autonomous vehicle safety, solve driver shortage issues, and create new mobility service models. It will bring innovation especially to long-distance transportation and driving in special environments.",
+        "impact": "<strong>Tele-driving technology</strong> will significantly improve <em>autonomous vehicle safety</em>, solve <strong>driver shortage issues</strong>, and create <em>new mobility service models</em>. It will bring innovation especially to <strong>long-distance transportation</strong> and driving in <em>special environments</em>.",
         "impactStats": [
           {
             "number": "30%",
-            "text": "Enhanced safety protocols and risk management systems"
+            "text": "Enhanced <strong>safety protocols</strong> and <em>risk management systems</em>"
           },
           {
             "number": "25%",
-            "text": "Reduced operational costs through remote vehicle control"
+            "text": "Reduced <strong>operational costs</strong> through <em>remote vehicle control</em>"
           },
           {
             "number": "20%",
-            "text": "Improved response times in emergency situations"
+            "text": "Improved <strong>response times</strong> in <em>emergency situations</em>"
           }
         ],
         "videoTitle": "Tele-driving Technology Demo",
-        "videoDescription": "Actual operation demonstration video of the Daejeon-Jeju tele-driving system."
+        "videoDescription": "Actual operation demonstration video of the <strong>Daejeon-Jeju tele-driving system</strong>."
       },
       "publicTransport": {
         "title": "Daejeon 3-Car Public Transportation",
         "date": "2025-Present",
-        "explanation": "Innovating Daejeon's public transportation system to maximize traffic efficiency through 3-car connected electric train operation.",
-        "detailedDescription": "Innovating Daejeon's existing public transportation system by building a 3-car connected electric train operation system. This system greatly improves the efficiency and convenience of public transportation through flexible vehicle deployment based on passenger demand, real-time passenger information, and integration with smart signal systems. It also implements an environmentally friendly transportation system through energy-efficient operation.",
+        "explanation": "Innovating <strong>Daejeon's public transportation system</strong> to maximize <em>traffic efficiency</em> through <strong>3-car connected electric train operation</strong>.",
+        "detailedDescription": "Innovating <strong>Daejeon's existing public transportation system</strong> by building a <em>3-car connected electric train operation system</em>. This system greatly improves the <strong>efficiency and convenience</strong> of public transportation through <em>flexible vehicle deployment</em> based on passenger demand, <strong>real-time passenger information</strong>, and integration with <em>smart signal systems</em>. It also implements an <strong>environmentally friendly transportation system</strong> through <em>energy-efficient operation</em>.",
         "keyFeatures": [
-          "3-car connected electric train operation",
-          "Real-time passenger information system",
-          "Smart signal integration",
-          "Energy-efficient operation",
-          "Passenger demand-based vehicle deployment",
-          "Mobile app integration service"
+          "<strong>3-car connected</strong> electric train operation",
+          "<em>Real-time</em> passenger information system",
+          "<strong>Smart signal</strong> integration",
+          "Energy-efficient <em>operation</em>",
+          "<strong>Passenger demand-based</strong> vehicle deployment",
+          "Mobile app <em>integration service</em>"
         ],
-        "impact": "The 3-car public transportation system is expected to improve public transportation usage by 40%, reduce waiting time by 50%, and decrease traffic congestion by 30%. It also contributes to environmental protection through reduced carbon emissions.",
+        "impact": "The <strong>3-car public transportation system</strong> is expected to improve <em>public transportation usage by 40%</em>, reduce <strong>waiting time by 50%</strong>, and decrease <em>traffic congestion by 30%</em>. It also contributes to <strong>environmental protection</strong> through <em>reduced carbon emissions</em>.",
         "impactStats": [
           {
             "number": "6.7%",
-            "text": "Improvement in travel speed for overlapping routes (No. 114, 115)"
+            "text": "Improvement in <strong>travel speed</strong> for overlapping routes <em>(No. 114, 115)</em>"
           },
           {
             "number": "4.5%",
-            "text": "Reduction in travel time after the introduction of articulated buses."
+            "text": "Reduction in <strong>travel time</strong> after the introduction of <em>articulated buses</em>."
           }
         ],
         "videoTitle": "3-Car Public Transportation Demo",
-        "videoDescription": "Actual operation video of Daejeon's 3-car connected electric train system."
+        "videoDescription": "Actual operation video of <strong>Daejeon's 3-car connected electric train system</strong>."
       },
       "airportParking": {
         "title": "Incheon Airport Parking Improvement",
         "date": "2025-Present",
-        "explanation": "Improving Incheon Airport's parking system with smart technology to maximize user convenience.",
-        "detailedDescription": "Improving Incheon Airport's parking system by integrating IoT sensors, AI-based prediction, and mobile apps into a smart parking solution. Real-time parking space guidance, reservation systems, and automatic payment functions revolutionize the parking experience for users. It also increases parking lot operational efficiency and reduces management costs.",
+        "explanation": "Improving <strong>Incheon Airport's parking system</strong> with <em>smart technology</em> to maximize <strong>user convenience</strong>.",
+        "detailedDescription": "Improving <strong>Incheon Airport's parking system</strong> by integrating <em>IoT sensors</em>, <strong>AI-based prediction</strong>, and <em>mobile apps</em> into a <strong>smart parking solution</strong>. <em>Real-time parking space guidance</em>, <strong>reservation systems</strong>, and <em>automatic payment functions</em> revolutionize the parking experience for users. It also increases <strong>parking lot operational efficiency</strong> and reduces <em>management costs</em>.",
         "keyFeatures": [
-          "Real-time parking space guidance",
-          "Smart reservation system",
-          "Automatic payment and settlement",
-          "IoT sensor-based monitoring",
-          "AI-based parking demand prediction",
-          "Mobile app integration service"
+          "<strong>Real-time</strong> parking space guidance",
+          "<em>Smart reservation</em> system",
+          "<strong>Automatic payment</strong> and settlement",
+          "IoT sensor-based <em>monitoring</em>",
+          "<strong>AI-based parking demand</strong> prediction",
+          "Mobile app <em>integration service</em>"
         ],
-        "impact": "The smart parking system will improve parking lot utilization by 60%, reduce parking time by an average of 70%, and greatly improve user satisfaction. It is also expected to reduce parking lot operational costs by 40%.",
+        "impact": "The <strong>smart parking system</strong> will improve <em>parking lot utilization by 60%</em>, reduce <strong>parking time by an average of 70%</strong>, and greatly improve <em>user satisfaction</em>. It is also expected to reduce <strong>parking lot operational costs by 40%</strong>.",
         "impactStats": [
           {
             "number": "60%",
-            "text": "Faster parking spot allocation through smart sensor technology"
+            "text": "Faster <strong>parking spot allocation</strong> through <em>smart sensor technology</em>"
           },
           {
             "number": "70%",
-            "text": "Improved user convenience with real-time availability updates"
+            "text": "Improved <strong>user convenience</strong> with <em>real-time availability updates</em>"
           },
           {
             "number": "40%",
-            "text": "Reduction in traffic congestion around airport facilities"
+            "text": "Reduction in <strong>traffic congestion</strong> around <em>airport facilities</em>"
           }
         ],
         "videoTitle": "Smart Parking System Demo",
-        "videoDescription": "Actual operation demonstration video of Incheon Airport's smart parking system."
+        "videoDescription": "Actual operation demonstration video of <strong>Incheon Airport's smart parking system</strong>."
       }
     },
     "media": {
@@ -772,7 +772,7 @@
       "title": "Let's Start a Conversation",
       "location": {
         "title": "Visit Our Office",
-        "address": "KAIST, 291 Daehak-ro, Daejeon, South Korea"
+        "address": "KAIST, 291 Daehak-ro, Daejeon, Korea"
       },
       "email": {
         "title": "Send Us an Email",
@@ -1014,115 +1014,22 @@
       "button": "Subscribe"
     },
     "items": {
-      "item1": {
-        "title": "KAIST Startup dochak Secures Initial Funding for Mobility Innovation",
-        "date": "December 15, 2024",
-        "category": "Company",
-        "excerpt": "We are excited to announce that dochak has successfully secured initial funding to accelerate our mission of revolutionizing urban mobility through advanced simulation and AI technologies."
-      },
-      "item2": {
-        "title": "Partnership Announcement: Collaborating with Leading Transportation Companies",
-        "date": "December 10, 2024",
+      "ptvCertified": {
+        "title": "PTV Certified Trainer",
+        "date": "August 25, 2025",
         "category": "Business",
-        "excerpt": "dochak forms strategic partnerships with industry leaders to bring cutting-edge mobility solutions to market faster and more efficiently."
-      },
-      "item3": {
-        "title": "Research Breakthrough: Advanced Traffic Simulation Technology",
-        "date": "December 5, 2024",
-        "category": "Technology",
-        "excerpt": "Our research team achieves significant breakthrough in multimodal traffic simulation, enabling more accurate predictions and safer autonomous vehicle testing."
-      },
-      "item4": {
-        "title": "Team Expansion: Welcoming New Talent to dochak",
-        "date": "December 1, 2024",
-        "category": "Company",
-        "excerpt": "As we grow, we're excited to welcome new team members who bring diverse expertise in AI, simulation, and transportation technology to strengthen our capabilities."
-      },
-      "item5": {
-        "title": "Conference Presentation: Showcasing Innovation at Mobility Tech Summit",
-        "date": "November 28, 2024",
-        "category": "Events",
-        "excerpt": "Our CEO presented our latest mobility solutions at the international Mobility Tech Summit, receiving positive feedback from industry experts and potential partners."
-      },
-      "item6": {
-        "title": "Product Development Milestone: Beta Testing Phase Complete",
-        "date": "November 25, 2024",
-        "category": "Technology",
-        "excerpt": "Successfully completed comprehensive beta testing of our multimodal simulation platform with industry partners, incorporating valuable feedback for the final release."
-      },
-      "item7": {
-        "title": "Award Recognition: Innovation Excellence in Transportation Technology",
-        "date": "November 20, 2024",
-        "category": "Company",
-        "excerpt": "dochak receives prestigious innovation award recognizing our contributions to advancing transportation technology and sustainable mobility solutions."
-      },
-      "item8": {
-        "title": "Client Success Story: Major Transportation Authority Adopts Our Platform",
-        "date": "November 15, 2024",
-        "category": "Business",
-        "excerpt": "Leading metropolitan transportation authority successfully implements our traffic analysis tools, resulting in 25% improvement in traffic flow efficiency."
-      },
-      "item9": {
-        "title": "Research Publication: Traffic Prediction Algorithm in IEEE Journal",
-        "date": "November 10, 2024",
-        "category": "Technology",
-        "excerpt": "Our groundbreaking research on AI-powered traffic prediction algorithms has been accepted and published in a prestigious IEEE journal."
-      },
-      "item10": {
-        "title": "Company Culture: New Office Space and Team Building Activities",
-        "date": "November 5, 2024",
-        "category": "Company",
-        "excerpt": "Moved to our new expanded office space designed to foster collaboration and innovation, complete with state-of-the-art development facilities."
-      },
-      "item11": {
-        "title": "Technology Showcase: Demo Day with Government Officials",
-        "date": "October 30, 2024",
-        "category": "Events",
-        "excerpt": "Successfully demonstrated our autonomous vehicle simulation capabilities to government officials and policy makers, discussing future transportation infrastructure."
-      },
-      "item12": {
-        "title": "Funding Milestone: Series A Preparation and Investor Interest",
-        "date": "October 25, 2024",
-        "category": "Business",
-        "excerpt": "Preparing for Series A funding round with strong investor interest from leading venture capital firms specializing in mobility and AI technologies."
+        "excerpt": "Three PTV Certified Trainers have been produced at KAIST."
       }
     },
     "articles": {
-      "item1": {
-        "title": "Revolutionary AI-Powered Traffic Management System Launched",
-        "date": "December 15, 2024",
-        "author": "Dr. Sarah Kim, CTO",
-        "readTime": "5 min read",
-        "content": "<p>Today marks a significant milestone in our journey to transform urban mobility. Our revolutionary AI-powered traffic management system has officially launched, promising to reduce congestion by up to 35% in metropolitan areas.</p><h2>The Technology Behind the Innovation</h2><p>Our system leverages <strong>advanced machine learning algorithms</strong> combined with real-time data processing to predict and prevent traffic bottlenecks before they occur. The platform analyzes patterns from multiple data sources including traffic cameras, vehicle sensors, and historical traffic data.</p><p><em>\"This represents a paradigm shift in how we approach urban transportation management,\"</em> says Dr. Sarah Kim, our Chief Technology Officer.</p><h3>Key Features</h3><ul><li>Real-time traffic prediction with 94% accuracy</li><li>Automated signal optimization</li><li>Integration with existing city infrastructure</li><li>Mobile app for citizen engagement</li></ul><blockquote>The future of transportation is not just about moving vehicles, but about intelligently orchestrating the entire urban mobility ecosystem.</blockquote><p>Early pilot programs in three major cities have shown remarkable results, with average commute times reduced by 28% and fuel consumption decreased by 22%.</p><h2>Looking Forward</h2><p>This launch is just the beginning. We're already working on the next iteration, which will incorporate autonomous vehicle coordination and predictive maintenance scheduling.</p>",
-        "imageCaption1": "Traffic flow visualization showing real-time data processing and optimization algorithms",
-        "imageCaption2": "Control center dashboard displaying citywide traffic management interface"
-      },
-      "item2": {
-        "title": "Strategic Partnership with Samsung Electronics Announced",
-        "date": "December 10, 2024",
-        "author": "James Park, CEO",
-        "readTime": "4 min read",
-        "content": "<p>We are thrilled to announce our groundbreaking partnership with Samsung Electronics, combining our mobility intelligence expertise with Samsung's cutting-edge hardware capabilities to revolutionize smart city infrastructure.</p><h2>Collaboration Scope</h2><p>This strategic alliance will focus on developing <strong>next-generation IoT sensors</strong> specifically designed for transportation monitoring and management. Samsung's advanced semiconductor technology will power our AI algorithms, enabling faster processing and more accurate predictions.</p><p>The partnership encompasses three main areas:</p><ul><li>Hardware development for smart traffic sensors</li><li>Edge computing integration for real-time processing</li><li>5G connectivity solutions for seamless data transmission</li></ul><h3>Market Impact</h3><p><em>\"By combining dochak's AI expertise with Samsung's hardware innovation, we're creating solutions that will define the future of urban transportation,\"</em> stated James Park, CEO of dochak.</p><blockquote>This partnership represents more than just technological integration – it's about creating an ecosystem that makes cities smarter, cleaner, and more efficient.</blockquote><p>The first joint products are expected to enter beta testing by Q2 2025, with commercial availability planned for late 2025.</p><h2>Global Expansion</h2><p>This collaboration also opens doors for international expansion, with Samsung's global network providing pathways to markets across Asia, Europe, and North America.</p>",
-        "imageCaption1": "Samsung-dochak joint development facility showcasing collaborative innovation spaces",
-        "imageCaption2": "Prototype smart traffic sensors featuring Samsung's advanced chip technology"
-      },
-      "item3": {
-        "title": "Autonomous Vehicle Testing Reaches Major Safety Milestone",
-        "date": "December 5, 2024",
-        "author": "Dr. Michael Chen, Head of Autonomous Systems",
-        "readTime": "6 min read",
-        "content": "<p>Our autonomous vehicle testing program has achieved a significant safety milestone, completing over <strong>1 million kilometers</strong> of autonomous driving without a single safety incident – a testament to the reliability and sophistication of our self-driving technology.</p><h2>Testing Achievements</h2><p>Over the past 18 months, our fleet of autonomous test vehicles has navigated complex urban environments, highway conditions, and challenging weather scenarios. The extensive testing program has validated key capabilities:</p><ul><li>Object detection and classification with 99.7% accuracy</li><li>Predictive path planning in dynamic environments</li><li>Emergency response protocols</li><li>Human-vehicle interaction systems</li></ul><h3>Safety-First Approach</h3><p><em>\"Safety isn't just a priority – it's the foundation upon which all our autonomous systems are built,\"</em> explains Dr. Michael Chen, Head of Autonomous Systems.</p><p>Our comprehensive safety framework includes multiple redundant systems, continuous monitoring, and fail-safe mechanisms that ensure safe operation even in unexpected scenarios.</p><blockquote>The goal isn't to replace human drivers, but to augment human capabilities and eliminate the factors that contribute to traffic accidents.</blockquote><h2>Real-World Applications</h2><p>This milestone brings us closer to deploying autonomous vehicles in controlled environments such as:</p><ul><li>Airport shuttle services</li><li>Last-mile delivery operations</li><li>Public transportation routes</li><li>Industrial facility transportation</li></ul><p>Commercial applications are expected to begin pilot deployment in Q3 2025.</p>",
-        "imageCaption1": "Autonomous test vehicle equipped with advanced sensor array navigating urban intersection",
-        "imageCaption2": "Mission control center monitoring real-time autonomous vehicle fleet operations"
-      },
-      "item4": {
-        "title": "CES 2025: Showcasing the Future of Mobility Technology",
-        "date": "December 1, 2024",
-        "author": "Lisa Wong, VP of Marketing",
+      "ptvCertified": {
+        "title": "PTV Certified Trainer",
+        "date": "August 25, 2025",
+        "author": "INHI KIM",
         "readTime": "3 min read",
-        "content": "<p>Get ready for an exciting showcase at <strong>CES 2025</strong> where dochak will demonstrate our latest innovations in mobility technology, including live demonstrations of our autonomous vehicle coordination system and interactive smart city simulation.</p><h2>What to Expect</h2><p>Our CES booth will feature three main demonstration areas:</p><ul><li><strong>Interactive City Simulator</strong> - Experience how our AI manages traffic flow in real-time</li><li><strong>Autonomous Vehicle Coordination</strong> - Watch multiple self-driving vehicles navigate complex scenarios</li><li><strong>Future Mobility Concepts</strong> - Preview technologies in development for 2026 and beyond</li></ul><h3>Live Demonstrations</h3><p>Visitors can participate in hands-on demonstrations, controlling virtual traffic scenarios and observing how our AI responds to different challenges and optimization opportunities.</p><p><em>\"CES provides the perfect platform to showcase how our technology solves real-world transportation challenges,\"</em> says Lisa Wong, VP of Marketing.</p><blockquote>We're not just showing technology – we're demonstrating the future of how people and goods will move through cities.</blockquote><h2>Industry Recognition</h2><p>We're honored to be selected for CES Innovation Awards in the Smart Cities category, recognizing our contributions to urban mobility solutions.</p><h3>Visit Us at CES</h3><p>Find us at <strong>Booth #12345</strong> in the Smart Cities pavilion. Our team will be available for:</p><ul><li>Live product demonstrations</li><li>Technical discussions with our engineering team</li><li>Partnership opportunity discussions</li><li>Media interviews and briefings</li></ul><p>Schedule a meeting with our team at <strong>ces2025@dochak.com</strong></p>",
-        "imageCaption1": "CES 2025 booth design featuring immersive mobility technology demonstrations",
-        "imageCaption2": "Interactive smart city simulator allowing visitors to experience traffic management"
+        "content": "<p>Three PTV Certified Trainers have been produced at KAIST.</p><h2>A Historic First for Korea</h2><p>For the first time in Korea, researchers from KAIST (Professor Inhi Kim, Dr. Tae-ho Oh, and researcher Tae-kyun Kim) have become <strong>Certified Trainers</strong>.</p><p>In the future, those who receive PTV software training at KAIST will be provided with an <em>official PTV certificate</em>.</p><div class=\"training-programs-section\"><div class=\"training-content\"><h3>Training Programs Available</h3><p>You can participate in training for a total of <strong>five software programs</strong>:</p><ul><li>Visum</li><li>Vissim</li><li>VisWalk</li><li>VisVap</li><li>Vistro</li></ul></div><div class=\"training-image\"><img src=\"TRAINING_FACILITIES_IMAGE\" alt=\"Training facilities equipped with PTV software\" class=\"inline-training-image\" /></div></div><blockquote>This certification represents a significant milestone in strengthening Korea's capabilities in transportation modeling and simulation.</blockquote><p>This achievement positions KAIST as a leading institution for PTV software education in the region, providing students and professionals with access to world-class training and official certification.</p>",
+        "imageCaption1": "PTV Certified Trainers at KAIST showing their official certificates",
+        "imageCaption2": "Training facilities equipped with PTV software for comprehensive education programs"
       }
     },
     "article": {

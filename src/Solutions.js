@@ -95,46 +95,38 @@ export default function Solutions() {
       </section>
 
       {/* Solutions Grid */}
-      <section className="solutions-main">
-        <div className="solutions-container">
+      <section className="solutions-grid-section">
+        <div className="solutions-grid-container">
           <div className="solutions-grid">
             {solutions.map((solution, index) => (
               <AnimatedElement key={`solution-${index}`} animation="slide-up" delay={index * 100}>
-                <div className="solution-card">
-                  <Link to={solution.path} className="solution-card-link">
-                    <div className="solution-header">
-                      <h3 className="solution-title">{solution.title}</h3>
+                <Link to={solution.path} className="solution-card-link">
+                  <div 
+                    className="solution-card solution-card-overlay"
+                    style={{
+                      backgroundImage: `url(${solutionImages[index]})`
+                    }}
+                  >
+                    <div className="solution-card-overlay-bg"></div>
+                    <div className="solution-card-content">
+                      <div className="solution-card-text">
+                        <h2 className="solution-card-title">{solution.title}</h2>
+                        <div className="solution-description"
+                             dangerouslySetInnerHTML={{
+                               __html: Array.isArray(solution.desc) 
+                                 ? `${solution.desc[0]} ${solution.desc[1] || ''}`.trim()
+                                 : solution.desc
+                             }}
+                        />
+                      </div>
+                      <div className="solution-tags">
+                        <span className="solution-tag">Real-time Processing</span>
+                        <span className="solution-tag">AI-Powered</span>
+                        <span className="solution-tag">Scalable</span>
+                      </div>
                     </div>
-
-                    <div className="solution-image-container">
-                      <img
-                        src={solutionImages[index]}
-                        alt={solution.title}
-                        className="solution-image"
-                      />
-                      <div className="solution-image-overlay"></div>
-                    </div>
-
-                    <div className="solution-content">
-                      <p className="solution-description"
-                         dangerouslySetInnerHTML={{
-                           __html: Array.isArray(solution.desc) 
-                             ? `${solution.desc[0]} ${solution.desc[1] || ''}`.trim()
-                             : solution.desc
-                         }}
-                      />
-                    </div>
-
-                    <div className="solution-footer">
-                      <span className="solution-learn-more">
-                        {t('solutions.learnMore', 'Learn More')}
-                        <svg className="solution-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
-                      </span>
-                    </div>
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </AnimatedElement>
             ))}
           </div>

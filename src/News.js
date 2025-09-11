@@ -9,6 +9,7 @@ import automob from './assets/automob.png';
 import teledriving from './assets/teledriving.png';
 import twin from './assets/twin.png';
 import simulator from './assets/simulator.png';
+import news11 from './assets/news11.png';
 
 export default function News() {
   const { t } = useContext(LanguageContext);
@@ -53,47 +54,17 @@ export default function News() {
     );
   };
 
-  // Sample news data - 4 items with real images
+  // Real news data - PTV Certified Trainer article
   const allNewsItems = [
     {
-      id: 1,
-      title: t('news.items.item1.title'),
-      date: '2024-12-15',
-      displayDate: t('news.items.item1.date'),
-      category: t('news.items.item1.category'),
-      excerpt: t('news.items.item1.excerpt'),
-      image: automob,
-      slug: 'ai-breakthrough-2024'
-    },
-    {
-      id: 2,
-      title: t('news.items.item2.title'),
-      date: '2024-12-10',
-      displayDate: t('news.items.item2.date'),
-      category: t('news.items.item2.category'),
-      excerpt: t('news.items.item2.excerpt'),
-      image: simulator,
-      slug: 'samsung-partnership'
-    },
-    {
-      id: 3,
-      title: t('news.items.item3.title'),
-      date: '2024-12-05',
-      displayDate: t('news.items.item3.date'),
-      category: t('news.items.item3.category'),
-      excerpt: t('news.items.item3.excerpt'),
-      image: twin,
-      slug: 'autonomous-driving-milestone'
-    },
-    {
-      id: 4,
-      title: t('news.items.item4.title'),
-      date: '2024-12-01',
-      displayDate: t('news.items.item4.date'),
-      category: t('news.items.item4.category'),
-      excerpt: t('news.items.item4.excerpt'),
-      image: teledriving,
-      slug: 'ces-2025-showcase'
+      id: 0,
+      title: t('news.items.ptvCertified.title'),
+      date: '2025-08-25',
+      displayDate: t('news.items.ptvCertified.date'),
+      category: t('news.items.ptvCertified.category'),
+      excerpt: t('news.items.ptvCertified.excerpt'),
+      image: news11,
+      slug: 'ptv-certified-trainers-2025'
     }
   ];
 

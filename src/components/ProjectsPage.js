@@ -318,7 +318,11 @@ const ProjectsPage = () => {
                   <AnimatedElement animation="slide-left" delay={100}>
                     <div className="project-overview-content">
                       <h3 className="section-title">{t('projects.content.overviewTitle')}</h3>
-                      <p className="project-description">{getShortenedDescription(project.detailedDescription)}</p>
+                      <p className="project-description" 
+                         dangerouslySetInnerHTML={{
+                           __html: getShortenedDescription(project.detailedDescription)
+                         }}
+                      />
                     </div>
                   </AnimatedElement>
 
@@ -337,7 +341,11 @@ const ProjectsPage = () => {
                       </div>
                       <div className="video-info">
                         <h4 className="video-title">{project.video.title}</h4>
-                        <p className="video-description">{project.video.description}</p>
+                        <p className="video-description"
+                           dangerouslySetInnerHTML={{
+                             __html: project.video.description
+                           }}
+                        />
                       </div>
                     </div>
                   </AnimatedElement>
@@ -358,7 +366,11 @@ const ProjectsPage = () => {
                             <div className="feature-icon">
                               {getFeatureIcon(feature, featureIndex)}
                             </div>
-                            <p className="feature-text">{feature}</p>
+                            <p className="feature-text"
+                               dangerouslySetInnerHTML={{
+                                 __html: feature
+                               }}
+                            />
                           </div>
                         </AnimatedElement>
                       ))}
@@ -380,7 +392,11 @@ const ProjectsPage = () => {
                           <AnimatedElement key={index} animation="slide-left" delay={index * 150 + 200}>
                             <div className="impact-item">
                               <span className="impact-number">{stat.number}</span>
-                              <p className="impact-text">{stat.text}</p>
+                              <p className="impact-text"
+                                 dangerouslySetInnerHTML={{
+                                   __html: stat.text
+                                 }}
+                              />
                             </div>
                           </AnimatedElement>
                         ))}

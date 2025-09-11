@@ -13,6 +13,11 @@ import dash from './assets/dash.png';
 import computer from './assets/computer.png';
 import working from './assets/working.png';
 import booth from './assets/booth.png';
+import news11 from './assets/news11.png';
+import news12 from './assets/news12.png';
+import appCert from './assets/App.png';
+import taehoCert from './assets/Taeho-676x1024.png';
+import taekyunCert from './assets/김태균-1.png';
 
 export default function NewsArticle() {
   const { slug } = useParams();
@@ -40,64 +45,21 @@ export default function NewsArticle() {
   // Article data based on slug
   const getArticleData = (slug) => {
     const articles = {
-      'ai-breakthrough-2024': {
-        id: 1,
-        title: t('news.articles.item1.title'),
-        date: '2024-12-15',
-        displayDate: t('news.articles.item1.date'),
-        category: t('news.items.item1.category'),
-        author: t('news.articles.item1.author'),
-        readTime: t('news.articles.item1.readTime'),
-        heroImage: automob,
-        content: t('news.articles.item1.content'),
-        images: [
-          { src: dash, caption: t('news.articles.item1.imageCaption1') },
-          { src: computer, caption: t('news.articles.item1.imageCaption2') }
-        ]
-      },
-      'samsung-partnership': {
-        id: 2,
-        title: t('news.articles.item2.title'),
-        date: '2024-12-10',
-        displayDate: t('news.articles.item2.date'),
-        category: t('news.items.item2.category'),
-        author: t('news.articles.item2.author'),
-        readTime: t('news.articles.item2.readTime'),
-        heroImage: simulator,
-        content: t('news.articles.item2.content'),
-        images: [
-          { src: working, caption: t('news.articles.item2.imageCaption1') },
-          { src: booth, caption: t('news.articles.item2.imageCaption2') }
-        ]
-      },
-      'autonomous-driving-milestone': {
-        id: 3,
-        title: t('news.articles.item3.title'),
-        date: '2024-12-05',
-        displayDate: t('news.articles.item3.date'),
-        category: t('news.items.item3.category'),
-        author: t('news.articles.item3.author'),
-        readTime: t('news.articles.item3.readTime'),
-        heroImage: twin,
-        content: t('news.articles.item3.content'),
-        images: [
-          { src: automob, caption: t('news.articles.item3.imageCaption1') },
-          { src: dash, caption: t('news.articles.item3.imageCaption2') }
-        ]
-      },
-      'ces-2025-showcase': {
-        id: 4,
-        title: t('news.articles.item4.title'),
-        date: '2024-12-01',
-        displayDate: t('news.articles.item4.date'),
-        category: t('news.items.item4.category'),
-        author: t('news.articles.item4.author'),
-        readTime: t('news.articles.item4.readTime'),
-        heroImage: teledriving,
-        content: t('news.articles.item4.content'),
-        images: [
-          { src: booth, caption: t('news.articles.item4.imageCaption1') },
-          { src: simulator, caption: t('news.articles.item4.imageCaption2') }
+      'ptv-certified-trainers-2025': {
+        id: 0,
+        title: t('news.articles.ptvCertified.title'),
+        date: '2025-08-25',
+        displayDate: t('news.articles.ptvCertified.date'),
+        category: t('news.items.ptvCertified.category'),
+        author: t('news.articles.ptvCertified.author'),
+        readTime: t('news.articles.ptvCertified.readTime'),
+        heroImage: news11,
+        content: t('news.articles.ptvCertified.content'),
+        images: [],
+        certificates: [
+          { src: appCert, caption: "Inhi Kim" },
+          { src: taehoCert, caption: "Tae-ho Oh" },
+          { src: taekyunCert, caption: "Tae-kyun Kim" }
         ]
       }
     };
@@ -106,6 +68,14 @@ export default function NewsArticle() {
   };
 
   const article = getArticleData(slug);
+
+  // Process content to replace image placeholders
+  const processArticleContent = (content) => {
+    if (slug === 'ptv-certified-trainers-2025') {
+      return content.replace('TRAINING_FACILITIES_IMAGE', news12);
+    }
+    return content;
+  };
 
   if (!article) {
     return (
@@ -202,7 +172,7 @@ export default function NewsArticle() {
           {/* Article Body */}
           <div className="article-body">
             <AnimatedElement animation="slide-up" delay={400}>
-              <div className="article-content" dangerouslySetInnerHTML={{ __html: article.content }} />
+              <div className="article-content" dangerouslySetInnerHTML={{ __html: processArticleContent(article.content) }} />
             </AnimatedElement>
 
             {/* Article Images */}
@@ -222,6 +192,41 @@ export default function NewsArticle() {
                     </figure>
                   </AnimatedElement>
                 ))}
+              </div>
+            )}
+
+            {/* Certificate Gallery */}
+            {article.certificates && article.certificates.length > 0 && (
+              <div className="certificate-gallery">
+                <AnimatedElement animation="slide-up" delay={600}>
+                  <h3 className="certificate-gallery-title">PTV Certified Trainers</h3>
+                </AnimatedElement>
+                <div className="certificate-grid">
+                  {article.certificates.map((cert, index) => (
+                    <AnimatedElement key={index} animation="slide-up" delay={700 + index * 100}>
+                      <figure className="certificate-figure">
+                        <img
+                          src={cert.src}
+                          alt={cert.caption}
+                          className="certificate-image"
+                        />
+                        <figcaption className="certificate-caption">
+                          {cert.caption}
+                        </figcaption>
+                      </figure>
+                    </AnimatedElement>
+                  ))}
+                </div>
+                <AnimatedElement animation="slide-up" delay={1000}>
+                  <div className="team-cta">
+                    <button onClick={() => navigate('/team')} className="team-cta-button">
+                      Meet Our Team
+                      <svg className="team-cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </div>
+                </AnimatedElement>
               </div>
             )}
           </div>

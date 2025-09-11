@@ -96,7 +96,11 @@ export default function Projects() {
                   <div className={`project-status project-status-${getStatusClass(proj.status)}`}>{proj.status}</div>
                 </div>
                 <span className="project-date">{proj.date}</span>
-                <div className="project-explanation">{proj.explanation}</div>
+                <div className="project-explanation" 
+                     dangerouslySetInnerHTML={{
+                       __html: proj.explanation
+                     }}
+                />
               </div>
               <div className="project-photo-section">
                 <ProjectImageCarousel images={proj.images} />
