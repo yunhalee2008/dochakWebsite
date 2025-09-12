@@ -1016,6 +1016,12 @@
       "button": "Subscribe"
     },
     "items": {
+      "llmTrafficAnalysis": {
+        "title": "LLM-based Microscopic Traffic Analysis Tool v1.0 Released",
+        "date": "September 12, 2025",
+        "category": "Technology",
+        "excerpt": "Revolutionary AI-powered traffic analysis tool combining Large Language Models with microscopic simulation for unprecedented analytical capabilities."
+      },
       "ptvCertified": {
         "title": "PTV Certified Trainer",
         "date": "August 25, 2025",
@@ -1024,6 +1030,16 @@
       }
     },
     "articles": {
+      "llmTrafficAnalysis": {
+        "title": "LLM-based Microscopic Traffic Analysis Tool v1.0 Released",
+        "date": "September 12, 2025",
+        "category": "Technology",
+        "author": "DOCHAK TEAM",
+        "readTime": "4 min read",
+        "contentIntro": "<p>We're excited to announce the release of our groundbreaking <strong>LLM-based Microscopic Traffic Analysis Tool v1.0</strong> — a revolutionary disruptive technology that transforms how we understand and analyze traffic behavior.</p>",
+        "contentMain": "<h2>Revolutionary AI-Powered Analysis</h2><p>This cutting-edge tool represents a significant breakthrough in traffic analysis, combining the power of <strong>Large Language Models (LLMs)</strong> with advanced microscopic simulation capabilities. Our proprietary technology enables unprecedented insights into traffic patterns, driver behavior, and system optimization opportunities.</p><blockquote>This tool marks a new era in traffic engineering, where complex analytical tasks that previously required hours of expert analysis can now be completed in minutes with AI assistance.</blockquote><p>Version 1.0 is now available and represents just the beginning of our AI-powered traffic analysis suite. Watch the demo below to see it in action!</p>",
+        "ctaButton": "Explore Traffic Analysis Solutions"
+      },
       "ptvCertified": {
         "title": "PTV Certified Trainer",
         "date": "August 25, 2025",

@@ -28,6 +28,7 @@ import TawkToWidget from './TawkToWidget';
 import { LanguageProvider } from './contexts/LanguageContext';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   useEffect(() => {
@@ -125,6 +126,7 @@ function App() {
 function Layout() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Outlet />
       <Footer />

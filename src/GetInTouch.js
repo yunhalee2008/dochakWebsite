@@ -1,12 +1,17 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import './GetInTouch.css';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
 
 export default function GetInTouch() {
   const { t } = useContext(LanguageContext);
-  const [form, setForm] = useState({ name: '', email: '', company: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+  
+  // Local state for inputs - exactly like News localSearchTerm
+  const [localName, setLocalName] = useState('');
+  const [localEmail, setLocalEmail] = useState('');
+  const [localCompany, setLocalCompany] = useState('');
+  const [localMessage, setLocalMessage] = useState('');
 
   // Animation component for individual elements
   const AnimatedElement = ({ children, animation = 'slide-up', delay = 0, className = '' }) => {
@@ -26,14 +31,36 @@ export default function GetInTouch() {
     );
   };
 
-  const handleChange = e => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+  // Simple input handlers - exactly like News handleSearchInputChange
+  const handleNameChange = (e) => {
+    setLocalName(e.target.value);
   };
 
-  const handleSubmit = e => {
+  const handleEmailChange = (e) => {
+    setLocalEmail(e.target.value);
+  };
+
+  const handleCompanyChange = (e) => {
+    setLocalCompany(e.target.value);
+  };
+
+  const handleMessageChange = (e) => {
+    setLocalMessage(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
+    e.stopPropagation();
+    // Create form data from local state
+    const formData = {
+      name: localName,
+      email: localEmail,
+      company: localCompany,
+      message: localMessage
+    };
     setSubmitted(true);
     // Placeholder: handle form submission (e.g., send to API)
+    console.log('Form submitted:', formData);
   };
 
   return (
@@ -124,8 +151,7 @@ export default function GetInTouch() {
             </AnimatedElement>
 
             {/* Contact Form */}
-            <AnimatedElement animation="slide-right" delay={200}>
-              <div className="contact-form-wrapper">
+            <div className="contact-form-wrapper">
                 {submitted ? (
                   <div className="success-message">
                     <div className="success-icon">
@@ -138,7 +164,7 @@ export default function GetInTouch() {
                     <p>{t('getInTouch.form.success')}</p>
                   </div>
                 ) : (
-                  <form className="contact-form" onSubmit={handleSubmit}>
+                  <div className="contact-form">
                     <div className="form-header">
                       <h2>{t('getInTouch.form.title')}</h2>
                       <p>{t('getInTouch.form.subtitle')}</p>
@@ -154,8 +180,8 @@ export default function GetInTouch() {
                           type="text" 
                           id="name"
                           name="name" 
-                          value={form.name} 
-                          onChange={handleChange} 
+                          value={localName} 
+                          onChange={handleNameChange} 
                           placeholder={t('getInTouch.form.namePlaceholder')}
                           required 
                         />
@@ -169,8 +195,8 @@ export default function GetInTouch() {
                           type="email" 
                           id="email"
                           name="email" 
-                          value={form.email} 
-                          onChange={handleChange} 
+                          value={localEmail} 
+                          onChange={handleEmailChange} 
                           placeholder={t('getInTouch.form.emailPlaceholder')}
                           required 
                         />
@@ -185,8 +211,8 @@ export default function GetInTouch() {
                         type="text" 
                         id="company"
                         name="company" 
-                        value={form.company} 
-                        onChange={handleChange} 
+                        value={localCompany} 
+                        onChange={handleCompanyChange} 
                         placeholder={t('getInTouch.form.companyPlaceholder')}
                       />
                     </div>
@@ -199,25 +225,24 @@ export default function GetInTouch() {
                       <textarea 
                         id="message"
                         name="message" 
-                        value={form.message} 
-                        onChange={handleChange} 
+                        value={localMessage} 
+                        onChange={handleMessageChange} 
                         rows={5} 
                         placeholder={t('getInTouch.form.messagePlaceholder')}
                         required 
                       />
                     </div>
 
-                    <button type="submit" className="submit-button">
+                    <button type="button" className="submit-button" onClick={handleSubmit}>
                       <span>{t('getInTouch.form.submit')}</span>
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <line x1="22" y1="2" x2="11" y2="13"></line>
                         <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
                       </svg>
                     </button>
-                  </form>
+                  </div>
                 )}
               </div>
-            </AnimatedElement>
           </div>
         </div>
       </section>

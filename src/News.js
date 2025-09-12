@@ -10,6 +10,7 @@ import teledriving from './assets/teledriving.png';
 import twin from './assets/twin.png';
 import simulator from './assets/simulator.png';
 import news11 from './assets/news11.png';
+import llm2 from './assets/LLM2.png';
 
 export default function News() {
   const { t } = useContext(LanguageContext);
@@ -54,8 +55,18 @@ export default function News() {
     );
   };
 
-  // Real news data - PTV Certified Trainer article
+  // Real news data - Articles ordered by date (newest first)
   const allNewsItems = [
+    {
+      id: 1,
+      title: t('news.items.llmTrafficAnalysis.title'),
+      date: '2025-09-12',
+      displayDate: t('news.items.llmTrafficAnalysis.date'),
+      category: t('news.items.llmTrafficAnalysis.category'),
+      excerpt: t('news.items.llmTrafficAnalysis.excerpt'),
+      image: llm2,
+      slug: 'llm-traffic-analysis-v1-release'
+    },
     {
       id: 0,
       title: t('news.items.ptvCertified.title'),

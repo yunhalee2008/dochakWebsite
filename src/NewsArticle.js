@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import './NewsArticle.css';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
@@ -18,6 +18,8 @@ import news12 from './assets/news12.png';
 import appCert from './assets/App.png';
 import taehoCert from './assets/Taeho-676x1024.png';
 import taekyunCert from './assets/김태균-1.png';
+import llm1 from './assets/LLM1.png';
+import llm2 from './assets/LLM2.png';
 
 export default function NewsArticle() {
   const { slug } = useParams();
@@ -61,6 +63,24 @@ export default function NewsArticle() {
           { src: taehoCert, caption: "Tae-ho Oh" },
           { src: taekyunCert, caption: "Tae-kyun Kim" }
         ]
+      },
+      'llm-traffic-analysis-v1-release': {
+        id: 1,
+        title: t('news.articles.llmTrafficAnalysis.title'),
+        date: '2025-09-12',
+        displayDate: t('news.articles.llmTrafficAnalysis.date'),
+        category: t('news.articles.llmTrafficAnalysis.category'),
+        author: t('news.articles.llmTrafficAnalysis.author'),
+        readTime: t('news.articles.llmTrafficAnalysis.readTime'),
+        heroImage: llm2,
+        contentIntro: t('news.articles.llmTrafficAnalysis.contentIntro'),
+        contentMain: t('news.articles.llmTrafficAnalysis.contentMain'),
+        images: [],
+        videoUrl: "https://www.youtube.com/embed/kL11AdA_DvE?si=_AKT55Okf50-HtPF",
+        ctaButton: {
+          text: t('news.articles.llmTrafficAnalysis.ctaButton'),
+          link: '/solutions/traffic-analysis-tools'
+        }
       }
     };
 
@@ -171,15 +191,64 @@ export default function NewsArticle() {
 
           {/* Article Body */}
           <div className="article-body">
-            <AnimatedElement animation="slide-up" delay={400}>
-              <div className="article-content" dangerouslySetInnerHTML={{ __html: processArticleContent(article.content) }} />
-            </AnimatedElement>
+            {/* Article Intro Content */}
+            {article.contentIntro && (
+              <AnimatedElement animation="slide-up" delay={400}>
+                <div className="article-content" dangerouslySetInnerHTML={{ __html: article.contentIntro }} />
+              </AnimatedElement>
+            )}
+
+            {/* CTA Button - Early placement */}
+            {article.ctaButton && (
+              <AnimatedElement animation="slide-up" delay={500}>
+                <div className="article-cta">
+                  <Link to={article.ctaButton.link} className="article-cta-button">
+                    {article.ctaButton.text}
+                    <svg className="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                </div>
+              </AnimatedElement>
+            )}
+
+            {/* Article Main Content */}
+            {article.contentMain && (
+              <AnimatedElement animation="slide-up" delay={600}>
+                <div className="article-content" dangerouslySetInnerHTML={{ __html: article.contentMain }} />
+              </AnimatedElement>
+            )}
+
+            {/* Fallback for legacy content structure */}
+            {!article.contentIntro && !article.contentMain && article.content && (
+              <AnimatedElement animation="slide-up" delay={400}>
+                <div className="article-content" dangerouslySetInnerHTML={{ __html: processArticleContent(article.content) }} />
+              </AnimatedElement>
+            )}
+
+            {/* Article Video */}
+            {article.videoUrl && (
+              <AnimatedElement animation="slide-up" delay={700}>
+                <div className="article-video">
+                  <div className="video-container">
+                    <iframe
+                      src={article.videoUrl}
+                      title="Product Demo"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="youtube-video"
+                    ></iframe>
+                  </div>
+                </div>
+              </AnimatedElement>
+            )}
 
             {/* Article Images */}
             {article.images && article.images.length > 0 && (
               <div className="article-images">
                 {article.images.map((image, index) => (
-                  <AnimatedElement key={index} animation="slide-up" delay={500 + index * 100}>
+                  <AnimatedElement key={index} animation="slide-up" delay={600 + index * 100}>
                     <figure className="article-figure">
                       <img
                         src={image.src}
