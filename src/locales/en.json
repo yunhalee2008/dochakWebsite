@@ -392,7 +392,7 @@
     "trafficAnalysisToolsSolution": {
       "hero": {
         "title": "Traffic Impact Analysis",
-        "subtitle": "Comprehensive traffic analysis platform with one-click automation and multi-scale simulation capabilities for policy evaluation and traffic optimization--- A new distruptive development coming soon!!!---"
+        "subtitle": "Comprehensive traffic analysis platform with one-click automation and multi-scale simulation capabilities for policy evaluation and traffic optimization"
       },
       "overview": {
         "title": "Overview",
@@ -406,6 +406,8 @@
         "TA-3Desc":"An <strong>autonomous EV charging station</strong> is a system that can charge an electric vehicle without any human intervention. Using <strong>microsimulation</strong>, this technology is being developed to address some of the key challenges of the growing EV market",
         "TA-4":"Activity Based Model for Hwaseung City in Korea",
         "TA-4Desc":"This model focuses on understanding and simulating the <strong>autonomous vehicle level 4+</strong> that will occur within Hwaseung City in 2027, providing insights into <strong>traffic patterns</strong> and urban mobility.",
+        "TA-5":"LLM-based Microscopic Traffic Analysis Tool is released NOW",
+        "TA-5Desc":"A <strong>Large Language Model (LLM)-based traffic analysis tool</strong> developed by <strong>Dr. Bo Wang</strong> is an advanced software application that leverages the capabilities of large language models, such as GPT-4, to analyze and interpret traffic data. This tool can process vast amounts of traffic-related information, including historical data, real-time sensor inputs, and textual reports, to provide insights and predictions about traffic patterns, congestion, and incidents.",
         "playVideo": "Play Video"
       },
       "technical": {

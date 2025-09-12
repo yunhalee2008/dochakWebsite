@@ -114,6 +114,26 @@ export default function TrafficAnalysisTools() {
       {/* Overview Section */}
       <section className="overview-section">
         <div className="section-container">
+            <AnimatedElement animation="slide-right" delay={200}>
+              <div className="video-wrapper">
+                <div className="video-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/kL11AdA_DvE?si=_AKT55Okf50-HtPF"
+                    title={t('solutions.trafficAnalysisToolsSolution.overview.demo')}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="youtube-video"
+                  ></iframe>
+                </div>
+              </div>
+            </AnimatedElement>
+            <AnimatedElement animation="slide-right" delay={100}>
+              <div className="explanation-content">
+                <h3>{t('solutions.trafficAnalysisToolsSolution.overview.TA-5')}</h3>
+                <p dangerouslySetInnerHTML={{ __html: t('solutions.trafficAnalysisToolsSolution.overview.TA-5Desc') }}></p>
+              </div>
+            </AnimatedElement>
           <AnimatedElement animation="slide-up" delay={0}>
             <h2 className="section-title">{t('solutions.trafficAnalysisToolsSolution.overview.title')}</h2>
           </AnimatedElement>
