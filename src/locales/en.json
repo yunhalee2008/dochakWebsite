@@ -6,6 +6,7 @@
     "projects": "Projects",
     "team": "Team",
     "news": "News",
+    "training": "Training",
     "disclosure": "Research",
     "publications": "Publications",
     "patents": "Patents",
@@ -26,6 +27,7 @@
     "projectsAriaLabel": "Projects page",
     "teamAriaLabel": "Team page",
     "newsAriaLabel": "Company news page",
+    "trainingAriaLabel": "Training courses page",
     "getInTouchAriaLabel": "Contact us page",
     "disclosureSubmenuLabel": "Disclosure submenu"
   },
@@ -66,7 +68,7 @@
       },
       "innovation": {
         "title": "Innovation",
-        "desc": "Continuously develop <strong>new technologies</strong> to stay ahead in shaping the <em>future of urban mobility</em>."
+        "desc": "Continuously develop <strong>new technologies</strong> to stay ahead in shaping the <em>future of mobility</em>."
       }
     },
     "marketTitle": "Target Market",

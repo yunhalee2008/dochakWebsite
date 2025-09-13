@@ -23,6 +23,7 @@ import Visualisation from './Solutions/Visualisation';
 import VRRoadDesign from './Solutions/VRRoadDesign';
 import News from './News';
 import NewsArticle from './NewsArticle';
+import Training from './Training';
 
 import TawkToWidget from './TawkToWidget';
 import { LanguageProvider } from './contexts/LanguageContext';
@@ -95,6 +96,14 @@ function App() {
         {
           path: "news/:slug",
           element: <NewsArticle />
+        },
+        {
+          path: "training",
+          element: <Training />
+        },
+        {
+          path: "training/:courseCode",
+          element: <div>Course detail page - Coming soon!</div>
         },
         {
           path: "disclosure",

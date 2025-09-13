@@ -6,6 +6,7 @@
     "projects": "프로젝트",
     "team": "팀",
     "news": "소식",
+    "training": "교육",
     "disclosure": "연구성과",
     "publications": "논문",
     "patents": "특허",
@@ -26,6 +27,7 @@
     "projectsAriaLabel": "프로젝트 페이지",
     "teamAriaLabel": "팀 페이지",
     "newsAriaLabel": "회사 소식 페이지",
+    "trainingAriaLabel": "교육 과정 페이지",
     "getInTouchAriaLabel": "연락처 페이지",
     "disclosureSubmenuLabel": "연구성과 하위메뉴"
   },
@@ -58,7 +60,7 @@
       },
       "integration": {
         "title": "통합",
-        "desc": "<strong>다양한 기술과 플랫폼</strong>을 원활하게 연결하여 <em>통합된 모빌리티 솔루션</em>을 만듭니다."
+        "desc": "<strong>다양한 기술과 플랫폼</strong>을 원활하게 연결하여 <em>하나의 통합된 모빌리티 솔루션</em>을 만듭니다."
       },
       "excellence": {
         "title": "우수성",

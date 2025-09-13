@@ -7,6 +7,12 @@ import { TimelineDemo } from './components/ui/timelineDemo';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
 
+// Import images for core values backgrounds
+import automationImg from './assets/car.png';
+import integrationImg from './assets/clap.png';
+import excellenceImg from './assets/automob.png';
+import innovationImg from './assets/highway.png';
+
 export default function About() {
   const { t } = useContext(LanguageContext);
 
@@ -169,31 +175,60 @@ export default function About() {
         <AnimatedElement animation="slide-up" delay={0}>
           <h2 className="about-section-title">{t('about.valuesTitle')}</h2>
         </AnimatedElement>
-        <div className="about-values-cards">
-          <AnimatedElement animation="scale-in" delay={100}>
-            <div className="about-value-card">
-              <div className="about-value-title">{t('about.values.automation.title')}</div>
-              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.automation.desc') }} />
-            </div>
-          </AnimatedElement>
-          <AnimatedElement animation="scale-in" delay={200}>
-            <div className="about-value-card">
-              <div className="about-value-title">{t('about.values.integration.title')}</div>
-              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.integration.desc') }} />
-            </div>
-          </AnimatedElement>
-          <AnimatedElement animation="scale-in" delay={300}>
-            <div className="about-value-card">
-              <div className="about-value-title">{t('about.values.excellence.title')}</div>
-              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.excellence.desc') }} />
-            </div>
-          </AnimatedElement>
-          <AnimatedElement animation="scale-in" delay={400}>
-            <div className="about-value-card">
-              <div className="about-value-title">{t('about.values.innovation.title')}</div>
-              <div className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.innovation.desc') }} />
-            </div>
-          </AnimatedElement>
+        <div className="about-values-container">
+          <div className="about-values-grid">
+            <AnimatedElement animation="slide-up" delay={100}>
+              <div
+                className="about-value-card about-value-card-overlay"
+                style={{ backgroundImage: `url(${automationImg})` }}
+              >
+                <div className="about-value-card-overlay-bg"></div>
+                <div className="about-value-content">
+                  <h3 className="about-value-title">{t('about.values.automation.title')}</h3>
+                  <p className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.automation.desc') }} />
+                </div>
+              </div>
+            </AnimatedElement>
+
+            <AnimatedElement animation="slide-up" delay={200}>
+              <div
+                className="about-value-card about-value-card-overlay"
+                style={{ backgroundImage: `url(${integrationImg})` }}
+              >
+                <div className="about-value-card-overlay-bg"></div>
+                <div className="about-value-content">
+                  <h3 className="about-value-title">{t('about.values.integration.title')}</h3>
+                  <p className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.integration.desc') }} />
+                </div>
+              </div>
+            </AnimatedElement>
+
+            <AnimatedElement animation="slide-up" delay={300}>
+              <div
+                className="about-value-card about-value-card-overlay"
+                style={{ backgroundImage: `url(${excellenceImg})` }}
+              >
+                <div className="about-value-card-overlay-bg"></div>
+                <div className="about-value-content">
+                  <h3 className="about-value-title">{t('about.values.excellence.title')}</h3>
+                  <p className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.excellence.desc') }} />
+                </div>
+              </div>
+            </AnimatedElement>
+
+            <AnimatedElement animation="slide-up" delay={400}>
+              <div
+                className="about-value-card about-value-card-overlay"
+                style={{ backgroundImage: `url(${innovationImg})` }}
+              >
+                <div className="about-value-card-overlay-bg"></div>
+                <div className="about-value-content">
+                  <h3 className="about-value-title">{t('about.values.innovation.title')}</h3>
+                  <p className="about-value-desc" dangerouslySetInnerHTML={{ __html: t('about.values.innovation.desc') }} />
+                </div>
+              </div>
+            </AnimatedElement>
+          </div>
         </div>
       </section>
 
