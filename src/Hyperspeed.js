@@ -7,7 +7,7 @@ import './Hyperspeed.css';
 const Hyperspeed = ({ effectOptions = {
   onSpeedUp: () => { },
   onSlowDown: () => { },
-  distortion: 'turbulentDistortion',
+  distortion: 'deepDistortion',
   length: 400,
   roadWidth: 10,
   islandWidth: 2,
@@ -31,15 +31,17 @@ const Hyperspeed = ({ effectOptions = {
   carShiftX: [-0.8, 0.8],
   carFloorSeparation: [0, 5],
   colors: {
-    roadColor: 0x080808,
-    islandColor: 0x0a0a0a,
-    background: 0x000000,
-    shoulderLines: 0xFFFFFF,
-    brokenLines: 0xFFFFFF,
-    leftCars: [0xD856BF, 0x6750A2, 0xC247AC],
-    rightCars: [0x03B3C3, 0x0E5EA5, 0x324555],
+    roadColor: 0xCBD5E1,
+    islandColor: 0xE5E7EB,
+    background: 0xF5F7FA,
+    shoulderLines: 0x94A3B8,
+    brokenLines: 0x94A3B8,
+    leftCars: [0x10B981, 0x10B981, 0x57bceb],
+    rightCars: [0xFFFFFF, 0xF1F5F9, 0x93C5FD],
     sticks: 0x03B3C3,
   }
+
+
 } }) => {
   const hyperspeed = useRef(null);
   useEffect(() => {

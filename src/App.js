@@ -169,7 +169,15 @@ function HomePage() {
     <main>
       {/* Section 1: Hero */}
       <section className="hero-section" style={{position: 'relative', overflow: 'hidden'}}>
-        <Hyperspeed
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          zIndex: 1
+        }}>
+          <Hyperspeed
           effectOptions={{
             onSpeedUp: () => { },
             onSlowDown: () => { },
@@ -197,34 +205,18 @@ function HomePage() {
             carShiftX: [-0.8, 0.8],
             carFloorSeparation: [0, 5],
             colors: {
-              // Base surfaces
-              roadColor: 0xCBD5E1,        // Tailwind slate-300 – soft, visible on light bg
-              islandColor: 0xE5E7EB,      // border-light – consistent light element
-              background: 0xF5F7FA,       // site-wide light gray background
-            
-              // Lane markings
-              shoulderLines: 0x94A3B8,    // slate-400 – subtle but clear on road
-              brokenLines: 0x94A3B8,      // same as above for consistency
-            
-              // Car colors – distinct blue variants per lane
-              leftCars: [
-                0x289AD7,
-                0x10B981, // curious blue
-                0x57bceb  // science blue
-              ],
-            
-              rightCars: [
-                0xe5e7eb, // endeavour
-                0x004294, // navy-heading
-                0x646b74  // deep slate – adds depth and variation
-              ],
-            
-              // Poles, sticks, etc.
-              sticks: 0x004294, // curious blue – readable, bright, consistent
-            
+              roadColor: 0xCBD5E1,
+              islandColor: 0xE5E7EB,
+              background: 0xF5F7FA,
+              shoulderLines: 0x94A3B8,
+              brokenLines: 0x94A3B8,
+              leftCars: [0x217cd1, 0x57bceb, 0xF1F5F9],
+              rightCars: [0xFFFFFF, 0xF1F5F9, 0x93C5FD],
+              sticks: 0x93C5FD,
             }              
           }}
         />
+        </div>
         <div className="hero-content hero-centered" style={{position: 'relative', zIndex: 1}}>
           <div className="hero-text">
             <AnimatedElement animation="slide-up" delay={0}>
