@@ -40,7 +40,7 @@ export const PROJECTS_DATA = [
       media: [
         {
           type: 'video',
-          url: '/videos/naepo-digital-twin-demo.mp4',
+          url: 'https://www.youtube.com/embed/zkzDjxeQpOI?si=2ejnZMeIT0rxDsdM',
           alt: 'Naepo Digital Twin demonstration video',
           title: 'Digital Twin Simulation',
           description: 'Real-time traffic simulation and planning visualization'

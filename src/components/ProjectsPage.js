@@ -68,7 +68,7 @@ const ProjectsPage = () => {
       impact: t('projects.items.naepo.impact'),
       impactStats: t('projects.items.naepo.impactStats'),
       video: {
-        src: 'https://www.youtube.com/embed/bJC4Aimd-24?si=DDCrVDXr3TrZ6PYQ', // Placeholder - replace with actual video
+        src: 'https://www.youtube.com/embed/zkzDjxeQpOI?si=2ejnZMeIT0rxDsdM', // Placeholder - replace with actual video
         title: t('projects.items.naepo.videoTitle'),
         description: t('projects.items.naepo.videoDescription')
       },

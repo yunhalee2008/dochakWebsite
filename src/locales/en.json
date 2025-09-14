@@ -701,6 +701,13 @@
       "bio": "Oversees the entire business, driving Dochak's mission for smart mobility innovation."
     },
     "members": {
+      "bowang": {
+        "name": "Dr. Bo Wang",
+        "title": "Technical Advisor",
+        "bio": "Technical advisor specializing in advanced traffic analysis and AI-driven mobility solutions.",
+        "email": "resulycheng@gmail.com",
+        "image": "BoWang.png"
+      },
       "reuben": {
         "name": "Dr. Reuben Tamakloe",
         "title": "Principal Researcher",
@@ -1074,6 +1081,13 @@
       "bio": "Leading research in transportation systems and urban mobility with over 15 years of experience in AI and autonomous systems."
     },
     "members": {
+      "bowang": {
+        "name": "Dr. Bo Wang",
+        "title": "Technical Advisor",
+        "bio": "Technical advisor specializing in advanced traffic analysis and AI-driven mobility solutions.",
+        "email": "resulycheng@gmail.com",
+        "image": "BoWang.png"
+      },
       "reuben": {
         "name": "Dr. Reuben Tamakloe",
         "title": "Principal Researcher",

@@ -14,6 +14,7 @@ import R10 from './assets/Jaehyuck.jpg';
 import R11 from './assets/heeyun.png';
 import R12 from './assets/Mahdi.png';
 import R13 from './assets/Huizi.png';
+import BoWang from './assets/BoWang.png';
 
 
 import ceo from './assets/inhiKim.jpg';
@@ -22,7 +23,7 @@ import { useScrollAnimation } from './hooks/useScrollAnimation';
 
 export default function Team() {
   const { t } = useContext(LanguageContext);
-  const [sortBy, setSortBy] = useState('name');
+  const [sortBy, setSortBy] = useState('title');
 
   // Animation component for individual elements
   const AnimatedElement = ({ children, animation = 'slide-up', delay = 0, className = '' }) => {
@@ -51,6 +52,13 @@ export default function Team() {
   };
 
   const membersData = [
+    {
+      name: t('team.members.bowang.name'),
+      title: t('team.members.bowang.title'),
+      photo: BoWang,
+      bio: t('team.members.bowang.bio'),
+      email: t('team.members.bowang.email')
+    },
     {
       name: t('team.members.reuben.name'),
       title: t('team.members.reuben.title'),
@@ -143,9 +151,11 @@ export default function Team() {
       case 'name':
         return a.name.localeCompare(b.name);
       case 'title':
-        // Custom sorting for Korean titles - 책임연구원 comes first
+        // Custom sorting for titles - Technical Advisor comes first
         const getTitlePriority = (title) => {
-          if (title.includes('책임연구원') || title.includes('Principal Researcher')) {
+          if (title.includes('기술고문') || title.includes('Technical Advisor')) {
+            return 0;
+          } else if (title.includes('책임연구원') || title.includes('Principal Researcher')) {
             return 1;
           } else if (title.includes('연구원') || title.includes('Researcher')) {
             return 2;
