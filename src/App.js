@@ -181,14 +181,14 @@ function HomePage() {
           effectOptions={{
             onSpeedUp: () => { },
             onSlowDown: () => { },
-            distortion: 'mountainDistortion',
+            distortion: 'xyDistortion',
             length: 400,
             roadWidth: 10,
             islandWidth: 2,
             lanesPerRoad: 4,
             fov: 90,
             fovSpeedUp: 150,
-            speedUp: 2,
+            speedUp: 3,
             carLightsFade: 0.4,
             totalSideLightSticks: 20,
             lightPairsPerRoadWay: 40,
@@ -197,8 +197,8 @@ function HomePage() {
             brokenLinesLengthPercentage: 0.5,
             lightStickWidth: [0.12, 0.5],
             lightStickHeight: [1.3, 1.7],
-            movingAwaySpeed: [60, 80],
-            movingCloserSpeed: [-120, -160],
+            movingAwaySpeed: [20, 50],
+            movingCloserSpeed: [-150, -230],
             carLightsLength: [400 * 0.03, 400 * 0.2],
             carLightsRadius: [0.05, 0.14],
             carWidthPercentage: [0.3, 0.5],
@@ -270,4 +270,5 @@ function HomePage() {
 }
 
 export default App;
+
 
