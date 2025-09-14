@@ -181,7 +181,7 @@ function HomePage() {
           effectOptions={{
             onSpeedUp: () => { },
             onSlowDown: () => { },
-            distortion: 'turbulentDistortion',
+            distortion: 'mountainDistortion',
             length: 400,
             roadWidth: 10,
             islandWidth: 2,
@@ -270,3 +270,4 @@ function HomePage() {
 }
 
 export default App;
+
