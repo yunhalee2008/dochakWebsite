@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dochakWebsite/static/css/main.e6a154d5.css",
-    "main.js": "/dochakWebsite/static/js/main.bddbad9a.js",
+    "main.js": "/dochakWebsite/static/js/main.78201b81.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
     "static/media/teledriving.png": "/dochakWebsite/static/media/teledriving.8bc10f8cb15680acea73.png",
     "static/media/내포3D모델.png": "/dochakWebsite/static/media/내포3D모델.64cd1130ab4817480017.png",
@@ -34,6 +34,7 @@
     "static/media/vistro.png": "/dochakWebsite/static/media/vistro.4d63528842014d2eaee0.png",
     "static/media/truck.png": "/dochakWebsite/static/media/truck.b0733db830e005a61c87.png",
     "static/media/dash.png": "/dochakWebsite/static/media/dash.512a2c80616baf5f1f06.png",
+    "static/media/BoWang.png": "/dochakWebsite/static/media/BoWang.40382e21254f5af8f06d.png",
     "static/media/Huizi.png": "/dochakWebsite/static/media/Huizi.9c3e8406e46fa43c325b.png",
     "static/media/simulFake.png": "/dochakWebsite/static/media/simulFake.a2be7f089d8d554a11f3.png",
     "static/media/visum.jpg": "/dochakWebsite/static/media/visum.ded2c97d7f997c876906.jpg",
@@ -64,11 +65,11 @@
     "static/media/reuben.jpg": "/dochakWebsite/static/media/reuben.1b2c79142ccc5c225435.jpg",
     "index.html": "/dochakWebsite/index.html",
     "main.e6a154d5.css.map": "/dochakWebsite/static/css/main.e6a154d5.css.map",
-    "main.bddbad9a.js.map": "/dochakWebsite/static/js/main.bddbad9a.js.map",
+    "main.78201b81.js.map": "/dochakWebsite/static/js/main.78201b81.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6a154d5.css",
-    "static/js/main.bddbad9a.js"
+    "static/js/main.78201b81.js"
   ]
 }
