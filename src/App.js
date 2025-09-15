@@ -24,6 +24,7 @@ import VRRoadDesign from './Solutions/VRRoadDesign';
 import News from './News';
 import NewsArticle from './NewsArticle';
 import Training from './Training';
+import CourseDetail from './components/CourseDetail';
 
 import TawkToWidget from './TawkToWidget';
 import { LanguageProvider } from './contexts/LanguageContext';
@@ -103,7 +104,7 @@ function App() {
         },
         {
           path: "training/:courseCode",
-          element: <div>Course detail page - Coming soon!</div>
+          element: <CourseDetail />
         },
         {
           path: "disclosure",
