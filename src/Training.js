@@ -3,16 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Training.css';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
-
-// Import product images from assets
-import visum from './assets/visum.jpg';
-import vissimImage from './assets/Simulation-in-PTV-VISSIM-software.png';
-import simulator from './assets/simulator.png';
-import viswalk from './assets/viswalk.jpg';
-import visVAP from './assets/visVAP.gif';
-import vistro from './assets/vistro.png';
-import unity3D from './assets/unity3D.png';
-import simulatorCourse from './assets/simulator_course.jpg';
+import { courseData } from './courseData';
 
 export default function Training() {
   const { t } = useContext(LanguageContext);
@@ -53,68 +44,15 @@ export default function Training() {
     );
   };
 
-  // Product images mapping
-  const productImages = {
-    'Visum': visum,
-    'Vissim': vissimImage,
-    'Viswalk': viswalk,
-    'Visvap': visVAP,
-    'Vistro': vistro,
-    'Unity3D': unity3D,
-    'Simulator': simulatorCourse
-  };
-
-  // Course data - 35 courses (5 levels × 7 products)
-  const allCourses = [
-    // Visum courses
-    { id: 1, product: 'Visum', level: 'Basic', title: 'PTV Visum - Basic Training', code: 'TR-VIS001-EN', image: visum },
-    { id: 2, product: 'Visum', level: 'Intermediate', title: 'PTV Visum - Intermediate Training', code: 'TR-VIS002-EN', image: visum },
-    { id: 3, product: 'Visum', level: 'Advanced', title: 'PTV Visum - Advanced Training', code: 'TR-VIS003-EN', image: visum },
-    { id: 4, product: 'Visum', level: 'Individual', title: 'PTV Visum - Individual Training', code: 'TR-VIS004-EN', image: visum },
-    { id: 5, product: 'Visum', level: 'Customized', title: 'PTV Visum - Customized Training', code: 'TR-VIS005-EN', image: visum },
-
-    // Vissim courses
-    { id: 6, product: 'Vissim', level: 'Basic', title: 'PTV Vissim - Basic Training', code: 'TR-SIM001-EN', image: vissimImage },
-    { id: 7, product: 'Vissim', level: 'Intermediate', title: 'PTV Vissim - Intermediate Training', code: 'TR-SIM002-EN', image: vissimImage },
-    { id: 8, product: 'Vissim', level: 'Advanced', title: 'PTV Vissim - Advanced Training', code: 'TR-SIM003-EN', image: vissimImage },
-    { id: 9, product: 'Vissim', level: 'Individual', title: 'PTV Vissim - Individual Training', code: 'TR-SIM004-EN', image: vissimImage },
-    { id: 10, product: 'Vissim', level: 'Customized', title: 'PTV Vissim - Customized Training', code: 'TR-SIM005-EN', image: vissimImage },
-
-    // Viswalk courses
-    { id: 11, product: 'Viswalk', level: 'Basic', title: 'PTV Viswalk - Basic Training', code: 'TR-WAL001-EN', image: viswalk },
-    { id: 12, product: 'Viswalk', level: 'Intermediate', title: 'PTV Viswalk - Intermediate Training', code: 'TR-WAL002-EN', image: viswalk },
-    { id: 13, product: 'Viswalk', level: 'Advanced', title: 'PTV Viswalk - Advanced Training', code: 'TR-WAL003-EN', image: viswalk },
-    { id: 14, product: 'Viswalk', level: 'Individual', title: 'PTV Viswalk - Individual Training', code: 'TR-WAL004-EN', image: viswalk },
-    { id: 15, product: 'Viswalk', level: 'Customized', title: 'PTV Viswalk - Customized Training', code: 'TR-WAL005-EN', image: viswalk },
-
-    // Visvap courses
-    { id: 16, product: 'Visvap', level: 'Basic', title: 'PTV Visvap - Basic Training', code: 'TR-VAP001-EN', image: visVAP },
-    { id: 17, product: 'Visvap', level: 'Intermediate', title: 'PTV Visvap - Intermediate Training', code: 'TR-VAP002-EN', image: visVAP },
-    { id: 18, product: 'Visvap', level: 'Advanced', title: 'PTV Visvap - Advanced Training', code: 'TR-VAP003-EN', image: visVAP },
-    { id: 19, product: 'Visvap', level: 'Individual', title: 'PTV Visvap - Individual Training', code: 'TR-VAP004-EN', image: visVAP },
-    { id: 20, product: 'Visvap', level: 'Customized', title: 'PTV Visvap - Customized Training', code: 'TR-VAP005-EN', image: visVAP },
-
-    // Vistro courses
-    { id: 21, product: 'Vistro', level: 'Basic', title: 'PTV Vistro - Basic Training', code: 'TR-STR001-EN', image: vistro },
-    { id: 22, product: 'Vistro', level: 'Intermediate', title: 'PTV Vistro - Intermediate Training', code: 'TR-STR002-EN', image: vistro },
-    { id: 23, product: 'Vistro', level: 'Advanced', title: 'PTV Vistro - Advanced Training', code: 'TR-STR003-EN', image: vistro },
-    { id: 24, product: 'Vistro', level: 'Individual', title: 'PTV Vistro - Individual Training', code: 'TR-STR004-EN', image: vistro },
-    { id: 25, product: 'Vistro', level: 'Customized', title: 'PTV Vistro - Customized Training', code: 'TR-STR005-EN', image: vistro },
-
-    // Unity3D courses
-    { id: 26, product: 'Unity3D', level: 'Basic', title: 'Unity3D - Basic Training', code: 'TR-UN3001-EN', image: unity3D },
-    { id: 27, product: 'Unity3D', level: 'Intermediate', title: 'Unity3D - Intermediate Training', code: 'TR-UN3002-EN', image: unity3D },
-    { id: 28, product: 'Unity3D', level: 'Advanced', title: 'Unity3D - Advanced Training', code: 'TR-UN3003-EN', image: unity3D },
-    { id: 29, product: 'Unity3D', level: 'Individual', title: 'Unity3D - Individual Training', code: 'TR-UN3004-EN', image: unity3D },
-    { id: 30, product: 'Unity3D', level: 'Customized', title: 'Unity3D - Customized Training', code: 'TR-UN3005-EN', image: unity3D },
-
-    // Simulator courses
-    { id: 31, product: 'Simulator', level: 'Basic', title: 'Traffic Simulator - Basic Training', code: 'TR-SIM101-EN', image: simulatorCourse },
-    { id: 32, product: 'Simulator', level: 'Intermediate', title: 'Traffic Simulator - Intermediate Training', code: 'TR-SIM102-EN', image: simulatorCourse },
-    { id: 33, product: 'Simulator', level: 'Advanced', title: 'Traffic Simulator - Advanced Training', code: 'TR-SIM103-EN', image: simulatorCourse },
-    { id: 34, product: 'Simulator', level: 'Individual', title: 'Traffic Simulator - Individual Training', code: 'TR-SIM104-EN', image: simulatorCourse },
-    { id: 35, product: 'Simulator', level: 'Customized', title: 'Traffic Simulator - Customized Training', code: 'TR-SIM105-EN', image: simulatorCourse }
-  ];
+  // Convert courseData object to array format for easier filtering
+  const allCourses = Object.values(courseData).map((course, index) => ({
+    id: index + 1,
+    product: course.product,
+    level: course.level,
+    title: course.title,
+    code: course.code,
+    image: course.image
+  }));
 
   // Filter courses
   const filteredCourses = allCourses.filter(course => {
@@ -139,7 +77,6 @@ export default function Training() {
       case 'Intermediate': return 'level-intermediate';
       case 'Advanced': return 'level-advanced';
       case 'Individual': return 'level-individual';
-      case 'Customized': return 'level-customized';
       default: return 'level-basic';
     }
   };
@@ -179,11 +116,10 @@ export default function Training() {
                   <option value="all">All products</option>
                   <option value="Visum">Visum</option>
                   <option value="Vissim">Vissim</option>
-                  <option value="Viswalk">Viswalk</option>
-                  <option value="Visvap">Visvap</option>
                   <option value="Vistro">Vistro</option>
-                  <option value="Unity3D">Unity3D</option>
-                  <option value="Simulator">Simulator</option>
+                  <option value="Vistad">Vistad</option>
+                  <option value="Optima">Optima</option>
+                  <option value="General">General</option>
                 </select>
               </div>
               <div className="filter-group">
@@ -198,7 +134,6 @@ export default function Training() {
                   <option value="Intermediate">Intermediate</option>
                   <option value="Advanced">Advanced</option>
                   <option value="Individual">Individual</option>
-                  <option value="Customized">Customized</option>
                 </select>
               </div>
             </div>
