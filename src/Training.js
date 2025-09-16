@@ -4,9 +4,10 @@ import './Training.css';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
 import { courseData } from './courseData';
+import { courseData_ko } from './courseData_ko';
 
 export default function Training() {
-  const { t } = useContext(LanguageContext);
+  const { t, currentLanguage } = useContext(LanguageContext);
   const navigate = useNavigate();
   const [productFilter, setProductFilter] = useState('all');
   const [levelFilter, setLevelFilter] = useState('all');
@@ -45,7 +46,9 @@ export default function Training() {
   };
 
   // Convert courseData object to array format for easier filtering
-  const allCourses = Object.values(courseData).map((course, index) => ({
+  // Use Korean data when Korean language is selected
+  const currentCourseData = currentLanguage === 'ko' ? courseData_ko : courseData;
+  const allCourses = Object.values(currentCourseData).map((course, index) => ({
     id: index + 1,
     product: course.product,
     level: course.level,
@@ -87,14 +90,11 @@ export default function Training() {
       <section className="training-hero">
         <div className="training-hero-content">
           <AnimatedElement animation="slide-up" delay={0}>
-            <h1 className="training-hero-title">Our Training Courses</h1>
+            <h1 className="training-hero-title">{t('training.heroTitle')}</h1>
           </AnimatedElement>
           <AnimatedElement animation="slide-up" delay={200}>
             <p className="training-hero-subtitle">
-              This course is a collaborative program between the KAIST Mobility Research Institute and dochak.
-              Specifically, the PTV Software Training Course is the first in Korea to be officially taught by
-              Korean speaking PTV-certified trainers. Students who successfully complete the training will be
-              awarded an official PTV certificate.
+              {t('training.heroSubtitle')}
             </p>
           </AnimatedElement>
         </div>
@@ -113,7 +113,7 @@ export default function Training() {
                   className="filter-select"
                   aria-label="Filter by product"
                 >
-                  <option value="all">All products</option>
+                  <option value="all">{t('training.filters.allProducts')}</option>
                   <option value="Visum">Visum</option>
                   <option value="Vissim">Vissim</option>
                   <option value="Vistro">Vistro</option>
@@ -129,22 +129,22 @@ export default function Training() {
                   className="filter-select"
                   aria-label="Filter by level"
                 >
-                  <option value="all">All levels</option>
-                  <option value="Basic">Basic</option>
-                  <option value="Intermediate">Intermediate</option>
-                  <option value="Advanced">Advanced</option>
-                  <option value="Individual">Individual</option>
+                  <option value="all">{t('training.filters.allLevels')}</option>
+                  <option value="Basic">{t('training.levels.Basic')}</option>
+                  <option value="Intermediate">{t('training.levels.Intermediate')}</option>
+                  <option value="Advanced">{t('training.levels.Advanced')}</option>
+                  <option value="Individual">{t('training.levels.Individual')}</option>
                 </select>
               </div>
             </div>
             <div className="training-search">
               <input
                 type="text"
-                placeholder="Search courses..."
+                placeholder={t('training.filters.searchPlaceholder')}
                 value={localSearchTerm}
                 onChange={handleSearchInputChange}
                 className="search-input"
-                aria-label="Search courses"
+                aria-label={t('training.filters.searchLabel')}
               />
               <svg className="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <circle cx="11" cy="11" r="8"></circle>
@@ -156,11 +156,11 @@ export default function Training() {
           {/* Results Count */}
           <AnimatedElement animation="slide-up" delay={100}>
             <div className="results-count">
-              {filteredCourses.length} course{filteredCourses.length !== 1 ? 's' : ''}
+              {filteredCourses.length} {t('training.results.coursesFound')}
               {(productFilter !== 'all' || levelFilter !== 'all' || searchTerm) && (
                 <span className="filter-applied">
                   {productFilter !== 'all' && ` • ${productFilter}`}
-                  {levelFilter !== 'all' && ` • ${levelFilter}`}
+                  {levelFilter !== 'all' && ` • ${currentLanguage === 'ko' ? t(`training.levels.${levelFilter}`) : levelFilter}`}
                   {searchTerm && ` • "${searchTerm}"`}
                 </span>
               )}
@@ -190,7 +190,7 @@ export default function Training() {
                       className="course-image"
                     />
                     <div className={`level-badge ${getLevelColorClass(course.level)}`}>
-                      {course.level}
+                      {currentLanguage === 'ko' ? t(`training.levels.${course.level}`) : course.level}
                     </div>
                   </div>
                   <div className="course-content">
@@ -198,7 +198,7 @@ export default function Training() {
                     <p className="course-code">{course.code}</p>
                     <div className="course-footer">
                       <span className="view-details">
-                        View Details
+                        {t('training.courseCard.viewDetails')}
                         <svg className="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
@@ -214,8 +214,8 @@ export default function Training() {
           {filteredCourses.length === 0 && (
             <AnimatedElement animation="slide-up" delay={200}>
               <div className="no-results">
-                <h3>No courses found</h3>
-                <p>Try adjusting your filters or search terms to find courses.</p>
+                <h3>{t('training.results.noCourses')}</h3>
+                <p>{t('training.results.noCoursesMessage')}</p>
               </div>
             </AnimatedElement>
           )}

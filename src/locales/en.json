@@ -1149,5 +1149,55 @@
         "bio": "Supports project collaboration and research development through teamwork."
       }
     }
+  },
+  "training": {
+    "heroTitle": "Our Training Courses",
+    "heroSubtitle": "This course is a collaborative program between the KAIST Mobility Research Institute and dochak. Specifically, the PTV Software Training Course is the first in Korea to be officially taught by Korean speaking PTV-certified trainers. Students who successfully complete the training will be awarded an official PTV certificate.",
+    "filters": {
+      "allProducts": "All products",
+      "allLevels": "All levels",
+      "searchPlaceholder": "Search courses...",
+      "productFilterLabel": "Filter by product",
+      "levelFilterLabel": "Filter by level",
+      "searchLabel": "Search courses"
+    },
+    "results": {
+      "coursesFound": "courses",
+      "noCourses": "No courses found",
+      "noCoursesMessage": "Try adjusting your filters or search terms to find courses."
+    },
+    "courseCard": {
+      "viewDetails": "View Details",
+      "viewDetailsAriaLabel": "View Details"
+    },
+    "levels": {
+      "Basic": "Basic",
+      "Intermediate": "Intermediate",
+      "Advanced": "Advanced",
+      "Individual": "Individual"
+    },
+    "course": {
+      "backToTraining": "Back to Training",
+      "overview": "Course Overview",
+      "duration": "Duration",
+      "level": "Level",
+      "product": "Product",
+      "code": "Course Code",
+      "targetGroup": "Target Group",
+      "prerequisites": "Prerequisites",
+      "contents": "Course Contents",
+      "pricing": "Pricing & Registration",
+      "advantages": "Advantages",
+      "description": "Description",
+      "courseInformation": "Course Information",
+      "pricingRegistration": "Pricing & Registration",
+      "getStarted": "Get Started",
+      "readyToEnhance": "Ready to enhance your skills with this course?",
+      "contactUs": "Contact Us",
+      "notFound": {
+        "title": "Course Not Found",
+        "message": "The course you're looking for doesn't exist or may have been moved."
+      }
+    }
   }
 }

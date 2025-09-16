@@ -1115,5 +1115,55 @@
         "bio": "팀워크를 통해 프로젝트 협업과 연구 개발을 지원합니다."
       }
     }
+  },
+  "training": {
+    "heroTitle": "교육 과정",
+    "heroSubtitle": "본 과정은 KAIST 모빌리티 연구소와 도착의 협력 프로그램입니다. 특히, PTV 소프트웨어 교육 과정은 한국 최초로 한국어를 구사하는 PTV 공인 교육자들이 공식적으로 진행하는 교육입니다. 교육을 성공적으로 이수한 학생들에게는 공식 PTV 인증서가 수여됩니다.",
+    "filters": {
+      "allProducts": "모든 제품",
+      "allLevels": "모든 레벨",
+      "searchPlaceholder": "교육 과정 검색...",
+      "productFilterLabel": "제품별 필터",
+      "levelFilterLabel": "레벨별 필터",
+      "searchLabel": "교육 과정 검색"
+    },
+    "results": {
+      "coursesFound": "개 교육 과정",
+      "noCourses": "교육 과정을 찾을 수 없습니다",
+      "noCoursesMessage": "필터나 검색어를 조정하여 교육 과정을 찾아보세요."
+    },
+    "courseCard": {
+      "viewDetails": "자세히 보기",
+      "viewDetailsAriaLabel": "자세히 보기"
+    },
+    "levels": {
+      "Basic": "기초",
+      "Intermediate": "중급",
+      "Advanced": "고급",
+      "Individual": "개별"
+    },
+    "course": {
+      "backToTraining": "교육 과정 목록으로 돌아가기",
+      "overview": "과정 개요",
+      "duration": "교육 기간",
+      "level": "난이도",
+      "product": "제품",
+      "code": "과정 코드",
+      "targetGroup": "대상",
+      "prerequisites": "사전 요구사항",
+      "contents": "교육 내용",
+      "pricing": "가격 정보",
+      "advantages": "장점",
+      "description": "설명",
+      "courseInformation": "과정 정보",
+      "pricingRegistration": "가격 및 등록",
+      "getStarted": "시작하기",
+      "readyToEnhance": "이 과정으로 기술을 향상시킬 준비가 되셨나요?",
+      "contactUs": "문의하기",
+      "notFound": {
+        "title": "교육 과정을 찾을 수 없습니다",
+        "message": "찾고 계신 교육 과정이 존재하지 않거나 이동되었을 수 있습니다."
+      }
+    }
   }
 }

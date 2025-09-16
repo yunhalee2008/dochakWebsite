@@ -1,17 +1,21 @@
 import React, { useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { courseData } from '../courseData';
+import { courseData_ko } from '../courseData_ko';
 import LanguageContext from '../contexts/LanguageContext';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import './CourseDetail.css';
 
 export default function CourseDetail() {
   const { courseCode } = useParams();
-  const { t } = useContext(LanguageContext);
+  const { t, currentLanguage } = useContext(LanguageContext);
   const navigate = useNavigate();
 
+  // Use Korean data when Korean language is selected
+  const currentCourseData = currentLanguage === 'ko' ? courseData_ko : courseData;
+
   // Find course by code (case insensitive)
-  const course = Object.values(courseData).find(
+  const course = Object.values(currentCourseData).find(
     c => c.code.toLowerCase() === courseCode?.toLowerCase()
   );
 
@@ -19,10 +23,10 @@ export default function CourseDetail() {
     return (
       <div className="course-detail-not-found">
         <div className="course-detail-container">
-          <h1>Course Not Found</h1>
-          <p>The course you're looking for doesn't exist.</p>
+          <h1>{t('training.course.notFound.title')}</h1>
+          <p>{t('training.course.notFound.message')}</p>
           <button onClick={() => navigate('/training')} className="course-detail-back-btn">
-            Back to Training
+            {t('training.course.backToTraining')}
           </button>
         </div>
       </div>
@@ -68,9 +72,9 @@ export default function CourseDetail() {
             <button
               onClick={() => navigate('/training')}
               className="course-detail-back-link"
-              aria-label="Back to training courses"
+              aria-label={t('training.course.backToTraining')}
             >
-              ← Back to Training
+              ← {t('training.course.backToTraining')}
             </button>
           </AnimatedElement>
 
@@ -80,7 +84,7 @@ export default function CourseDetail() {
                 <div className="course-detail-meta">
                   <span className="course-detail-product">{course.product}</span>
                   <span className={`course-detail-level-badge ${getLevelColorClass(course.level)}`}>
-                    {course.level}
+                    {currentLanguage === 'ko' ? t(`training.levels.${course.level}`) : course.level}
                   </span>
                 </div>
               </AnimatedElement>
@@ -90,7 +94,7 @@ export default function CourseDetail() {
               </AnimatedElement>
 
               <AnimatedElement animation="slide-up" delay={300}>
-                <p className="course-detail-code">Course Code: {course.code}</p>
+                <p className="course-detail-code">{t('training.course.code')}: {course.code}</p>
               </AnimatedElement>
 
               <AnimatedElement animation="slide-up" delay={400}>
@@ -125,7 +129,7 @@ export default function CourseDetail() {
               {course.content && (
                 <AnimatedElement animation="slide-up" delay={100}>
                   <div className="course-detail-section">
-                    <h2>Course Overview</h2>
+                    <h2>{t('training.course.overview')}</h2>
                     <div
                       className="course-detail-rich-content"
                       dangerouslySetInnerHTML={{ __html: course.content }}
@@ -138,7 +142,7 @@ export default function CourseDetail() {
               {course.targetGroup && (
                 <AnimatedElement animation="slide-up" delay={200}>
                   <div className="course-detail-section">
-                    <h2>Target Group</h2>
+                    <h2>{t('training.course.targetGroup')}</h2>
                     <div
                       className="course-detail-rich-content"
                       dangerouslySetInnerHTML={{ __html: course.targetGroup }}
@@ -151,7 +155,7 @@ export default function CourseDetail() {
               {course.prerequisites && (
                 <AnimatedElement animation="slide-up" delay={300}>
                   <div className="course-detail-section">
-                    <h2>Prerequisites</h2>
+                    <h2>{t('training.course.prerequisites')}</h2>
                     <div
                       className="course-detail-rich-content"
                       dangerouslySetInnerHTML={{ __html: course.prerequisites }}
@@ -164,7 +168,7 @@ export default function CourseDetail() {
               {course.contents && course.contents.length > 0 && (
                 <AnimatedElement animation="slide-up" delay={400}>
                   <div className="course-detail-section">
-                    <h2>Course Contents</h2>
+                    <h2>{t('training.course.contents')}</h2>
                     <div className="course-detail-contents">
                       {course.contents.map((content, index) => (
                         <div
@@ -182,7 +186,7 @@ export default function CourseDetail() {
               {course.advantages && course.advantages.length > 0 && (
                 <AnimatedElement animation="slide-up" delay={500}>
                   <div className="course-detail-section">
-                    <h2>Advantages</h2>
+                    <h2>{t('training.course.advantages')}</h2>
                     <div className="course-detail-advantages">
                       {course.advantages.map((advantage, index) => (
                         <div
@@ -203,23 +207,23 @@ export default function CourseDetail() {
               {/* Quick Info */}
               <AnimatedElement animation="slide-up" delay={200}>
                 <div className="course-detail-info-card">
-                  <h3>Course Information</h3>
+                  <h3>{t('training.course.courseInformation')}</h3>
                   <div className="course-detail-info-item">
-                    <span className="course-detail-info-label">Product:</span>
+                    <span className="course-detail-info-label">{t('training.course.product')}:</span>
                     <span className="course-detail-info-value">{course.product}</span>
                   </div>
                   <div className="course-detail-info-item">
-                    <span className="course-detail-info-label">Level:</span>
-                    <span className="course-detail-info-value">{course.level}</span>
+                    <span className="course-detail-info-label">{t('training.course.level')}:</span>
+                    <span className="course-detail-info-value">{currentLanguage === 'ko' ? t(`training.levels.${course.level}`) : course.level}</span>
                   </div>
                   {course.duration && (
                     <div className="course-detail-info-item">
-                      <span className="course-detail-info-label">Duration:</span>
+                      <span className="course-detail-info-label">{t('training.course.duration')}:</span>
                       <span className="course-detail-info-value">{course.duration}</span>
                     </div>
                   )}
                   <div className="course-detail-info-item">
-                    <span className="course-detail-info-label">Code:</span>
+                    <span className="course-detail-info-label">{t('training.course.code')}:</span>
                     <span className="course-detail-info-value">{course.code}</span>
                   </div>
                 </div>
@@ -229,7 +233,7 @@ export default function CourseDetail() {
               {course.pricing && (
                 <AnimatedElement animation="slide-up" delay={300}>
                   <div className="course-detail-info-card">
-                    <h3>Pricing & Registration</h3>
+                    <h3>{t('training.course.pricingRegistration')}</h3>
                     <div
                       className="course-detail-pricing"
                       dangerouslySetInnerHTML={{ __html: course.pricing }}
@@ -241,13 +245,13 @@ export default function CourseDetail() {
               {/* Contact CTA */}
               <AnimatedElement animation="slide-up" delay={400}>
                 <div className="course-detail-cta-card">
-                  <h3>Get Started</h3>
-                  <p>Ready to enhance your skills with this course?</p>
+                  <h3>{t('training.course.getStarted')}</h3>
+                  <p>{t('training.course.readyToEnhance')}</p>
                   <button
                     onClick={() => navigate('/get-in-touch')}
                     className="course-detail-cta-btn"
                   >
-                    Contact Us
+                    {t('training.course.contactUs')}
                   </button>
                 </div>
               </AnimatedElement>
