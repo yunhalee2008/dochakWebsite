@@ -2,7 +2,7 @@
 .disclosure-tabs {
   background: #fff;
   /* border-radius: 1rem; */
-  box-shadow: 0 2px 12px #57bceb15;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
   border: 1px solid var(--border-light);
   margin-bottom: 2rem;
   font-family: 'Inter', 'Segoe UI', 'Roboto', Arial, sans-serif;
@@ -48,14 +48,15 @@
 } */
 
 .tab-button:hover {
-  color: var(--science-blue-transparent);
-  background: #57bceb27;
+  /* No hover effects */
 }
 
-.tab-button:focus {
-  outline: 2px solid var(--science-blue);
-  outline-offset: -2px;
-  z-index: 2;
+.tab-button:focus,
+.tab-button:focus-visible,
+.tab-button:active,
+.tab-button:focus-within {
+  outline: none !important;
+  background: none !important;
 }
 
 .tab-button.active {
@@ -72,7 +73,7 @@
   background: #e1f5fe;
   color: #0277bd;
   border: 1px solid #81d4fa;
-  border-radius: 1rem; 
+  border-radius: 1rem;
   padding: 0.25rem 0.6rem;
   font-size: 0.8rem;
   font-weight: 600;
@@ -85,10 +86,7 @@
 }
 
 .tab-button:hover .tab-count {
-  background: #b3e5fc;
-  color: #01579b;
-  border-color: #4fc3f7;
-  transform: scale(1.05);
+  /* No hover effects */
 }
 
 .tab-button.active .tab-count {
