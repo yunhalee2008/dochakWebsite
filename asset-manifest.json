@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dochakWebsite/static/css/main.497a80a7.css",
+    "main.css": "/dochakWebsite/static/css/main.223e7bb5.css",
     "main.js": "/dochakWebsite/static/js/main.123e0f49.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
     "static/media/teledriving.png": "/dochakWebsite/static/media/teledriving.8bc10f8cb15680acea73.png",
@@ -62,12 +62,12 @@
     "static/media/dochak_Symbol.png": "/dochakWebsite/static/media/dochak_Symbol.874e7647207788804886.png",
     "static/media/reuben.jpg": "/dochakWebsite/static/media/reuben.1b2c79142ccc5c225435.jpg",
     "index.html": "/dochakWebsite/index.html",
-    "main.497a80a7.css.map": "/dochakWebsite/static/css/main.497a80a7.css.map",
+    "main.223e7bb5.css.map": "/dochakWebsite/static/css/main.223e7bb5.css.map",
     "main.123e0f49.js.map": "/dochakWebsite/static/js/main.123e0f49.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.497a80a7.css",
+    "static/css/main.223e7bb5.css",
     "static/js/main.123e0f49.js"
   ]
 }
