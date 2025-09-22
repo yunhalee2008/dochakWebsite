@@ -479,13 +479,19 @@
   }
   
   .news-controls {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
+    flex-wrap: wrap;
   }
-  
-  .news-search,
+
+  .news-search {
+    flex: 1 1 250px;
+    min-width: 250px;
+  }
+
   .news-sort {
-    flex: 1 1 auto;
+    flex: 0 0 180px;
+    min-width: 180px;
   }
   
   .news-grid {
@@ -521,9 +527,19 @@
   .news-container {
     padding: 0 1rem;
   }
-  
+
   .newsletter-container {
     padding: 0 1rem;
+  }
+
+  .news-search {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+
+  .news-sort {
+    flex: 0 0 150px;
+    min-width: 150px;
   }
   
   .news-grid {

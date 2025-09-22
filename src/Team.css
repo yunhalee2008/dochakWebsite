@@ -231,6 +231,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+  justify-items: center;
 }
 
 .team-member-card {
@@ -243,7 +244,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100%;
+  width: 320px;
+  height: 400px;
   transition: all 0.3s ease;
 }
 
@@ -285,41 +287,58 @@
   font-size: 0.9rem;
   line-height: 1.6;
   flex-grow: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 @media (max-width: 1024px) {
   .team-members-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.75rem;
+    justify-items: center;
+  }
+
+  .team-member-card {
+    height: 380px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 701px) {
+  .team-members-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+  }
+
+  .team-member-card {
+    height: 360px;
+  }
+}
+
+@media (max-width: 700px) {
   .team-ceo-card {
     flex-direction: column;
     gap: 1.5rem;
     padding: 2.5rem 2rem;
     max-width: 90vw;
   }
-  
+
   .team-ceo-info {
     text-align: center;
   }
-  
+
   .team-ceo-photo {
     width: 130px;
     height: 130px;
   }
-  
+
   .team-ceo-name {
     font-size: 1.6rem;
   }
-  
+
   .team-ceo-title {
     font-size: 1.1rem;
   }
-  
+
   .team-ceo-bio {
     font-size: 1rem;
   }
@@ -328,10 +347,11 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
     padding: 0 1rem;
+    justify-items: center;
   }
-  
+
   .team-member-card {
-    padding: 1.25rem;
+    height: 350px;
   }
 
   .team-hero{
@@ -355,9 +375,7 @@
     min-width: 90px;
   }
   
-  .team-member-card {
-    padding: 1.5rem;
-  }
+  /* Card size remains fixed - no responsive changes */
   
   .team-member-photo {
     width: 80px;
@@ -382,19 +400,19 @@
   .team-section-header {
     padding: 0 1rem;
   }
-  
+
   .team-sort-select {
     min-width: 85px;
     padding: 0.4rem 1.8rem 0.4rem 0.6rem;
     font-size: 0.75rem;
   }
-  
+
   .team-members-grid {
     padding: 0 1rem;
   }
-  
+
   .team-member-card {
-    padding: 1.25rem;
+    height: 300px;
   }
   
   .team-ceo-card {
@@ -449,7 +467,7 @@
 }
 
 .team-email {
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .team-email-link {

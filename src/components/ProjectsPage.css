@@ -82,6 +82,13 @@
   color: #374151;
 }
 
+.tab-button.active {
+  background: transparent;
+  border-color: var(--science-blue);
+  color: var(--science-blue);
+  font-weight: 700;
+}
+
 
 
 .tab-button:focus,
@@ -95,9 +102,13 @@
 
 .tab-button.active:focus,
 .tab-button.active:focus-visible,
-.tab-button.active:active {
+.tab-button.active:active,
+.tab-button.active:hover {
   outline: none !important;
   box-shadow: none !important;
+  background: transparent !important;
+  border-color: var(--science-blue) !important;
+  color: var(--science-blue) !important;
 }
 
 /* Content Area */
@@ -229,6 +240,8 @@
 .video-container {
   position: relative;
   width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
@@ -236,10 +249,13 @@
 }
 
 .project-video {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 400px;
+  height: 100%;
   border: none;
-  border-radius: 16px;
+  border-radius: 0;
 }
 
 .video-info {
@@ -314,6 +330,7 @@
   gap: 3rem;
   max-width: 800px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .feature-card {
@@ -598,9 +615,10 @@
   }
   
   .tab-button.active {
-    background: var(--science-blue);
+    background: transparent;
     border-color: var(--science-blue);
-    color: #fff;
+    color: var(--science-blue);
+    font-weight: 700;
     transform: scale(1.02);
   }
   
@@ -654,8 +672,8 @@
     padding-left: 0;
   }
   
-  .project-video {
-    height: 350px;
+  .video-container {
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
   }
   
   .project-features-section,
@@ -668,6 +686,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
     max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
   }
   
   .feature-card {
@@ -801,9 +821,10 @@
   }
   
   .tab-button.active {
-    background: var(--science-blue);
+    background: transparent;
     border-color: var(--science-blue);
-    color: #fff;
+    color: var(--science-blue);
+    font-weight: 700;
     transform: scale(1.02);
   }
   
@@ -822,34 +843,40 @@
   }
   
   .project-title-section {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
-    align-items: flex-start;
+    align-items: center;
   }
-  
+
   .project-title {
     font-size: 1.5rem;
     line-height: 1.2;
     margin-bottom: 0;
+    flex-shrink: 1;
+    min-width: 0;
   }
-  
+
   .project-badges {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.75rem;
-    width: 100%;
+    flex-shrink: 0;
+    min-width: min-content;
   }
   
   .project-timeline,
   .project-status {
-    min-height: 44px;
-    padding: 12px 18px;
-    font-size: 0.75rem;
+    min-height: 32px;
+    padding: 8px 12px;
+    font-size: 0.7rem;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   
   .project-overview-video-section {
@@ -882,8 +909,8 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   }
   
-  .project-video {
-    height: 220px;
+  .video-container {
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
     border-radius: 12px;
   }
   
@@ -924,6 +951,8 @@
     grid-template-columns: 1fr;
     gap: 2rem;
     max-width: 350px;
+    margin: 0 auto;
+    justify-content: center;
   }
   
   .feature-card {
@@ -1088,8 +1117,8 @@
     padding: 1.5rem 0.75rem;
   }
   
-  .project-video {
-    height: 200px;
+  .video-container {
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
   }
   
   .image-gallery {
@@ -1231,8 +1260,8 @@
     font-size: 2rem;
   }
   
-  .project-video {
-    height: 180px;
+  .video-container {
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
   }
   
   .gallery-image {
@@ -1290,8 +1319,8 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   }
   
-  .project-video {
-    height: 450px;
+  .video-container {
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
     border-radius: 16px;
   }
   
@@ -1587,8 +1616,8 @@
     grid-template-columns: 2fr 1fr;
   }
   
-  .project-video {
-    height: 500px;
+  .video-container {
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
   }
   
   .image-gallery {

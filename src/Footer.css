@@ -62,14 +62,17 @@
 }
 
 .footer-designer {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.9rem;
-  color: var(--science-blue);  /* Changed to match other blue links */
-  font-style: italic;
-  font-weight: 600;  /* Added font weight for bold text */
-  white-space: nowrap;  /* Prevents text wrapping */
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--science-blue);
+  font-weight: 600;
+  font-size: 0.75rem;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer-designer:hover {
+  opacity: 1;
 }
 
 /* Add mobile responsiveness */
@@ -84,11 +87,7 @@
     gap: 1rem;
   }
   .footer-designer {
-    position: static;
-    transform: none;
-    text-align: center;
-    margin: 1rem 0;
-    color: var(--science-blue);  /* Maintain color in mobile */
-    font-weight: 600;  /* Maintain bold in mobile */
+    margin-top: 0.75rem;
+    font-size: 0.7rem;
   }
 }
