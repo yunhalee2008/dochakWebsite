@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dochakWebsite/static/css/main.5d43a390.css",
-    "main.js": "/dochakWebsite/static/js/main.8721fd6b.js",
+    "main.css": "/dochakWebsite/static/css/main.11df62c5.css",
+    "main.js": "/dochakWebsite/static/js/main.693cc0a2.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
     "static/media/teledriving.png": "/dochakWebsite/static/media/teledriving.8bc10f8cb15680acea73.png",
     "static/media/내포3D모델.png": "/dochakWebsite/static/media/내포3D모델.64cd1130ab4817480017.png",
@@ -38,6 +38,7 @@
     "static/media/Huizi.png": "/dochakWebsite/static/media/Huizi.9c3e8406e46fa43c325b.png",
     "static/media/simulFake.png": "/dochakWebsite/static/media/simulFake.a2be7f089d8d554a11f3.png",
     "static/media/visum.jpg": "/dochakWebsite/static/media/visum.ded2c97d7f997c876906.jpg",
+    "static/media/TK-Kim.png": "/dochakWebsite/static/media/TK-Kim.4e5203f70d66e567138d.png",
     "static/media/Mahdi.png": "/dochakWebsite/static/media/Mahdi.3113b12c2ee791879859.png",
     "static/media/heeyun.png": "/dochakWebsite/static/media/heeyun.5f1db4dbb9682fa3621f.png",
     "static/media/nepo.png": "/dochakWebsite/static/media/nepo.82fc847576e6a340c3e4.png",
@@ -61,12 +62,12 @@
     "static/media/dochak_Symbol.png": "/dochakWebsite/static/media/dochak_Symbol.874e7647207788804886.png",
     "static/media/reuben.jpg": "/dochakWebsite/static/media/reuben.1b2c79142ccc5c225435.jpg",
     "index.html": "/dochakWebsite/index.html",
-    "main.5d43a390.css.map": "/dochakWebsite/static/css/main.5d43a390.css.map",
-    "main.8721fd6b.js.map": "/dochakWebsite/static/js/main.8721fd6b.js.map",
+    "main.11df62c5.css.map": "/dochakWebsite/static/css/main.11df62c5.css.map",
+    "main.693cc0a2.js.map": "/dochakWebsite/static/js/main.693cc0a2.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d43a390.css",
-    "static/js/main.8721fd6b.js"
+    "static/css/main.11df62c5.css",
+    "static/js/main.693cc0a2.js"
   ]
 }
