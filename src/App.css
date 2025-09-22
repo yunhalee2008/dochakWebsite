@@ -1,3 +1,14 @@
+/* Global dark mode prevention */
+.App,
+.App *,
+.bento-grid,
+.timeline-demo-container,
+.project-content,
+.project-overview {
+  color-scheme: light !important;
+  -webkit-color-scheme: light !important;
+}
+
 /* Reset some defaults */
 .App {
   font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
