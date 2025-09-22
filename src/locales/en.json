@@ -1084,7 +1084,7 @@
       "tkkim": {
         "name": "TK Kim",
         "title": "Senior Technical Advisor",
-        "bio": "Multimodal transport modeling, Driving behavior, Meso&Micro-simulation modeling, Transport planning, Transport network performance assessment, Signal optimization",
+        "bio": "Multimodal transport & Meso & Micro-simulation modeling, Transport planning & network assessment, Signal optimization, Driving behavior",
         "email": "tkkim@kaist.ac.kr"
       },
       "bowang": {
@@ -1206,4 +1206,5 @@
       }
     }
   }
+
 }
