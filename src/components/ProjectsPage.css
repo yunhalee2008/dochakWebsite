@@ -441,7 +441,7 @@
   gap: 0.5rem;
   padding: 0.75rem 1.25rem;
   background: linear-gradient(135deg, #f8fafc, #e2e8f0);
-  border: 2px solid #3b82f6;
+  border: 2px solid var(--science-blue);
   border-radius: 50px;
   font-size: 0.95rem;
   font-weight: 600;
@@ -453,7 +453,7 @@
 
 .technology-tag:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  background: linear-gradient(135deg, var(--science-blue), var(--curious-blue));
   color: white;
   box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
 }
@@ -598,8 +598,8 @@
   }
   
   .tab-button.active {
-    background: #3b82f6;
-    border-color: #3b82f6;
+    background: var(--science-blue);
+    border-color: var(--science-blue);
     color: #fff;
     transform: scale(1.02);
   }
@@ -801,8 +801,8 @@
   }
   
   .tab-button.active {
-    background: #3b82f6;
-    border-color: #3b82f6;
+    background: var(--science-blue);
+    border-color: var(--science-blue);
     color: #fff;
     transform: scale(1.02);
   }
