@@ -15,6 +15,7 @@ import R11 from './assets/heeyun.png';
 import R12 from './assets/Mahdi.png';
 import R13 from './assets/Huizi.png';
 import BoWang from './assets/BoWang.png';
+import TKKim from './assets/TK-Kim.png';
 
 
 import ceo from './assets/inhiKim.jpg';
@@ -52,6 +53,13 @@ export default function Team() {
   };
 
   const membersData = [
+    {
+      name: t('team.members.tkkim.name'),
+      title: t('team.members.tkkim.title'),
+      photo: TKKim,
+      bio: t('team.members.tkkim.bio'),
+      email: t('team.members.tkkim.email')
+    },
     {
       name: t('team.members.bowang.name'),
       title: t('team.members.bowang.title'),
@@ -151,16 +159,18 @@ export default function Team() {
       case 'name':
         return a.name.localeCompare(b.name);
       case 'title':
-        // Custom sorting for titles - Technical Advisor comes first
+        // Custom sorting for titles - Senior Technical Advisor comes first, then Technical Advisor
         const getTitlePriority = (title) => {
-          if (title.includes('기술고문') || title.includes('Technical Advisor')) {
+          if (title.includes('수석기술고문') || title.includes('Senior Technical Advisor')) {
             return 0;
-          } else if (title.includes('책임연구원') || title.includes('Principal Researcher')) {
+          } else if (title.includes('기술고문') || title.includes('Technical Advisor')) {
             return 1;
-          } else if (title.includes('연구원') || title.includes('Researcher')) {
+          } else if (title.includes('책임연구원') || title.includes('Principal Researcher')) {
             return 2;
+          } else if (title.includes('연구원') || title.includes('Researcher')) {
+            return 3;
           }
-          return 3;
+          return 4;
         };
         
         const priorityA = getTitlePriority(a.title);

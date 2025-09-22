@@ -1081,6 +1081,12 @@
       "bio": "Leading research in transportation systems and urban mobility with over 15 years of experience in AI and autonomous systems."
     },
     "members": {
+      "tkkim": {
+        "name": "TK Kim",
+        "title": "Senior Technical Advisor",
+        "bio": "Multimodal transport modeling, Driving behavior, Meso&Micro-simulation modeling, Transport planning, Transport network performance assessment, Signal optimization",
+        "email": "tkkim@kaist.ac.kr"
+      },
       "bowang": {
         "name": "Dr. Bo Wang",
         "title": "Technical Advisor",
