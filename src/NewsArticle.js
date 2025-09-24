@@ -20,6 +20,7 @@ import taehoCert from './assets/Taeho-676x1024.png';
 import taekyunCert from './assets/김태균-1.png';
 import llm1 from './assets/LLM1.png';
 import llm2 from './assets/LLM2.png';
+import kaistMobilityImage from './assets/newsMobility.jpg';
 
 export default function NewsArticle() {
   const { slug } = useParams();
@@ -81,6 +82,18 @@ export default function NewsArticle() {
           text: t('news.articles.llmTrafficAnalysis.ctaButton'),
           link: '/solutions/traffic-analysis-tools'
         }
+      },
+      'kaist-mobility-tech-2025': {
+        id: 2,
+        title: t('news.articles.kaistMobilityTech2025.title'),
+        date: '2025-09-23',
+        displayDate: t('news.articles.kaistMobilityTech2025.date'),
+        category: t('news.articles.kaistMobilityTech2025.category'),
+        author: t('news.articles.kaistMobilityTech2025.author'),
+        readTime: t('news.articles.kaistMobilityTech2025.readTime'),
+        heroImage: kaistMobilityImage,
+        content: t('news.articles.kaistMobilityTech2025.content'),
+        images: []
       }
     };
 

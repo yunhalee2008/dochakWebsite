@@ -11,6 +11,7 @@ import twin from './assets/twin.png';
 import simulator from './assets/simulator.png';
 import news11 from './assets/news11.png';
 import llm2 from './assets/LLM2.png';
+import mobilityTech from './assets/newsMobility.jpg';
 
 export default function News() {
   const { t } = useContext(LanguageContext);
@@ -57,6 +58,16 @@ export default function News() {
 
   // Real news data - Articles ordered by date (newest first)
   const allNewsItems = [
+    {
+      id: 2,
+      title: t('news.items.kaistMobilityTech2025.title'),
+      date: '2025-09-23',
+      displayDate: t('news.items.kaistMobilityTech2025.date'),
+      category: t('news.items.kaistMobilityTech2025.category'),
+      excerpt: t('news.items.kaistMobilityTech2025.excerpt'),
+      image: mobilityTech,
+      slug: 'kaist-mobility-tech-2025'
+    },
     {
       id: 1,
       title: t('news.items.llmTrafficAnalysis.title'),
