@@ -21,6 +21,10 @@ import taekyunCert from './assets/김태균-1.png';
 import llm1 from './assets/LLM1.png';
 import llm2 from './assets/LLM2.png';
 import kaistMobilityImage from './assets/newsMobility.jpg';
+import tkkimPresentation from './assets/tkkimPresentation.jpg';
+import tkkimPresentation2 from './assets/tkkimPresentation2.jpg';
+import tkkimPhoto from './assets/TKPhotoPTVmeeting.jpg';
+import tkkimCertificate from './assets/ptvTKkimCertificate.jpg';
 
 export default function NewsArticle() {
   const { slug } = useParams();
@@ -93,6 +97,21 @@ export default function NewsArticle() {
         readTime: t('news.articles.kaistMobilityTech2025.readTime'),
         heroImage: kaistMobilityImage,
         content: t('news.articles.kaistMobilityTech2025.content'),
+        images: []
+      },
+      'ptv-apac-ugm-2025': {
+        id: 3,
+        title: t('news.articles.ptvApacUgm2025.title'),
+        date: '2025-09-24',
+        displayDate: t('news.articles.ptvApacUgm2025.date'),
+        category: t('news.articles.ptvApacUgm2025.category'),
+        author: t('news.articles.ptvApacUgm2025.author'),
+        readTime: t('news.articles.ptvApacUgm2025.readTime'),
+        heroImage: tkkimPresentation,
+        content: t('news.articles.ptvApacUgm2025.content')
+          .replace('IMAGE_TKKIM_PHOTO', tkkimPhoto)
+          .replace('IMAGE_TKKIM_PRESENTATION2', tkkimPresentation2)
+          .replace('IMAGE_TKKIM_CERTIFICATE', tkkimCertificate),
         images: []
       }
     };

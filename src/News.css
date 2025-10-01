@@ -227,6 +227,13 @@
   border-color: #ffcc02;
 }
 
+.news-category-badge[data-category*="Conference"],
+.news-category-badge[data-category*="학술대회"] {
+  background: #f3e5f5;
+  color: #6a1b9a;
+  border-color: #ba68c8;
+}
+
 /* News Content - Smaller */
 .news-content {
   padding: 1.5rem;

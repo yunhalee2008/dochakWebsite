@@ -12,6 +12,7 @@ import simulator from './assets/simulator.png';
 import news11 from './assets/news11.png';
 import llm2 from './assets/LLM2.png';
 import mobilityTech from './assets/newsMobility.jpg';
+import tkkimPresentation from './assets/tkkimPresentation.jpg';
 
 export default function News() {
   const { t } = useContext(LanguageContext);
@@ -58,6 +59,16 @@ export default function News() {
 
   // Real news data - Articles ordered by date (newest first)
   const allNewsItems = [
+    {
+      id: 3,
+      title: t('news.items.ptvApacUgm2025.title'),
+      date: '2025-09-24',
+      displayDate: t('news.items.ptvApacUgm2025.date'),
+      category: t('news.items.ptvApacUgm2025.category'),
+      excerpt: t('news.items.ptvApacUgm2025.excerpt'),
+      image: tkkimPresentation,
+      slug: 'ptv-apac-ugm-2025'
+    },
     {
       id: 2,
       title: t('news.items.kaistMobilityTech2025.title'),
