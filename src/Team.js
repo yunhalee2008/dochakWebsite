@@ -49,7 +49,8 @@ export default function Team() {
     title: t('team.ceo.title'),
     photo: ceo,
     bio: t('team.ceo.bio'),
-    email: 'inhi.kim@kaist.ac.kr'
+    email: 'inhi.kim@kaist.ac.kr',
+    certifiedTrainer: true
   };
 
   const membersData = [
@@ -58,7 +59,8 @@ export default function Team() {
       title: t('team.members.tkkim.title'),
       photo: TKKim,
       bio: t('team.members.tkkim.bio'),
-      email: t('team.members.tkkim.email')
+      email: t('team.members.tkkim.email'),
+      certifiedTrainer: true
     },
     {
       name: t('team.members.bowang.name'),
@@ -86,7 +88,8 @@ export default function Team() {
       title: t('team.members.taeho.title'),
       photo: R3,
       bio: t('team.members.taeho.bio'),
-      email: 'taeho.oh@kaist.ac.kr'
+      email: 'taeho.oh@kaist.ac.kr',
+      certifiedTrainer: true
     },
     {
       name: t('team.members.tengfeng.name'),
@@ -208,6 +211,9 @@ export default function Team() {
         <div className="team-ceo-card">
           <img src={ceoData.photo} alt={ceoData.name} className="team-ceo-photo" />
           <div className="team-ceo-info">
+            {ceoData.certifiedTrainer && (
+              <div className="team-certified-badge">PTV Certified Trainer</div>
+            )}
             <div className="team-ceo-name">{ceoData.name}</div>
             <div className="team-ceo-title">{ceoData.title}</div>
             <div className="team-ceo-bio">{ceoData.bio}</div>
@@ -242,6 +248,9 @@ export default function Team() {
           {sortedMembers.map((m, idx) => (
             <div className="team-member-card" key={idx}>
               <img src={m.photo} alt={m.name} className="team-member-photo" />
+              {m.certifiedTrainer && (
+                <div className="team-certified-badge">PTV Certified Trainer</div>
+              )}
               <div className="team-member-name">{m.name}</div>
               <div className="team-member-title">{m.title}</div>
               <div className="team-member-bio">{m.bio}</div>
