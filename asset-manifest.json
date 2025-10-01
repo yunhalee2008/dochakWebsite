@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dochakWebsite/static/css/main.8f507dde.css",
-    "main.js": "/dochakWebsite/static/js/main.f6a5b649.js",
+    "main.css": "/dochakWebsite/static/css/main.01aa6902.css",
+    "main.js": "/dochakWebsite/static/js/main.1f458c11.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
     "static/media/teledriving.png": "/dochakWebsite/static/media/teledriving.8bc10f8cb15680acea73.png",
     "static/media/내포3D모델.png": "/dochakWebsite/static/media/내포3D모델.64cd1130ab4817480017.png",
@@ -9,10 +9,12 @@
     "static/media/news11.png": "/dochakWebsite/static/media/news11.351940050e0d15f3c8b7.png",
     "static/media/news12.png": "/dochakWebsite/static/media/news12.3df903f5b8441c4f9c37.png",
     "static/media/laugh.png": "/dochakWebsite/static/media/laugh.c7dd49cb0c3831a0f737.png",
+    "static/media/tkkimPresentation.jpg": "/dochakWebsite/static/media/tkkimPresentation.a0c65fd09f7ce3f55751.jpg",
     "static/media/로봇.png": "/dochakWebsite/static/media/로봇.5d0b1efdc7c224916ce0.png",
     "static/media/long.png": "/dochakWebsite/static/media/long.eda41b37816d2b30298b.png",
     "static/media/tele.png": "/dochakWebsite/static/media/tele.5e018fff0e68d36639bd.png",
     "static/media/booth.png": "/dochakWebsite/static/media/booth.75fe74eabc6de32a9ea6.png",
+    "static/media/tkkimPresentation2.jpg": "/dochakWebsite/static/media/tkkimPresentation2.b173f8b5e0d4500738d1.jpg",
     "static/media/LLM2.png": "/dochakWebsite/static/media/LLM2.659ef3bc96c3f62b743e.png",
     "static/media/city.png": "/dochakWebsite/static/media/city.3220dcff9e6337dcb4b9.png",
     "static/media/working.png": "/dochakWebsite/static/media/working.3354278c93d03b67af57.png",
@@ -38,6 +40,7 @@
     "static/media/BoWang.png": "/dochakWebsite/static/media/BoWang.40382e21254f5af8f06d.png",
     "static/media/Huizi.png": "/dochakWebsite/static/media/Huizi.9c3e8406e46fa43c325b.png",
     "static/media/simulFake.png": "/dochakWebsite/static/media/simulFake.a2be7f089d8d554a11f3.png",
+    "static/media/ptvTKkimCertificate.jpg": "/dochakWebsite/static/media/ptvTKkimCertificate.ed1c450425528543e465.jpg",
     "static/media/visum.jpg": "/dochakWebsite/static/media/visum.ded2c97d7f997c876906.jpg",
     "static/media/TK-Kim.png": "/dochakWebsite/static/media/TK-Kim.4e5203f70d66e567138d.png",
     "static/media/Mahdi.png": "/dochakWebsite/static/media/Mahdi.3113b12c2ee791879859.png",
@@ -49,6 +52,7 @@
     "static/media/kaihan.jpg": "/dochakWebsite/static/media/kaihan.86ff1390e0d70c0d9039.jpg",
     "static/media/simulator_course.jpg": "/dochakWebsite/static/media/simulator_course.560db72909826f8f2ab7.jpg",
     "static/media/Taeho-676x1024.png": "/dochakWebsite/static/media/Taeho-676x1024.0e8836c1d61cd436962f.png",
+    "static/media/TKPhotoPTVmeeting.jpg": "/dochakWebsite/static/media/TKPhotoPTVmeeting.a3b863d5c4bb6497976f.jpg",
     "static/media/kervin.png": "/dochakWebsite/static/media/kervin.73ef6afa9be4555d0b5c.png",
     "static/media/App.png": "/dochakWebsite/static/media/App.9e325f7d44e6e3e4d475.png",
     "static/media/inhiKim.jpg": "/dochakWebsite/static/media/inhiKim.afb182cedddc09277fcc.jpg",
@@ -63,12 +67,12 @@
     "static/media/dochak_Symbol.png": "/dochakWebsite/static/media/dochak_Symbol.874e7647207788804886.png",
     "static/media/reuben.jpg": "/dochakWebsite/static/media/reuben.1b2c79142ccc5c225435.jpg",
     "index.html": "/dochakWebsite/index.html",
-    "main.8f507dde.css.map": "/dochakWebsite/static/css/main.8f507dde.css.map",
-    "main.f6a5b649.js.map": "/dochakWebsite/static/js/main.f6a5b649.js.map",
+    "main.01aa6902.css.map": "/dochakWebsite/static/css/main.01aa6902.css.map",
+    "main.1f458c11.js.map": "/dochakWebsite/static/js/main.1f458c11.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f507dde.css",
-    "static/js/main.f6a5b649.js"
+    "static/css/main.01aa6902.css",
+    "static/js/main.1f458c11.js"
   ]
 }
