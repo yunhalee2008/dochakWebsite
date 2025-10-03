@@ -135,6 +135,13 @@
   border-color: #ba68c8;
 }
 
+.article-category-badge[data-category*="Internship"],
+.article-category-badge[data-category*="인턴십"] {
+  background: #fff8e1;
+  color: #f57f17;
+  border-color: #ffd54f;
+}
+
 .article-title {
   font-size: 2.5rem;
   font-weight: 750;
@@ -290,6 +297,55 @@
 
 .inline-training-image:hover {
   transform: scale(1.02);
+}
+
+/* Side-by-side content with image */
+.content-with-image-section {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem 0;
+  align-items: flex-start;
+}
+
+.content-text {
+  flex: 1;
+}
+
+.content-image {
+  flex: 0 0 280px;
+  text-align: center;
+}
+
+.inline-content-image {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.inline-content-image:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive layout for side-by-side sections */
+@media (max-width: 768px) {
+  .training-programs-section,
+  .content-with-image-section {
+    flex-direction: column;
+  }
+
+  .training-image,
+  .content-image {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .inline-training-image,
+  .inline-content-image {
+    max-width: 100%;
+  }
 }
 
 /* Responsive design for training section */

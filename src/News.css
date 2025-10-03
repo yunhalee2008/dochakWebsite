@@ -234,6 +234,13 @@
   border-color: #ba68c8;
 }
 
+.news-category-badge[data-category*="Internship"],
+.news-category-badge[data-category*="인턴십"] {
+  background: #fff8e1;
+  color: #f57f17;
+  border-color: #ffd54f;
+}
+
 /* News Content - Smaller */
 .news-content {
   padding: 1.5rem;

@@ -25,6 +25,8 @@ import tkkimPresentation from './assets/tkkimPresentation.jpg';
 import tkkimPresentation2 from './assets/tkkimPresentation2.jpg';
 import tkkimPhoto from './assets/TKPhotoPTVmeeting.jpg';
 import tkkimCertificate from './assets/ptvTKkimCertificate.jpg';
+import changhuiKimNews from './assets/김창희News.jpg';
+import changhuiKimNews2 from './assets/김창희News2.jpg';
 
 export default function NewsArticle() {
   const { slug } = useParams();
@@ -112,6 +114,20 @@ export default function NewsArticle() {
           .replace('IMAGE_TKKIM_PHOTO', tkkimPhoto)
           .replace('IMAGE_TKKIM_PRESENTATION2', tkkimPresentation2)
           .replace('IMAGE_TKKIM_CERTIFICATE', tkkimCertificate),
+        images: []
+      },
+      'changhui-kim-internship-2025': {
+        id: 4,
+        title: t('news.articles.changhuiKimInternship.title'),
+        date: '2025-08-29',
+        displayDate: t('news.articles.changhuiKimInternship.date'),
+        category: t('news.articles.changhuiKimInternship.category'),
+        author: t('news.articles.changhuiKimInternship.author'),
+        readTime: t('news.articles.changhuiKimInternship.readTime'),
+        heroImage: changhuiKimNews2,
+        content: t('news.articles.changhuiKimInternship.content')
+          .replace('IMAGE_CHANGHUI_CERTIFICATE', changhuiKimNews)
+          .replace('IMAGE_CHANGHUI_SINGAPORE', changhuiKimNews2),
         images: []
       }
     };

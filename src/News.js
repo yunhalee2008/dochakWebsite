@@ -13,6 +13,7 @@ import news11 from './assets/news11.png';
 import llm2 from './assets/LLM2.png';
 import mobilityTech from './assets/newsMobility.jpg';
 import tkkimPresentation from './assets/tkkimPresentation.jpg';
+import changhuiKimNews from './assets/김창희News2.jpg';
 
 export default function News() {
   const { t } = useContext(LanguageContext);
@@ -60,7 +61,7 @@ export default function News() {
   // Real news data - Articles ordered by date (newest first)
   const allNewsItems = [
     {
-      id: 3,
+      id: 4,
       title: t('news.items.ptvApacUgm2025.title'),
       date: '2025-09-24',
       displayDate: t('news.items.ptvApacUgm2025.date'),
@@ -70,7 +71,7 @@ export default function News() {
       slug: 'ptv-apac-ugm-2025'
     },
     {
-      id: 2,
+      id: 3,
       title: t('news.items.kaistMobilityTech2025.title'),
       date: '2025-09-23',
       displayDate: t('news.items.kaistMobilityTech2025.date'),
@@ -80,7 +81,7 @@ export default function News() {
       slug: 'kaist-mobility-tech-2025'
     },
     {
-      id: 1,
+      id: 2,
       title: t('news.items.llmTrafficAnalysis.title'),
       date: '2025-09-12',
       displayDate: t('news.items.llmTrafficAnalysis.date'),
@@ -88,6 +89,16 @@ export default function News() {
       excerpt: t('news.items.llmTrafficAnalysis.excerpt'),
       image: llm2,
       slug: 'llm-traffic-analysis-v1-release'
+    },
+    {
+      id: 1,
+      title: t('news.items.changhuiKimInternship.title'),
+      date: '2025-08-29',
+      displayDate: t('news.items.changhuiKimInternship.date'),
+      category: t('news.items.changhuiKimInternship.category'),
+      excerpt: t('news.items.changhuiKimInternship.excerpt'),
+      image: changhuiKimNews,
+      slug: 'changhui-kim-internship-2025'
     },
     {
       id: 0,
