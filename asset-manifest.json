@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/dochakWebsite/static/css/main.01aa6902.css",
-    "main.js": "/dochakWebsite/static/js/main.1f458c11.js",
+    "main.css": "/dochakWebsite/static/css/main.9157753e.css",
+    "main.js": "/dochakWebsite/static/js/main.a7567068.js",
     "static/js/453.1dfa49b1.chunk.js": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js",
     "static/media/teledriving.png": "/dochakWebsite/static/media/teledriving.8bc10f8cb15680acea73.png",
     "static/media/내포3D모델.png": "/dochakWebsite/static/media/내포3D모델.64cd1130ab4817480017.png",
     "static/media/truck_hori.png": "/dochakWebsite/static/media/truck_hori.57ef646c12de1d3d2cd3.png",
     "static/media/news11.png": "/dochakWebsite/static/media/news11.351940050e0d15f3c8b7.png",
+    "static/media/김창희News2.jpg": "/dochakWebsite/static/media/김창희News2.1146f8919ed5805977f5.jpg",
     "static/media/news12.png": "/dochakWebsite/static/media/news12.3df903f5b8441c4f9c37.png",
     "static/media/laugh.png": "/dochakWebsite/static/media/laugh.c7dd49cb0c3831a0f737.png",
     "static/media/tkkimPresentation.jpg": "/dochakWebsite/static/media/tkkimPresentation.a0c65fd09f7ce3f55751.jpg",
@@ -45,6 +46,7 @@
     "static/media/TK-Kim.png": "/dochakWebsite/static/media/TK-Kim.4e5203f70d66e567138d.png",
     "static/media/Mahdi.png": "/dochakWebsite/static/media/Mahdi.3113b12c2ee791879859.png",
     "static/media/heeyun.png": "/dochakWebsite/static/media/heeyun.5f1db4dbb9682fa3621f.png",
+    "static/media/김창희News.jpg": "/dochakWebsite/static/media/김창희News.db92fd0202c19ffd3148.jpg",
     "static/media/nepo.png": "/dochakWebsite/static/media/nepo.82fc847576e6a340c3e4.png",
     "static/media/yonghi.jpg": "/dochakWebsite/static/media/yonghi.0ca467bd493f80c632e6.jpg",
     "static/media/micro.png": "/dochakWebsite/static/media/micro.ed8d8ed22153c942b64e.png",
@@ -67,12 +69,12 @@
     "static/media/dochak_Symbol.png": "/dochakWebsite/static/media/dochak_Symbol.874e7647207788804886.png",
     "static/media/reuben.jpg": "/dochakWebsite/static/media/reuben.1b2c79142ccc5c225435.jpg",
     "index.html": "/dochakWebsite/index.html",
-    "main.01aa6902.css.map": "/dochakWebsite/static/css/main.01aa6902.css.map",
-    "main.1f458c11.js.map": "/dochakWebsite/static/js/main.1f458c11.js.map",
+    "main.9157753e.css.map": "/dochakWebsite/static/css/main.9157753e.css.map",
+    "main.a7567068.js.map": "/dochakWebsite/static/js/main.a7567068.js.map",
     "453.1dfa49b1.chunk.js.map": "/dochakWebsite/static/js/453.1dfa49b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01aa6902.css",
-    "static/js/main.1f458c11.js"
+    "static/css/main.9157753e.css",
+    "static/js/main.a7567068.js"
   ]
 }
