@@ -2,11 +2,14 @@ import React, { useState, useContext, useEffect } from 'react';
 import './GetInTouch.css';
 import LanguageContext from './contexts/LanguageContext';
 import { useScrollAnimation } from './hooks/useScrollAnimation';
+import emailjs from '@emailjs/browser';
 
 export default function GetInTouch() {
   const { t } = useContext(LanguageContext);
   const [submitted, setSubmitted] = useState(false);
-  
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+
   // Local state for inputs - exactly like News localSearchTerm
   const [localName, setLocalName] = useState('');
   const [localEmail, setLocalEmail] = useState('');
@@ -48,19 +51,51 @@ export default function GetInTouch() {
     setLocalMessage(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     e.stopPropagation();
-    // Create form data from local state
-    const formData = {
+
+    // Basic validation
+    if (!localName || !localEmail || !localMessage) {
+      setError('Please fill in all required fields');
+      return;
+    }
+
+    setIsLoading(true);
+    setError('');
+
+    // Prepare template parameters
+    const templateParams = {
       name: localName,
       email: localEmail,
-      company: localCompany,
-      message: localMessage
+      company: localCompany || 'Not provided',
+      message: localMessage,
+      time: new Date().toLocaleString()
     };
-    setSubmitted(true);
-    // Placeholder: handle form submission (e.g., send to API)
-    console.log('Form submitted:', formData);
+
+    try {
+      // Send email via EmailJS
+      await emailjs.send(
+        'service_zn673la',
+        'template_kgq5hn9',
+        templateParams,
+        'AjOKZzS6rwwqhuC7b'
+      );
+
+      // Success - show success message
+      setSubmitted(true);
+
+      // Clear form
+      setLocalName('');
+      setLocalEmail('');
+      setLocalCompany('');
+      setLocalMessage('');
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      setError('Failed to send message. Please try again or contact us directly.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -170,6 +205,20 @@ export default function GetInTouch() {
                       <p>{t('getInTouch.form.subtitle')}</p>
                     </div>
 
+                    {error && (
+                      <div style={{
+                        padding: '1rem',
+                        marginBottom: '1.5rem',
+                        backgroundColor: '#fee2e2',
+                        border: '1px solid #ef4444',
+                        borderRadius: '8px',
+                        color: '#dc2626',
+                        fontSize: '0.95rem'
+                      }}>
+                        {error}
+                      </div>
+                    )}
+
                     <div className="form-row">
                       <div className="form-group">
                         <label htmlFor="name">
@@ -233,12 +282,23 @@ export default function GetInTouch() {
                       />
                     </div>
 
-                    <button type="button" className="submit-button" onClick={handleSubmit}>
-                      <span>{t('getInTouch.form.submit')}</span>
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <line x1="22" y1="2" x2="11" y2="13"></line>
-                        <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
-                      </svg>
+                    <button
+                      type="button"
+                      className="submit-button"
+                      onClick={handleSubmit}
+                      disabled={isLoading}
+                      style={{
+                        opacity: isLoading ? 0.6 : 1,
+                        cursor: isLoading ? 'not-allowed' : 'pointer'
+                      }}
+                    >
+                      <span>{isLoading ? 'Sending...' : t('getInTouch.form.submit')}</span>
+                      {!isLoading && (
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <line x1="22" y1="2" x2="11" y2="13"></line>
+                          <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
+                        </svg>
+                      )}
                     </button>
                   </div>
                 )}
