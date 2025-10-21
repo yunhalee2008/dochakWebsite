@@ -157,7 +157,7 @@ export const PROJECTS_DATA = [
       media: [
         {
           type: 'video',
-          url: 'https://www.youtube.com/embed/GJDTUbWurb4?si=jDLjE4xtWswAIeDm',
+          url: 'https://www.youtube.com/embed/uuxF7u5UAL4?si=B7zfxrqZEJ8jr4EB',
           alt: 'Public transportation system demonstration',
           title: '3-Car Transit System',
           description: 'Demonstration of the multi-car transit system in operation'
