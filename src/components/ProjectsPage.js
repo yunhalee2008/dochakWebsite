@@ -104,7 +104,7 @@ const ProjectsPage = () => {
       impact: t('projects.items.publicTransport.impact'),
       impactStats: t('projects.items.publicTransport.impactStats'),
       video: {
-        src: 'https://www.youtube.com/embed/GJDTUbWurb4?si=3aMM-O6geQKgAIdc', // Placeholder - replace with actual video
+        src: 'https://www.youtube.com/embed/uuxF7u5UAL4?si=ZByMudlozLXSji5c', // Placeholder - replace with actual video
         title: t('projects.items.publicTransport.videoTitle'),
         description: t('projects.items.publicTransport.videoDescription')
       },
@@ -458,3 +458,4 @@ const ProjectsPage = () => {
 };
 
 export default ProjectsPage; 
+
