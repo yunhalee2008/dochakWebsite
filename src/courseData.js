@@ -3,6 +3,8 @@ import visum from './assets/visum.jpg';
 import vissimImage from './assets/Simulation-in-PTV-VISSIM-software.png';
 import vistro from './assets/vistro.png';
 import simulatorCourse from './assets/simulator_course.jpg';
+import unity3D from './assets/unity3D.png';
+import digitalTwin from './assets/twin.png';
 
 export const courseData = {
   'ind-001': {
@@ -148,25 +150,6 @@ export const courseData = {
     ]
   },
 
-  'tr-t0118': {
-    title: 'Visum EVA',
-    code: 'TR-T0118',
-    product: 'Visum',
-    level: 'Advanced',
-    image: visum,
-    description: 'The EVA model developed by Lohse at Dresden Technical University constitutes an alternative approach to the first three stages of the classical traffic planning model.',
-    content: 'In the EVA model and Standard 4-step model, productions and attractions are calculated similarly, namely based on demographic (number of inhabitants) and structural (jobs, size of retail sales floor…) parameters as well as on mobility rates (taken from statistical surveys on traffic behavior). It is performed separately for each demand stratum, which means for each activity pair and its major person groups.',
-    targetGroup: 'This course provides experienced users a deeper insight into demand modelling. It is aimed at users who already have basic knowledge of demand modelling and who want to extend it to the passenger-based model model EVA.',
-    prerequisites: 'You have successfully participated in our course "PTV Visum – Creating a 4-Step Transport Model" (TR-T0109) or have comparable knowledge of demand modelling in PTV Visum. You also have obtained practical project experience.',
-    duration: '1 Day',
-    contents: [
-      'Demand modelling with EVA',
-      'Principles and properties of the procedure',
-      'Data structure',
-      'Model architecture'
-    ]
-  },
-
   'tr-t0119': {
     title: 'Visum Freight Modelling',
     code: 'TR-T0119',
@@ -205,31 +188,6 @@ export const courseData = {
       'Scaling parameters',
       'Gap calculation and model iteration',
       'Matrix operations'
-    ]
-  },
-
-  'tr-t0122': {
-    title: 'Visum Long-Distance Freight',
-    code: 'TR-T0122',
-    product: 'Visum',
-    level: 'Advanced',
-    image: visum,
-    description: 'When modelling long-distance freight traffic covering very large areas, three challenges have to be considered.',
-    content: 'First, the geographic distribution of trips not only depends on locations of production and consumption, but also on the choice between alternative logistic distribution chains and the locations of intermediate distribution centers. Second, any stage of the distribution chain may combine several modes into a multi-leg transport. Third, the large scale of the model leads to large zones, implying a significant share of intrazonal traffic. In this two-day course we will show you how to adapt the four-stage model by generalizing destination choice into a distribution channel model and by introducing a mode sequence choice model for multimodal transport. A simplified distance band model is applied to intrazonal traffic.',
-    targetGroup: 'This course provides experienced users a deeper insight into demand modelling. It is aimed at users who already have basic knowledge of demand modelling and who want to extend it to long-distance freight models.',
-    prerequisites: 'You have successfully participated in our course "PTV Visum – Creating a 4-step transport model" (TR-T0109) or have comparable knowledge of demand modelling in PTV Visum. You also have obtained practical project experience.',
-    duration: '1 Day',
-    contents: [
-      'Creating an example of longdistance 4-step freight demand model with multimodal assignment and distribution center choice modelling',
-      'Freight model architecture',
-      'Transportsystems, Modes, Demand Model Segments',
-      'Link types, links, network',
-      'Zoning system, structural data',
-      'Skim matrices for freight',
-      'Path sequences',
-      'Multimodal transport',
-      'Economic sectors and distribution chain legs',
-      'Freight model procedure sequence'
     ]
   },
 
@@ -332,27 +290,6 @@ export const courseData = {
     ]
   },
 
-  'tr-t0141': {
-    title: 'PTV Visum - Automation of transport model building process (PL)',
-    code: 'TR-T0141',
-    product: 'Visum',
-    level: 'Intermediate',
-    image: visum,
-    description: 'The training focuses on presenting practical knowledge and methods for automating the construction of communication networks and selected elements of the demand model: explanatory variables, change indicators.',
-    content: 'In addition to learning the methods themselves, their advantages and disadvantages will be discussed. Thanks to the training, you will learn not only how to speed up the process of building traffic models, but above all how to improve the readability of your models and the level of control of its elements.',
-    targetGroup: 'The course is directed to users who have experience working with traffic macro-models built in PTV Visum, i.e., those who build traffic models and forecasts "on a daily basis".',
-    prerequisites: 'Building and parameterizing model networks in PTV Visum, understanding the role of explanatory variables for transport demand models in the travel modeling process.',
-    duration: '1 Day',
-    contents: [
-      'Role of automation in the travel modeling process in PTV VISUM',
-      'User-defined attributes (UDA)',
-      'Automatic network parameterization in the existing state with the possibility of introducing "manual" forecast modifications',
-      'Automation of network parameterization for forecast horizons',
-      'Method of automatic counting and updating of explanatory variables for transport demand model',
-      'Method of automatic determination of explanatory variable values for transport demand model in forecast horizons'
-    ]
-  },
-
   'tr-t0151': {
     title: 'PTV Visum - Introduction (US)',
     code: 'TR-T0151',
@@ -372,81 +309,6 @@ export const courseData = {
       'Performing basic analysis on the network',
       'Explore visualizing the results',
       'Practice comparing different scenarios'
-    ]
-  },
-
-  'tr-t0152': {
-    title: 'PTV Visum - ABM Training for Policy Makers and Model Managers (UK)',
-    code: 'TR-T0152',
-    product: 'Visum',
-    level: 'Basic',
-    image: visum,
-    description: 'During this one-day course you will be introduced to ABMs, finding out what they are, how they can be used, and how the ABM in PTV Visum is implemented.',
-    content: 'You will learn what input data is required for an ABM, how it is structured within PTV Visum, and how it can be analysed to provide detailed and granular outputs. You will also see how an ABM in PTV Visum could be expanded using an existing 4-stage model, and discuss how these models could be used in parallel for exploration, through to appraisal.',
-    targetGroup: 'Policy Makers or Model Managers who are familiar with the concepts of 4-stage demand modelling and are curious about how an ABM can be developed and used in practice alongside a strategic model. Hands-on experience of PTV Visum is not required, although you will have the opportunity to follow along in pairs using a virtual machine.',
-    prerequisites: 'None',
-    duration: '1 Day',
-    contents: [
-      'How ABM is implemented within PTV Visum',
-      'Use cases for ABM',
-      'Data requirements for an ABM',
-      'Pathways towards ABM from a conventional strategic 4-stage model',
-      'Examples of policy questions that can be assessed in an ABM',
-      'No direct Visum experience required, although machines will be made available to pairs if you want to follow along',
-      'Training materials will be provided following the course'
-    ]
-  },
-
-  'tr-t0153': {
-    title: 'PTV Visum - ABM Training for Modellers (UK)',
-    code: 'TR-T0153',
-    product: 'Visum',
-    level: 'Advanced',
-    image: visum,
-    description: 'During this two-day course you will attend Day 1 of ABM Training for Policy Makers and Model Managers. The first day will provide you with knowledge of how ABMs in PTV Visum are structured, how they can be used, and what data is required to build one.',
-    content: 'On Day 2 you will follow along and run through examples to create a synthetic population in the UK, develop the choice models in the PTV ABM, and run through an example model from start to finish. You will also develop policy questions to test in the model and learn how to analyse and visualise the outputs.',
-    targetGroup: 'Modellers who are experienced with PTV Visum and understand the building steps for a 4-stage demand model. You will follow along using a virtual machine (which will be provided for the training), and will develop an ABM in PTV Visum so you should be familiar with the interface and the manipulation of data via lists and objects.',
-    prerequisites: 'Experience with PTV Visum',
-    duration: '2 Days',
-    contents: [
-      'Day 1: How ABM is implemented within PTV Visum, Use cases for ABM, Data requirements for an ABM, Pathways towards ABM from a conventional strategic 4-stage model, Examples of policy questions that can be assessed in an ABM, No direct Visum experience required, although machines will be made available to pairs if you want to follow along, Training materials will be provided following the course',
-      'Day 2: How existing UK datasets and models can be leveraged to develop an ABM, How to build a synthetic population for a UK model, Choice structures and building steps for an ABM, How to run examples and analyses in an ABM, Segmentation and analysis of ABM outputs, Visualising ABMs, PTV Visum experience is required, virtual machines will be made available to follow along and run examples, Training materials will be provided following the course'
-    ]
-  },
-
-  'tr-t0154': {
-    title: 'PTV Visum - Dynamic Traffic Assignment (SBA) in PTV Visum (US)',
-    code: 'TR-T0154',
-    product: 'Visum',
-    level: 'Intermediate',
-    image: visum,
-    description: 'In this course, we will cover the application of dynamic traffic assignment (SBA) in PTV-Visum. Simulation-based dynamic assignment (SBA) considers intersection geometry and control (signal timings). It can be used to model spatio-temporal interaction of traffic at a large scale.',
-    targetGroup: 'Traffic engineers and modelers working on corridor studies and large-scale traffic simulation.',
-    prerequisites: 'Knowledge of static traffic assignment and its application in PTV-Visum.',
-    duration: '8 hours (split into two 4-hour sessions over two days)',
-    contents: [
-      'Preparing networks for SBA - network coding',
-      'Setting up time varying demand for SBA',
-      'Adjusting model parameters: Car-following, Merging and lane changing',
-      'Visualization of results'
-    ]
-  },
-
-  'tr-t0155': {
-    title: 'PTV Visum - Synthetic Matrix Estimation (ODME) in PTV Visum (US)',
-    code: 'TR-T0155',
-    product: 'Visum',
-    level: 'Intermediate',
-    image: visum,
-    description: 'In this course, we will cover the application of synthetic matrix estimation (ODME) procedures in PTV-Visum. ODME methods are used to adjust demand matrices, so that network assignment results match observed count data more closely.',
-    content: 'Matrix estimation can be useful in the following situations: Using current year counts to update trip tables from travel demand models for a traffic study that occurs in a different year than the calibrated base model. A matrix generated from sample data is to be improved using count data. For example: big data from mobile devices. Adjusting seed or existing trip tables to match surveyed trip length distribution. The course will cover both entropy-based (TFlowFuzzy) and least squares matrix estimation methods implemented in Visum. Application of the dynamic variant of the least squares method will also be covered. While matrix estimation methods are applicable to both PrT (auto) and PuT (transit) modes, this course will cover the PrT (auto) side application.',
-    targetGroup: 'Traffic engineers and travel demand modelers working on corridor and impact studies with short to mid-term horizons.',
-    prerequisites: 'Knowledge of traffic assignments in general and ideally some application experience in PTV-Visum.',
-    duration: '4 hours',
-    contents: [
-      'Data preparation for matrix estimation',
-      'Application of matrix estimation methods in PTV-Visum (TFLowFuzzy, Least Squares, Dynamic Least Squares)',
-      'Analysis of results'
     ]
   },
 
@@ -656,45 +518,6 @@ export const courseData = {
     ]
   },
 
-  'tr-t0211': {
-    title: 'Vissim Freeway basics',
-    code: 'TR-T0211',
-    product: 'Vissim',
-    level: 'Basic',
-    image: vissimImage,
-    description: 'This half-day version of our PTV Vissim freeway operations training explores static demand-based freeway facilities such as freeway facility geometry, driver behavior calibration, and demos on modeling ramp meters and managed lanes.',
-    content: 'By the end of the course participants should feel confident modeling basic freeway segments in microsimulation using PTV Vissim software.',
-    targetGroup: 'Traffic engineers or transportation planners preparing to build or review microscopically simulated freeway facilities in PTV Vissim.',
-    prerequisites: 'You successfully participated in our basic course "PTV Vissim – Introduction to Microscopic Traffic Flow Simulation" (TR-T0201) or have similar experience with PTV Vissim. Some experience in freeway operations and facilities preferred.',
-    duration: 'Half Days',
-    contents: [
-      'Freeway geometry creation and best practices',
-      'Freeway-specific speed and demand configuration',
-      'Fleet types, classes, and compositions',
-      'Performing evaluations on freeway facilities',
-      'Calibrating driving following and lane change behaviors'
-    ]
-  },
-
-  'tr-t0212-en': {
-    title: 'PTV Vissim - Vissim for Reviewers',
-    code: 'TR-T0212-EN',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'This course is designed for professionals who need to review and evaluate PTV Vissim models created by others.',
-    content: 'Learn the key aspects to check when reviewing microsimulation models, including network coding, demand setup, calibration parameters, and result validation.',
-    targetGroup: 'Traffic engineers, consultants, and agency staff responsible for reviewing microsimulation studies.',
-    prerequisites: 'Basic understanding of traffic simulation concepts and PTV Vissim functionality.',
-    duration: '1 Day',
-    contents: [
-      'Model review checklist and best practices',
-      'Network coding verification',
-      'Demand and calibration assessment',
-      'Results validation and interpretation'
-    ]
-  },
-
   'tr-t0213-en': {
     title: 'PTV Vissim - Public Transport Modelling',
     code: 'TR-T0213-EN',
@@ -714,25 +537,6 @@ export const courseData = {
     ]
   },
 
-  'tr-t0214': {
-    title: 'Vissim Freeway Active Traffic Management',
-    code: 'TR-T0214',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'This half-day PTV Vissim freeway training course explores configuring freeway facilities such as hard and soft-barrier separated managed lanes, restricted access lanes for HOV or Transit, driver behavior calibration, as well as how to implement active traffic management strategies.',
-    content: 'By the end of the course participants should feel confident modeling static and time-dependent toll lanes, ramp meters, speed harmonization and hard-shoulder facilities using PTV Vissim software.',
-    targetGroup: 'Traffic engineers or traffic planners preparing for the construction or inspection of microscopically simulated freeway facilities in PTV Vissim.',
-    prerequisites: 'You successfully participated in our basic course "PTV Vissim – Introduction to Microscopic Traffic Flow Simulation" (TR-T0201) or have similar experience with PTV Vissim. Some experience in freeway operations and facilities preferred.',
-    duration: 'Half Days',
-    contents: [
-      'Configuring restricted access lanes such as HOV, Transit, or Truck lanes',
-      'Configuring Managed Lane facilities such as Toll roads or HOT lanes',
-      'Configuring Static and Dynamic (time, speed, and/or delay dependent) tolling models',
-      'VAP controlled active traffic management facilities such as variable speed limits, hard shoulder running, and ramp metering'
-    ]
-  },
-
   'tr-t0215': {
     title: 'PTV Vissim – Microscopic Simulation for Automotive Engineering',
     code: 'TR-T0215',
@@ -747,231 +551,6 @@ export const courseData = {
     contents: [
       'Day 1: Introduction - Purpose of automotive engineering/development, Benefit of traffic simulations for the virtual test, Vissim application for automotive industry, How to reproduce CAVs behavior (comparison between internal model, COM, API, DSI); Internal model training - Wiedemann\'s car following model, Adaptive Cruise Control model, Lane change & Lateral behavior model, Special setting for CAV (EABD, stochastics, platooning), Driver errors (Lack of attention, Distraction, Misestimation); COM training - COM Interface overview, Basic commands, Speed Camera, On-demand taxi, V2I Optimal speed',
       'Day 2: API training – Emission model - Emission model overview, Custom emission model; API training – Driver model - Driver model overview, Custom following model, Custom lane change model; DSI training - Driving Simulator Interface overview, Driving Simulator Text Client, Live In Unity example, External software example (like CarMaker, PreScan and so on), Build-in functionality to co-simulate with Vissim'
-    ]
-  },
-
-  'tr-t0251': {
-    title: 'PTV Vissim - Introduction to Microscopic Traffic Flow Simulation (US)',
-    code: 'TR-T0251',
-    product: 'Vissim',
-    level: 'Basic',
-    image: vissimImage,
-    description: 'In our 16-hour Introduction course to PTV Vissim, you will learn to construct a microsimulation network with static demand that contains common Urban and Freeway facilities.',
-    content: 'By the end of the course you should feel confident in PTV Vissim model construction and evaluation as well as some basic driver behavior, gap acceptance, and demand calibration techniques.',
-    targetGroup: 'PTV Vissim beginners as well as traffic engineers from cities and engineering firms that want to work on their projects at state-of-the-art level and efficiency.',
-    prerequisites: 'No prerequisites.',
-    duration: '16 hours (split into four 4-hour sessions)',
-    contents: [
-      'Session 1: PTV Vissim GUI overview, Placing Links efficient efficiently, Freeway and Interchange Geometry, Configuring various speed zones and speed profiles, Placing and configuring static demand',
-      'Session 2: Intersection Geometry, Yield Control, Stop Control, Pre-timed Ring-Barrier control, Actuated Ring-Barrier control, PTV Vistro/Visum Import, Scenario Manager',
-      'Session 3: Creating and adapting Vehicle Types, Classes, and Compositions, Configuring PTV Vissim\'s data collection and evaluation results, Post-Processing evaluations',
-      'Session 4: Following behavior adjustments, Lane change behavior adjustments, Gap acceptance adjustments, Speed and demand adjustments'
-    ]
-  },
-
-  'tr-t0252': {
-    title: 'PTV Vissim - Transit Signal Priority and Preemption (US)',
-    code: 'TR-T0252',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'In this four-hour course you will learn and apply the principles of a Ring-Barrier Controllers Transit Signal Priority and Preemption methods; learning how to place the necessary network objects (detectors and signal heads) as well as how to program the logic into an existing PTV Vissim network.',
-    content: 'Transit Signal Priority (TSP) provides additional green timing within a cycle to a specific phase when activated to reduce delay for that movement if the conditions are right. Preemption shuts down an intersection to allow a specific movement to traverse the intersection unimpeded.',
-    targetGroup: 'Experienced PTV Vissim users as well as traffic engineers from cities and engineering firms that want to work on their projects at state-of-the-art level and efficiency. Experienced PTV Vissim users from all disciplines, signal control modeling experience helpful.',
-    prerequisites: 'You successfully participated in our basic course "PTV Vissim – Introduction to Microscopic Traffic Flow Simulation" (TR-T0201) or have similar experience with PTV Vissim.',
-    duration: '4 hours',
-    contents: [
-      'TSP Check-In/Check-Out Detection',
-      'TSP Transit Stop Departure Detection',
-      'TSP Early Green Priority',
-      'TSP Extended Green Priority',
-      'TSP Recovery Timing',
-      'TSP Transit Delay-Dependent Operation',
-      'TSP Reservice',
-      'Preemption Check-In/Check-Out Detection',
-      'Preemption Transit Stop Departure Detection',
-      'Preemption Start-Up timing',
-      'Preemption Conflicting Flow Clearance timing',
-      'Preemption Dwell State timing',
-      'Preemption Recovery timing',
-      'Preemption Reservice'
-    ]
-  },
-
-  'tr-t0253': {
-    title: 'PTV Vissim - Roundabout Modeling (US)',
-    code: 'TR-T0253',
-    product: 'Vissim',
-    level: 'Basic',
-    image: vissimImage,
-    description: 'In this four-hour course, you will explore techniques for creating, evaluating, and calibrating roundabouts; including constructing the approaches and circulating lanes, configuring speed profiles throughout the roundabout, and calibrating custom lane change and gap acceptance behaviors.',
-    targetGroup: 'PTV Vissim beginners as well as traffic engineers from cities and engineering firms that want to work on their projects at state-of-the-art level and efficiency.',
-    prerequisites: 'No prerequisites.',
-    duration: '4 hours',
-    contents: [
-      'Creating and editing the required physical network',
-      'Configuring yielding movements',
-      'Creating multi-lane roundabouts',
-      'Evaluating a roundabout',
-      'Calibrating gap acceptance and movement capacities',
-      'Calibrating driving behaviors within the roundabout'
-    ]
-  },
-
-  'tr-t0254': {
-    title: 'PTV Vissim - Freeway Modeling Basics (US)',
-    code: 'TR-T0254',
-    product: 'Vissim',
-    level: 'Basic',
-    image: vissimImage,
-    description: 'In this four-hour course we explore modeling static demand-based freeway facilities.',
-    content: 'By the end of the course participants should feel confident modeling basic freeway segment geometry, calibrating merge and weaving behavior, and evaluating freeway facilities in microsimulation using PTV Vissim software.',
-    targetGroup: 'PTV Vissim beginners as well as traffic engineers from cities and engineering firms that want to work on their projects at state-of-the-art level and efficiency.',
-    prerequisites: 'No prerequisites.',
-    duration: '4 hours',
-    contents: [
-      'Freeway geometry creation and best practices',
-      'Freeway-specific speed and demand configuration',
-      'Fleet types, classes, and compositions',
-      'Performing evaluations on freeway facilities',
-      'Calibrating driving following and lane change behaviors'
-    ]
-  },
-
-  'tr-t0255': {
-    title: 'PTV Vissim - Viswalk Pedestrian Simulation (US)',
-    code: 'TR-T0255',
-    product: 'Vissim',
-    level: 'Basic',
-    image: vissimImage,
-    description: 'In this eight-hour course will walk participants through constructing a pedestrian microsimulation network.',
-    content: 'By the end of the course participants will be confident creating multi-level pedestrian models complete with ped-vehicle interactions, public transit boarding and alighting, and the full suite of Viswalk evaluations and outputs.',
-    targetGroup: 'PTV Vissim and PTV Viswalk beginners as well as traffic engineers from cities and engineering firms that want to work on their projects at state-of-the-art level and efficiency.',
-    prerequisites: 'No prerequisites.',
-    duration: '8 hours (split into two 4-hour sessions)',
-    contents: [
-      'Session 1: PTV Viswalk interface overview, Constructing the physical network, Creating levels, ramps (ramps, stairs, and escalators) and elevators, Adding static demand to a PTV Viswalk network, Creating crosswalks and crosswalk signalization',
-      'Session 2: Inserting Public Transit elements, Creating queuing areas and partial routes, Performing evaluations and generating graphic overlays'
-    ]
-  },
-
-  'tr-t0256': {
-    title: 'PTV Vissim - Reviewing Simulation Models (US)',
-    code: 'TR-T0256',
-    product: 'Vissim',
-    level: 'Basic',
-    image: vissimImage,
-    description: 'In this eight-hour course provides insights and procedures commonly used to review finished PTV Vissim microsimulation traffic studies.',
-    content: 'It is designed to be a starting point for developing reviewing processes, presenting workflow recommendations, best practices, and sample layouts that can streamline the review process.',
-    targetGroup: 'PTV Vissim beginners as well as traffic engineers from cities and engineering firms that want to work on their projects at state-of-the-art level and efficiency.',
-    prerequisites: 'No prerequisites.',
-    duration: '8 hours (split into two 4-hour sessions)',
-    contents: [
-      'PTV Vissim Interface Overview',
-      'Simulation Parameters Review',
-      'Network Geometry Review',
-      'Demand Configuration',
-      'Intersection Control',
-      'Transit, Parking, and Pedestrian operations',
-      'Facility Types and Behaviors',
-      'Speed Settings',
-      'Assignment (Volume) Fit',
-      'Error Documentation'
-    ]
-  },
-
-  'tr-t0257': {
-    title: 'PTV Vissim - Freeway Managed Lanes and Active Traffic Management (US)',
-    code: 'TR-T0257',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'In this four-hour course explores configuring freeway facilities such as hard and soft-barrier separated managed lanes, restricted access lanes for HOV or Transit, driver behavior calibration, as well as how to implement active traffic management strategies.',
-    content: 'By the end of the course participants should feel confident modeling static and time-dependent toll lanes, ramp meters, speed harmonization, and hard-shoulder facilities using PTV Vissim software.',
-    targetGroup: 'Experienced PTV Vissim users or Traffic engineers from cities and engineering firms that are studying freeway corridors.',
-    prerequisites: 'You successfully participated in one of our basic courses or have similar experience with PTV Vissim.',
-    duration: '4 hours',
-    contents: [
-      'Configuring restricted access lanes such as HOV, Transit, or Truck lanes',
-      'Configuring Managed Lane facilities such as Toll roads or HOT lanes',
-      'Configuring Static and Dynamic (time, speed, and/or delay dependent) tolling models',
-      'Using Attribute modifications to model active traffic management facilities such as variable speed limits, hard shoulder running, and ramp metering'
-    ]
-  },
-
-  'tr-t0258': {
-    title: 'PTV Vissim - Dynamic Traffic Assignment (US)',
-    code: 'TR-T0258',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'In this four-hour course you will learn and apply the principles of PTV Vissim\'s dynamic traffic assignment (DTA) methods; learning how to generate a micro-simulation model from origin-destination data, search new routes and find convergence for the demand distribution.',
-    content: 'Participants will also be introduced to some travel demand modeling fundamentals.',
-    targetGroup: 'Experienced PTV Vissim Users or Traffic engineers from cities and engineering firms that are studying freeway corridors or wide-area models.',
-    prerequisites: 'You successfully participated in one of our basic courses or have similar experience with PTV Vissim.',
-    duration: '4 Hours',
-    contents: [
-      'Discuss the principles of DTA\'s abstract network',
-      'Explore the principles of Vissim\'s destination and route choice methods',
-      'Insert travel demand elements; zones, matrices, zone connectors, nodes',
-      'Apply DTA calibration techniques',
-      'Discuss and apply assignment convergence techniques'
-    ]
-  },
-
-  'tr-t0259': {
-    title: 'PTV Vissim - User-Defined Attributes and Attribute Modifications (US)',
-    code: 'TR-T0259',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'In this four-hour course you will learn and apply the principles of PTV Vissim\'s dynamic traffic assignment (DTA) methods; learning how to generate a micro-simulation model from origin-destination data, search new routes and find convergence for the demand distribution.',
-    content: 'Participants will also be introduced to some travel demand modeling fundamentals.',
-    targetGroup: 'Experienced PTV Vissim Users or Traffic engineers from cities and engineering firms who need to impliment custom logic within PTV Vissim.',
-    prerequisites: 'You successfully participated in one of our basic courses or have similar experience with PTV Vissim.',
-    duration: '4 hours',
-    contents: [
-      'Creating and utilizing static user-defined attributes',
-      'Configuring vehicle attribute decisions based on default and user-defined attributes',
-      'Configuring formula-based routing to dynamically control vehicles based on specific attributes or network conditions',
-      'Configuring and utilizing attribute modifications to dynamically update network infrastructure and vehicle behavior based on simulation conditions'
-    ]
-  },
-
-  'tr-t0260': {
-    title: 'PTV Vissim - Public Transit Operations (US)',
-    code: 'TR-T0260',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'In this four-hour course will walk participants through adding public transit facilities to an existing micro-simulation network.',
-    content: 'By the end of the course participants will be confident configuring Public Transit lines, Transit Stops, passenger flow models, and transit schedules as well as performing evaluations specific to PTV Vissim\'s transit module.',
-    targetGroup: 'Experienced PTV Vissim Users or Traffic engineers from cities and engineering firms who need to study public transit operations within PTV Vissim.',
-    prerequisites: 'You successfully participated in one of our basic courses or have similar experience with PTV Vissim.',
-    duration: '4 hours',
-    contents: [
-      'Configuring public transit vehicles',
-      'Placing public transit stops',
-      'Configuring transit stop passenger demand',
-      'Placing transit line routes',
-      'Creating transit vehicle arrival schedules',
-      'Creating transit vehicle stop schedules',
-      'Evaluating transit operations'
-    ]
-  },
-
-  'tr-t0261': {
-    title: 'PTV Vissim - Advanced intersections (US)',
-    code: 'TR-T0261',
-    product: 'Vissim',
-    level: 'Advanced',
-    image: vissimImage,
-    description: 'In this four-hour long course, we will cover the advanced design and application of intersection control.',
-    targetGroup: 'Experienced PTV Vissim users or Traffic engineers from cities and engineering firms that are studying intersections.',
-    prerequisites: 'You successfully participated in one of our basic courses or have similar experience with PTV Vissim.',
-    duration: '4 hours',
-    contents: [
-      'As roadway designs change to prioritize safety and mobility over throughput, the needs are growing for analyses of these intersection types, and PTV VISSIM is the industry standard for modelling of advanced intersection types. With the knowledge of VISSIM modelling basics, and modelling of the Ring Barrier Controller (RBC) signal controllers, we will focus on a few types of "advanced intersections in PTV VISSIM". The course will focus on the "best practices" for modelling urban roundabouts in VISSIM, with practical examples and some discussion on capacity and modelling of "right-of-way". The course will also focus on the transit signal priority (TSP) features native to PTV VISSIM, with several types of preemption explained. And finally, the course will touch on the modelling of "alternative intersections", such as the SPUI and Diverging Diamond, how to model them, and the interaction with PTV Vissim for building and co-analyses.'
     ]
   },
 
@@ -1020,54 +599,6 @@ export const courseData = {
     ]
   },
 
-  'tr-t0351': {
-    title: 'PTV Vistro - Introduction (US)',
-    code: 'TR-T0351',
-    product: 'Vistro',
-    level: 'Basic',
-    image: vistro,
-    description: 'In our Vistro Traffic Analysis course you will learn how to conduct traffic studies, evaluate development impacts, and optimize signals all with a single package.',
-    content: 'We work with interactive examples of intersections corridors, networks, and development scenarios.',
-    targetGroup: 'Traffic engineers and planners from the public or private sector who would like to carry out their traffic engineering projects efficiently and in compliance with the latest standards',
-    prerequisites: 'A basic understanding of signal timing concepts is helpful, but not required.',
-    duration: '8 hours (split into two 4-hour sessions)',
-    contents: [
-      'Background images and Bing™ Maps Network setup',
-      'Signal timing development',
-      'LOS analysis with HCM and other methodologies',
-      'Scenario management',
-      'Signal timing optimization of intersections, corridors, & networks',
-      'Traffic impact analysis network setup',
-      'Development trip tracking',
-      'Mitigation analysis',
-      'Creation of report-ready figures and output summaries',
-      'Data import from other software packages',
-      'Data export to Vissim microsimulation'
-    ]
-  },
-
-  // Vistad Course
-  'tr-t0501': {
-    title: 'Vistad-EUSKA',
-    code: 'TR-T0501',
-    product: 'Vistad',
-    level: 'Basic',
-    image: simulatorCourse,
-    description: 'Safety is not a matter of course. Nearly every minute, somebody is hurt or killed in a traffic accident. Therefore, it is important to set clear goals for reducing accidents involving personal injury and also to collect data about accidents, so that suitable measures can be taken to increase traffic safety.',
-    content: 'If road safety is your daily business, PTV Vistad is the right tool for you to reach vision zero! This state-of-the-art software helps you collect, validate and analyse traffic accident data. PTV Vistad is a software with which traffic safety experts and traffic planners can quickly and easily record and evaluate accident data. The accident situation can be analysed and thus better understood. It provides a basis for the sustained improvement of road safety by means of derived measures. The software provides you with optimum support in your road safety work - from the collection and analysis of data, through accident investigation on site, to measures and the monitoring of their effects on road safety.',
-    targetGroup: 'The course is aimed at safety experts or anyone who has an interest in road safety or accident data and wants to know more about how to use PTV Vistad to efficiently work towards more traffic safety.',
-    prerequisites: 'Knowledge from accident data analysis is beneficial but not required.',
-    duration: '1 Day',
-    contents: [
-      'Importing and collecting accident data',
-      'Quality assurance of accident data: Validation and geocoding of traffic accident data',
-      'Analysis of accident data: map based and statistical evaluation possibilities',
-      'Evaluate accident data: filter accident data according to typical questions and investigate further',
-      'Accident blackspots: Finding accident blackspots, investigating their causes and changes in time',
-      'Reports and exports: Export and process study results'
-    ]
-  },
-
   // Visum Safety Course
   'tr-t0601': {
     title: 'Visum Safety',
@@ -1087,67 +618,425 @@ export const courseData = {
     ]
   },
 
-  // Optima Courses
-  'tr-t0701': {
-    title: 'Optima - Deploy, Configuration & Integration',
-    code: 'TR-T0701',
-    product: 'Optima',
-    level: 'Advanced',
-    image: simulatorCourse,
-    description: 'The course is intended to provide the understanding of the <strong>architecture of Optima solution</strong> and the complex interconnections amongst its components, both in setting up a new environment and <em>fine-tuning it</em>.',
-    targetGroup: 'The course addresses members of teams of operations, maintenance, support, system integrators. This includes also staff playing the role of technical project manager in Optima projects.',
-    prerequisites: '<div class="warning-box"><strong>Technical Requirements:</strong><br>• <span class="tech-term">Basic knowledge of Linux</span> is expected<br>• Basic knowledge of API communication (e.g. Postman) and relational databases (e.g. PostgreSQL) is recommended<br>• <strong>Practical experience</strong> or professional background on transport planning or traffic engineering is expected<br>• Basic knowledge of PTV Visum is a plus</div>',
-    duration: '3 Days',
+  // Unity 3D Courses
+  'tr-t0801': {
+    title: 'Unity 3D - Unit Introduction and Setting up the Software',
+    code: 'TR-T0801',
+    product: 'General',
+    level: 'Basic',
+    image: unity3D,
+    description: 'This introductory course provides participants with the fundamental knowledge needed to get started with Unity 3D for traffic simulation. Learn how to install, configure, and set up Unity for traffic simulation projects.',
+    content: 'This course covers the essential setup and configuration steps for Unity 3D, including installation, project structure, and basic navigation. Participants will learn how to organize their workspace and prepare the development environment for traffic simulation projects.',
+    targetGroup: 'Beginners who are new to Unity 3D and want to start working with traffic simulation environments. No prior Unity experience is required.',
+    prerequisites: 'Basic computer skills and familiarity with Windows or macOS operating systems.',
+    duration: 'Half Day',
     contents: [
-      '<strong>Module 1:</strong> <em>Architecture of Optima solution</em> and component interconnections',
-      '<strong>Module 2:</strong> Setting up new environments with best practices',
-      '<strong>Module 3:</strong> Fine-tuning and optimization techniques',
-      '<strong>Module 4:</strong> Integration with existing systems and workflows'
+      'Unity installation and system requirements',
+      'Project creation and structure',
+      'Unity interface overview',
+      'Basic navigation and controls',
+      'Setting up development environment',
+      'Project organization best practices'
     ]
   },
 
-  'tr-t0702': {
-    title: 'Optima Modelling',
-    code: 'TR-T0702',
-    product: 'Optima',
-    level: 'Advanced',
-    image: simulatorCourse,
-    description: 'The course is intended to give modellers a deep understanding of the relationships between dynamic transport models and PTV Optima applications.',
-    content: 'This will include build up, calibrate and update these models, with respect to real world and real-time applications. Furthermore, it will show how to interpret traffic phenomena via traffic data analysis and simulations. A wide range of tools available for all these activities will be presented and used through all the duration of the course, with specific attention to the practice.',
-    targetGroup: 'The course addresses transport modellers aiming to set up and maintain transport models for PTV Optima systems. The course gives solid bases to work on Optima model in all phases.',
-    prerequisites: 'Proficiency in Visum is expected. Basic skills of data analysis with MS-Excel on MS-Windows OS are required. Practical experience or professional background on traffic engineering is recommended.',
-    duration: '3 Days',
+  'tr-t0802': {
+    title: 'Unity 3D - Basic Components I (Interface, Camera, Materials, Prefabs)',
+    code: 'TR-T0802',
+    product: 'General',
+    level: 'Basic',
+    image: unity3D,
+    description: 'Learn the fundamental Unity components including interface navigation, camera setup, material creation, and prefab system. Essential skills for building 3D traffic simulation environments.',
+    content: 'This course introduces core Unity concepts including GameObjects, camera configuration for traffic simulations, material creation and application, and the prefab system for efficient asset management.',
+    targetGroup: 'Unity beginners and traffic simulation developers who need to understand basic Unity components.',
+    prerequisites: 'Completion of Unity 3D - Unit Introduction and Setting up the Software (TR-T0801) or equivalent Unity basics knowledge.',
+    duration: '1 Day',
     contents: [
-      'Dynamic transport models and PTV Optima applications',
-      'Model building, calibration and updating',
-      'Real world and real-time applications',
-      'Traffic data analysis and simulations',
-      'Tools and practical applications'
+      'Unity interface overview and customization',
+      'Camera setup and configuration for traffic scenes',
+      'Material creation and application',
+      'Understanding GameObjects and Components',
+      'Creating and using Prefabs',
+      'Scene management basics'
     ]
   },
 
-  // PTV Certified Trainer Programme
-  'ct-001': {
-    title: 'PTV Certified Trainer Programme',
-    code: 'CT-001',
+  'tr-t0803': {
+    title: 'Unity 3D - Basic Components II (Collider, Lighting)',
+    code: 'TR-T0803',
+    product: 'General',
+    level: 'Basic',
+    image: unity3D,
+    description: 'Master collision detection and lighting systems in Unity for realistic traffic simulation. Learn how to set up colliders for vehicles and infrastructure, and configure lighting for optimal visualization.',
+    content: 'This course covers physics-based collision systems and advanced lighting techniques essential for creating realistic traffic simulation environments. Participants will learn to configure colliders, physics materials, and various lighting setups.',
+    targetGroup: 'Unity users who want to implement realistic physics and lighting in traffic simulation projects.',
+    prerequisites: 'Completion of Unity 3D - Basic Components I (TR-T0802) or equivalent knowledge.',
+    duration: '1 Day',
+    contents: [
+      'Collider setup for traffic simulation',
+      'Physics materials and interactions',
+      'Lighting setup for realistic environments',
+      'Shadow configuration and optimization',
+      'Post-processing effects',
+      'Performance optimization techniques'
+    ]
+  },
+
+  'tr-t0804': {
+    title: 'Unity 3D - Basic Components III (Scripting)',
+    code: 'TR-T0804',
+    product: 'General',
+    level: 'Intermediate',
+    image: unity3D,
+    description: 'Introduction to C# scripting in Unity for traffic simulation. Learn to create scripts that control vehicle behavior, traffic flow, and simulation logic.',
+    content: 'This course provides hands-on experience with C# scripting in Unity, covering script structure, component interaction, event handling, and basic animation programming for traffic simulation scenarios.',
+    targetGroup: 'Unity users who want to add custom functionality and automation to their traffic simulation projects through scripting.',
+    prerequisites: 'Completion of Unity 3D - Basic Components II (TR-T0803). Basic programming knowledge is helpful but not required.',
+    duration: '1 Day',
+    contents: [
+      'Introduction to C# scripting in Unity',
+      'Script structure and lifecycle',
+      'Working with GameObjects and Components',
+      'Event handling and inputs',
+      'Basic animation concepts',
+      'Scripting for traffic simulation'
+    ]
+  },
+
+  'tr-t0805': {
+    title: 'Unity 3D - Basic Components IV (UI Canvas, Importing Vehicle) / Design Proposal',
+    code: 'TR-T0805',
+    product: 'General',
+    level: 'Intermediate',
+    image: unity3D,
+    description: 'Learn to create user interfaces and import vehicle models into Unity. This course also covers design proposal creation for traffic simulation projects.',
+    content: 'This course teaches UI Canvas setup, vehicle model import procedures, and how to create design proposals for traffic simulation projects. Participants will learn best practices for asset integration and user interface design.',
+    targetGroup: 'Unity developers working on traffic simulation projects that require user interfaces and vehicle asset integration.',
+    prerequisites: 'Completion of Unity 3D - Basic Components III (TR-T0804) or equivalent knowledge.',
+    duration: '1 Day',
+    contents: [
+      'UI Canvas setup and design',
+      'Vehicle model import and setup',
+      'Design proposal creation',
+      'User Interface implementation',
+      'Asset integration best practices',
+      'Model optimization techniques'
+    ]
+  },
+
+  'tr-t0806': {
+    title: 'Unity 3D - User Interface',
+    code: 'TR-T0806',
+    product: 'General',
+    level: 'Intermediate',
+    image: unity3D,
+    description: 'Advanced user interface design for traffic simulation applications. Learn to create intuitive and functional UIs for controlling and monitoring traffic simulations.',
+    content: 'This course focuses on advanced UI/UX design principles for traffic simulation applications, including control panels, data visualization interfaces, and real-time monitoring dashboards.',
+    targetGroup: 'Unity developers who need to create professional user interfaces for traffic simulation applications.',
+    prerequisites: 'Completion of Unity 3D - Basic Components IV (TR-T0805) or equivalent UI knowledge.',
+    duration: '1 Day',
+    contents: [
+      'Advanced UI design principles',
+      'Creating control panels',
+      'Data visualization interfaces',
+      'Real-time monitoring dashboards',
+      'UI animation and transitions',
+      'Responsive UI design'
+    ]
+  },
+
+  'tr-t0807': {
+    title: 'Unity 3D - Building Road Environments (Terrain, Roads)',
+    code: 'TR-T0807',
+    product: 'General',
+    level: 'Intermediate',
+    image: unity3D,
+    description: 'Learn to create realistic road environments using Unity\'s terrain system and road modeling tools. Build complete traffic simulation scenes with accurate road networks.',
+    content: 'This course covers terrain creation, road network modeling, intersection design, and environment setup for traffic simulation. Participants will learn to create realistic road environments from scratch.',
+    targetGroup: 'Traffic simulation developers and 3D artists who need to create realistic road environments in Unity.',
+    prerequisites: 'Completion of Unity 3D - Basic Components II (TR-T0803) or equivalent knowledge.',
+    duration: '1 Day',
+    contents: [
+      'Terrain creation and editing',
+      'Road network modeling',
+      'Intersection design',
+      'Environment setup',
+      'Texture and material application',
+      'Road marking and signage'
+    ]
+  },
+
+  'tr-t0808': {
+    title: 'Unity 3D - Collecting Data from Real-world by Flying Drone',
+    code: 'TR-T0808',
+    product: 'General',
+    level: 'Intermediate',
+    image: unity3D,
+    description: 'Learn to integrate drone-collected data into Unity for creating accurate 3D models of real-world environments for traffic simulation.',
+    content: 'This course covers the process of collecting real-world data using drones and integrating that data into Unity. Participants will learn data processing workflows, coordinate system conversion, and 3D reconstruction techniques.',
+    targetGroup: 'Traffic simulation developers and surveyors who need to create accurate 3D models from real-world drone data.',
+    prerequisites: 'Completion of Unity 3D - Building Road Environments (TR-T0807). Basic knowledge of drone operations and GIS is helpful.',
+    duration: '1 Day',
+    contents: [
+      'Drone data collection workflows',
+      'Data formats and standards',
+      'Coordinate system conversion',
+      '3D reconstruction from point clouds',
+      'Data integration into Unity',
+      'Quality assurance and validation'
+    ]
+  },
+
+  'tr-t0809': {
+    title: 'Unity 3D - Data Post-processing',
+    code: 'TR-T0809',
+    product: 'General',
+    level: 'Intermediate',
+    image: unity3D,
+    description: 'Advanced techniques for post-processing collected data for use in Unity traffic simulations. Learn to clean, optimize, and prepare data for 3D reconstruction.',
+    content: 'This course covers data cleaning, optimization, format conversion, and preparation techniques for integrating various data sources into Unity traffic simulation projects.',
+    targetGroup: 'Data specialists and Unity developers who work with real-world data in traffic simulation projects.',
+    prerequisites: 'Completion of Unity 3D - Collecting Data from Real-world by Flying Drone (TR-T0808) or equivalent data processing knowledge.',
+    duration: '1 Day',
+    contents: [
+      'Data cleaning techniques',
+      'Data optimization methods',
+      'Format conversion workflows',
+      'Coordinate system transformation',
+      'Data validation and quality control',
+      'Automated processing pipelines'
+    ]
+  },
+
+  'tr-t0810': {
+    title: 'Unity 3D - Creating NPC Pedestrians using Navmesh & Animation Functions',
+    code: 'TR-T0810',
     product: 'General',
     level: 'Advanced',
-    image: simulatorCourse,
-    description: 'The PTV Certified Trainer programme trains industry professionals to deliver certified courses in the broad range of PTV\'s leading mobility software applications.',
-    content: 'This programme is especially suited for individuals seeking to strengthen their professional profile with documented expertise in PTV\'s software solutions to deliver trainings to colleagues and customers. To become a PTV Certified Trainer, applicants need to pass an admission test and attend a PTV Certified Trainer Course at PTV headquarters in Germany or in an online training course. The course focuses on presentation and teaching skills, and it concludes in an oral exam.',
-    targetGroup: 'Industry professionals seeking to strengthen their professional profile with documented expertise in PTV\'s software solutions.',
-    prerequisites: 'Must pass an admission test.',
-    duration: 'Variable',
+    image: unity3D,
+    description: 'Learn to create realistic NPC (Non-Player Character) pedestrians using Unity\'s Navmesh system and animation functions for traffic simulation.',
+    content: 'This course covers Navmesh navigation, pedestrian animation systems, behavior programming, and crowd simulation techniques for creating realistic pedestrian movements in traffic simulations.',
+    targetGroup: 'Advanced Unity developers working on traffic simulation projects that require realistic pedestrian behavior.',
+    prerequisites: 'Completion of Unity 3D - Basic Components III (TR-T0804) and Unity 3D - Building Road Environments (TR-T0807).',
+    duration: '1 Day',
     contents: [
-      'Register your interest and apply for an online admission exam',
-      'Attend a PTV Certified Trainer Course, which concludes in an oral exam',
-      'Congratulations - you are now a Certified Trainer!',
-      'Keep up to date with our CT community, your license can be renewed on an annual basis'
-    ],
-    advantages: [
-      'Strengthen professional profile with documented expertise',
-      'Deliver trainings to colleagues and customers',
-      'Access to CT community and annual license renewal'
+      'Navmesh setup and configuration',
+      'Pedestrian animation systems',
+      'Behavior programming',
+      'Crowd simulation techniques',
+      'Pathfinding and navigation',
+      'Pedestrian-vehicle interactions'
+    ]
+  },
+
+  'tr-t0811': {
+    title: 'Unity 3D - Controlling Weather (Make a Rain)',
+    code: 'TR-T0811',
+    product: 'General',
+    level: 'Intermediate',
+    image: unity3D,
+    description: 'Learn to create and control weather effects in Unity, including rain, for realistic traffic simulation scenarios.',
+    content: 'This course covers weather system implementation, particle effects, environmental lighting adjustments, and dynamic weather control for traffic simulation scenarios.',
+    targetGroup: 'Unity developers who need to implement weather effects in traffic simulation projects.',
+    prerequisites: 'Completion of Unity 3D - Basic Components II (TR-T0803) or equivalent knowledge.',
+    duration: 'Half Day',
+    contents: [
+      'Weather system implementation',
+      'Rain particle effects',
+      'Environmental lighting adjustments',
+      'Dynamic weather control',
+      'Performance optimization for weather effects',
+      'Weather impact on traffic simulation'
+    ]
+  },
+
+  'tr-t0812': {
+    title: 'Unity 3D - Customizing Player Controller (Vehicle, Pedestrian, E-scooters)',
+    code: 'TR-T0812',
+    product: 'General',
+    level: 'Advanced',
+    image: unity3D,
+    description: 'Advanced course on creating and customizing player controllers for different transportation modes including vehicles, pedestrians, and e-scooters in Unity.',
+    content: 'This course covers physics-based vehicle controllers, pedestrian movement systems, e-scooter mechanics, input handling, and customization options for various transportation modes.',
+    targetGroup: 'Advanced Unity developers creating traffic simulation projects with multiple transportation modes.',
+    prerequisites: 'Completion of Unity 3D - Basic Components III (TR-T0804) and Unity 3D - Basic Components IV (TR-T0805).',
+    duration: '1 Day',
+    contents: [
+      'Vehicle controller customization',
+      'Pedestrian movement systems',
+      'E-scooter mechanics and physics',
+      'Input handling and customization',
+      'Physics-based movement',
+      'Multi-mode transportation integration'
+    ]
+  },
+
+  'tr-t0813': {
+    title: 'Unity 3D - Creating Surrounding Vehicles with Vissim',
+    code: 'TR-T0813',
+    product: 'General',
+    level: 'Advanced',
+    image: unity3D,
+    description: 'Learn to integrate PTV Vissim traffic simulation data with Unity to create realistic surrounding vehicle traffic in 3D environments.',
+    content: 'This course covers Vissim-Unity integration, real-time data exchange, vehicle spawning and control, synchronization techniques, and visualization of Vissim simulation results in Unity.',
+    targetGroup: 'Advanced traffic simulation developers who need to integrate Vissim simulations with Unity 3D visualization.',
+    prerequisites: 'Completion of Unity 3D - Basic Components III (TR-T0804). Experience with PTV Vissim is required.',
+    duration: '1 Day',
+    contents: [
+      'Vissim-Unity integration setup',
+      'Real-time data exchange',
+      'Vehicle spawning and control',
+      'Synchronization techniques',
+      'Visualization of Vissim results',
+      'Performance optimization'
+    ]
+  },
+
+  'tr-t0814': {
+    title: 'Unity 3D - Integrating with VR Simulators',
+    code: 'TR-T0814',
+    product: 'General',
+    level: 'Advanced',
+    image: unity3D,
+    description: 'Advanced course on integrating Unity traffic simulations with Virtual Reality (VR) simulators for immersive training and research applications.',
+    content: 'This course covers VR integration, head-mounted display (HMD) setup, motion tracking, interaction systems, and optimization techniques for VR traffic simulation applications.',
+    targetGroup: 'Advanced Unity developers and VR specialists working on immersive traffic simulation and training applications.',
+    prerequisites: 'Completion of Unity 3D - Customizing Player Controller (TR-T0812). Basic VR knowledge is helpful.',
+    duration: '1 Day',
+    contents: [
+      'VR integration setup',
+      'Head-mounted display (HMD) configuration',
+      'Motion tracking and interaction',
+      'VR-specific optimization techniques',
+      'Immersive traffic simulation design',
+      'Performance optimization for VR'
+    ]
+  },
+
+  // Co-Simulation Courses
+  'tr-t0815': {
+    title: 'Co-Simulation - Establishment of Building and Topographical Information',
+    code: 'TR-T0815',
+    product: 'General',
+    level: 'Advanced',
+    image: digitalTwin,
+    description: 'Learn to establish building and topographical information for co-simulation and digital twin systems. This course covers BIM integration, terrain modeling, and spatial data management.',
+    content: 'This course provides comprehensive training on building information modeling (BIM), topographical data acquisition and processing, 3D model integration, GIS integration, and terrain elevation modeling for co-simulation projects.',
+    targetGroup: 'Advanced traffic engineers, simulation developers, and digital twin specialists working on integrated simulation systems.',
+    prerequisites: 'Strong understanding of 3D modeling and GIS concepts. Experience with traffic simulation software is recommended.',
+    duration: '1 Day',
+    contents: [
+      'Building information modeling (BIM) basics',
+      'Topographical data acquisition and processing',
+      '3D model integration',
+      'Geographic information systems (GIS) integration',
+      'Terrain and elevation modeling',
+      'Spatial data management'
+    ]
+  },
+
+  'tr-t0816': {
+    title: 'Co-Simulation - Establishment of Traffic Flow through Linkage with Vissim',
+    code: 'TR-T0816',
+    product: 'General',
+    level: 'Advanced',
+    image: digitalTwin,
+    description: 'Learn to establish traffic flow in co-simulation systems by linking with PTV Vissim. This course covers real-time data exchange, synchronization, and network model preparation.',
+    content: 'This course covers Vissim-Unity integration setup, real-time data exchange protocols, traffic flow synchronization, network model preparation, and data communication interfaces for co-simulation projects.',
+    targetGroup: 'Advanced traffic engineers and simulation developers working on co-simulation projects with Vissim.',
+    prerequisites: 'Strong experience with PTV Vissim. Completion of Unity 3D - Creating Surrounding Vehicles with Vissim (TR-T0813) is recommended.',
+    duration: '1 Day',
+    contents: [
+      'Vissim-Unity integration setup',
+      'Real-time data exchange protocols',
+      'Traffic flow synchronization',
+      'Network model preparation',
+      'Data communication interfaces',
+      'Synchronization troubleshooting'
+    ]
+  },
+
+  'tr-t0817': {
+    title: 'Co-Simulation - Advancement of Simulation Modeling',
+    code: 'TR-T0817',
+    product: 'General',
+    level: 'Advanced',
+    image: digitalTwin,
+    description: 'Advanced techniques for improving simulation modeling in co-simulation systems. Learn calibration, validation, optimization, and multi-scale simulation approaches.',
+    content: 'This course covers advanced simulation techniques, model calibration and validation, performance optimization, multi-scale simulation approaches, and scenario management for co-simulation projects.',
+    targetGroup: 'Advanced simulation developers and traffic engineers working on complex co-simulation systems.',
+    prerequisites: 'Strong understanding of traffic simulation principles. Experience with multiple simulation platforms is recommended.',
+    duration: '1 Day',
+    contents: [
+      'Advanced simulation techniques',
+      'Model calibration and validation',
+      'Performance optimization',
+      'Multi-scale simulation approaches',
+      'Scenario management',
+      'Model quality assurance'
+    ]
+  },
+
+  'tr-t0818': {
+    title: 'Co-Simulation - Build a Digital Twin-based Simulator Program',
+    code: 'TR-T0818',
+    product: 'General',
+    level: 'Advanced',
+    image: digitalTwin,
+    description: 'Comprehensive course on building complete digital twin-based simulator programs using co-simulation techniques. Learn system architecture, integration methodologies, and real-time data processing.',
+    content: 'This course covers digital twin architecture, system integration methodologies, real-time data processing, visualization and rendering, and user interface development for digital twin simulator programs.',
+    targetGroup: 'Advanced developers and engineers building complete digital twin systems for transportation applications.',
+    prerequisites: 'Completion of previous co-simulation courses (TR-T0815, TR-T0816, TR-T0817). Strong programming and system integration experience.',
+    duration: '2 Days',
+    contents: [
+      'Digital twin architecture',
+      'System integration methodologies',
+      'Real-time data processing',
+      'Visualization and rendering',
+      'User interface development',
+      'System testing and validation'
+    ]
+  },
+
+  'tr-t0819': {
+    title: 'Co-Simulation - Extraction of Analysis Data',
+    code: 'TR-T0819',
+    product: 'General',
+    level: 'Advanced',
+    image: digitalTwin,
+    description: 'Learn to extract analysis data from co-simulation systems. This course covers data extraction techniques, filtering, and preparation for analysis.',
+    content: 'This course provides training on data extraction techniques, data filtering and preprocessing, format conversion, and automated extraction pipelines for co-simulation systems.',
+    targetGroup: 'Data analysts and simulation developers who need to extract and process data from co-simulation systems.',
+    prerequisites: 'Completion of Co-Simulation - Establishment of Traffic Flow through Linkage with Vissim (TR-T0816). Basic data processing knowledge.',
+    duration: '1 Day',
+    contents: [
+      'Data extraction techniques',
+      'Data filtering and preprocessing',
+      'Format conversion',
+      'Automated extraction pipelines',
+      'Data validation',
+      'Performance optimization'
+    ]
+  },
+
+  'tr-t0820': {
+    title: 'Co-Simulation - Data Analysis and Result Visualization',
+    code: 'TR-T0820',
+    product: 'General',
+    level: 'Advanced',
+    image: digitalTwin,
+    description: 'Advanced course on analyzing co-simulation data and creating comprehensive visualizations. Learn statistical analysis methods, visualization techniques, and reporting.',
+    content: 'This course covers analysis data processing, statistical analysis methods, result visualization and reporting, performance metrics and KPIs, and advanced visualization techniques for co-simulation results.',
+    targetGroup: 'Data analysts, researchers, and simulation developers who need to analyze and visualize results from co-simulation systems.',
+    prerequisites: 'Completion of Co-Simulation - Extraction of Analysis Data (TR-T0819). Basic statistics and data visualization knowledge.',
+    duration: '1 Day',
+    contents: [
+      'Analysis data processing',
+      'Statistical analysis methods',
+      'Result visualization and reporting',
+      'Performance metrics and KPIs',
+      'Advanced visualization techniques',
+      'Report generation'
     ]
   }
 };
