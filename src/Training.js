@@ -117,8 +117,6 @@ export default function Training() {
                   <option value="Visum">Visum</option>
                   <option value="Vissim">Vissim</option>
                   <option value="Vistro">Vistro</option>
-                  <option value="Vistad">Vistad</option>
-                  <option value="Optima">Optima</option>
                   <option value="General">General</option>
                 </select>
               </div>
