@@ -25,6 +25,7 @@ import News from './News';
 import NewsArticle from './NewsArticle';
 import Training from './Training';
 import CourseDetail from './components/CourseDetail';
+import HeroPrototypeDemo from './HeroPrototypeDemo';
 
 import TawkToWidget from './TawkToWidget';
 import { LanguageProvider } from './contexts/LanguageContext';
@@ -117,6 +118,10 @@ function App() {
         {
           path: "get-in-touch",
           element: <GetInTouch />
+        },
+        {
+          path: "hero-demo",
+          element: <HeroPrototypeDemo />
         }
       ]
     }
