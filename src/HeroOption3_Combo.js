@@ -50,7 +50,7 @@ const HeroOption3_Combo = () => {
           effectOptions={{
             onSpeedUp: () => {},
             onSlowDown: () => {},
-            distortion: 'xyDistortion',
+            distortion: 'LongRaceDistortion',
             length: 400,
             roadWidth: 10,
             islandWidth: 2,
