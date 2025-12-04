@@ -54,13 +54,13 @@ const HeroOption3_Combo = () => {
             length: 400,
             roadWidth: 10,
             islandWidth: 2,
-            lanesPerRoad: 5,
+            lanesPerRoad: 6,
             fov: 90,
             fovSpeedUp: 150,
             speedUp: 2,
             carLightsFade: 0.4,
-            totalSideLightSticks: 30,
-            lightPairsPerRoadWay: 20,
+            totalSideLightSticks: 35,
+            lightPairsPerRoadWay: 25,
             shoulderLinesWidthPercentage: 0.05,
             brokenLinesWidthPercentage: 0.1,
             brokenLinesLengthPercentage: 0.5,
@@ -79,8 +79,8 @@ const HeroOption3_Combo = () => {
               background: 0x000814,
               shoulderLines: 0x1e293b,
               brokenLines: 0x1e293b,
-              leftCars: [0x1e3a8a, 0x2563eb, 0x3b82f6, 0x3b82f6, 0x22d3ee],
-              rightCars: [0x1e3a8a, 0x2563eb, 0x3b82f6, 0x3b82f6, 0x22d3ee],
+              leftCars: [0x0c1e3d, 0x1e3a8a, 0x2563eb, 0x3b82f6, 0x3b82f6, 0x22d3ee],
+              rightCars: [0x0c1e3d, 0x1e3a8a, 0x2563eb, 0x3b82f6, 0x3b82f6, 0x22d3ee],
               sticks: 0x3b82f6
             }
           }}
